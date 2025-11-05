@@ -39,6 +39,17 @@ aegis/
 │   ├── world/                 # World-building (Kernwelten, characters, metaphysics)
 │   └── narrative_design/      # Structural documents (outlines, thematic maps)
 │
+├── skill_seeker/              # Documentation to Claude Skills conversion tool
+│   ├── mcp/                   # MCP server for Claude Code integration
+│   ├── cli/                   # Command-line tools for scraping and building
+│   ├── configs/               # Preset configurations (React, Django, Godot, etc.)
+│   └── docs/                  # Comprehensive documentation
+│
+├── zettelkasten_agent/        # Zettelkasten knowledge management agent
+│   ├── vault/                 # Note storage with hierarchical structure
+│   ├── schemas/               # Data schemas for notes and links
+│   └── agent.py               # Fast-agents implementation
+│
 └── research/                   # Meta-documents and analysis
     ├── proposals/             # Research proposals for ARCHON
     ├── analysis/              # Strategic narrative architecture analyses
@@ -105,6 +116,44 @@ in the back of my mind, as Nyx's readiness coiled in my
 limbs, a low growl beneath the surface. We are many.
 And we are one.
 ```
+
+## Integrated Tools
+
+### Skill Seeker: Documentation to Claude Skills Converter
+The **skill_seeker/** directory contains a powerful tool for automatically converting documentation websites, GitHub repositories, and PDF files into production-ready Claude AI skills. Originally from [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers), this integration enables:
+
+**Key Features:**
+- 🌐 **Documentation Scraping**: Universal scraper for any documentation website with smart categorization
+- 📄 **PDF Support**: Extract text, code, images, and tables from PDF files with OCR support
+- 🐙 **GitHub Integration**: Deep code analysis with AST parsing and conflict detection
+- 🔄 **Multi-Source Scraping**: Combine documentation + GitHub + PDF with automatic conflict detection
+- 🤖 **MCP Server**: Natural language interface through Claude Code
+- ⚡ **Performance**: Async mode for 2-3x faster scraping, parallel processing, intelligent caching
+
+**Quick Start:**
+```bash
+cd skill_seeker
+
+# One-time setup
+./setup_mcp.sh
+
+# Then in Claude Code, ask:
+"Generate a React skill from https://react.dev/"
+"List all available configs"
+"Scrape docs using configs/godot.json"
+```
+
+**Documentation:**
+- [Complete README](skill_seeker/README.md) - Full feature overview and usage guide
+- [Quick Start Guide](skill_seeker/QUICKSTART.md) - Get started in minutes
+- [MCP Setup](skill_seeker/docs/MCP_SETUP.md) - Claude Code integration
+- [PDF Guide](skill_seeker/docs/PDF_SCRAPER.md) - PDF documentation scraping
+- [Unified Scraping](skill_seeker/docs/UNIFIED_SCRAPING.md) - Multi-source integration
+
+This tool is particularly useful for building comprehensive AI skills from project documentation, enabling better AI-assisted development workflows.
+
+### Zettelkasten Agent: Knowledge Management
+The **zettelkasten_agent/** provides a hierarchical note-taking and knowledge management system using the fast-agents framework. See [zettelkasten_agent/README.md](zettelkasten_agent/README.md) for details.
 
 ## Getting Started
 
