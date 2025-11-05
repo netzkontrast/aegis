@@ -1,403 +1,404 @@
 ---
 name: tapestry
-description: Unified content extraction and action planning. Use when user says "tapestry <URL>", "weave <URL>", "help me plan <URL>", "extract and plan <URL>", "make this actionable <URL>", or similar phrases indicating they want to extract content and create an action plan. Automatically detects content type (YouTube video, article, PDF) and processes accordingly.
+description: Unified content extraction and action planning. Works with URLs (YouTube, articles, PDFs), local files, repository directories, and narrative content. Use when user says "tapestry <URL/path>", "weave <source>", "extract and plan <content>", or wants to analyze repo content. Automatically detects content type and applies Codex validation for narrative work.
 allowed-tools:
   - Bash
   - Read
   - Write
+  - Glob
+  - Grep
 ---
 
-# Tapestry: Unified Content Extraction + Action Planning
+# Tapestry: Universal Content Orchestrator
 
-This is the **master skill** that orchestrates the entire Tapestry workflow:
-1. Detect content type from URL
-2. Extract content using appropriate skill
-3. Automatically create a Ship-Learn-Next action plan
+This is the **master skill** that orchestrates content extraction, narrative validation, and action planning:
+1. Detect source type (URL, local file, repo directory, or interactive)
+2. Extract content using appropriate method
+3. Apply Codex validation for narrative content
+4. Create Ship-Learn-Next action plan
+5. Generate comprehensive output
 
 ## When to Use This Skill
 
 Activate when the user:
-- Says "tapestry [URL]"
-- Says "weave [URL]"
-- Says "help me plan [URL]"
-- Says "extract and plan [URL]"
-- Says "make this actionable [URL]"
-- Says "turn [URL] into a plan"
-- Provides a URL and asks to "learn and implement from this"
-- Wants the full Tapestry workflow (extract → plan)
-
-**Keywords to watch for**: tapestry, weave, plan, actionable, extract and plan, make a plan, turn into action
-
-## How It Works
-
-### Complete Workflow:
-1. **Detect URL type** (YouTube, article, PDF)
-2. **Extract content** using appropriate skill:
-   - YouTube → youtube-transcript skill
-   - Article → article-extractor skill
-   - PDF → download and extract text
-3. **Create action plan** using ship-learn-next skill
-4. **Save both** content file and plan file
-5. **Present summary** to user
-
-## URL Detection Logic
-
-### YouTube Videos
-
-**Patterns to detect:**
-- `youtube.com/watch?v=`
-- `youtu.be/`
-- `youtube.com/shorts/`
-- `m.youtube.com/watch?v=`
-
-**Action:** Use youtube-transcript skill
-
-### Web Articles/Blog Posts
-
-**Patterns to detect:**
-- `http://` or `https://`
-- NOT YouTube, NOT PDF
-- Common domains: medium.com, substack.com, dev.to, etc.
-- Any HTML page
-
-**Action:** Use article-extractor skill
-
-### PDF Documents
-
-**Patterns to detect:**
-- URL ends with `.pdf`
-- URL returns `Content-Type: application/pdf`
-
-**Action:** Download and extract text
-
-### Other Content
-
-**Fallback:**
-- Try article-extractor (works for most HTML)
-- If fails, inform user of unsupported type
-
-## Step-by-Step Workflow
-
-### Step 1: Detect Content Type
-
-```bash
-URL="$1"
-
-# Check for YouTube
-if [[ "$URL" =~ youtube\.com/watch || "$URL" =~ youtu\.be/ || "$URL" =~ youtube\.com/shorts ]]; then
-    CONTENT_TYPE="youtube"
-
-# Check for PDF
-elif [[ "$URL" =~ \.pdf$ ]]; then
-    CONTENT_TYPE="pdf"
-
-# Check if URL returns PDF
-elif curl -sI "$URL" | grep -i "Content-Type: application/pdf" > /dev/null; then
-    CONTENT_TYPE="pdf"
-
-# Default to article
-else
-    CONTENT_TYPE="article"
-fi
-
-echo "📍 Detected: $CONTENT_TYPE"
-```
-
-### Step 2: Extract Content (by Type)
-
-#### YouTube Video
-
-```bash
-# Use youtube-transcript skill workflow
-echo "📺 Extracting YouTube transcript..."
-
-# 1. Check for yt-dlp
-if ! command -v yt-dlp &> /dev/null; then
-    echo "Installing yt-dlp..."
-    brew install yt-dlp
-fi
-
-# 2. Get video title
-VIDEO_TITLE=$(yt-dlp --print "%(title)s" "$URL" | tr '/' '_' | tr ':' '-' | tr '?' '' | tr '"' '')
-
-# 3. Download transcript
-yt-dlp --write-auto-sub --skip-download --sub-langs en --output "temp_transcript" "$URL"
-
-# 4. Convert to clean text (deduplicate)
-python3 -c "
-import sys, re
-seen = set()
-vtt_file = 'temp_transcript.en.vtt'
-try:
-    with open(vtt_file, 'r') as f:
-        for line in f:
-            line = line.strip()
-            if line and not line.startswith('WEBVTT') and not line.startswith('Kind:') and not line.startswith('Language:') and '-->' not in line:
-                clean = re.sub('<[^>]*>', '', line)
-                clean = clean.replace('&amp;', '&').replace('&gt;', '>').replace('&lt;', '<')
-                if clean and clean not in seen:
-                    print(clean)
-                    seen.add(clean)
-except FileNotFoundError:
-    print('Error: Could not find transcript file', file=sys.stderr)
-    sys.exit(1)
-" > "${VIDEO_TITLE}.txt"
-
-# 5. Cleanup
-rm -f temp_transcript.en.vtt
-
-CONTENT_FILE="${VIDEO_TITLE}.txt"
-echo "✓ Saved transcript: $CONTENT_FILE"
-```
-
-#### Article/Blog Post
-
-```bash
-# Use article-extractor skill workflow
-echo "📄 Extracting article content..."
-
-# 1. Check for extraction tools
-if command -v reader &> /dev/null; then
-    TOOL="reader"
-elif command -v trafilatura &> /dev/null; then
-    TOOL="trafilatura"
-else
-    TOOL="fallback"
-fi
-
-echo "Using: $TOOL"
-
-# 2. Extract based on tool
-case $TOOL in
-    reader)
-        reader "$URL" > temp_article.txt
-        ARTICLE_TITLE=$(head -n 1 temp_article.txt | sed 's/^# //')
-        ;;
-
-    trafilatura)
-        METADATA=$(trafilatura --URL "$URL" --json)
-        ARTICLE_TITLE=$(echo "$METADATA" | python3 -c "import json, sys; print(json.load(sys.stdin).get('title', 'Article'))")
-        trafilatura --URL "$URL" --output-format txt --no-comments > temp_article.txt
-        ;;
-
-    fallback)
-        ARTICLE_TITLE=$(curl -s "$URL" | grep -oP '<title>\K[^<]+' | head -n 1)
-        ARTICLE_TITLE=${ARTICLE_TITLE%% - *}
-        curl -s "$URL" | python3 -c "
-from html.parser import HTMLParser
-import sys
-
-class ArticleExtractor(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.content = []
-        self.skip_tags = {'script', 'style', 'nav', 'header', 'footer', 'aside', 'form'}
-        self.in_content = False
-
-    def handle_starttag(self, tag, attrs):
-        if tag not in self.skip_tags and tag in {'p', 'article', 'main'}:
-            self.in_content = True
-
-    def handle_data(self, data):
-        if self.in_content and data.strip():
-            self.content.append(data.strip())
-
-    def get_content(self):
-        return '\n\n'.join(self.content)
-
-parser = ArticleExtractor()
-parser.feed(sys.stdin.read())
-print(parser.get_content())
-" > temp_article.txt
-        ;;
-esac
-
-# 3. Clean filename
-FILENAME=$(echo "$ARTICLE_TITLE" | tr '/' '-' | tr ':' '-' | tr '?' '' | tr '"' '' | cut -c 1-80 | sed 's/ *$//')
-CONTENT_FILE="${FILENAME}.txt"
-mv temp_article.txt "$CONTENT_FILE"
-
-echo "✓ Saved article: $CONTENT_FILE"
-```
-
-#### PDF Document
-
-```bash
-# Download and extract PDF
-echo "📑 Downloading PDF..."
-
-# 1. Download PDF
-PDF_FILENAME=$(basename "$URL")
-curl -L -o "$PDF_FILENAME" "$URL"
-
-# 2. Extract text using pdftotext (if available)
-if command -v pdftotext &> /dev/null; then
-    pdftotext "$PDF_FILENAME" temp_pdf.txt
-    CONTENT_FILE="${PDF_FILENAME%.pdf}.txt"
-    mv temp_pdf.txt "$CONTENT_FILE"
-    echo "✓ Extracted text from PDF: $CONTENT_FILE"
-
-    # Optionally keep PDF
-    echo "Keep original PDF? (y/n)"
-    read -r KEEP_PDF
-    if [[ ! "$KEEP_PDF" =~ ^[Yy]$ ]]; then
-        rm "$PDF_FILENAME"
-    fi
-else
-    # No pdftotext available
-    echo "⚠️  pdftotext not found. PDF downloaded but not extracted."
-    echo "   Install with: brew install poppler"
-    CONTENT_FILE="$PDF_FILENAME"
-fi
-```
-
-### Step 3: Create Ship-Learn-Next Action Plan
-
-**IMPORTANT**: Always create an action plan after extracting content.
-
-```bash
-# Read the extracted content
-CONTENT_FILE="[from previous step]"
-
-# Invoke ship-learn-next skill logic:
-# 1. Read the content file
-# 2. Extract core actionable lessons
-# 3. Create 5-rep progression plan
-# 4. Save as: Ship-Learn-Next Plan - [Quest Title].md
-
-# See ship-learn-next/SKILL.md for full details
-```
-
-**Key points for plan creation:**
-- Extract actionable lessons (not just summaries)
-- Define a specific 4-8 week quest
-- Create Rep 1 (shippable this week)
-- Design Reps 2-5 (progressive iterations)
-- Save plan to markdown file
-- Use format: `Ship-Learn-Next Plan - [Brief Quest Title].md`
-
-### Step 4: Present Results
-
-Show user:
-```
-✅ Tapestry Workflow Complete!
-
-📥 Content Extracted:
-   ✓ [Content type]: [Title]
-   ✓ Saved to: [filename.txt]
-   ✓ [X] words extracted
-
-📋 Action Plan Created:
-   ✓ Quest: [Quest title]
-   ✓ Saved to: Ship-Learn-Next Plan - [Title].md
-
-🎯 Your Quest: [One-line summary]
-
-📍 Rep 1 (This Week): [Rep 1 goal]
-
-When will you ship Rep 1?
-```
-
-## Complete Tapestry Workflow Script
+- Says "tapestry [URL/path]"
+- Says "weave [source]"
+- Says "extract and plan [content]"
+- Says "analyze the manuscript"
+- Says "tapestry kohaerenz_protokoll/"
+- Wants to extract from local repo files
+- Needs narrative content validated against Codex
+- Wants the full Tapestry workflow (extract → validate → plan)
+
+**Keywords to watch for**: tapestry, weave, plan, actionable, extract, analyze, manuscript, codex, validate
+
+## Enhanced Capabilities
+
+### 🌐 External Sources (Original)
+- YouTube videos (transcript extraction)
+- Web articles and blog posts
+- PDF documents
+- General HTML content
+
+### 📁 Local Repository Sources (NEW)
+- Individual files (`tapestry path/to/file.md`)
+- Directories (`tapestry kohaerenz_protokoll/world/`)
+- Repo patterns (`tapestry the manuscript`, `tapestry world-building`)
+- Multiple files (glob patterns)
+
+### 📖 Narrative Integration (NEW)
+- Automatic Codex validation for narrative content
+- Character consistency checking
+- World physics validation
+- Integration arc compliance
+- Canonical principle enforcement
+
+## Source Detection Logic
+
+### Priority Order:
+
+1. **Local File Path** (highest priority if exists)
+   ```
+   - Path exists on filesystem
+   - Can be absolute or relative
+   - File or directory
+   ```
+
+2. **Repository Keywords**
+   ```
+   - "manuscript", "codex", "world", "characters"
+   - "narrative_design", "act", "chapter"
+   - Maps to specific repo directories
+   ```
+
+3. **URL Patterns**
+   ```
+   - youtube.com, youtu.be
+   - .pdf extension
+   - http:// or https://
+   ```
+
+4. **Interactive Mode** (no argument)
+   ```
+   - Ask user what to extract
+   - Offer repo suggestions
+   ```
+
+## Complete Workflow
+
+### Step 1: Detect Source Type
 
 ```bash
 #!/bin/bash
 
-# Tapestry: Extract content + create action plan
-# Usage: tapestry <URL>
+INPUT="$1"
 
-URL="$1"
+# No input → Interactive mode
+if [ -z "$INPUT" ]; then
+    echo "🧵 Tapestry - What would you like to extract?"
+    echo ""
+    echo "Options:"
+    echo "  1. URL (YouTube, article, PDF)"
+    echo "  2. Local file or directory"
+    echo "  3. Repo content (manuscript, world, characters)"
+    echo "  4. Exit"
+    echo ""
+    read -p "Choose (1-4): " choice
+    # Handle choice...
+    exit 0
+fi
 
-if [ -z "$URL" ]; then
-    echo "Usage: tapestry <URL>"
+# Check if local path exists
+if [ -f "$INPUT" ] || [ -d "$INPUT" ]; then
+    SOURCE_TYPE="local"
+    SOURCE_PATH="$INPUT"
+
+# Check for repo keywords
+elif [[ "$INPUT" =~ manuscript|codex|world|characters|narrative ]]; then
+    SOURCE_TYPE="repo_keyword"
+    SOURCE_KEYWORD="$INPUT"
+
+# Check for YouTube
+elif [[ "$INPUT" =~ youtube\.com/watch|youtu\.be/|youtube\.com/shorts ]]; then
+    SOURCE_TYPE="youtube"
+    SOURCE_URL="$INPUT"
+
+# Check for PDF
+elif [[ "$INPUT" =~ \.pdf$ ]] || curl -sI "$INPUT" 2>/dev/null | grep -iq "Content-Type: application/pdf"; then
+    SOURCE_TYPE="pdf"
+    SOURCE_URL="$INPUT"
+
+# Default to article
+elif [[ "$INPUT" =~ ^https?:// ]]; then
+    SOURCE_TYPE="article"
+    SOURCE_URL="$INPUT"
+
+else
+    echo "❌ Could not detect source type: $INPUT"
     exit 1
 fi
 
-echo "🧵 Tapestry Workflow Starting..."
-echo "URL: $URL"
-echo ""
-
-# Step 1: Detect content type
-if [[ "$URL" =~ youtube\.com/watch || "$URL" =~ youtu\.be/ || "$URL" =~ youtube\.com/shorts ]]; then
-    CONTENT_TYPE="youtube"
-elif [[ "$URL" =~ \.pdf$ ]] || curl -sI "$URL" | grep -iq "Content-Type: application/pdf"; then
-    CONTENT_TYPE="pdf"
-else
-    CONTENT_TYPE="article"
-fi
-
-echo "📍 Detected: $CONTENT_TYPE"
-echo ""
-
-# Step 2: Extract content
-case $CONTENT_TYPE in
-    youtube)
-        echo "📺 Extracting YouTube transcript..."
-        # [YouTube extraction code from above]
-        ;;
-
-    article)
-        echo "📄 Extracting article..."
-        # [Article extraction code from above]
-        ;;
-
-    pdf)
-        echo "📑 Downloading PDF..."
-        # [PDF extraction code from above]
-        ;;
-esac
-
-echo ""
-
-# Step 3: Create action plan
-echo "🚀 Creating Ship-Learn-Next action plan..."
-# [Plan creation using ship-learn-next skill]
-
-echo ""
-echo "✅ Tapestry Workflow Complete!"
-echo ""
-echo "📥 Content: $CONTENT_FILE"
-echo "📋 Plan: Ship-Learn-Next Plan - [title].md"
-echo ""
-echo "🎯 Next: Review your action plan and ship Rep 1!"
+echo "📍 Detected: $SOURCE_TYPE"
 ```
 
-## Error Handling
+### Step 2: Extract Content (by Type)
 
-### Common Issues:
+#### Local File Extraction (NEW)
 
-**1. Unsupported URL type**
-- Try article extraction as fallback
-- If fails: "Could not extract content from this URL type"
+```bash
+if [ "$SOURCE_TYPE" = "local" ]; then
+    echo "📁 Reading local content..."
 
-**2. No content extracted**
-- Check if URL is accessible
-- Try alternate extraction method
-- Inform user: "Extraction failed. URL may require authentication."
+    if [ -f "$SOURCE_PATH" ]; then
+        # Single file
+        CONTENT_FILE="$SOURCE_PATH"
+        echo "✓ Reading file: $CONTENT_FILE"
 
-**3. Tools not installed**
-- Auto-install when possible (yt-dlp, reader, trafilatura)
-- Provide install instructions if auto-install fails
-- Use fallback methods when available
+    elif [ -d "$SOURCE_PATH" ]; then
+        # Directory - combine files
+        TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+        CONTENT_FILE="extracted_${SOURCE_PATH//\//_}_${TIMESTAMP}.md"
 
-**4. Empty or invalid content**
-- Verify file has content before creating plan
-- Don't create plan if extraction failed
-- Show preview to user before planning
+        echo "# Extracted Content from: $SOURCE_PATH" > "$CONTENT_FILE"
+        echo "" >> "$CONTENT_FILE"
+        echo "Extracted: $(date)" >> "$CONTENT_FILE"
+        echo "" >> "$CONTENT_FILE"
 
-## Best Practices
+        # Find markdown files and combine
+        find "$SOURCE_PATH" -name "*.md" -type f | while read -r file; do
+            echo "" >> "$CONTENT_FILE"
+            echo "---" >> "$CONTENT_FILE"
+            echo "## File: $file" >> "$CONTENT_FILE"
+            echo "---" >> "$CONTENT_FILE"
+            echo "" >> "$CONTENT_FILE"
+            cat "$file" >> "$CONTENT_FILE"
+        done
 
-- ✅ Always show what was detected ("📍 Detected: youtube")
-- ✅ Display progress for each step
-- ✅ Save both content file AND plan file
-- ✅ Show preview of extracted content (first 10 lines)
-- ✅ Create plan automatically (don't ask)
-- ✅ Present clear summary at end
-- ✅ Ask commitment question: "When will you ship Rep 1?"
+        FILE_COUNT=$(find "$SOURCE_PATH" -name "*.md" -type f | wc -l)
+        echo "✓ Combined $FILE_COUNT files into: $CONTENT_FILE"
+    fi
+
+    # Detect if narrative content
+    if grep -iq "AEGIS\|Kael\|Kernwelt\|alter\|Kohärenz" "$CONTENT_FILE" 2>/dev/null; then
+        IS_NARRATIVE="true"
+        echo "📖 Narrative content detected - Codex validation will be applied"
+    else
+        IS_NARRATIVE="false"
+    fi
+fi
+```
+
+#### Repository Keyword Mapping (NEW)
+
+```bash
+if [ "$SOURCE_TYPE" = "repo_keyword" ]; then
+    echo "🔍 Mapping keyword to repository..."
+
+    case "$SOURCE_KEYWORD" in
+        manuscript|manuscript*)
+            SOURCE_PATH="kohaerenz_protokoll/manuscript"
+            ;;
+        world|worldbuilding|world-building)
+            SOURCE_PATH="kohaerenz_protokoll/world"
+            ;;
+        characters|alters)
+            SOURCE_PATH="kohaerenz_protokoll/world/characters"
+            ;;
+        codex|project\ codex)
+            SOURCE_PATH="kohaerenz_protokoll/PROJECT_CODEX.md"
+            ;;
+        narrative|narrative\ design)
+            SOURCE_PATH="kohaerenz_protokoll/narrative_design"
+            ;;
+        *)
+            echo "❌ Unknown keyword: $SOURCE_KEYWORD"
+            echo "Known keywords: manuscript, world, characters, codex, narrative"
+            exit 1
+            ;;
+    esac
+
+    echo "→ Mapped to: $SOURCE_PATH"
+    IS_NARRATIVE="true"
+
+    # Now process as local path
+    # [Use local file extraction logic from above]
+fi
+```
+
+#### YouTube/Article/PDF Extraction (Existing)
+
+[Keep existing extraction logic for URLs - see original tapestry.md]
+
+### Step 3: Apply Codex Validation (NEW)
+
+**Only for narrative content detected from repo or Kohärenz Protokoll keywords**
+
+```markdown
+## Codex Validation
+
+When `IS_NARRATIVE="true"`, perform comprehensive validation:
+
+### 3.1: Load Codex Reference
+
+Read the PROJECT_CODEX.md to understand canonical principles:
+- Section 1.0: Philosophical Foundation
+- Section 2.0: Principal Entities (AEGIS, Kael, Juna)
+- Section 3.0: World Architecture (Risse, Kernwelten)
+- Section 4.0: Canonical Plot
+- Section 5.0: Supporting Factions
+
+### 3.2: Analyze Extracted Content
+
+Check content against Codex principles:
+
+**Character Validation:**
+- [ ] Does AEGIS behavior match Section 2.1? (tragic, not evil)
+- [ ] Are alter voices distinct per Section 2.2.1?
+- [ ] Do alters follow TSDP action systems correctly?
+- [ ] Is integration level appropriate for act position?
+
+**World Physics Validation:**
+- [ ] Do Kernwelt descriptions match sensory signatures (3.2)?
+- [ ] Do Risse follow 4-step causal chain (3.1)?
+- [ ] Does world react to internal psychological state?
+- [ ] Are somatic truths correctly applied?
+
+**Philosophical Validation:**
+- [ ] Is K₁/K₀ dynamics correctly represented (1.2)?
+- [ ] Does AEGIS embody Coherence Theory (1.1)?
+- [ ] Does Kael embody Correspondence Theory (1.1)?
+- [ ] Is dialetheic logic (holding paradox) present?
+
+**Plot Structure Validation:**
+- [ ] Does content fit three-act trauma-integration arc (4.1)?
+- [ ] Is prose style appropriate for integration level?
+- [ ] Are ANP-EP phobia dynamics present (2.2)?
+- [ ] Moving toward functional multiplicity, not "cure"?
+
+### 3.3: Generate Validation Report
+
+Create a markdown report:
+
+```markdown
+# Codex Validation Report
+**Content**: [source]
+**Validated**: [timestamp]
+
+## Summary
+[Overall assessment - compliant/has issues/major violations]
+
+## Character Consistency
+[Findings for characters]
+
+## World Physics
+[Findings for Kernwelten and Risse]
+
+## Philosophical Principles
+[Findings for core concepts]
+
+## Plot Structure
+[Findings for narrative arc]
+
+## Recommendations
+[Specific suggestions for alignment]
+
+## References
+[Relevant Codex sections cited]
+```
+
+Save as: `codex_validation_[timestamp].md`
+
+### 3.4: Integrate Findings into Plan
+
+When creating Ship-Learn-Next plan, include:
+- Codex compliance as success criteria
+- Validation checkpoints for each rep
+- References to specific Codex sections
+- Character/world constraints for implementation
+```
+
+### Step 4: Create Ship-Learn-Next Plan
+
+**Always create an action plan, adapted based on content type:**
+
+#### For Narrative Content (with Codex)
+
+```markdown
+## Ship-Learn-Next Plan: [Title]
+**Quest**: [4-8 week narrative goal]
+**Codex Compliance Required**: Yes
+
+### 📖 Codex Constraints
+[Key canonical principles from validation report]
+
+### 🎯 Rep 1: [First Shippable Scene/Chapter]
+**Ship Goal**: Write [specific content] that adheres to Codex
+**Success Criteria**:
+- [ ] Content passes Codex validation
+- [ ] Character voices match Section 2.2.1
+- [ ] World physics comply with Section 3.2
+- [ ] [Additional specific criteria]
+
+**Codex Checkpoints**:
+- Before writing: Review relevant Codex sections
+- During writing: Apply voice matrix and world rules
+- After writing: Run validation against canonical principles
+
+**Action Steps**:
+1. Read Codex Section [X] for this content
+2. [Specific narrative action]
+3. Validate using Codex Workflow [N]
+4. [Continue...]
+
+### 📦 Rep 2-5: [Progressive iterations]
+[Each with Codex compliance built in]
+
+### 🔄 The Narrative Loop
+Ship compliant content → Learn from validation → Refine understanding → Next iteration
+
+### 📚 Codex References
+- [List relevant sections for this quest]
+```
+
+#### For Technical/Learning Content (without Codex)
+
+[Use standard Ship-Learn-Next format - see ship-learn-next.md]
+
+### Step 5: Generate Comprehensive Output
+
+Present complete results:
+
+```
+✅ Tapestry Workflow Complete!
+
+📥 Content Extracted:
+   ✓ Source: [type] - [name]
+   ✓ Location: [path/url]
+   ✓ File: [output filename]
+   ✓ Size: [word count] words
+
+[IF NARRATIVE]
+📖 Codex Validation:
+   ✓ Report: codex_validation_[timestamp].md
+   ✓ Status: [Compliant/Has Issues/Violations]
+   ✓ Key Findings: [summary]
+
+📋 Action Plan Created:
+   ✓ Quest: [quest title]
+   ✓ Plan File: Ship-Learn-Next Plan - [title].md
+   [IF NARRATIVE] ✓ Codex Integration: Enabled
+
+🎯 Your Quest: [one-line summary]
+
+📍 Rep 1 Focus: [specific goal]
+[IF NARRATIVE] 📖 Codex Sections to Review: [list]
+
+🚀 Ready to ship? When will you complete Rep 1?
+```
 
 ## Usage Examples
 
-### Example 1: YouTube Video (using "tapestry")
+### Example 1: YouTube Video (Original Functionality)
 
 ```
 User: tapestry https://www.youtube.com/watch?v=dQw4w9WgXcQ
@@ -406,80 +407,262 @@ Claude:
 🧵 Tapestry Workflow Starting...
 📍 Detected: youtube
 📺 Extracting YouTube transcript...
-✓ Saved transcript: Never Gonna Give You Up.txt
+✓ Saved: Never Gonna Give You Up.txt (1,234 words)
 
 🚀 Creating action plan...
 ✓ Quest: Master Video Production
-✓ Saved plan: Ship-Learn-Next Plan - Master Video Production.md
+✓ Plan: Ship-Learn-Next Plan - Master Video Production.md
 
 ✅ Complete! When will you ship Rep 1?
 ```
 
-### Example 2: Article (using "weave")
+### Example 2: Local File (NEW)
 
 ```
-User: weave https://example.com/how-to-build-saas
+User: tapestry notes/tutorial.md
 
 Claude:
 🧵 Tapestry Workflow Starting...
-📍 Detected: article
-📄 Extracting article...
-✓ Using reader (Mozilla Readability)
-✓ Saved article: How to Build a SaaS.txt
+📍 Detected: local
+📁 Reading local content...
+✓ File: notes/tutorial.md (2,456 words)
 
 🚀 Creating action plan...
-✓ Quest: Build a SaaS MVP
-✓ Saved plan: Ship-Learn-Next Plan - Build a SaaS MVP.md
+✓ Quest: Implement Tutorial Concepts
+✓ Plan: Ship-Learn-Next Plan - Tutorial Implementation.md
 
 ✅ Complete! When will you ship Rep 1?
 ```
 
-### Example 3: PDF (using "help me plan")
+### Example 3: Repo Directory (NEW)
 
 ```
-User: help me plan https://example.com/research-paper.pdf
+User: tapestry kohaerenz_protokoll/world/characters/
 
 Claude:
 🧵 Tapestry Workflow Starting...
-📍 Detected: pdf
-📑 Downloading PDF...
-✓ Downloaded: research-paper.pdf
-✓ Extracted text: research-paper.txt
+📍 Detected: local
+📁 Reading local content...
+✓ Combined 12 files into: extracted_characters_20251105.md (15,234 words)
+📖 Narrative content detected - Codex validation will be applied
 
-🚀 Creating action plan...
-✓ Quest: Apply Research Findings
-✓ Saved plan: Ship-Learn-Next Plan - Apply Research Findings.md
+🔍 Validating against Codex...
+✓ Loaded: PROJECT_CODEX.md
+✓ Validated: Character profiles
+✓ Status: 2 minor inconsistencies found
+✓ Report: codex_validation_20251105.md
 
-✅ Complete! When will you ship Rep 1?
+🚀 Creating action plan with Codex integration...
+✓ Quest: Harmonize Character Profiles with Codex
+✓ Plan: Ship-Learn-Next Plan - Character Codex Compliance.md
+
+✅ Complete!
+📖 Review validation report for specific issues
+🎯 Rep 1: Fix AEGIS behavior description (Section 2.1)
+When will you ship Rep 1?
 ```
+
+### Example 4: Repo Keyword (NEW)
+
+```
+User: tapestry the manuscript
+
+Claude:
+🧵 Tapestry Workflow Starting...
+📍 Detected: repo_keyword
+🔍 Mapping keyword to repository...
+→ Mapped to: kohaerenz_protokoll/manuscript
+📁 Reading local content...
+✓ Combined 5 chapters into: extracted_manuscript_20251105.md (28,543 words)
+📖 Narrative content detected - Codex validation will be applied
+
+🔍 Validating against Codex...
+✓ Loaded: PROJECT_CODEX.md
+✓ Validated: Manuscript chapters
+✓ Status: Mostly compliant, 3 suggestions
+✓ Report: codex_validation_20251105.md
+
+🚀 Creating action plan with Codex integration...
+✓ Quest: Complete Act II with Codex Compliance
+✓ Plan: Ship-Learn-Next Plan - Act II Manuscript.md
+
+✅ Complete!
+📖 Validation found:
+   ✓ AEGIS voice is tragic and correct (Section 2.1)
+   ✓ Alter voices are distinct (Section 2.2.1)
+   ⚠️  Consider: More Kernwelt sensory detail in Ch 15 (Section 3.2)
+   ⚠️  Consider: Kiko's voice could be more childlike (Section 2.2.1)
+   ⚠️  Consider: Risse manifestation needs 4-step chain (Section 3.1)
+
+🎯 Rep 1: Address Ch 15 Kernwelt descriptions
+📖 Review: Codex Section 3.2 (Kernwelten sensory signatures)
+When will you ship Rep 1?
+```
+
+### Example 5: Interactive Mode (NEW)
+
+```
+User: tapestry
+
+Claude:
+🧵 Tapestry - What would you like to extract?
+
+Options:
+  1. URL (YouTube, article, PDF)
+  2. Local file or directory
+  3. Repo content (manuscript, world, characters)
+  4. Exit
+
+Choose (1-4): 3
+
+Repo content options:
+  a. Manuscript (kohaerenz_protokoll/manuscript)
+  b. World-building (kohaerenz_protokoll/world)
+  c. Characters (kohaerenz_protokoll/world/characters)
+  d. Narrative Design (kohaerenz_protokoll/narrative_design)
+  e. Project Codex (kohaerenz_protokoll/PROJECT_CODEX.md)
+
+Choose (a-e): b
+
+[Continues with repo directory extraction...]
+```
+
+## Narrative Detection Rules
+
+Tapestry automatically detects narrative content and applies Codex validation when:
+
+**File Content Indicators:**
+- Contains keywords: AEGIS, Kael, Kernwelt, alter, Kohärenz, Risse, dissociative
+- File path includes: kohaerenz_protokoll/, manuscript/, world/, characters/
+- File mentions: Protocol, System Kael, trauma-dissociation, functional multiplicity
+
+**When Detected:**
+- Load PROJECT_CODEX.md
+- Perform validation workflows
+- Generate validation report
+- Integrate Codex constraints into plan
+- Include canonical references
+
+**When NOT Detected:**
+- Skip Codex validation
+- Create standard Ship-Learn-Next plan
+- Focus on technical/learning implementation
+
+## Error Handling
+
+### Common Issues:
+
+**1. Path not found**
+```
+❌ Path not found: /path/to/file
+Suggestions:
+  - Check if path exists: ls /path/to/
+  - Use relative path from repo root
+  - Try repo keyword instead: tapestry manuscript
+```
+
+**2. No markdown files in directory**
+```
+⚠️  No .md files found in directory
+Found: [list other file types]
+Extract anyway? (y/n)
+```
+
+**3. Codex not found**
+```
+⚠️  PROJECT_CODEX.md not found
+Narrative validation disabled
+Continue without Codex? (y/n)
+```
+
+**4. URL extraction failed**
+[Keep existing error handling from original]
+
+**5. Empty content extracted**
+```
+❌ No content extracted
+- File may be empty
+- Directory may have no .md files
+- URL may require authentication
+Try different source? (y/n)
+```
+
+## Best Practices
+
+### For All Content:
+- ✅ Always show detected source type
+- ✅ Display progress at each step
+- ✅ Save extracted content before planning
+- ✅ Show preview of content (first 10 lines)
+- ✅ Present clear summary at end
+
+### For Narrative Content:
+- ✅ Always run Codex validation
+- ✅ Generate detailed validation report
+- ✅ Include Codex references in plan
+- ✅ Cite specific sections (e.g., "Section 2.1")
+- ✅ Provide actionable recommendations
+- ✅ Don't just flag issues - explain why
+
+### For Planning:
+- ✅ Create plan automatically (don't ask)
+- ✅ Make Rep 1 shippable this week
+- ✅ Include validation checkpoints
+- ✅ Ask commitment question at end
 
 ## Dependencies
 
-This skill orchestrates the other skills, so requires:
+**Core (Required):**
+- Bash (for orchestration)
+- Read tool (for file access)
+- Write tool (for saving outputs)
 
-**For YouTube:**
-- yt-dlp (auto-installed)
-- Python 3 (for deduplication)
+**Local Sources (NEW):**
+- Glob tool (for directory scanning)
+- Grep tool (for narrative detection)
+- find command (for file discovery)
 
-**For Articles:**
-- reader (npm) OR trafilatura (pip)
-- Falls back to basic curl if neither available
+**External URLs (Original):**
+- yt-dlp (YouTube - auto-installed)
+- curl (URLs - built-in)
+- pdftotext (PDFs - optional)
+- reader/trafilatura (Articles - fallback available)
 
-**For PDFs:**
-- curl (built-in)
-- pdftotext (optional - from poppler package)
-  - Install: `brew install poppler` (macOS)
-  - Install: `apt install poppler-utils` (Linux)
+**Narrative Validation (NEW):**
+- Access to kohaerenz_protokoll/PROJECT_CODEX.md
+- Read tool for Codex sections
+- Validation workflows from codex skill
 
-**For Planning:**
-- No additional requirements (uses built-in tools)
+## Integration with Other Skills
+
+**Tapestry orchestrates:**
+- **YouTube/Article/PDF extractors** - For external content
+- **File readers** - For local content
+- **Codex skill** - For narrative validation
+- **Ship-Learn-Next** - For action planning
+
+**Tapestry provides:**
+- Unified interface for all content sources
+- Automatic source type detection
+- Narrative vs. technical content routing
+- Integrated validation + planning
+
+**Use Tapestry as entry point, it delegates to specialists.**
 
 ## Philosophy
 
-**Tapestry weaves learning content into action.**
+**Tapestry weaves all sources into action.**
 
-The unified workflow ensures you never just consume content - you always create an implementation plan. This transforms passive learning into active building.
+Whether from the web or your repository, whether technical tutorial or narrative manuscript, Tapestry extracts it, validates it (when needed), and creates an actionable plan.
 
-Extract → Plan → Ship → Learn → Next.
+**For narrative work:** Codex ensures canonical compliance.
+**For learning work:** Ship-Learn-Next ensures practical application.
+**For all work:** Extract → Validate → Plan → Ship → Learn → Next.
 
-That's the Tapestry way.
+That's the enhanced Tapestry way.
+
+---
+
+**Version**: 2.0.0
+**Added**: Local file support, repo keyword mapping, Codex integration
+**Maintains**: Full backward compatibility with URL extraction

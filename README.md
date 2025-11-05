@@ -123,7 +123,7 @@ aegis/
 - [Skill Seeker Tool](skill_seeker/) - Build AI skills from any docs
 
 **Learners & Knowledge Builders:**
-- [Tapestry Command](.claude/commands/tapestry.md) - Extract content + create action plans
+- [Tapestry Command](.claude/commands/tapestry.md) - Extract from URLs, local files, or repo (v2.0 with Codex)
 - [Zettelkasten-Tapestry Command](.claude/commands/zettelkasten-tapestry.md) - Build knowledge graphs
 - [Ship-Learn-Next Command](.claude/commands/ship-learn-next.md) - Transform learning into 5-rep plans
 - [Zettelkasten Agent](zettelkasten_agent/) - Hierarchical note-taking system
@@ -412,48 +412,94 @@ Ensures narrative consistency for the Kohärenz Protokoll novel by validating co
 
 Slash commands are powerful workflows you can trigger with simple syntax. They combine multiple operations into unified pipelines.
 
-#### 1. **/tapestry** - Content Extraction + Action Planning
+#### 1. **/tapestry** - Universal Content Orchestrator (v2.0)
 
 **What it does:**
-Master orchestrator that extracts content from any source and automatically creates a Ship-Learn-Next action plan.
+Master orchestrator that extracts content from ANY source (URLs, local files, repo directories) and automatically creates Ship-Learn-Next action plans. Now includes Codex integration for narrative content validation.
 
 **When to use:**
 - You have a YouTube video you want to implement
 - You found an article/blog post with useful techniques
 - You need to extract and plan from a PDF
-- You want actionable steps from any web content
+- You want to analyze local repository files/directories (NEW)
+- You need to validate narrative content against Codex (NEW)
+- You want actionable steps from any content source
 
 **How to use:**
 ```bash
-# In Claude Code, simply type:
+# External URLs (original):
 /tapestry https://www.youtube.com/watch?v=example
 /tapestry https://blog.example.com/great-article
 /tapestry https://example.com/docs.pdf
 
-# Or use natural language triggers:
+# Local files/directories (NEW):
+/tapestry notes/tutorial.md
+/tapestry kohaerenz_protokoll/world/
+/tapestry path/to/any/file.md
+
+# Repository keywords (NEW):
+/tapestry manuscript
+/tapestry the world
+/tapestry characters
+
+# Natural language triggers:
 "tapestry this video: [URL]"
 "weave [URL]"
-"extract and plan [URL]"
-"make this actionable [URL]"
+"analyze the manuscript"
+"extract and plan [path/URL]"
 ```
 
 **What it creates:**
 - `extracted_content_[timestamp].md` - Clean content extraction
 - `action_plan_[timestamp].md` - 5-rep Ship-Learn-Next progression
+- `codex_validation_[timestamp].md` - Narrative validation report (when narrative content detected)
 
 **Supported sources:**
-- YouTube videos (transcript extraction)
-- Web articles and blog posts
-- PDF documents
-- General HTML content (fallback)
+- **External:** YouTube videos, web articles, PDF documents, HTML content
+- **Local:** Individual files, directories (combines all .md files), glob patterns
+- **Repo keywords:** `manuscript`, `world`, `characters`, `codex`, `narrative`
+- **Narrative content:** Automatically detects and validates Kohärenz Protokoll content
 
-**Example workflow:**
+**Enhanced features (v2.0):**
+- 📁 **Repo Reading**: Extract from local files and directories
+- 📖 **Codex Integration**: Automatic narrative validation for Kohärenz Protokoll content
+- 🔍 **Smart Detection**: Identifies narrative vs. technical content
+- ✅ **Validation Reports**: Character consistency, world physics, canonical compliance
+- 🎯 **Codex-Aware Plans**: Action plans include narrative constraints and validation checkpoints
+
+**Example workflows:**
+
+*External URL (original):*
 ```
 You: /tapestry https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 Claude extracts the video transcript →
 Creates action plan with 5 concrete reps →
 You ship Rep 1, learn from it, iterate to Rep 2
+```
+
+*Local repo with Codex (NEW):*
+```
+You: /tapestry kohaerenz_protokoll/world/characters/
+
+Claude:
+📁 Reading 12 character files...
+📖 Narrative content detected - applying Codex validation
+✓ Validation report: 2 minor inconsistencies found
+✓ Action plan: Fix AEGIS behavior (Section 2.1)
+🎯 Rep 1 includes Codex compliance checkpoints
+```
+
+*Repository keyword (NEW):*
+```
+You: tapestry the manuscript
+
+Claude:
+🔍 Mapped to: kohaerenz_protokoll/manuscript
+📁 Combined 5 chapters (28,543 words)
+📖 Validated against PROJECT_CODEX.md
+✓ Status: Mostly compliant, 3 suggestions
+🎯 Rep 1: Address Ch 15 Kernwelt descriptions (Section 3.2)
 ```
 
 ---
@@ -647,11 +693,14 @@ You: "Based on Rep 1 learnings, update Rep 2 of the action plan"
 
 ### Tips & Best Practices
 
-**For Tapestry:**
-- ✅ Use for quick extraction + immediate action planning
-- ✅ Great for one-off tutorials or articles
+**For Tapestry (v2.0):**
+- ✅ Use for ANY content source - URLs, local files, or repo directories
+- ✅ Great for both external tutorials and internal repo analysis
+- ✅ Automatically detects and validates narrative content with Codex
+- ✅ Use repo keywords for quick access: `tapestry manuscript`, `tapestry world`
 - ✅ Generates files in current directory
 - ⚠️  Content is not indexed in knowledge graph (use Zettelkasten-Tapestry for that)
+- ⚠️  For narrative work, always review the Codex validation report
 
 **For Zettelkasten-Tapestry:**
 - ✅ Use when building permanent knowledge
@@ -667,23 +716,26 @@ You: "Based on Rep 1 learnings, update Rep 2 of the action plan"
 - ✅ Iterate after each rep based on real learning
 
 **For Codex:**
+- ✅ Now integrated into Tapestry for automatic validation
 - ✅ Specific to Kohärenz Protokoll narrative work
 - ✅ Validates against canonical sources automatically
-- ✅ Use for any manuscript writing or world-building
+- ✅ Use directly for manual validation or creative guidance
 - ✅ Includes character voice matrix for all 11 alters
 
 ---
 
-### Philosophy: The Tapestry Ecosystem
+### Philosophy: The Enhanced Tapestry Ecosystem
 
-These tools work together as an integrated learning pipeline:
+These tools work together as an integrated learning and creation pipeline:
 
 ```
-Content Source (URL/PDF/Video)
+Content Source (URL/PDF/Video/Local Repo)
         ↓
-    TAPESTRY (extract)
+    TAPESTRY v2.0 (extract from ANY source)
         ↓
-    SHIP-LEARN-NEXT (plan 5 reps)
+    [IF NARRATIVE] → CODEX (validate against canonical principles)
+        ↓
+    SHIP-LEARN-NEXT (plan 5 reps with constraints)
         ↓
     YOU (ship Rep 1)
         ↓
