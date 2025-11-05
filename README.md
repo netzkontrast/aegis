@@ -39,6 +39,21 @@ aegis/
 │   ├── world/                 # World-building (Kernwelten, characters, metaphysics)
 │   └── narrative_design/      # Structural documents (outlines, thematic maps)
 │
+├── zettelkasten_agent/         # Knowledge synthesis system
+│   ├── agent.py               # Multi-agent orchestrator (4-phase cognitive loop)
+│   ├── zettelkasten_tools_mcp.py  # MCP server (7 core tools)
+│   ├── vault/                 # Knowledge base (SRC/ZTL/MOC notes)
+│   └── schemas/               # Pydantic validation for note types
+│
+├── skills/                     # Reusable skill library
+│   ├── skill-authoring/       # Meta-skill for creating skills (TDD-based)
+│   └── progressive-learning-zettelkasten/  # Progressive learning workflows
+│
+├── docs/                       # Documentation and analysis
+│   ├── knowledge-extraction/  # Skill authoring synthesis (4 approaches)
+│   ├── sessions/              # Brainstorming session notes
+│   └── *.md                   # Design documents
+│
 └── research/                   # Meta-documents and analysis
     ├── proposals/             # Research proposals for ARCHON
     ├── analysis/              # Strategic narrative architecture analyses
@@ -105,6 +120,43 @@ in the back of my mind, as Nyx's readiness coiled in my
 limbs, a low growl beneath the surface. We are many.
 And we are one.
 ```
+
+### The Zettelkasten Agent
+
+A multi-agent knowledge synthesis system that transforms raw information into an interconnected knowledge graph through a 4-phase cognitive loop:
+
+**Four-Phase Synthesis:**
+1. **Prioritization** - Selects unprocessed source notes
+2. **Analysis** - Extracts factual, inferential, and generative concepts
+3. **Synthesis** - Creates 3-7 atomic Zettel notes (agent's own words, not copy-paste)
+4. **Integration** - Weaves notes into knowledge structure, updates MOCs
+
+**Note Taxonomy:**
+- **SRC (Source)** - Raw, unprocessed information from external sources
+- **ZTL (Zettel)** - Atomic, self-contained ideas
+- **MOC (Map of Content)** - Organizing overview documents
+
+**The Tapestry:** Knowledge is woven, not piled. Each Zettel is a thread connecting to others, creating patterns (MOCs) that form a coherent whole (INDEX).
+
+### The Skills Library
+
+Reusable, progressive-disclosure skills for systematic work:
+
+**skill-authoring** (Meta-Skill)
+- TDD-based framework for creating skills
+- Proportional rigor: testing severity matched to risk level
+- Ethical persuasion framework with research backing
+- Decision trees, rationalization counters, stopping criteria
+- **Use when:** Creating or editing skills
+
+**progressive-learning-zettelkasten** (Technique)
+- 4-phase workflow: Survey → Focus → Synthesize → Extend
+- 3 learning patterns: Depth Ladder, Breadth Spiral, Question-Driven
+- Integration with Zettelkasten Agent
+- Knowledge gap detection and systematic filling
+- **Use when:** Learning complex domains, building knowledge progressively
+
+Both skills apply the unified framework synthesized from four complementary approaches (TDD methodology, Anthropic best practices, visual DSL, persuasion principles).
 
 ## Getting Started
 
