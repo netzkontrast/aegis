@@ -8,6 +8,25 @@ allowed-tools:
   - Edit
 ---
 
+# ⚠️ DEPRECATED: Use `/learn --save` Instead
+
+**This command has been replaced by the unified `/learn` command with the `--save` flag.**
+
+**Use instead:**
+```
+/learn <URL> --save        # Same functionality as /zettelkasten-tapestry
+/learn <file> --save       # Plan from file + save to Zettelkasten
+```
+
+**Why the change?**
+- `/learn --save` is simpler and more intuitive
+- Consistent interface across all learning workflows
+- Modular architecture (easier to maintain and extend)
+
+**This command still works** but will be removed in a future update.
+
+---
+
 # Zettelkasten-Tapestry: Progressive Learning System
 
 You are activating the **Zettelkasten-Tapestry** integrated workflow. This combines:

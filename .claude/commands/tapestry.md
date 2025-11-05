@@ -7,6 +7,25 @@ allowed-tools:
   - Write
 ---
 
+# ⚠️ DEPRECATED: Use `/learn` Instead
+
+**This command has been replaced by the unified `/learn` command.**
+
+**Use instead:**
+```
+/learn <URL>              # Same functionality as /tapestry
+/learn <URL> --save       # Also saves to Zettelkasten
+```
+
+**Why the change?**
+- `/learn` is simpler and more intuitive
+- Supports more workflows (files, URLs, Zettelkasten)
+- Modular architecture (easier to maintain)
+
+**This command still works** but will be removed in a future update.
+
+---
+
 # Tapestry: Unified Content Extraction + Action Planning
 
 This is the **master skill** that orchestrates the entire Tapestry workflow:
