@@ -1,0 +1,24 @@
+# Zettelkasten-Agent MVP Configuration
+# This configuration follows the specification from Table 1 of the architectural blueprint
+
+# LLM Provider Configuration
+llm:
+  provider: anthropic
+  model: claude-3-5-sonnet-latest
+
+# Anthropic-specific Configuration
+anthropic:
+  api_key: env("ANTHROPIC_API_KEY")
+
+# Model Context Protocol (MCP) Server Configuration
+mcp:
+  servers:
+    Zettelkasten_Tools:
+      # Uses uv to run the MCP server as a stdio-based process
+      command: "uv"
+      args:
+        - "run"
+        - "zettelkasten_tools_mcp.py"
+        - "--server"
+        - "--transport"
+        - "stdio"
