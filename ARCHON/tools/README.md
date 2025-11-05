@@ -62,17 +62,54 @@ Scenes featuring Kiko:
   ...
 ```
 
-## Planned Tools
+### 2. ncp_validate.py - Scene Validator ✅
 
-### 2. ncp_validate.py - Scene Validator
-Validate written prose against NCP constraints
+Validate written prose against NCP constraints using rule-based checks.
 
-**Status**: Specification complete, implementation pending
+**Installation**: No dependencies beyond Python 3.10+ standard library
 
-**Planned Usage**:
+**Usage**:
+
 ```bash
-python ncp_validate.py manuscript/act_1/chapter_04.md --chapter 4
+# Validate a scene file
+python ncp_validate.py manuscript/act_1/chapter_01_scene_01.md
+
+# Specify chapter explicitly
+python ncp_validate.py scene.md --chapter 1
+
+# Verbose output with all issues
+python ncp_validate.py scene.md --verbose
+
+# Specify scene ID for detailed checks
+python ncp_validate.py scene.md --scene 1.1
 ```
+
+**Validation Checks**:
+- **Length**: 500-3000 word range (warnings outside)
+- **Character Presence**: Expected alters mentioned in scene
+- **Prose Style**: Act-specific style matching (fragmented/transitional/polyphonic)
+- **World Physics**: Location-specific keywords (KW1-KW4)
+- **Thematic Checkpoints**: Required themes present
+
+**Scoring**: 0-10 scale with ERROR/WARNING/INFO severity levels
+
+**Example Output**:
+```bash
+$ python ncp_validate.py chapter_01_scene_01.md --verbose
+============================================================
+VALIDATION REPORT
+============================================================
+
+Status: ✅ PASS
+Score: 10.0/10.0
+Checks Passed: 5/5
+Word Count: 1711
+
+✨ No issues found! Scene is excellent.
+============================================================
+```
+
+## Planned Tools
 
 ### 3. ncp_assist.py - Writing Assistant
 Generate writing prompts and character voice samples
@@ -112,9 +149,11 @@ python archon_generate.py --chapter 4 --scene 1.4
 - [x] `ncp_query.py` - Basic NCP querying
 
 ### Phase 2: Validation Tools (In Progress)
-- [ ] `ncp_validate.py` - Rule-based validation
-- [ ] Character voice consistency checking
-- [ ] Thematic keyword matching
+- [x] `ncp_validate.py` - Rule-based validation
+- [x] Character presence checking
+- [x] Thematic keyword matching
+- [ ] Advanced character voice consistency (LLM-based)
+- [ ] Prose style deep analysis
 
 ### Phase 3: Knowledge Graph
 - [ ] Graph database setup
