@@ -1,0 +1,28 @@
+# Zettelkasten-Agent MVP Requirements
+# Python 3.10+ required
+
+# Fast-agents framework for MCP-native agents
+fast-agent>=0.1.0
+mcp-agent>=0.1.0
+
+# MCP Server SDK
+mcp>=0.1.0
+
+# Anthropic API (LLM provider)
+anthropic>=0.21.0
+
+# Data validation and schemas
+pydantic>=2.6.0
+
+# YAML parsing for note metadata
+PyYAML>=6.0.1
+
+# Optional: For future semantic search capabilities
+# sentence-transformers>=2.3.0
+# chromadb>=0.4.0
+
+# Development tools
+# pytest>=8.0.0
+# pytest-asyncio>=0.23.0
+# black>=24.0.0
+# ruff>=0.2.0
