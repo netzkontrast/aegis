@@ -31,29 +31,71 @@ The development of this project serves as a research validation of ARCHON's prin
 aegis/
 ├── ARCHON/                     # The narrative coherence framework
 │   ├── ncp/                   # Narrative Context Protocol (formal authorial intent)
-│   ├── knowledge_graph/       # Hierarchical narrative memory (L0-L3)
+│   │   ├── schema.json        # Formal JSON Schema (Dramatica-based)
+│   │   └── kohaerenz_protokoll.ncp.json  # Populated NCP for the novel
+│   ├── tools/                 # CLI utilities for narrative management
+│   │   ├── ncp_query.py       # Query NCP for scene requirements
+│   │   └── ncp_validate.py    # Validate prose against constraints
 │   └── agents/                # Narrative Director specifications
 │
 ├── kohaerenz_protokoll/       # The novel
 │   ├── manuscript/            # Actual prose (Acts I-III)
-│   ├── world/                 # World-building (Kernwelten, characters, metaphysics)
-│   └── narrative_design/      # Structural documents (outlines, thematic maps)
+│   │   └── act_1/             # Chapter markdown files
+│   ├── world/                 # World-building
+│   │   ├── kernwelten/        # 4 nested simulation layers (KW0-KW3)
+│   │   └── characters/        # Character profiles (Kael's 11 alters, AEGIS)
+│   ├── narrative_design/      # Structural documents
+│   │   ├── IMPLEMENTATION_SPEC.md  # Technical prose specifications
+│   │   └── act_1_scenes.md    # Scene-by-scene breakdown
+│   └── PROJECT_CODEX.md       # Canonical narrative architecture
 │
 ├── skill_seeker/              # Documentation to Claude Skills conversion tool
 │   ├── mcp/                   # MCP server for Claude Code integration
-│   ├── cli/                   # Command-line tools for scraping and building
-│   ├── configs/               # Preset configurations (React, Django, Godot, etc.)
+│   ├── cli/                   # 22 command-line tools
+│   │   ├── doc_scraper.py     # Main documentation scraper
+│   │   ├── unified_scraper.py # Multi-source (docs + GitHub + PDF)
+│   │   ├── github_scraper.py  # Deep code analysis with AST parsing
+│   │   ├── pdf_scraper.py     # PDF text/image/table extraction
+│   │   ├── enhance_skill*.py  # AI enhancement (API or local)
+│   │   └── package_skill.py   # Package skills for upload
+│   ├── configs/               # 27 preset configurations
+│   │   ├── react.json         # React framework
+│   │   ├── django_unified.json # Django + GitHub + PDF
+│   │   ├── godot.json         # Godot game engine
+│   │   └── ...                # FastAPI, Kubernetes, Tailwind, etc.
 │   └── docs/                  # Comprehensive documentation
+│       ├── MCP_SETUP.md       # Claude Code integration guide
+│       ├── PDF_*.md           # 8 PDF-specific guides
+│       └── UNIFIED_SCRAPING.md # Multi-source integration
 │
 ├── zettelkasten_agent/        # Zettelkasten knowledge management agent
-│   ├── vault/                 # Note storage with hierarchical structure
-│   ├── schemas/               # Data schemas for notes and links
-│   └── agent.py               # Fast-agents implementation
+│   ├── agent.py               # 4-phase cognitive loop agent
+│   ├── zettelkasten_tools_mcp.py # MCP server for file operations
+│   ├── schemas/               # Pydantic data validation
+│   └── vault/                 # Note storage
+│       ├── _INDEX.md          # Master index
+│       ├── _LOG.md            # Action log
+│       ├── SRC-*.md           # Source notes
+│       ├── ZTL-*.md           # Atomic notes
+│       └── MOC-*.md           # Maps of Content
 │
-└── research/                   # Meta-documents and analysis
-    ├── proposals/             # Research proposals for ARCHON
-    ├── analysis/              # Strategic narrative architecture analyses
-    └── critiques/             # Critical reviews and assessments
+├── skills/                    # Claude AI skills library
+│   ├── skill-authoring/       # Unified framework for creating skills
+│   │   ├── SKILL.md           # Main skill document (495 lines)
+│   │   └── reference/         # CSO optimization, persuasion patterns
+│   └── zettelkasten-tapestry/ # Progressive learning system
+│       ├── SKILL.md           # Integration of Tapestry + Zettelkasten
+│       └── reference/         # Note taxonomy, workflows
+│
+└── docs/                      # Research and planning documentation
+    ├── knowledge-extraction/  # 10 files analyzing skill authoring
+    │   ├── 01-07-*-core-patterns.md  # Pattern extraction
+    │   ├── 05-comparative-analysis.md
+    │   ├── 06-critical-analysis.md
+    │   └── 07-synthesis-unified-framework.md # Primary deliverable
+    └── plans/                 # TDD-based implementation plans
+        ├── 2025-11-05-ncp-writing-assistant.md
+        └── 2025-11-05-knowledge-graph-foundation.md
 ```
 
 ## Core Concepts
@@ -65,12 +107,16 @@ A machine-readable JSON schema that encodes the deep thematic structure of a sto
 - **Thematic checkpoints**: Scene-level validation criteria for narrative coherence
 - **Structural constraints**: The "thematic guardrails" that preserve authorial intent
 
+**Implementation**: See [ARCHON/ncp/](ARCHON/ncp/) for schema and populated data.
+
 ### The Knowledge Hypergraph
 A four-level hierarchical memory system that overcomes LLM context limitations:
 - **L0 (Source)**: Raw text chunks and extracted entities
 - **L1 (Factual)**: Validated facts and relationships
 - **L2 (Thematic)**: Aggregated themes and patterns
 - **L3 (Global)**: Story-wide arcs and central conflicts
+
+**Status**: Planned - see [docs/plans/2025-11-05-knowledge-graph-foundation.md](docs/plans/2025-11-05-knowledge-graph-foundation.md)
 
 ### The Narrative Director
 An agentic system that:
@@ -79,6 +125,24 @@ An agentic system that:
 3. Generates narrative content
 4. Self-critiques against NCP constraints
 5. Iterates until thematic coherence is achieved
+
+**Implementation**: Specification available at [ARCHON/agents/README.md](ARCHON/agents/README.md)
+
+### ARCHON Tools
+Command-line utilities for narrative management:
+
+```bash
+# Query NCP for scene requirements
+python ARCHON/tools/ncp_query.py --chapter 4 --verbose
+
+# Validate prose against NCP constraints
+python ARCHON/tools/ncp_validate.py manuscript/chapter_01.md
+```
+
+**Available tools**:
+- ✅ `ncp_query.py` - Query NCP for scene requirements, character states
+- ✅ `ncp_validate.py` - Validate prose against NCP constraints
+- 🔜 `ncp_assist.py` - Generate writing prompts, voice samples (planned)
 
 ## The Novel: Kohärenz Protokoll
 
@@ -94,6 +158,8 @@ An agentic system that:
 - **Act I (Ch 1-13)**: Fragmentation - The Heroine's Journey of internal discovery
 - **Act II (Ch 14-26)**: Pattern Recognition - Cyclical analysis of AEGIS's flawed logic
 - **Act III (Ch 27-39)**: Confrontation - The Hero's Journey of external triumph
+
+**Current Status**: Act I outline complete, 1 sample chapter written. See [kohaerenz_protokoll/PROJECT_CODEX.md](kohaerenz_protokoll/PROJECT_CODEX.md) for canonical narrative architecture.
 
 ## Key Innovation: Performative Prose
 
@@ -117,24 +183,27 @@ limbs, a low growl beneath the surface. We are many.
 And we are one.
 ```
 
-## Integrated Tools
+## Integrated Tools & Systems
 
 ### Skill Seeker: Documentation to Claude Skills Converter
-The **skill_seeker/** directory contains a powerful tool for automatically converting documentation websites, GitHub repositories, and PDF files into production-ready Claude AI skills. Originally from [Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers), this integration enables:
+
+The **skill_seeker/** directory contains a production-ready tool (v2.0.0) for automatically converting documentation websites, GitHub repositories, and PDF files into Claude AI skills.
 
 **Key Features:**
-- 🌐 **Documentation Scraping**: Universal scraper for any documentation website with smart categorization
+- 🌐 **Documentation Scraping**: Universal scraper with smart categorization and llms.txt auto-detection
 - 📄 **PDF Support**: Extract text, code, images, and tables from PDF files with OCR support
-- 🐙 **GitHub Integration**: Deep code analysis with AST parsing and conflict detection
-- 🔄 **Multi-Source Scraping**: Combine documentation + GitHub + PDF with automatic conflict detection
-- 🤖 **MCP Server**: Natural language interface through Claude Code
-- ⚡ **Performance**: Async mode for 2-3x faster scraping, parallel processing, intelligent caching
+- 🐙 **GitHub Integration**: Deep code analysis with AST parsing (Python, JS, TS, Java, C++, Go)
+- 🔄 **Unified Multi-Source**: Combine documentation + GitHub + PDF with automatic conflict detection
+- 🤖 **AI Enhancement**: LOCAL (free, uses Claude Code Max) or API-based enhancement
+- 🧪 **Production Ready**: 299 tests passing, 27 preset configurations verified
+- ⚡ **MCP Server**: Natural language interface through Claude Code
+- 📦 **27 Presets**: React, Django, FastAPI, Godot, Kubernetes, Tailwind, and more
 
 **Quick Start:**
 ```bash
 cd skill_seeker
 
-# One-time setup
+# One-time MCP setup
 ./setup_mcp.sh
 
 # Then in Claude Code, ask:
@@ -143,34 +212,183 @@ cd skill_seeker
 "Scrape docs using configs/godot.json"
 ```
 
+**Example Unified Scraping:**
+```bash
+# Combine docs + GitHub + PDF with conflict detection
+python cli/unified_scraper.py configs/react_unified.json
+```
+
 **Documentation:**
-- [Complete README](skill_seeker/README.md) - Full feature overview and usage guide
-- [Quick Start Guide](skill_seeker/QUICKSTART.md) - Get started in minutes
+- [Complete README](skill_seeker/README.md) - 1,042-line comprehensive guide
+- [Quick Start](skill_seeker/QUICKSTART.md) - Get started in 5 minutes
+- [Bulletproof Quick Start](skill_seeker/BULLETPROOF_QUICKSTART.md) - Step-by-step troubleshooting
 - [MCP Setup](skill_seeker/docs/MCP_SETUP.md) - Claude Code integration
 - [PDF Guide](skill_seeker/docs/PDF_SCRAPER.md) - PDF documentation scraping
 - [Unified Scraping](skill_seeker/docs/UNIFIED_SCRAPING.md) - Multi-source integration
+- [Testing](skill_seeker/docs/TESTING.md) - 299 tests, all passing
 
-This tool is particularly useful for building comprehensive AI skills from project documentation, enabling better AI-assisted development workflows.
+### Zettelkasten Agent: Knowledge Management System
 
-### Zettelkasten Agent: Knowledge Management
-The **zettelkasten_agent/** provides a hierarchical note-taking and knowledge management system using the fast-agents framework. See [zettelkasten_agent/README.md](zettelkasten_agent/README.md) for details.
+The **zettelkasten_agent/** provides an AI-powered note-taking system implementing the Zettelkasten method with automatic synthesis and linking.
+
+**Architecture:**
+- **4-phase cognitive loop**: Prioritize → Analyze → Synthesize → Integrate
+- **Note types**: Source (SRC), Atomic (ZTL), Maps of Content (MOC)
+- **Special files**: `_INDEX.md` (master index), `_LOG.md` (action log)
+- **Knowledge graph**: Automatically linked bidirectional notes with contextual links
+
+**Quick Start:**
+```bash
+cd zettelkasten_agent
+python agent.py
+```
+
+**MCP Tools Available:**
+- `create_note` - Create SRC/ZTL/MOC notes with validation
+- `read_note_content` - Read full note content
+- `get_note_metadata` - Read only frontmatter
+- `append_link` - Add contextual links with automatic backlinks
+- `find_notes` - Search by keyword or semantically
+- `list_files` - List notes (optionally filtered)
+- `log_action` - Append to action log
+
+**Documentation:**
+- [Complete README](zettelkasten_agent/README.md) - 343-line guide
+- [Quick Start](zettelkasten_agent/QUICKSTART.md) - Get up and running
+
+**Status**: MVP implementation complete
+- ✅ Core agent workflow
+- ✅ MCP server integration
+- ✅ Schema validation
+- 🔜 Semantic search
+- 🔜 MOC_Tender maintenance agent
+
+### Skills Library
+
+The **skills/** directory contains reusable Claude AI skills for domain-specific tasks:
+
+#### 1. Skill Authoring Framework
+**Location**: `skills/skill-authoring/`
+
+A unified framework combining TDD methodology, Anthropic best practices, visual DSL patterns, and persuasion principles for creating high-quality Claude skills.
+
+**Key Components:**
+- `SKILL.md` (495 lines) - Main discipline + technique skill
+- `reference/cso-optimization.md` - Claude Search Optimization patterns
+- `reference/persuasion-patterns.md` - Psychology-based compliance principles
+- `reference/structure-templates.md` - Templates by skill type (discipline, technique, domain)
+
+**Features:**
+- RED/GREEN/REFACTOR TDD cycle for skill development
+- CSO optimization for better skill discoverability
+- Persuasion principle mappings for user compliance
+- Ready-to-use templates and checklists
+
+**Documentation**: See [skills/skill-authoring/SKILL.md](skills/skill-authoring/SKILL.md)
+
+#### 2. Zettelkasten-Tapestry Integration
+**Location**: `skills/zettelkasten-tapestry/`
+
+A progressive learning system combining the `/tapestry` slash command (content extraction and action planning) with the Zettelkasten agent (knowledge management).
+
+**Workflow:**
+1. Extract content from URL using Tapestry
+2. Create action plan with concrete steps
+3. Save notes to Zettelkasten vault
+4. Synthesize knowledge over time
+5. Build knowledge graph
+
+**Documentation**: See [skills/zettelkasten-tapestry/SKILL.md](skills/zettelkasten-tapestry/SKILL.md)
+
+## Research & Analysis
+
+### Knowledge Extraction Studies
+**Location**: `docs/knowledge-extraction/`
+
+Comprehensive analysis of skill authoring approaches, extracting patterns from multiple sources:
+
+| Document | Purpose |
+|----------|---------|
+| `01-04-*-core-patterns.md` | Pattern extraction from 4 sources (TDD, Anthropic, Graphviz, Persuasion) |
+| `05-comparative-analysis.md` | Side-by-side comparison of approaches |
+| `06-critical-analysis.md` | 9 critical problems identified and addressed |
+| `07-synthesis-unified-framework.md` | **Primary deliverable**: Unified skill authoring framework |
+| `08-10-phase-analysis.md` | RED/GREEN/REFACTOR phase-specific analysis |
+
+**Statistics:**
+- ~71,000 tokens of analysis (~53,000 words)
+- 9 critical problems identified with solutions
+- 6 blind spots filled
+- 10+ ready-to-use artifacts (templates, checklists, formulas)
+
+### Implementation Plans
+**Location**: `docs/plans/`
+
+TDD-based implementation roadmaps with bite-sized tasks (2-5 minutes each):
+
+- `2025-11-05-ncp-writing-assistant.md` - Implement `ncp_assist.py` tool
+- `2025-11-05-knowledge-graph-foundation.md` - Implement knowledge graph system
 
 ## Getting Started
 
-### For Writers
-1. Study the [NCP Schema](ARCHON/ncp/schema.json) to understand thematic architecture
-2. Review the [Scene Outline](kohaerenz_protokoll/narrative_design/scene_outline.md)
-3. Read the [Style Guide](kohaerenz_protokoll/narrative_design/style_guide.md) for prose methodology
+### 🎯 Choose Your Path
 
-### For Developers
+#### For Writers
+**Goal**: Understand narrative architecture and prose methodology
+
+1. Read the [Project Codex](kohaerenz_protokoll/PROJECT_CODEX.md) for canonical narrative architecture
+2. Study the [NCP Schema](ARCHON/ncp/schema.json) to understand thematic structure
+3. Review the [Implementation Spec](kohaerenz_protokoll/narrative_design/IMPLEMENTATION_SPEC.md) for prose guidelines
+4. Explore [Scene Outlines](kohaerenz_protokoll/narrative_design/act_1_scenes.md)
+5. Try the ARCHON tools:
+   ```bash
+   python ARCHON/tools/ncp_query.py --chapter 1 --verbose
+   ```
+
+#### For Developers
+**Goal**: Implement narrative systems and AI-assisted creation
+
 1. Explore the [NCP implementation](ARCHON/ncp/) for the formal protocol
-2. Examine the [Knowledge Graph structure](ARCHON/knowledge_graph/) for memory architecture
-3. Review [Narrative Director specs](ARCHON/agents/) for agentic reasoning
+2. Study [Narrative Director specs](ARCHON/agents/README.md) for agentic architecture
+3. Review [Knowledge Graph plans](docs/plans/2025-11-05-knowledge-graph-foundation.md)
+4. Examine the [ARCHON tools](ARCHON/tools/) source code
+5. Try building a skill with Skill Seeker:
+   ```bash
+   cd skill_seeker
+   ./setup_mcp.sh
+   # Then in Claude Code: "Generate a FastAPI skill"
+   ```
 
-### For Researchers
-1. Read the [Research Proposal](research/proposals/archon_framework.md)
-2. Study the [Strategic Analysis](research/analysis/narrative_architecture.md)
-3. Review the [Critical Assessments](research/critiques/)
+#### For AI Enthusiasts
+**Goal**: See practical MCP integration and agentic systems
+
+1. Set up the [Skill Seeker MCP server](skill_seeker/docs/MCP_SETUP.md)
+2. Explore the [Zettelkasten Agent](zettelkasten_agent/README.md)
+3. Try the [Zettelkasten-Tapestry skill](skills/zettelkasten-tapestry/SKILL.md)
+4. Review the [Skill Authoring framework](skills/skill-authoring/SKILL.md)
+5. Experiment with unified scraping:
+   ```bash
+   python skill_seeker/cli/unified_scraper.py configs/react_unified.json
+   ```
+
+#### For Researchers
+**Goal**: Validate AI's role in creative work
+
+1. Study the [Knowledge Extraction analysis](docs/knowledge-extraction/07-synthesis-unified-framework.md)
+2. Review the [Critical Analysis](docs/knowledge-extraction/06-critical-analysis.md)
+3. Examine the [Narrative Context Protocol](ARCHON/ncp/schema.json)
+4. Explore the [meta-recursive design](#the-meta-recursive-design) concept
+5. Read the development philosophy below
+
+#### For Skill Creators
+**Goal**: Build Claude skills from documentation
+
+1. Start with [Skill Seeker Quick Start](skill_seeker/QUICKSTART.md)
+2. Try the [Bulletproof Quick Start](skill_seeker/BULLETPROOF_QUICKSTART.md) if you encounter issues
+3. Explore [preset configs](skill_seeker/configs/) for examples
+4. Learn [Unified Scraping](skill_seeker/docs/UNIFIED_SCRAPING.md) for multi-source skills
+5. Review the [PDF Guide](skill_seeker/docs/PDF_SCRAPER.md) for PDF documentation
+6. Apply the [Skill Authoring framework](skills/skill-authoring/SKILL.md) for quality
 
 ## Development Philosophy
 
@@ -182,28 +400,142 @@ This project embraces **recursive self-awareness**:
 
 The goal is not just to write a novel or build a framework, but to discover whether formal systems can genuinely serve—rather than constrain—the creative process.
 
+## Project Principles
+
+### Integration Over Elimination
+True coherence emerges from integration of contradictions, not elimination. This applies to:
+- **Narrative**: Kael's 11 alters achieve functional multiplicity, not fusion
+- **Tools**: Skill Seeker combines multiple sources with conflict detection, not replacement
+- **Knowledge**: Zettelkasten links and synthesizes, not consolidates
+- **Development**: We embrace both formal structure and creative emergence
+
+### Formal Systems Serve Creativity
+ARCHON provides structure to enable, not constrain:
+- The NCP defines thematic guardrails, not rigid rules
+- Tools validate and query, not dictate
+- The Knowledge Graph augments context, not replaces judgment
+
+### Recursive Self-Performance
+The project performs its own themes:
+- Repository structure mirrors narrative structure (fragmentation → integration)
+- Tools demonstrate principles they enable (coherence through formal systems)
+- Development process validates research questions (can AI assist complex creativity?)
+
 ## Current Status
 
-🟡 **Phase 1**: Foundation - Building the living architecture
-⚪ **Phase 2**: Implementation - NCP population and validation
-⚪ **Phase 3**: Creation - Writing the manuscript
-⚪ **Phase 4**: Synthesis - Research publication
+### Phases
+- 🟡 **Phase 1** (CURRENT): Foundation - Building the living architecture
+  - ✅ Project conceptualization and architecture
+  - ✅ NCP schema and specification
+  - ✅ ARCHON tools (query, validate)
+  - ✅ Skill Seeker v2.0.0 (production ready, 299 tests)
+  - ✅ Zettelkasten Agent MVP
+  - ✅ Skills library (skill-authoring, zettelkasten-tapestry)
+  - 🔜 Writing assistant (`ncp_assist.py`)
+  - 🔜 Knowledge Graph foundation
+
+- ⚪ **Phase 2**: Implementation - NCP population and validation
+  - Knowledge Graph implementation
+  - Narrative Director agent
+  - Advanced validation and analytics
+
+- ⚪ **Phase 3**: Creation - Writing the manuscript
+  - Novel manuscript completion (39 chapters, 3 acts)
+  - Currently: Act I outline complete, 1 sample chapter written
+
+- ⚪ **Phase 4**: Synthesis - Research publication
+  - Research paper on AI-assisted narrative creation
+  - Validation of ARCHON principles
+  - Publication and community sharing
+
+### Component Status
+
+| Component | Status | Notes |
+|-----------|--------|-------|
+| ARCHON NCP | ✅ Complete | Schema + populated data |
+| ARCHON Tools | 🟡 Partial | Query + Validate done, Assist planned |
+| Narrative Director | 📋 Specified | Architecture documented, not implemented |
+| Knowledge Graph | 📋 Planned | Foundation plan ready |
+| Kohärenz Protokoll | 🔜 Early | 1 chapter written, Act I outlined |
+| Skill Seeker | ✅ Production | v2.0.0, 299 tests passing |
+| Zettelkasten Agent | ✅ MVP | Core workflow complete |
+| Skills Library | ✅ Complete | 2 skills (authoring, tapestry) |
+| Documentation | ✅ Comprehensive | 50+ markdown files, ~100k tokens |
+
+**Legend**: ✅ Complete | 🟡 In Progress | 🔜 Started | 📋 Planned | ⚪ Not Started
+
+## Technology Stack
+
+| Layer | Technology | Location |
+|-------|-----------|----------|
+| **Narrative Foundation** | Dramatica theory, TSDP psychology | ARCHON/ncp/ |
+| **Story Management** | JSON Schema, Python | ARCHON/ |
+| **Prose Writing** | Markdown | kohaerenz_protokoll/manuscript/ |
+| **Knowledge Graph** | Hierarchical JSON (planned) | ARCHON/knowledge_graph/ |
+| **Skill Conversion** | Python 3.10+, BeautifulSoup4, requests | skill_seeker/ |
+| **AI Enhancement** | Anthropic API (optional), Claude Code Max | skill_seeker/ |
+| **PDF Processing** | PDF extraction, OCR, table extraction | skill_seeker/cli/ |
+| **Code Analysis** | AST parsing (Python, JS, TS, Java, C++, Go) | skill_seeker/cli/ |
+| **Knowledge Management** | fast-agents, MCP, Pydantic | zettelkasten_agent/ |
+| **MCP Integration** | Model Context Protocol servers | skill_seeker/mcp/, zettelkasten_agent/ |
 
 ## Contributing
 
 This is a research and creative project exploring the intersection of:
 - Narrative theory (Dramatica, TSDP psychology)
-- AI-assisted creativity (LLMs, agentic systems)
+- AI-assisted creativity (LLMs, agentic systems, MCP)
 - Formal systems (logic, computation, coherence)
 - Philosophical fiction (identity, consciousness, reality)
 
+**Ways to contribute:**
+- 🐛 Report bugs or issues with tools
+- 💡 Suggest improvements to ARCHON or NCP
+- 📖 Provide feedback on narrative or prose
+- 🔬 Contribute research or analysis
+- 🛠️ Implement planned features (see [docs/plans/](docs/plans/))
+- 🧪 Add tests or improve documentation
+
 Contributions, critiques, and dialogue are welcome.
+
+## Resources
+
+### Main Documentation
+- [ARCHON Framework](ARCHON/README.md)
+- [Kohärenz Protokoll Codex](kohaerenz_protokoll/PROJECT_CODEX.md)
+- [Skill Seeker Guide](skill_seeker/README.md)
+- [Zettelkasten Agent](zettelkasten_agent/README.md)
+
+### Detailed Guides
+- [NCP Schema](ARCHON/ncp/schema.json) - Formal narrative specification
+- [Implementation Spec](kohaerenz_protokoll/narrative_design/IMPLEMENTATION_SPEC.md) - Prose guidelines
+- [Skill Authoring](skills/skill-authoring/SKILL.md) - Skill creation framework
+- [Unified Scraping](skill_seeker/docs/UNIFIED_SCRAPING.md) - Multi-source skills
+
+### Research & Analysis
+- [Unified Framework Synthesis](docs/knowledge-extraction/07-synthesis-unified-framework.md) - Primary research deliverable
+- [Critical Analysis](docs/knowledge-extraction/06-critical-analysis.md) - Problems and solutions
+- [Implementation Plans](docs/plans/) - TDD-based roadmaps
 
 ## License
 
-The ARCHON framework is released under MIT License.
-The Kohärenz Protokoll manuscript is © 2024. All rights reserved.
+The ARCHON framework and supporting tools (Skill Seeker, Zettelkasten Agent) are released under MIT License.
+
+The Kohärenz Protokoll manuscript and associated creative content are © 2024-2025. All rights reserved.
 
 ---
 
 *Built at the intersection of system and story, where coherence emerges from contradiction.*
+
+---
+
+## Quick Links
+
+| What | Where |
+|------|-------|
+| 📖 Read the novel outline | [kohaerenz_protokoll/narrative_design/act_1_scenes.md](kohaerenz_protokoll/narrative_design/act_1_scenes.md) |
+| 🔧 Build a skill | [skill_seeker/QUICKSTART.md](skill_seeker/QUICKSTART.md) |
+| 📝 Manage knowledge | [zettelkasten_agent/QUICKSTART.md](zettelkasten_agent/QUICKSTART.md) |
+| 🎓 Learn skill authoring | [skills/skill-authoring/SKILL.md](skills/skill-authoring/SKILL.md) |
+| 🔬 Read the research | [docs/knowledge-extraction/07-synthesis-unified-framework.md](docs/knowledge-extraction/07-synthesis-unified-framework.md) |
+| 🛠️ Implement a feature | [docs/plans/](docs/plans/) |
+| ⚙️ Query the NCP | `python ARCHON/tools/ncp_query.py --help` |
