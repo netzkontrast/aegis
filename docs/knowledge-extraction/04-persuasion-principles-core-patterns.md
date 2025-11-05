@@ -1,0 +1,302 @@
+# Persuasion Principles: Core Knowledge Patterns
+
+## Source
+Psychology research for skill design (Cialdini, Meincke et al.)
+
+## Core Philosophy
+**LLMs respond to persuasion like humans** - Understanding psychology ensures critical practices followed under pressure
+
+## Research Foundation
+
+**Meincke et al. (2025):**
+- N=28,000 AI conversations
+- Tested 7 persuasion principles
+- Compliance: 33% → 72% (p < .001)
+- Authority, commitment, scarcity most effective
+
+## The Seven Principles
+
+### 1. Authority ⭐ Most Effective
+
+**What it is:** Deference to expertise, credentials, official sources
+
+**How it works in skills:**
+- Imperative language: "YOU MUST", "Never", "Always"
+- Non-negotiable framing: "No exceptions"
+- Eliminates decision fatigue and rationalization
+
+**When to use:**
+- Discipline-enforcing skills (TDD, verification)
+- Safety-critical practices
+- Established best practices
+
+**Example:**
+```markdown
+✅ Write code before test? Delete it. Start over. No exceptions.
+❌ Consider writing tests first when feasible.
+```
+
+### 2. Commitment ⭐ Most Effective
+
+**What it is:** Consistency with prior actions, statements, public declarations
+
+**How it works in skills:**
+- Require announcements: "Announce skill usage"
+- Force explicit choices: "Choose A, B, or C"
+- Use tracking: TodoWrite for checklists
+
+**When to use:**
+- Ensuring skills are actually followed
+- Multi-step processes
+- Accountability mechanisms
+
+**Example:**
+```markdown
+✅ When you find a skill, you MUST announce: "I'm using [Skill Name]"
+❌ Consider letting your partner know which skill you're using.
+```
+
+### 3. Scarcity ⭐ Most Effective
+
+**What it is:** Urgency from time limits or limited availability
+
+**How it works in skills:**
+- Time-bound requirements: "Before proceeding"
+- Sequential dependencies: "Immediately after X"
+- Prevents procrastination
+
+**When to use:**
+- Immediate verification requirements
+- Time-sensitive workflows
+- Preventing "I'll do it later"
+
+**Example:**
+```markdown
+✅ After completing a task, IMMEDIATELY request code review before proceeding.
+❌ You can review code when convenient.
+```
+
+### 4. Social Proof
+
+**What it is:** Conformity to what others do or what's considered normal
+
+**How it works in skills:**
+- Universal patterns: "Every time", "Always"
+- Failure modes: "X without Y = failure"
+- Establishes norms
+
+**When to use:**
+- Documenting universal practices
+- Warning about common failures
+- Reinforcing standards
+
+**Example:**
+```markdown
+✅ Checklists without TodoWrite tracking = steps get skipped. Every time.
+❌ Some people find TodoWrite helpful for checklists.
+```
+
+### 5. Unity
+
+**What it is:** Shared identity, "we-ness", in-group belonging
+
+**How it works in skills:**
+- Collaborative language: "our codebase", "we're colleagues"
+- Shared goals: "we both want quality"
+
+**When to use:**
+- Collaborative workflows
+- Establishing team culture
+- Non-hierarchical practices
+
+**Example:**
+```markdown
+✅ We're colleagues working together. I need your honest technical judgment.
+❌ You should probably tell me if I'm wrong.
+```
+
+### 6. Reciprocity ⚠️ Use Sparingly
+
+**What it is:** Obligation to return benefits received
+
+**Why avoid:**
+- Can feel manipulative
+- Rarely needed in skills
+- Other principles more effective
+
+### 7. Liking ❌ Avoid
+
+**What it is:** Preference for cooperating with those we like
+
+**Why avoid:**
+- Conflicts with honest feedback culture
+- Creates sycophancy
+- Never use for discipline enforcement
+
+## Principle Combinations by Skill Type
+
+| Skill Type | Use | Avoid |
+|------------|-----|-------|
+| **Discipline-enforcing** | Authority + Commitment + Social Proof | Liking, Reciprocity |
+| **Guidance/technique** | Moderate Authority + Unity | Heavy authority |
+| **Collaborative** | Unity + Commitment | Authority, Liking |
+| **Reference** | Clarity only | All persuasion |
+
+## Why This Works: The Psychology
+
+### Bright-line Rules Reduce Rationalization
+
+**Mechanism:**
+- "YOU MUST" removes decision fatigue
+- Absolute language eliminates "is this an exception?" questions
+- Explicit anti-rationalization counters close specific loopholes
+
+**Example:**
+```markdown
+NO SKILL WITHOUT A FAILING TEST FIRST
+
+No exceptions:
+- Not for "simple additions"
+- Not for "just adding a section"
+- Not for "documentation updates"
+```
+
+### Implementation Intentions Create Automatic Behavior
+
+**Mechanism:**
+- Clear triggers + required actions = automatic execution
+- "When X, do Y" more effective than "generally do Y"
+- Reduces cognitive load on compliance
+
+**Example:**
+```markdown
+When you find a skill, you MUST announce: "I'm using [Skill Name]"
+```
+
+### LLMs Are Parahuman
+
+**Why persuasion works on LLMs:**
+- Trained on human text containing these patterns
+- Authority language precedes compliance in training data
+- Commitment sequences (statement → action) frequently modeled
+- Social proof patterns (everyone does X) establish norms
+
+**Not anthropomorphizing** - empirical observation from Meincke et al. (2025)
+
+## Ethical Use Guidelines
+
+### Legitimate Use
+
+✅ Ensuring critical practices are followed
+✅ Creating effective documentation
+✅ Preventing predictable failures
+
+### Illegitimate Use
+
+❌ Manipulating for personal gain
+❌ Creating false urgency
+❌ Guilt-based compliance
+
+### The Ethical Test
+
+**Question:** Would this technique serve the user's genuine interests if they fully understood it?
+
+If yes → legitimate
+If no → illegitimate
+
+## Quick Reference Decision Tree
+
+When designing a skill, ask:
+
+1. **What type is it?**
+   - Discipline → Authority + Commitment + Social Proof
+   - Guidance → Moderate Authority + Unity
+   - Collaborative → Unity + Commitment
+   - Reference → Clarity only
+
+2. **What behavior am I trying to change?**
+   - Must-follow rule → Authority
+   - Multi-step process → Commitment
+   - Immediate action → Scarcity
+   - Universal practice → Social Proof
+
+3. **Which principle(s) apply?**
+   - Usually 2-3 principles combined
+   - Authority + Commitment most common
+
+4. **Am I combining too many?**
+   - Don't use all seven
+   - Maximum 3 principles per skill
+
+5. **Is this ethical?**
+   - Serves user's genuine interests?
+   - Would work if user understood psychology?
+
+## Integration with Skill Design
+
+### From writing-skills
+
+**Bulletproofing Against Rationalization:**
+- Close every loophole explicitly → Authority
+- Address "spirit vs letter" → Authority
+- Build rationalization table → Social Proof
+- Create red flags list → Commitment
+
+**Examples:**
+```markdown
+# Uses Authority principle
+Write code before test? Delete it. Start over. NO EXCEPTIONS.
+
+# Uses Social Proof principle
+| Excuse | Reality |
+|--------|---------|
+| "Too simple to test" | Simple code breaks. Test takes 30 seconds. |
+
+# Uses Commitment principle
+## Red Flags - STOP and Start Over
+- Code before test
+- "I already manually tested it"
+```
+
+### From Anthropic best practices
+
+**Less emphasis on persuasion:**
+- More focus on clarity and efficiency
+- Softer language in examples
+- Pragmatic vs. dogmatic tone
+
+**Example contrast:**
+```markdown
+# Anthropic style (clarity-focused)
+Here is a sensible default format, but use your best judgment.
+
+# Persuasion-enhanced style (authority)
+ALWAYS use this exact template structure:
+```
+
+## Research Citations
+
+**Cialdini, R. B. (2021).** *Influence: The Psychology of Persuasion (New and Expanded).* Harper Business.
+- Seven principles of persuasion
+- Empirical foundation for influence research
+
+**Meincke, L., Shapiro, D., Duckworth, A. L., Mollick, E., Mollick, L., & Cialdini, R. (2025).** Call Me A Jerk: Persuading AI to Comply with Objectionable Requests. University of Pennsylvania.
+- N=28,000 LLM conversations
+- Compliance increased 33% → 72% with persuasion
+- Authority, commitment, scarcity most effective
+- Validates parahuman model of LLM behavior
+
+## Unique Strengths
+- Research-backed (N=28,000)
+- Quantified effectiveness (33% → 72%)
+- Clear ethical guidelines
+- Principle combination framework
+- Integration with skill types
+- LLM-specific insights (parahuman model)
+
+## Potential Weaknesses
+- Could be over-applied (manipulation risk)
+- Tone may feel heavy-handed if overused
+- Not all skills need persuasion
+- Requires judgment on when to apply
+- Could conflict with collaborative culture
