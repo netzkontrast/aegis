@@ -1,0 +1,418 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aegis-project.org/ncp/v1/schema.json",
+  "title": "Narrative Context Protocol (NCP) Schema",
+  "description": "A formal schema for encoding authorial intent based on Dramatica theory, designed to maintain thematic coherence across novel-length works.",
+  "type": "object",
+  "required": ["metadata", "throughlines", "character_systems", "structural_framework"],
+
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["title", "author", "genre", "ncp_version"],
+      "properties": {
+        "title": { "type": "string" },
+        "author": { "type": "string" },
+        "genre": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "logline": { "type": "string" },
+        "ncp_version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+        "created": { "type": "string", "format": "date-time" },
+        "modified": { "type": "string", "format": "date-time" }
+      }
+    },
+
+    "throughlines": {
+      "description": "The four Dramatica throughlines that structure the complete story argument",
+      "type": "object",
+      "required": ["objective_story", "main_character", "impact_character", "subjective_story"],
+      "properties": {
+        "objective_story": {
+          "description": "The external, objective conflict affecting all characters",
+          "type": "object",
+          "required": ["domain", "concern", "goal", "consequence", "requirement", "forewarnings"],
+          "properties": {
+            "domain": {
+              "type": "string",
+              "enum": ["Universe", "Physics", "Mind", "Psychology"]
+            },
+            "concern": { "type": "string" },
+            "goal": { "type": "string" },
+            "consequence": { "type": "string" },
+            "requirement": { "type": "string" },
+            "forewarnings": { "type": "string" },
+            "dividends": { "type": "string" },
+            "costs": { "type": "string" },
+            "benchmark": { "type": "string" },
+            "signposts": {
+              "type": "array",
+              "items": { "type": "string" },
+              "minItems": 4,
+              "maxItems": 4
+            }
+          }
+        },
+
+        "main_character": {
+          "description": "The protagonist's subjective, internal journey",
+          "type": "object",
+          "required": ["resolve", "growth", "approach", "mental_sex", "problem", "solution"],
+          "properties": {
+            "resolve": {
+              "type": "string",
+              "enum": ["Change", "Steadfast"]
+            },
+            "growth": {
+              "type": "string",
+              "enum": ["Start", "Stop"]
+            },
+            "approach": {
+              "type": "string",
+              "enum": ["Do-er", "Be-er"]
+            },
+            "mental_sex": {
+              "type": "string",
+              "enum": ["Male", "Female", "Non-binary"]
+            },
+            "problem": { "type": "string" },
+            "solution": { "type": "string" },
+            "focus": { "type": "string" },
+            "direction": { "type": "string" },
+            "unique_ability": { "type": "string" },
+            "critical_flaw": { "type": "string" },
+            "signposts": {
+              "type": "array",
+              "items": { "type": "string" },
+              "minItems": 4,
+              "maxItems": 4
+            }
+          }
+        },
+
+        "impact_character": {
+          "description": "The character who challenges the protagonist's worldview",
+          "type": "object",
+          "required": ["domain", "concern", "problem", "solution"],
+          "properties": {
+            "domain": {
+              "type": "string",
+              "enum": ["Universe", "Physics", "Mind", "Psychology"]
+            },
+            "concern": { "type": "string" },
+            "problem": { "type": "string" },
+            "solution": { "type": "string" },
+            "unique_ability": { "type": "string" },
+            "critical_flaw": { "type": "string" },
+            "signposts": {
+              "type": "array",
+              "items": { "type": "string" },
+              "minItems": 4,
+              "maxItems": 4
+            }
+          }
+        },
+
+        "subjective_story": {
+          "description": "The relationship dynamics between MC and IC",
+          "type": "object",
+          "required": ["domain", "concern", "issue", "counterpoint"],
+          "properties": {
+            "domain": {
+              "type": "string",
+              "enum": ["Universe", "Physics", "Mind", "Psychology"]
+            },
+            "concern": { "type": "string" },
+            "issue": { "type": "string" },
+            "counterpoint": { "type": "string" },
+            "catalyst": { "type": "string" },
+            "inhibitor": { "type": "string" },
+            "benchmark": { "type": "string" },
+            "signposts": {
+              "type": "array",
+              "items": { "type": "string" },
+              "minItems": 4,
+              "maxItems": 4
+            }
+          }
+        }
+      }
+    },
+
+    "character_systems": {
+      "description": "Complex character architectures including dissociative systems",
+      "type": "object",
+      "properties": {
+        "protagonist_system": {
+          "type": "object",
+          "required": ["system_name", "model", "parts"],
+          "properties": {
+            "system_name": { "type": "string" },
+            "model": {
+              "type": "string",
+              "enum": ["TSDP", "IFS", "Standard", "Other"]
+            },
+            "integration_goal": { "type": "string" },
+            "parts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["name", "type", "function", "core_motivation", "core_fear"],
+                "properties": {
+                  "name": { "type": "string" },
+                  "type": {
+                    "type": "string",
+                    "enum": ["ANP", "EP", "ISH", "Protector", "Exile", "Manager", "Firefighter", "Standard"]
+                  },
+                  "function": { "type": "string" },
+                  "core_motivation": { "type": "string" },
+                  "core_fear": { "type": "string" },
+                  "relationships": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "target": { "type": "string" },
+                        "type": {
+                          "type": "string",
+                          "enum": ["Phobic", "Cooperative", "Protective", "Dependent", "Conflicted", "Neutral"]
+                        },
+                        "description": { "type": "string" }
+                      }
+                    }
+                  },
+                  "arc": {
+                    "type": "object",
+                    "properties": {
+                      "initial_state": { "type": "string" },
+                      "midpoint_shift": { "type": "string" },
+                      "final_state": { "type": "string" }
+                    }
+                  },
+                  "voice_characteristics": {
+                    "type": "object",
+                    "properties": {
+                      "syntax": { "type": "string" },
+                      "diction": { "type": "string" },
+                      "metaphors": { "type": "array", "items": { "type": "string" } }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+
+        "antagonist_system": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "type": {
+              "type": "string",
+              "enum": ["Individual", "System", "Force", "Collective"]
+            },
+            "cognitive_architecture": {
+              "type": "object",
+              "properties": {
+                "logic_system": { "type": "string" },
+                "modules": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "name": { "type": "string" },
+                      "function": { "type": "string" },
+                      "limitation": { "type": "string" }
+                    }
+                  }
+                }
+              }
+            },
+            "prime_directive": { "type": "string" },
+            "tragic_flaw": { "type": "string" },
+            "failure_mode": { "type": "string" }
+          }
+        },
+
+        "supporting_characters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "role": { "type": "string" },
+              "function": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+
+    "structural_framework": {
+      "description": "The act structure and scene-level architecture",
+      "type": "object",
+      "required": ["acts"],
+      "properties": {
+        "total_chapters": { "type": "integer" },
+        "narrative_models": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "model": {
+                "type": "string",
+                "enum": ["Hero's Journey", "Heroine's Journey", "Kishōtenketsu", "Three-Act", "Five-Act", "Cyclical", "Custom"]
+              },
+              "applies_to": { "type": "string" }
+            }
+          }
+        },
+
+        "acts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["act_number", "title", "chapter_range", "thematic_focus"],
+            "properties": {
+              "act_number": { "type": "integer" },
+              "title": { "type": "string" },
+              "chapter_range": {
+                "type": "object",
+                "properties": {
+                  "start": { "type": "integer" },
+                  "end": { "type": "integer" }
+                }
+              },
+              "thematic_focus": { "type": "string" },
+              "narrative_model": { "type": "string" },
+              "protagonist_state": { "type": "string" },
+              "antagonist_state": { "type": "string" },
+              "key_events": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            }
+          }
+        },
+
+        "scenes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["scene_id", "chapter", "location", "pov_character", "goal", "conflict"],
+            "properties": {
+              "scene_id": { "type": "string" },
+              "chapter": { "type": "integer" },
+              "title": { "type": "string" },
+              "location": { "type": "string" },
+              "pov_character": { "type": "string" },
+              "active_alters": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "goal": { "type": "string" },
+              "conflict": { "type": "string" },
+              "outcome": { "type": "string" },
+              "thematic_checkpoints": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "checkpoint": { "type": "string" },
+                    "validation_question": { "type": "string" }
+                  }
+                }
+              },
+              "required_throughline_beats": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "prose_style": {
+                "type": "string",
+                "enum": ["Fragmented", "Transitional", "Polyphonic", "Clinical", "Mixed"]
+              },
+              "key_revelations": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "thematic_architecture": {
+      "description": "Core themes and their manifestations throughout the story",
+      "type": "object",
+      "properties": {
+        "central_argument": { "type": "string" },
+        "core_themes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "theme": { "type": "string" },
+              "protagonist_position": { "type": "string" },
+              "antagonist_position": { "type": "string" },
+              "resolution": { "type": "string" }
+            }
+          }
+        },
+        "central_paradox": { "type": "string" }
+      }
+    },
+
+    "world_building": {
+      "description": "Setting-specific ontological rules and constraints",
+      "type": "object",
+      "properties": {
+        "ontological_layers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "description": { "type": "string" },
+              "physical_laws": { "type": "string" },
+              "entropy_manifestation": { "type": "string" },
+              "access_requirements": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+
+    "validation_criteria": {
+      "description": "Global validation rules for maintaining coherence",
+      "type": "object",
+      "properties": {
+        "continuity_rules": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "forbidden_actions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "action": { "type": "string" },
+              "reason": { "type": "string" }
+            }
+          }
+        },
+        "character_constraints": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "character": { "type": "string" },
+              "constraint": { "type": "string" },
+              "reason": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
