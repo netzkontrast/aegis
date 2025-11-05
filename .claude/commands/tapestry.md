@@ -9,7 +9,7 @@ allowed-tools:
   - Grep
 ---
 
-# Tapestry: Universal Content Orchestrator
+
 
 This is the **master skill** that orchestrates content extraction, narrative validation, and action planning:
 1. Detect source type (URL, local file, repo directory, or interactive)

@@ -6,6 +6,25 @@ allowed-tools:
   - Write
 ---
 
+# ⚠️ DEPRECATED: Use `/learn` Instead
+
+**This command has been replaced by the unified `/learn` command.**
+
+**Use instead:**
+```
+/learn <file>              # Create plan from existing content (same as /ship-learn-next)
+/learn <file> --save       # Also saves to Zettelkasten
+```
+
+**Why the change?**
+- `/learn` is simpler and works with both URLs and files
+- Consistent interface across all learning workflows
+- Modular architecture (easier to maintain)
+
+**This command still works** but will be removed in a future update.
+
+---
+
 # Ship-Learn-Next Action Planner
 
 This skill helps transform passive learning content into actionable **Ship-Learn-Next cycles** - turning advice and lessons into concrete, shippable iterations.

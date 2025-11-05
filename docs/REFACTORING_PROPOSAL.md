@@ -1,0 +1,686 @@
+# AEGIS Refactoring Proposal: Consolidation Strategy
+
+**Date:** 2025-11-05
+**Goal:** Reduce code duplication, improve maintainability, and create unified interfaces
+**Impact:** High-impact consolidations with low risk
+
+---
+
+## Executive Summary
+
+The AEGIS repository contains three primary areas with significant consolidation opportunities:
+
+1. **Slash Commands** - Three learning workflow commands with overlapping functionality
+2. **Skill Seeker Architecture** - Multiple scraper implementations with ~30% code duplication
+3. **Enhancement System** - Two nearly-identical enhancement modules
+
+This proposal focuses on **consolidating the slash commands into a unified learning system** as the highest-impact, lowest-risk refactoring opportunity.
+
+---
+
+## Part 1: Unified Learning Command (PRIORITY 1)
+
+### Current State
+
+Three separate slash commands with overlapping workflows:
+
+```
+.claude/commands/
+├── tapestry.md (486 lines)
+│   → Extracts content + Creates action plan
+│   → Includes full extraction logic + calls ship-learn-next
+│
+├── ship-learn-next.md (329 lines)
+│   → Creates action plans from content
+│   → Standalone, focused on planning only
+│
+└── zettelkasten-tapestry.md (201 lines)
+    → Orchestrates: Tapestry + Ship-Learn-Next + Zettelkasten
+    → References other workflows but must reimplement them
+```
+
+### Problems
+
+1. **Code Duplication**: Extraction logic duplicated between tapestry and zettelkasten-tapestry
+2. **Maintenance Burden**: Changes to extraction require updating multiple files
+3. **Inconsistent Behavior**: Each command may implement workflows differently
+4. **User Confusion**: Three commands for similar workflows (when to use which?)
+5. **No Modularity**: Cannot reuse components independently
+
+### Proposed Solution: Unified `/learn` Command
+
+Create a **single, modular learning command** that adapts to user needs:
+
+```
+.claude/commands/
+├── _modules/                      # NEW: Reusable workflow components
+│   ├── extract-content.md        # Content extraction logic only
+│   ├── action-planner.md         # Ship-Learn-Next planning logic
+│   └── knowledge-manager.md      # Zettelkasten knowledge management
+│
+└── learn.md                      # NEW: Unified orchestrator
+```
+
+### How It Works
+
+#### Command Structure: `/learn`
+
+```markdown
+/learn <URL>                      # Extract + Plan (current tapestry)
+/learn <URL> --save               # Extract + Plan + Save to Zettelkasten
+/learn <file>                     # Plan from existing content (current ship-learn-next)
+```
+
+#### Architecture: Modular Workflow System
+
+**1. Module: `_modules/extract-content.md`**
+```markdown
+# Content Extraction Module
+
+Pure extraction logic:
+- URL type detection (YouTube, article, PDF)
+- Content extraction implementations
+- Error handling and dependencies
+- Returns: content file path
+
+No planning, no knowledge management - just extraction.
+```
+
+**2. Module: `_modules/action-planner.md`**
+```markdown
+# Action Planning Module (Ship-Learn-Next)
+
+Creates 5-rep implementation plans:
+- Analyzes content for actionable lessons
+- Designs shippable Rep 1
+- Creates progressive Reps 2-5
+- Returns: plan file path
+
+Can work standalone or as part of larger workflow.
+```
+
+**3. Module: `_modules/knowledge-manager.md`**
+```markdown
+# Knowledge Management Module (Zettelkasten)
+
+Builds knowledge graph:
+- Creates Source Note (SRC)
+- Extracts atomic concepts (ZTL notes)
+- Creates Quest MOC
+- Connects to existing knowledge
+- Returns: knowledge structure summary
+
+Requires content file + plan file as inputs.
+```
+
+**4. Orchestrator: `learn.md`**
+```markdown
+# Learn Command - Unified Learning Workflow
+
+Detects user intent and orchestrates modules:
+
+Phase 1: Parse command
+  - Identify URL vs file path
+  - Detect flags (--save, --plan-only, --extract-only)
+
+Phase 2: Execute workflow
+  - If URL: Run extract-content module
+  - If content: Run action-planner module
+  - If --save: Also run knowledge-manager module
+
+Phase 3: Present results
+  - Show what was created
+  - Ask commitment questions
+  - Provide next steps
+```
+
+### Implementation Example
+
+```markdown
+---
+name: learn
+description: Unified learning workflow - extract content from URLs, create action plans, and build knowledge graphs. Use when user wants to learn from any content source.
+allowed-tools:
+  - Bash
+  - Read
+  - Write
+  - Edit
+---
+
+# Learn Command
+
+## Detect Intent
+
+```bash
+INPUT="$1"
+FLAGS="$2"
+
+# Is it a URL?
+if [[ "$INPUT" =~ ^https?:// ]]; then
+    MODE="extract"
+else
+    MODE="plan-only"
+fi
+
+# Check for knowledge management flag
+if [[ "$FLAGS" == "--save" ]] || [[ "$INPUT" =~ zettelkasten ]]; then
+    SAVE_TO_VAULT="true"
+fi
+```
+
+## Execute Modules
+
+### Module 1: Extract Content (if URL)
+```bash
+if [[ "$MODE" == "extract" ]]; then
+    # Source the extraction module
+    source .claude/commands/_modules/extract-content.md
+
+    CONTENT_FILE=$(extract_content "$INPUT")
+    echo "✓ Extracted: $CONTENT_FILE"
+fi
+```
+
+### Module 2: Create Action Plan
+```bash
+# Source the action planning module
+source .claude/commands/_modules/action-planner.md
+
+PLAN_FILE=$(create_action_plan "$CONTENT_FILE")
+echo "✓ Plan created: $PLAN_FILE"
+```
+
+### Module 3: Save to Knowledge Vault (if requested)
+```bash
+if [[ "$SAVE_TO_VAULT" == "true" ]]; then
+    # Source the knowledge management module
+    source .claude/commands/_modules/knowledge-manager.md
+
+    KNOWLEDGE_SUMMARY=$(save_to_zettelkasten "$CONTENT_FILE" "$PLAN_FILE")
+    echo "✓ Saved to knowledge vault"
+    echo "$KNOWLEDGE_SUMMARY"
+fi
+```
+
+## Present Results
+[Unified output format]
+```
+
+### Benefits
+
+| Benefit | Impact |
+|---------|--------|
+| **Single entry point** | Users only need to remember `/learn` |
+| **Modular components** | Each module can be updated independently |
+| **Zero duplication** | Extraction logic exists in ONE place |
+| **Easy maintenance** | Fix once, works everywhere |
+| **Flexible workflows** | Compose modules based on needs |
+| **Backward compatible** | Old commands can redirect to `/learn` |
+| **Testable** | Each module can be tested independently |
+
+### Migration Strategy
+
+**Phase 1: Create Modules (Week 1)**
+1. Extract content extraction logic → `_modules/extract-content.md`
+2. Extract action planning logic → `_modules/action-planner.md`
+3. Extract knowledge management logic → `_modules/knowledge-manager.md`
+4. Test each module independently
+
+**Phase 2: Create Unified Command (Week 1)**
+1. Create `learn.md` orchestrator
+2. Implement intent detection
+3. Implement module composition
+4. Test all workflows
+
+**Phase 3: Deprecate Old Commands (Week 2)**
+1. Keep old commands as redirects:
+   ```markdown
+   # tapestry.md (deprecated)
+   This command has been replaced by `/learn`
+
+   Redirecting to: /learn {{URL}}
+   ```
+2. Update documentation
+3. Add deprecation notices
+4. Remove old commands after 1 month
+
+**Phase 4: Enhance (Week 3+)**
+1. Add new flags: `--export`, `--share`, `--review`
+2. Add new content types: Twitter threads, podcasts
+3. Add collaborative learning features
+
+### Testing Plan
+
+```bash
+# Test extraction only
+/learn https://example.com/article --extract-only
+
+# Test planning only (from existing file)
+/learn article.txt
+
+# Test full workflow
+/learn https://youtube.com/watch?v=xxx
+
+# Test with knowledge management
+/learn https://example.com/article --save
+```
+
+---
+
+## Part 2: Skill Seeker Architecture (PRIORITY 2)
+
+### Current State
+
+Multiple scraper implementations with shared functionality:
+
+```
+skill_seeker/cli/
+├── doc_scraper.py (68 KB)        # General web scraping
+├── github_scraper.py (29 KB)     # GitHub-specific scraping
+├── pdf_scraper.py (15 KB)        # PDF scraping
+└── unified_scraper.py (15 KB)    # Multi-source orchestration
+```
+
+### Duplication Analysis
+
+Common patterns across all scrapers:
+- URL validation (3+ files)
+- HTML parsing with BeautifulSoup (2+ files)
+- Content extraction logic (similar patterns)
+- Error handling for rate limiting (2+ files)
+- File I/O for caching (all files)
+- Configuration loading (all files)
+
+**Estimated duplication**: ~2,500 lines (~30% of scraper code)
+
+### Proposed Solution: Abstract Base Scraper
+
+```python
+# skill_seeker/cli/base_scraper.py
+
+from abc import ABC, abstractmethod
+from typing import Dict, Any, Optional
+import requests
+from bs4 import BeautifulSoup
+import json
+from pathlib import Path
+
+class BaseScraper(ABC):
+    """Abstract base class for all scraping implementations"""
+
+    def __init__(self, config: Dict[str, Any]):
+        self.config = config
+        self.base_url = config.get('base_url', '')
+        self.cache_dir = Path(config.get('cache_dir', './cache'))
+        self.rate_limit = config.get('rate_limit', 1.0)
+
+    # ===== ABSTRACT METHODS (must be implemented by subclasses) =====
+
+    @abstractmethod
+    def validate_url(self, url: str) -> bool:
+        """Validate URL for this scraper type"""
+        pass
+
+    @abstractmethod
+    def extract_content(self, url: str) -> Dict[str, Any]:
+        """Extract content from URL (scraper-specific logic)"""
+        pass
+
+    @abstractmethod
+    def apply_selectors(self, soup: BeautifulSoup) -> str:
+        """Apply CSS selectors to extract content"""
+        pass
+
+    # ===== COMMON METHODS (shared across all scrapers) =====
+
+    def fetch_url(self, url: str) -> str:
+        """Fetch URL with error handling and rate limiting"""
+        self._apply_rate_limit()
+
+        try:
+            response = requests.get(url, timeout=30)
+            response.raise_for_status()
+            return response.text
+        except requests.RequestException as e:
+            return self._handle_fetch_error(url, e)
+
+    def cache_data(self, key: str, data: Any) -> None:
+        """Cache data to disk"""
+        self.cache_dir.mkdir(parents=True, exist_ok=True)
+        cache_file = self.cache_dir / f"{key}.json"
+
+        with open(cache_file, 'w') as f:
+            json.dump(data, f, indent=2)
+
+    def load_cached(self, key: str) -> Optional[Dict[str, Any]]:
+        """Load cached data from disk"""
+        cache_file = self.cache_dir / f"{key}.json"
+
+        if cache_file.exists():
+            with open(cache_file, 'r') as f:
+                return json.load(f)
+        return None
+
+    def _apply_rate_limit(self) -> None:
+        """Apply rate limiting between requests"""
+        import time
+        time.sleep(self.rate_limit)
+
+    def _handle_fetch_error(self, url: str, error: Exception) -> str:
+        """Handle fetch errors with retry logic"""
+        # Common error handling logic
+        pass
+
+    def parse_html(self, html: str) -> BeautifulSoup:
+        """Parse HTML with BeautifulSoup"""
+        return BeautifulSoup(html, 'html.parser')
+
+
+# ===== CONCRETE IMPLEMENTATIONS =====
+
+class DocScraper(BaseScraper):
+    """Scraper for documentation websites"""
+
+    def validate_url(self, url: str) -> bool:
+        return url.startswith(self.base_url)
+
+    def extract_content(self, url: str) -> Dict[str, Any]:
+        html = self.fetch_url(url)
+        soup = self.parse_html(html)
+        content = self.apply_selectors(soup)
+
+        return {
+            'url': url,
+            'content': content,
+            'metadata': self._extract_metadata(soup)
+        }
+
+    def apply_selectors(self, soup: BeautifulSoup) -> str:
+        # Doc-specific selector logic
+        selectors = self.config.get('content_selectors', [])
+        # ... implementation
+        pass
+
+
+class GitHubScraper(BaseScraper):
+    """Scraper for GitHub repositories"""
+
+    def validate_url(self, url: str) -> bool:
+        return 'github.com' in url
+
+    def extract_content(self, url: str) -> Dict[str, Any]:
+        # GitHub-specific logic (API calls, AST parsing, etc.)
+        pass
+
+    def apply_selectors(self, soup: BeautifulSoup) -> str:
+        # GitHub-specific selector logic
+        pass
+
+
+class PDFScraper(BaseScraper):
+    """Scraper for PDF documents"""
+
+    def validate_url(self, url: str) -> bool:
+        return url.endswith('.pdf')
+
+    def extract_content(self, url: str) -> Dict[str, Any]:
+        # PDF-specific logic (pdftotext, OCR, etc.)
+        pass
+
+    def apply_selectors(self, soup: BeautifulSoup) -> str:
+        # Not applicable for PDFs
+        pass
+
+
+# ===== FACTORY =====
+
+def create_scraper(config: Dict[str, Any]) -> BaseScraper:
+    """Factory function to create appropriate scraper"""
+
+    scraper_type = config.get('type', 'doc')
+
+    scrapers = {
+        'doc': DocScraper,
+        'github': GitHubScraper,
+        'pdf': PDFScraper,
+    }
+
+    if scraper_type not in scrapers:
+        raise ValueError(f"Unknown scraper type: {scraper_type}")
+
+    return scrapers[scraper_type](config)
+```
+
+### Benefits
+
+| Benefit | Impact |
+|---------|--------|
+| **Eliminate 30% duplication** | ~2,500 lines of code consolidated |
+| **Single source of truth** | Common logic in one place |
+| **Easy to add scrapers** | Implement 3 methods, inherit the rest |
+| **Consistent error handling** | All scrapers behave the same |
+| **Easier testing** | Test base class once |
+| **Better maintainability** | Fix bugs in one place |
+
+### Migration Strategy
+
+**Phase 1: Create Base Class (Week 1)**
+1. Extract common methods from existing scrapers
+2. Create `BaseScraper` abstract class
+3. Test base class independently
+
+**Phase 2: Refactor DocScraper (Week 1)**
+1. Make `doc_scraper.py` inherit from `BaseScraper`
+2. Remove duplicated code
+3. Test thoroughly
+
+**Phase 3: Refactor Other Scrapers (Week 2)**
+1. Refactor `github_scraper.py`
+2. Refactor `pdf_scraper.py`
+3. Refactor `unified_scraper.py`
+4. Test all workflows
+
+**Phase 4: Cleanup (Week 2)**
+1. Remove old utility functions
+2. Update documentation
+3. Update tests
+
+---
+
+## Part 3: Enhancement System Consolidation (PRIORITY 3)
+
+### Current State
+
+Two nearly-identical enhancement modules:
+
+```
+skill_seeker/cli/
+├── enhance_skill.py (9.3 KB)        # API-based enhancement
+└── enhance_skill_local.py (7.5 KB)  # Local Claude terminal
+```
+
+**Duplication**: ~90% of code is identical
+
+### Proposed Solution: Strategy Pattern
+
+```python
+# skill_seeker/cli/skill_enhancer.py
+
+from abc import ABC, abstractmethod
+from pathlib import Path
+from typing import Dict, Any
+
+class SkillEnhancer(ABC):
+    """Abstract base for skill enhancement"""
+
+    def __init__(self, skill_dir: Path):
+        self.skill_dir = skill_dir
+
+    @abstractmethod
+    def enhance(self, skill_file: Path) -> str:
+        """Enhance skill content (implementation varies)"""
+        pass
+
+    def prepare_prompt(self, content: str) -> str:
+        """Common prompt preparation logic"""
+        return f"""
+        Analyze and enhance this skill file:
+
+        {content}
+
+        Provide detailed examples, clear structure, and practical guidance.
+        """
+
+    def save_enhanced(self, enhanced_content: str, output_path: Path) -> None:
+        """Common save logic"""
+        with open(output_path, 'w') as f:
+            f.write(enhanced_content)
+
+
+class APIEnhancer(SkillEnhancer):
+    """Uses Anthropic API for enhancement"""
+
+    def __init__(self, skill_dir: Path, api_key: str):
+        super().__init__(skill_dir)
+        self.api_key = api_key
+
+    def enhance(self, skill_file: Path) -> str:
+        import anthropic
+
+        content = skill_file.read_text()
+        prompt = self.prepare_prompt(content)
+
+        client = anthropic.Anthropic(api_key=self.api_key)
+        response = client.messages.create(
+            model="claude-sonnet-4",
+            max_tokens=8000,
+            messages=[{"role": "user", "content": prompt}]
+        )
+
+        return response.content[0].text
+
+
+class LocalEnhancer(SkillEnhancer):
+    """Uses Claude Code (local) for enhancement"""
+
+    def enhance(self, skill_file: Path) -> str:
+        import subprocess
+
+        content = skill_file.read_text()
+        prompt = self.prepare_prompt(content)
+
+        # Use Claude CLI (assuming it's available)
+        result = subprocess.run(
+            ['claude', 'chat', '--message', prompt],
+            capture_output=True,
+            text=True
+        )
+
+        return result.stdout
+
+
+# Factory function
+def create_enhancer(mode: str, skill_dir: Path, **kwargs) -> SkillEnhancer:
+    """Create appropriate enhancer based on mode"""
+
+    if mode == 'api':
+        api_key = kwargs.get('api_key')
+        if not api_key:
+            raise ValueError("API key required for API mode")
+        return APIEnhancer(skill_dir, api_key)
+
+    elif mode == 'local':
+        return LocalEnhancer(skill_dir)
+
+    else:
+        raise ValueError(f"Unknown enhancer mode: {mode}")
+
+
+# Usage
+enhancer = create_enhancer('api', skill_dir, api_key=os.getenv('ANTHROPIC_API_KEY'))
+enhanced_content = enhancer.enhance(skill_file)
+```
+
+### Benefits
+
+- **Reduce duplication from 90% to 10%**
+- **Single maintenance point** for common logic
+- **Clear abstraction** - easy to understand
+- **Easy to extend** - add new enhancement strategies
+
+---
+
+## Summary: Recommended Implementation Order
+
+### Priority 1: Unified Learning Command ⭐⭐⭐
+- **Impact**: HIGH - Reduces 1,000+ lines of duplication
+- **Risk**: LOW - Slash commands are independent
+- **Time**: 1-2 weeks
+- **Value**: Dramatically improves user experience
+
+### Priority 2: Skill Seeker Base Scraper ⭐⭐
+- **Impact**: HIGH - Reduces 2,500+ lines of duplication
+- **Risk**: MEDIUM - Affects production tool
+- **Time**: 2-3 weeks
+- **Value**: Easier to maintain and extend
+
+### Priority 3: Enhancement Strategy Pattern ⭐
+- **Impact**: MEDIUM - Reduces ~100 lines of duplication
+- **Risk**: LOW - Small, isolated change
+- **Time**: 1-2 days
+- **Value**: Nice to have, quick win
+
+---
+
+## Implementation Roadmap
+
+### Week 1-2: Unified Learning Command
+- [ ] Create `_modules/` directory structure
+- [ ] Extract content extraction logic → `extract-content.md`
+- [ ] Extract action planning logic → `action-planner.md`
+- [ ] Extract knowledge management logic → `knowledge-manager.md`
+- [ ] Create unified `learn.md` orchestrator
+- [ ] Test all workflows
+- [ ] Update documentation
+
+### Week 3-4: Skill Seeker Refactoring
+- [ ] Create `BaseScraper` abstract class
+- [ ] Refactor `DocScraper` to inherit from base
+- [ ] Refactor `GitHubScraper` to inherit from base
+- [ ] Refactor `PDFScraper` to inherit from base
+- [ ] Update `unified_scraper.py` to use new architecture
+- [ ] Test all scraping workflows
+- [ ] Update documentation
+
+### Week 5: Enhancement System + Cleanup
+- [ ] Create `SkillEnhancer` abstract class
+- [ ] Implement `APIEnhancer` and `LocalEnhancer`
+- [ ] Update CLI to use new enhancers
+- [ ] Test enhancement workflows
+- [ ] Final documentation update
+- [ ] Announce changes
+
+---
+
+## Success Criteria
+
+✅ **Code Reduction**: Eliminate 3,000+ lines of duplicated code
+✅ **Maintainability**: Single source of truth for each workflow
+✅ **User Experience**: Simpler, more intuitive commands
+✅ **Extensibility**: Easy to add new content types and scrapers
+✅ **Test Coverage**: All refactored code has tests
+✅ **Documentation**: All changes documented
+
+---
+
+## Next Steps
+
+1. **Review this proposal** with stakeholders
+2. **Approve Priority 1** (Unified Learning Command)
+3. **Create feature branch**: `refactor/unified-learning-command`
+4. **Begin implementation** following the roadmap
+5. **Iterate and improve** based on feedback
+
+---
+
+**This refactoring will make AEGIS significantly more maintainable while improving the user experience. Let's start with the unified learning command and build from there.**
