@@ -36,9 +36,18 @@ This index is **dynamically maintained** by the Integrator agent. As new Maps of
 
 #### Source Materials
 - [[SRC-20251105-2131-Act-I-Scene-Breakdown]] - Act I scene structure for Kohärenz Protokoll
+- [[SRC-20251106-0906-Call-to-Wholeness-Strategic-Report]] - Strategic reorientation framework for internal integration narrative
 
 #### Action Plans
 - [[PLAN-20251105-2131-AEGIS-System-Understanding]] - 5-rep Ship-Learn-Next quest for learning NCP validation
+
+#### Core Concepts: Call to Wholeness Framework
+- [[MOC-Call-to-Wholeness-Framework]] - Strategic navigation hub for internal integration narrative
+- [[ZTL-20251106-0906-Call-to-Wholeness-as-Primary-Narrative-Driver]] - Master validation principle for psychological integration as causal driver
+- [[ZTL-20251106-0907-Juna-V-as-Exiled-Core-IFS-Framework]] - Juna/V as exiled core self (IFS Exilant), not external entity
+- [[ZTL-20251106-0908-Moonshine-Link-Quantum-Grounding]] - ER=EPR + Prehension foundation for quantum connection
+- [[ZTL-20251106-0909-Living-Goedel-Satz-as-Narrative-Weapon]] - Integration creates living paradox that defeats AEGIS
+- [[ZTL-20251106-0910-Victory-Through-Wholeness-Not-Destruction]] - Healing causes victory, not rewards it
 
 #### Core Concepts: Validation & Structure
 - [[ZTL-20251105-2131-NCP-Validation-Hierarchy]] - Recursive 4-layer validation system
@@ -52,6 +61,9 @@ This index is **dynamically maintained** by the Integrator agent. As new Maps of
 #### Core Concepts: Style & Voice
 - [[ZTL-20251105-2131-Prose-Evolution-Tracking]] - Fragmentation → Polyphony progression
 
+#### Meta-Patterns & Integration
+- [[ZTL-20251106-0938-Codex-Update-Pattern-Integrating-Strategic-Frameworks]] - Systematic pattern for integrating strategic decisions into PROJECT_CODEX
+
 ### Practical Applications
 
 (More applications will be added as your knowledge base develops)
@@ -64,10 +76,10 @@ This index is **dynamically maintained** by the Integrator agent. As new Maps of
 
 ## Meta-Information
 
-**Last Updated**: 2025-11-05
-**Total MOCs**: 1
-**Total Zettel**: 6
-**Total Sources**: 1
+**Last Updated**: 2025-11-06
+**Total MOCs**: 2
+**Total Zettel**: 13
+**Total Sources**: 2
 **Total Plans**: 1
 
 ---
