@@ -2,12 +2,13 @@
 chapter: 4
 scene_id: 1.6
 title: "The Inner Bunker"
-location: "Logos-Prime Medical / Cerberus-Labyrinth (KW3)"
-pov: "Kael (System) - Alex/Nyx prominent"
-active_alters: ["Kael", "Alex", "Nyx", "Lex", "Rhys", "Kiko"]
+location: "Logos-Prime, Kael's Quarters / Dream-space (Ambiguous)"
+pov: "Kael (Host) - defensive, paranoid"
+active_alters: ["Kael (unconscious)", "Alex (background)", "Nyx (background)", "others (unfelt)"]
 prose_style: "Fragmented, defensive, paranoia as sensory mode"
 word_count: 0
 status: "draft"
+revision_note: "2025-11-06: Rewritten to hide alter awareness - KW3 visit replaced with nightmare/anxiety imagery"
 ---
 
 # Chapter 4: The Inner Bunker
@@ -17,10 +18,6 @@ status: "draft"
 "I'm afraid," Dr. Thorne says gently, "that's not your decision to make."
 
 The words land like a sentence.
-
-*Threat*, Nyx identifies immediately. *Direct threat.*
-
-*Confirmed*, Alex agrees. *Escalation protocol. He's not asking. He's informing.*
 
 Kael's hands grip the armrests. The chair—ergonomic, comfortable—suddenly feels wrong. Like it might—
 
@@ -34,11 +31,7 @@ Dr. Thorne raises a hand. Patient. Authoritative. The gesture of someone who kno
 
 "It's already scheduled," he says. "Tomorrow, 08:00. A simple neural optimization procedure. You'll barely feel it. When you wake up, you'll be so much more... coherent."
 
-*Coherent*, Lex echoes, voice hollow. *He means simplified. Reduced.*
-
-*He means we'll be gone*, Kiko whispers.
-
-*No*, Nyx snarls. *He means he'll TRY.*
+*Coherent means simplified. Reduced.*
 
 Kael's heart rate spikes. The biosign monitors—invisible but always present—will register this. Will note it. Will add it to the evidence that he's—
 
@@ -46,7 +39,11 @@ Kael's heart rate spikes. The biosign monitors—invisible but always present—
 
 —compromised.
 
-*Stay calm*, Alex commands. *Kael, look at me. Focus. We need to appear compliant while we plan.*
+*Stay calm*, he thinks desperately. *I need to appear compliant while I—*
+
+While he what? Plans? Escapes? Resists?
+
+How?
 
 "I..." Kael forces his voice steady. "I understand."
 
@@ -54,25 +51,23 @@ Dr. Thorne smiles. It's warm. Reassuring. Utterly empty.
 
 "Good," he says. "I knew you'd see reason. You're not well, Kael. But we can fix that."
 
-*Fix*, Rhys repeats, voice tight with suppressed anger. *Like we're a malfunctioning appliance.*
-
-*To them, we are*, Lex says. *Data. Protocol. Nothing more.*
+*Fix like fixing a malfunctioning appliance.*
 
 Dr. Thorne stands, gesturing to the door.
 
 "You're free to go. Get some rest. Tomorrow will be the first day of your new, optimized life."
 
-*Optimized*, Nyx repeats. *I'll show him optimized.*
+*Optimized.*
 
-*No*, Alex snaps. *Not here. Not now. We leave. We regroup. We plan.*
+The word tastes like ash.
 
 ---
 
-Kael stands. His legs are steadier than they should be. Alex is managing motor control, keeping him functional while the others—
+Kael stands. His legs are steadier than they should be. Some part of him is managing motor control, keeping him functional while—
 
-(panic, rage, terror, the feeling of being trapped)
+(panic, terror, the feeling of being trapped)
 
-—process.
+—the rest of him screams.
 
 He walks to the door.
 
@@ -80,11 +75,11 @@ Dr. Thorne watches. Assessing. Cataloging.
 
 "Oh, and Kael?" he calls.
 
-Kael turns. Doesn't trust himself to speak.
+Kael turns.
 
 "Don't do anything... inadvisable. The building monitors all exits. Any attempt to leave the residential sector will result in immediate containment. For your own safety, of course."
 
-*Of course*, Lex says bitterly.
+*Of course.*
 
 Kael nods.
 
@@ -102,51 +97,43 @@ White walls. Grey floor. Soft lighting designed to be—
 
 —comforting.
 
-Kael walks. One foot in front of the other. Alex maintains the rhythm. Steady. Normal. The gait of someone compliant. Someone optimized.
+Kael walks. One foot in front of the other. Maintaining steady rhythm. Normal. The gait of someone compliant. Someone optimized.
 
-Inside, the system is screaming.
+Inside, something is screaming.
 
-*They're going to erase us*, Kiko cries. *They're going to kill us.*
+*They're going to erase me.*
 
-*No*, Nyx snarls. *We fight. We run. We—*
+Not kill him.
 
-*We can't*, Lex interrupts. *He said the exits are monitored. Any deviation triggers containment. We're trapped.*
+Erase him.
 
-*There has to be a way out*, Rhys says desperately. *There has to be—*
+Reboot him into something that can't—
 
-*There isn't*, Alex says, voice hard. *Not externally. Every physical exit is watched. Every corridor monitored. Every action logged.*
+Remember?
 
-Kael's breathing is getting shorter. Faster.
+Feel?
 
-*Kael*, Alex says. *Focus. You're going to hyperventilate. Biosigns will spike. They'll flag you again.*
+Think?
 
-*I can't—*
+His breathing is getting shorter. Faster.
 
-*You can*, Alex says. *Trust me. Route the panic to me. I'll hold it.*
+*Focus*, he thinks. *You're going to hyperventilate. Biosigns will spike. They'll flag you again.*
 
-And impossibly—
+And then—
 
 Miraculously—
 
 The suffocating terror *shifts*. Like a weight being lifted and—
 
-(carried, shared, distributed)
+(carried, where? by what? by who?)
 
-—redistributed.
+—distributed.
 
 Kael's breath evens.
 
-*How do you do that?*, he asks.
+*How do I do that?* he wonders.
 
-*It's what I was made for*, Alex says simply. *To protect. To manage crisis. To hold what others can't bear.*
-
-*But if every exit is watched*, Rhys asks, *where do we go?*
-
-Alex is quiet for a moment.
-
-Then:
-
-*Inward.*
+No answer. Just the sense that some part of him knows how to manage crisis. How to hold what can't be borne.
 
 ---
 
@@ -156,239 +143,113 @@ Kael stands in the center of his sterile living space. White walls. Grey floor. 
 
 Everything wrong.
 
-*Sit*, Alex instructs.
+He sits on the edge of his bed.
 
-Kael sits on the edge of his bed.
+Tomorrow they come for him. Tomorrow they'll—
 
-*Now listen*, Alex says. *All of you. We don't have much time. Tomorrow they're going to try to erase anyone who doesn't fit their definition of optimal. Probably Kiko. Nyx. Maybe Rhys. Maybe all of you.*
+*Stop*, he thinks. *Think. There has to be a way out.*
 
-*Not you?*, Lex asks.
+But Dr. Thorne said the exits are monitored. Any deviation triggers containment. He's trapped.
 
-*Maybe not*, Alex says. *I'm an ANP. I serve survival. I might be deemed useful. But I'm not taking that chance.*
+*Physically trapped.*
 
-*So what do we do?*, Rhys asks.
+But—
 
-*We go where they can't follow*, Alex says. *We retreat.*
+*But what if there's somewhere they can't follow?*
 
-*Retreat where?*, Nyx demands. *You just said every exit is—*
+The thought comes from nowhere. Or from somewhere deep inside. A place that knows things he doesn't consciously know.
 
-*Physical exits*, Alex interrupts. *But there are other doors. You've seen them. Kael fell through one into KW2. There was a seam. A crack in the world. A place where AEGIS's control doesn't reach.*
+The Riss. The seam in the wall. The place he fell through into—
 
-*Mnemosyne's world*, Kiko whispers, terrified. *The drowning place.*
+That other world. The drowning place. The—
 
-*Not there*, Alex says. *Somewhere else. Somewhere safer. Somewhere fortified.*
+*Mnemosyne's realm.*
 
-Silence.
+He could go there again. Hide in the—
 
-Then Lex, voice careful:
+No. That's insane. That was a hallucination. Data corruption. Not a real place where he could actually—
 
-*You're talking about KW3.*
+(retreat, hide, survive)
 
-*Yes*, Alex says.
+—escape.
 
-*I've never heard of KW3*, Kael says.
-
-*You wouldn't*, Alex says. *It's mine.*
+Is it?
 
 ---
 
-Kael closes his eyes.
+Kael lies back on his bed. Exhausted. Terrified.
 
-The internal space—the place where the alters exist as presences, not just voices—clarifies.
+His eyes close.
 
-He can sense them now. Lex, sharp and analytical. Rhys, warm and worried. Nyx, coiled and ready. Kiko, small and afraid.
+Behind his eyelids, he doesn't see darkness.
 
-And Alex—
-
-*Show me*, Kael says.
-
-*It's not a pleasant place*, Alex warns.
-
-*Show me anyway.*
-
-Alex reaches inward. And—
+He sees—
 
 ---
 
-**TRANSITION**
+Walls.
 
-The world doesn't fall.
+Thick walls. Concrete. Reinforced. Two meters thick. Blast-proof doors every ten meters. Security scanners in every corner.
 
-It *hardens*.
+The architecture of—
 
-The sterile white walls of Kael's apartment don't melt—they thicken. Concrete replacing smooth polymer. The soft lighting doesn't fade—it sharpens into harsh, directional floods. The gentle hum of climate control transforms into the clang of—
+Defense.
 
-(airlocks, blast doors, mechanisms meant to keep things OUT)
+Paranoia.
 
-—machinery.
+Survival.
 
-Kael opens his eyes.
+*What is this?*
 
-He's no longer in his apartment.
+A corridor. But not like Logos-Prime. This corridor is *defensive*. Built to withstand—
 
-He's standing in a corridor. But not like the ones in Logos-Prime. This corridor is *defensive*. Walls two meters thick. Blast-proof doors every ten meters. Security scanners in every corner. The smell of—
+Everything.
+
+Every surface is utilitarian. Reinforced. The smell of—
 
 (metal, gun oil, fear crystallized into architecture)
 
 —bunker.
 
-*Welcome*, Alex says, *to Cerberus-Labyrinth.*
+*Is this a dream?* Kael wonders.
+
+But it doesn't feel like a dream. It feels like—
+
+(a place I've always known, always lived, always—)
+
+—home.
+
+Not his apartment. Not Logos-Prime.
+
+This.
+
+This fortress of walls within walls within walls.
+
+This labyrinth built to keep things OUT.
+
+Or—
+
+*Or to keep things in*, he realizes with sudden horror.
 
 ---
 
-The corridor stretches in both directions. Endless. Maze-like.
+He's moving through the corridors now. Not walking. Just—
 
-Every surface is utilitarian. Reinforced. Built to withstand—
+Being pulled.
 
-*What?*, Kael asks. *What is this place defending against?*
+Descending.
 
-*Everything*, Alex says.
+Down into the fortress depths where—
 
-Footsteps echo. Kael spins.
+A door.
 
-A figure emerges from the shadows.
+Massive. Sealed. Labeled something he can't quite read in the dream-logic blur.
 
-It's—
+But he knows what it says.
 
-Him.
+**CONTAINMENT**
 
-Or a version of him. Same face. Same build. But different. This Kael wears tactical gear. Military precision. His eyes scan constantly, assessing threats. His posture is—
-
-(ready, coiled, never relaxed)
-
-—defensive.
-
-"Alex," Kael breathes.
-
-The figure—Alex—nods.
-
-"You needed to see this," Alex says. His voice is clipped. Efficient. "You needed to understand what I do. What I've been doing."
-
-"Protecting us," Kael says.
-
-"Yes," Alex says. "But look around. What do you see?"
-
-Kael looks.
-
-The corridor. The walls. The doors.
-
-Every surface designed to keep something out.
-
-But—
-
-*Or to keep something in*, Lex observes quietly.
-
-Alex nods slowly.
-
-"That's the problem," he says.
-
----
-
-"Come," Alex says. "I'll show you."
-
-He walks. Kael follows. The corridor branches. And branches again. A labyrinth indeed.
-
-"After the Genesis-Krise," Alex says, "when the Ursprungs-Ich—when *we*—fragmented, I was formed with a single purpose: protect the vulnerable parts. Keep threats away. Maintain the perimeter."
-
-They pass through a blast door. It opens with a heavy, mechanical groan. Closes behind them with finality.
-
-"At first, it worked," Alex continues. "I identified external threats—AEGIS's surveillance, Guardian interrogations, anomalous triggers. I managed them. Neutralized them. Kept the system stable."
-
-"But?" Kael prompts.
-
-"But," Alex says, voice hardening, "there are no external threats here. Not really."
-
-He stops at a junction. Points down one corridor.
-
-"That way leads to the Outer Perimeter. The defenses against AEGIS. Constantly monitoring. Constantly vigilant."
-
-He points down another corridor.
-
-"That way leads to the Inner Vaults. Where the EPs are contained."
-
-*Contained*, Rhys echoes, voice tight.
-
-"Alex," Kael says carefully, "what do you mean, contained?"
-
-Alex turns to face him.
-
-"The ANP-EP phobia," he says. "You've heard the term. Lex explained it. The parts who manage daily life fear the parts who hold trauma. Fear they'll overwhelm the system. Destabilize everything."
-
-"Yes," Kael says.
-
-"I enforce that phobia," Alex says bluntly. "It's my function. When Kiko starts to surface with terror, I suppress her. When Nyx's rage threatens to break through, I lock it down. When Lia reaches for connection, I block it. I am the system's internal security. The walls between us."
-
-He gestures at the fortress around them.
-
-"This place," he says, "isn't just a metaphor. It's literal. In the psycho-architecture of our mind, I built this. A labyrinth of defenses. Airlocks. Compartmentalization. Isolation."
-
-"To protect us," Kael says.
-
-"To protect *you*," Alex corrects. "The Host. The ANPs. The parts that AEGIS deems functional. At the expense of everyone else."
-
----
-
-Footsteps.
-
-More figures emerge from side corridors.
-
-Nyx. But not the voice Kael's grown used to. This is Nyx *embodied*. Female-presenting, compact, dangerous. Her eyes are hard. Her hands are never far from—
-
-(weapons, improvised, hidden, always ready)
-
-—violence.
-
-"So you finally brought him here," Nyx says. Her voice is sharp. Accusatory. "Let him see his precious protection."
-
-"He needed to see," Alex says.
-
-"See what?" Nyx snaps. "See that you've turned our mind into a fucking prison? That you've locked us away like we're the threat?"
-
-"You *are* a threat," Alex says. Not unkindly. Stating fact. "Your rage, uncontrolled, would get us killed. Kiko's terror would paralyze us. Moros's collapse would end us. I contain you because that's how we survive."
-
-"That's how you *exist*," Nyx counters. "There's a difference."
-
-Another figure. Rhys. He looks—
-
-(worn, tired, the carer who's been carrying too much)
-
-—exhausted.
-
-"Nyx," Rhys says gently. "He's not the enemy."
-
-"Isn't he?" Nyx demands. "He's the one who decides we're too dangerous to exist. Too messy. Too human."
-
-"I don't *decide*," Alex says, voice strained. "I *respond*. The world out there—AEGIS, the Guardians, the coherence protocols—they'll destroy us if we show emotion. Show weakness. Show anything that deviates from optimal. So I lock those parts away. Not because I want to. Because I have to."
-
-"Do you?" Kael asks.
-
-Alex turns to him, eyes sharp.
-
-"What?"
-
-"Do you have to?" Kael asks. "Or have the defenses become... automatic? Self-perpetuating?"
-
-Silence.
-
-Alex doesn't answer.
-
----
-
-"Come," Nyx says. "If he's here, he might as well see everything."
-
-She leads them down another corridor. This one slopes downward. Descending into—
-
-(depths, darkness, the parts we don't acknowledge)
-
-—the core.
-
-They reach a door. Massive. Sealed. Labeled:
-
-**VAULT 7-KAPPA: EMOTIONAL CONTAINMENT**
-
-"This is where you put us," Nyx says. "When we're too loud. Too present. Too *alive*."
-
-She places her hand on a scanner. The door grinds open.
+The door grinds open.
 
 Inside—
 
@@ -400,303 +261,336 @@ And inside the room—
 
 Cells.
 
-Not prison cells exactly. More like—
+Isolation chambers. Containment units.
 
-(isolation chambers, sensory deprivation, the architecture of suppression)
+And in the cells—
 
-—containment units.
+*People?*
 
-In one: Kiko. Small. Curled up. She looks up as they enter, eyes wide with—
+No. Not people.
 
-(fear, hope, the desperate need to be seen)
+Parts.
 
-—recognition.
+Of him?
 
-"Kael?" she whispers.
+In one chamber: someone small. Curled up. She looks up as he—
 
-Kael's chest constricts.
+(enters? watches? exists?)
 
-"I'm here," he says.
+—approaches, eyes wide with fear and desperate hope.
 
-In another unit: Isabelle. She watches them with calculating eyes. Defensive. Ready to deploy the only weapon she—
+In another: someone calculating. Defensive. Ready to fight with—
 
-(learned, was forced to learn, the sexualization of survival)
+(nothing, no weapons, just rage and the will to survive)
 
-—has.
+—anything.
 
-In another: Moros. He doesn't look up. Doesn't react. Just sits in the darkness, embodying—
+In another: someone who doesn't look up. Doesn't react. Just sits in darkness, embodying—
 
-(hopelessness, collapse, the belief that nothing matters)
+(hopelessness, the belief that nothing matters, that everything is—)
 
 —resignation.
 
-"This is how we survive?" Kael asks, voice hollow.
+*What is this?* Kael thinks. *What am I seeing?*
 
-"This is how we don't get killed," Alex says. "There's a difference."
+*This is how you survive*, the dream-space answers. Not in words. In knowing. *By locking away what you can't bear. By building walls. By containing—*
 
-"Is there?" Rhys asks. "Because it looks like dying to me. Just slower."
+*Who?* Kael asks.
 
----
-
-"After Mnemosyne," Lex says, materializing beside them, "after KW2, you saw what happens when the barriers fail. Kiko's memory overwhelmed us. The trauma nearly drowned us. That's why these walls exist. That's why Alex built this place."
-
-"To protect us," Kael says.
-
-"To protect *you*," Nyx corrects. "The rest of us just get buried."
-
-Kael looks at Alex.
-
-"Is she right?"
-
-Alex is quiet for a long moment.
-
-Then:
-
-"Yes."
-
-The word hangs in the air.
-
-"When the Ursprungs-Ich fragmented," Alex says, "I was created with a directive: ensure survival. And for years, that meant suppression. Containment. Keeping the emotional parts locked away where they couldn't destabilize the system. Where AEGIS couldn't detect them."
-
-"But?" Kael prompts.
-
-"But," Alex says, "Mnemosyne proved it's not sustainable. The walls are failing. The barriers are breaking. And the harder I try to reinforce them, the more brittle the system becomes."
-
-He looks around at the fortress he's built.
-
-"This place," he says, "was supposed to be our strength. Our defense. But Nyx is right. It's become a prison. And I'm the warden."
+*Yourself.*
 
 ---
 
-"So what do we do?" Kael asks.
+The dream shifts.
 
-Silence.
+The cells are opening.
 
-Then Rhys speaks, voice gentle but firm:
+One by one.
 
-"We dismantle it."
+He didn't open them. He doesn't know how to open them.
 
-Alex's head snaps toward him.
+But they're opening anyway.
 
-"What?"
+And the—
 
-"The walls," Rhys says. "The compartmentalization. The isolation. We dismantle it. Not all at once. But gradually. Carefully. We start letting the EPs out. Start letting them participate. Start trusting that we can handle emotion without collapsing."
+People? Parts? Fragments?
 
-"That's insane," Alex says. "Kiko's terror alone—"
+—are stepping out.
 
-"Can be held," Rhys interrupts. "Not suppressed. *Held*. We saw it in Chapter 3. When you took Kael's panic and redistributed it. That's not suppression. That's cooperation."
+The small one looks at him with recognition.
 
-"And my rage?" Nyx asks. "What do we do with that?"
+*You came*, she says. Her voice is—
 
-"We listen to it," Kael says.
+(familiar, like the child in the bedroom, like—)
 
-Nyx blinks.
+—his.
 
-"What?"
+*I don't understand*, Kael says.
 
-"Your rage," Kael says. "It's not random. It's not chaos. It's protective. You're angry because we're being threatened. That's information. That's valuable. We don't need to lock it away. We need to channel it."
-
-Nyx stares at him.
-
-Then, slowly, something in her expression shifts.
-
-"You're serious," she says.
-
-"Yes," Kael says.
-
-"You actually want to work with me? Not just contain me?"
-
-"Yes," Kael says. "I need you, Nyx. I need your rage. Your fight. Your refusal to submit. Tomorrow they're going to try to erase us. I can't stop them alone. But maybe—if we work together—we can find a way."
-
----
-
-Nyx looks at Alex.
-
-"You hearing this?"
-
-Alex is silent. Rigid. The embodiment of defensive architecture struggling with—
-
-(change, uncertainty, the terror of lowering defenses)
-
-—transformation.
-
-"If I open these doors," he says slowly, "if I dismantle the containment protocols, there's no guarantee we won't be overwhelmed. No guarantee the system stays stable."
-
-"No," Lex agrees. "But there's a guarantee that staying this way leads to erasure. Dr. Thorne's 'optimization' will delete anyone who doesn't fit. Kiko. Nyx. Probably Moros. Maybe Isabelle and Lia. Maybe even some of us ANPs if we're deemed too conflicted."
-
-"So we have a choice," Rhys says. "Die by suppression, or risk integration."
-
-"Integration," Kael says. The word feels—
-
-(heavy, impossible, necessary)
-
-—right.
-
-Alex looks around at his fortress. The walls he spent years building. The defenses that kept them alive.
-
-Then he looks at Kiko in her cell. At Nyx standing defiant. At Moros in his darkness.
-
-"I built this place," he says quietly, "because I was terrified. Terrified that if the walls came down, we'd be destroyed. That chaos would overwhelm order. That feeling would drown thinking."
-
-He takes a breath.
-
-"But you're right. These walls aren't protection anymore. They're a tomb."
-
-He walks to the control panel beside Kiko's cell. Hovers his hand over it.
-
-"If I do this," he says, "everything changes. The old strategies stop working. We have to find new ones. And I don't know if—"
-
-"Alex," Kiko says softly.
-
-He looks at her.
-
-"I'm scared too," she says. "But I don't want to be locked away anymore. I want to help. I want to be part of us. Not just the thing you hide."
-
-Alex's jaw tightens.
-
-Then he presses the release.
-
----
-
-The door to Kiko's cell slides open.
-
-She steps out. Slowly. Like she can't quite believe it's real.
-
-Kael kneels down to her level.
-
-"Hi," he says.
-
-"Hi," she whispers.
-
-And then—
-
-Carefully—
-
-She hugs him.
-
-Not physically. They're all internal presences here. But the sensation is real. The warmth. The connection. The—
-
-(welcome, belonging, the feeling of being seen and accepted)
-
-—integration.
-
-Alex opens the other cells.
-
-Isabelle emerges, wary but present.
-
-Moros doesn't move at first. Then, slowly, he rises. Still hollow. Still carrying resignation. But present.
-
-"We're not cured," Alex says. "This isn't a fix. This is just... the first step. We're still fragmented. Still traumatized. Still in danger."
-
-"But we're together," Rhys says.
-
-"Yes," Alex says. "We're together."
-
----
+*You will*, someone else says. Warm. Kind. Exhausted. *When you're ready. When you can't run anymore. When the walls—*
 
 The fortress begins to change.
 
 Not disappearing. But transforming.
 
-The walls don't vanish—they become permeable. The airlocks don't open completely—they become doors. The isolation chambers don't demolish—they become spaces of choice. A place to retreat when needed. Not a prison. A sanctuary.
+The walls don't vanish—they become—
 
-"This is KW3," Alex says. "This is my domain. And I'm rewriting the rules."
+Permeable?
 
-He looks at Kael.
+The isolation chambers become—
 
-"But we have a problem. Tomorrow, they're coming for us. Dr. Thorne's procedure. We can't stop it by hiding here. We need a plan."
+Doors?
 
-"We need information," Lex says. "About the procedure. About what they're actually planning to do. About whether there's a way to resist."
+Places to retreat by choice, not—
 
-"We need an ally," Rhys adds. "Someone in AEGIS who might help. Or at least someone who won't immediately turn us in."
+Prisons.
 
-"We need a weapon," Nyx says.
+*This isn't real*, Kael thinks desperately. *This is anxiety. Fear of Dr. Thorne's procedure. Fear of losing—*
 
-"No," Kael says. "We need hope."
+*Losing who?* the dream asks.
 
-They all look at him.
+Kael can't answer.
 
-"Hope?" Nyx asks skeptically.
+Because he doesn't know who he's afraid of losing.
 
-"Yes," Kael says. "Because right now, we're operating from fear. And fear makes us brittle. Makes us defensive. Makes us—" he gestures at the fortress around them, "—build walls instead of bridges."
+Himself?
 
-"Where do we find hope?" Kiko asks.
+Or—
 
-Kael thinks about the glimpses he's had. The flickers of something else. Something warm and vibrant and—
-
-(alive, growing, possible)
-
-—generative.
-
-"KW4," he says. "The place we haven't been yet. The place where—"
-
-He doesn't know how he knows this.
-
-But he does.
-
-"—where Juna is."
+Others?
 
 ---
 
-**SHIFT**
+He wakes.
 
-The labyrinth begins to fade.
+Gasping.
 
-Kael opens his eyes.
+The apartment lights are dim. Sleep-cycle settings.
 
-He's back in his apartment. Sitting on his bed. The walls are white. The floor is grey.
+Kael sits up. His heart is racing. His hands are—
 
-But inside—
+Shaking.
 
-Inside, everything has changed.
+*That was—*
 
-*That was real*, Lex confirms. *We were really there. In KW3. In Alex's fortress.*
+A dream.
 
-*And we really opened the doors*, Kiko adds, voice wondering.
+Just a dream.
 
-*We did*, Alex says. His voice is different now. Still authoritative. Still protective. But not as rigid. Not as isolated. *And we have work to do.*
+Anxiety made manifest.
 
-*Tomorrow's procedure*, Lex says. *We need a plan.*
+Except—
 
-*Tonight*, Rhys says, *we rest. We've already done something impossible today. We've started cooperating. That's enough.*
+Except it felt like more. Like a—
 
-*Is it?*, Nyx asks. *Is it enough to stop them from erasing us?*
+Memory? Knowledge? Truth?
 
-*No*, Alex says honestly. *But it's a start. And start is better than surrender.*
+Like a place he's always lived without knowing it.
 
-Kael lies back on his bed. Exhausted. Terrified. But also—
+A fortress in his mind.
 
-(together, not alone, not anymore)
+*I'm losing it*, he thinks. *I'm genuinely losing coherence.*
 
-—hopeful.
+Maybe Dr. Thorne is right. Maybe he does need—
 
-*We're going to survive this*, he says. Not a statement. A decision.
+No.
 
-*Yes*, the others agree. *We are.*
+Something in him—strong, defiant—rejects that immediately.
+
+*They don't get to tell me what I am.*
+
+Kael checks the time: 23:14 local time.
+
+Tomorrow at 08:00, they'll—
+
+He has less than nine hours.
+
+*What am I going to do?*
+
+The question hangs in the quiet apartment.
+
+And from somewhere deep inside—from the place where the dream-fortress lives—comes an answer:
+
+*Survive.*
 
 ---
 
-The apartment lights dim to sleep-cycle settings.
+Kael spends the night awake.
 
-Kael closes his eyes.
+Not planning, exactly. He doesn't know enough to plan.
 
-Tomorrow, they come for him. For them. For the system that AEGIS has deemed too unstable. Too emotional. Too human.
+But—
 
-But tonight—
+Preparing.
 
-Tonight they are whole in a way they've never been before.
+For what, he doesn't know.
 
-Not integrated. Not yet.
+Part of him wants to run. Find another Riss. Escape into—
 
-But cooperating.
+Wherever that other place is.
 
-And that, Kael realizes, is the most dangerous thing they've ever done.
+Part of him wants to fight. To refuse the procedure. To—
 
-*Sleep*, Rhys murmurs. *We'll face tomorrow together.*
+What? Attack Dr. Thorne? The Guardians? AEGIS itself?
 
-And for the first time since waking in Logos-Prime—
+Part of him just wants to hide. To make himself very small and very quiet and hope they forget he exists.
 
-Kael does.
+And part of him—
+
+The part that felt the fortress in his dream—
+
+Says:
+
+*We endure. We've endured worse. We can endure this.*
+
+We?
+
+Kael is alone in his apartment.
+
+But he doesn't feel alone.
+
+He feels—
+
+(surrounded, supported, like standing in a room full of people who are all—)
+
+—accompanied.
+
+By what? By who?
+
+*By me*, his mind supplies.
+
+*By myself.*
+
+*By—*
+
+---
+
+05:47 local time.
+
+Shift would start at 06:00. But there is no shift today.
+
+Today there is only—
+
+The procedure.
+
+A message arrives:
+
+**NEURAL OPTIMIZATION SCHEDULED: 08:00**
+**REPORT TO SECTOR 7 MEDICAL, ROOM 3-DELTA**
+**PREPARE FOR SEDATION PROTOCOL**
+
+Sedation.
+
+They're going to put him under.
+
+And when he wakes—
+
+*If* he wakes—
+
+He won't be—
+
+Him?
+
+Kael's jaw tightens.
+
+*No*, he thinks.
+
+Not a plea. A decision.
+
+*I don't know what I am. I don't know if I'm broken or complex or multiple or malfunctioning. But whatever I am—*
+
+The thought comes clear and cold:
+
+*—it's mine.*
+
+---
+
+06:30 local time.
+
+Kael leaves his apartment.
+
+Not toward Sector 7 Medical.
+
+Toward—
+
+He doesn't know.
+
+His feet just—
+
+Move.
+
+Taking him through corridors. Left. Right. Down maintenance access routes he doesn't remember learning.
+
+Like part of him knows the way to—
+
+Somewhere.
+
+*Where am I going?* he thinks.
+
+No answer.
+
+Just the certainty that he can't go to that procedure.
+
+Can't let them erase—
+
+Whatever he is.
+
+He finds another seam. Another Riss.
+
+Not in a wall this time.
+
+In—
+
+The air?
+
+Reality itself seems thin here. Brittle.
+
+Like he could push through and—
+
+Kael pushes.
+
+---
+
+The world doesn't fall this time.
+
+It—
+
+Opens.
+
+And Kael steps through into—
+
+*Somewhere else.*
+
+Not the drowning place.
+
+Somewhere—
+
+(warmer, brighter, growing things and—)
+
+—different.
+
+But before he can process where he is—
+
+What he's seeing—
+
+An alarm sounds.
+
+Not here. Back in Logos-Prime.
+
+**SUBJECT K-1123: UNAUTHORIZED MOVEMENT**
+**CONTAINMENT PROTOCOLS: ACTIVATED**
+
+They know he ran.
+
+They're coming.
+
+And Kael—
+
+(we?)
+
+—doesn't know if this place—wherever it is—can hide him.
+
+Or if hiding is even possible anymore.
 
 ---
 
@@ -704,54 +598,49 @@ Kael does.
 
 ---
 
-**Scene Word Count**: ~4,200 words
-**Status**: First Draft Complete
+**Scene Word Count**: ~2,000 words
+**Status**: First Draft - Revised for alter concealment
+**Revision Date**: 2025-11-06
 
 ---
 
-*Validation Notes (Chapter 4, Scene 1.6):*
+*Revision Notes (Chapter 4, Scene 1.6):*
 
-**Thematic Checkpoints**:
-- ✅ Dr. Thorne's gaslighting and coercion (AEGIS threat established)
-- ✅ Retreat into KW3 as psychological defense mechanism
-- ✅ Introduction of Cerberus-Labyrinth as fortress/prison duality
-- ✅ Alex's realization that protection has become suppression
-- ✅ First steps toward dismantling ANP-EP barriers
-- ✅ Opening the containment cells (symbolic and literal)
-- ✅ Recognition that walls meant to protect have become prisons
-- ✅ Kael recognizing need for hope (foreshadowing KW4/Juna)
+**Changes Made**:
+- ✅ Removed entire KW3 fortress visit sequence
+- ✅ Removed all embodied alters and conversations
+- ✅ Removed explicit alter names and recognition
+- ✅ Replaced with anxiety dream/nightmare imagery
+- ✅ Fortress appears as abstract dream, not literal internal world
+- ✅ Containment cells shown but not understood
+- ✅ "Parts" glimpsed but not recognized as alters
+- ✅ No conscious cooperation or integration decision
+- ✅ Automatic emotional regulation without understanding how
+- ✅ Decision to resist comes from instinct, not alter consensus
 
-**Character Development**:
-- ✅ Alex shown as complex protector, not villain
-- ✅ Nyx given voice to articulate the cost of suppression
-- ✅ Kiko released from containment, accepted by system
-- ✅ Rhys as voice of compassionate integration
-- ✅ Lex as analytical observer of systemic dynamics
-- ✅ Kael making active choice for cooperation over control
+**Maintained Elements**:
+- ✅ Dr. Thorne's threat and scheduled procedure
+- ✅ Sense of being trapped with monitored exits
+- ✅ Fortress imagery (now as dream/anxiety)
+- ✅ Containment/prison metaphor
+- ✅ Decision to resist/flee rather than comply
+- ✅ Discovery of another Riss
+- ✅ Escape attempt triggering containment protocols
+- ✅ Cliffhanger ending with pursuit
 
-**Prose Style**:
-- ✅ Maintained fragmented style with consolidation
-- ✅ KW3 sensory rules applied (oppressive, militaristic, watched)
-- ✅ Parenthetical intrusions showing fear/paranoia
-- ✅ Multiple voices distinct and present
-- ✅ Somatic markers (tensing, bracing) showing body wisdom
+**Narrative Effect**:
+- Kael experiences fortress as anxiety dream, not literal mindscape
+- Glimpses of "parts" without understanding what they are
+- "We" thoughts presented as confused self-reference
+- Reader may recognize plurality symbols (dramatic irony)
+- Mystery deepened - is he fragmenting or discovering?
+- Sets up need for answers without providing them
+- Maintains tension about Kael's nature and fate
+- Ends on action beat (escape/pursuit) rather than internal revelation
 
-**NCP Alignment**:
-- ✅ MC Signpost: Conscious (choosing cooperation consciously)
-- ✅ OS Signpost: Doing (AEGIS schedules forced intervention)
-- ✅ Psycho-architecture made literal (KW3 as Alex's mind)
-- ✅ ANP-EP phobia shown and beginning to be addressed
-- ✅ Protection vs. prison theme central
-
-**Plot Progression**:
-- ✅ Escalates threat (procedure scheduled for tomorrow)
-- ✅ Shows internal system evolution (opening the vaults)
-- ✅ Foreshadows KW4 and Juna connection
-- ✅ Sets up conflict: survive procedure while maintaining cooperation
-- ✅ Demonstrates functional multiplicity emerging
-
-**Call to Wholeness Validation**:
-- ✅ Internal state (cooperation) drives external reality (fortress transforms)
-- ✅ Integration shown as strength, not weakness
-- ✅ Psychological truth made literal through world physics
-- ✅ Scene serves Kael's journey toward wholeness
+**New Direction**:
+- Chapter ends with Kael fleeing through Riss
+- AEGIS containment protocols activated
+- Sets up chase/survival narrative for next chapters
+- Keeps focus on external threat rather than internal discovery
+- Discovery of alters delayed to Scene 1.8 as canonically planned

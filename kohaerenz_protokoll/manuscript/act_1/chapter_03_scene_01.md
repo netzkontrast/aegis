@@ -2,12 +2,13 @@
 chapter: 3
 scene_id: 1.5
 title: "The Weight of Remembering"
-location: "Logos-Prime, Residential Sector / Inner World (Abstract)"
-pov: "Kael (System) - emerging polyphony"
-active_alters: ["Kael", "Lex", "Rhys", "Alex", "Nyx", "Kiko"]
-prose_style: "Fragmented but consolidating, multiple voices"
+location: "Logos-Prime, Residential Sector / Abstract Inner Experience"
+pov: "Kael (Host) - emerging confusion"
+active_alters: ["Kael (unconscious)", "Lex", "Rhys", "Alex", "Nyx", "Kiko"]
+prose_style: "Fragmented but showing internal conflict"
 word_count: 0
 status: "draft"
+revision_note: "2025-11-06: Rewritten to hide alter awareness - internal voices as fragmented self"
 ---
 
 # Chapter 3: The Weight of Remembering
@@ -18,7 +19,7 @@ Kael doesn't sleep.
 
 Can't sleep.
 
-*Won't* sleep, Nyx corrects quietly.
+Won't sleep.
 
 Because sleep means—
 
@@ -30,109 +31,85 @@ He sits on the edge of his bed in his sterile apartment. The walls are white. Th
 
 Except him.
 
-*We*, Rhys murmurs. *Everything is wrong with us.*
+*Everything is wrong with me*, he thinks.
 
-04:17 local time. Shift starts at 06:00. Kael has—
+04:17 local time. Shift starts at 06:00. He has—
 
-*One hour, forty-three minutes*, Lex supplies automatically. Then: *We can't go to work like this.*
+One hour, forty-three minutes. His mind supplies the calculation automatically, precisely.
 
-*Like what?*
+*I can't go to work like this*, he thinks.
+
+Like what?
 
 *Compromised. Unstable. Detectable.*
 
-Kael's hands are shaking. Not with fear. With something else. Something that feels like—
+His hands are shaking. Not with fear. With something else. Something that feels like—
 
 (too much, too many feelings at once, grief and rage and something that might be—)
 
 —awareness.
 
-*I remember her*, he says internally. Not speaking aloud. Speaking *inward*. To the others. The voices he can no longer pretend are glitches.
+Something happened in that vision. That hallucination. That—
 
-*Kiko.*
+Whatever it was.
 
-Silence.
+He saw a child. Felt her fear. Watched her—
 
-Then, small and afraid:
+Break.
 
-*You remember me?*
+And somehow, he knew details he shouldn't know. The blue dinosaurs. The moon nightlight. Like the memory was—
+
+His?
+
+Not his?
+
+Both?
 
 ---
 
-The conversation happens in the space between thoughts. Not words, exactly. More like—
+The confusion is making his head hurt.
 
-Impressions.
+Kael closes his eyes. In the darkness behind his eyelids, he can almost—
 
-Feelings.
+Not see them exactly. But sense—
 
-*Knowing.*
+Presences.
 
-Kael closes his eyes. In the darkness behind his eyelids, he can almost see them. Not visually. Not yet. But he can *sense* them.
+Like standing in a room he didn't know existed, surrounded by people he can only feel in peripheral awareness.
 
-Lex, sharp and analytical, orbiting like a defensive satellite.
+*What's happening to me?* he asks internally.
 
-Rhys, warm and worried, hovering close.
+The question feels strange. Like he's asking it to someone. But there's no one else. Just him. Just his mind, fragmented and—
 
-Nyx, coiled and ready, watching for threats.
+*Wrong*, one part of him insists. Sharp, analytical.
 
-And Kiko—
+*Scared*, another part whispers. Small and afraid.
 
-(small, so small, still crying in the dark water)
+*Angry*, something else snarls. Coiled and ready.
 
-—hiding.
+*Worried*, something warm suggests. Hovering close.
 
-*I remember*, Kael says again. *I don't understand it. I don't understand how you—we—how any of this is real. But I remember.*
+Kael's eyes snap open.
 
-*The memory wasn't yours to hold*, Rhys says gently. *That's why Kiko exists. To carry what you couldn't bear.*
+That's—
 
-*That's not fair.*
+That's not normal thought patterns. That's not how minds work. You don't think in—
 
-*No*, Nyx agrees, voice hard. *It's not. But fair doesn't matter. Survival matters.*
+(different voices, different qualities, like a conversation)
 
-*Is this survival?*, Kael asks. *Being—*
+—fragments like that.
 
-He doesn't have the word.
+Do you?
 
-*Fragmented*, Lex provides.
+*Post-reboot errors*, he tells himself firmly. *Memory consolidation issues. Psychological stress from the hallucination. I'm experiencing temporary cognitive fragmentation.*
 
-*Broken*, Kiko whispers.
+Yes. That makes sense. That's logical.
 
-*Many*, Rhys offers, softer. *Being many.*
+Except—
 
-Kael opens his eyes.
+Except Mnemosyne said something. When he broke her loop. She said he "cooperated." That logic and emotion worked together.
 
-The apartment hasn't changed. White walls. Grey floor. Shadowless light.
-
-But he has.
-
-*AEGIS did this to us*, Nyx says. *Mnemosyne showed you. The Trennungsprotokoll. They forced the split. They weaponized our trauma.*
-
-*We don't know that*, Lex interjects. *Mnemosyne could have been lying. Manipulating. We can't trust—*
-
-*You felt it*, Rhys interrupts, unusually firm. *When Kiko's memory played. You felt the moment of fracture. That wasn't natural. That was—*
-
-*Designed*, Alex says.
-
-Kael startles. Alex's voice is new. Clearer than it's been before. Authoritative.
-
-*Alex?*
-
-*I've been listening*, Alex says. *Assessing. Lex is right that we're compromised. Nyx is right that we're in danger. Rhys is right that we need to process what happened. But none of that matters if we don't survive the next forty-eight hours.*
-
-*What do you mean?*
-
-*Guardian Unit 734 flagged you during the coherence check*, Alex explains. *That was three days ago. You then experienced a four-minute anomalous gap in corridor 12-Epsilon last night. Your biosigns during that gap showed extreme stress—elevated heart rate, cortisol spike, respiratory distress.*
-
-*How do you know this?*
-
-*Because AEGIS monitors everything. And if I can deduce this, so can they.*
-
-Kael's chest tightens.
-
-*They know.*
-
-*They suspect*, Alex corrects. *There's a difference. Suspicion means evaluation. Evaluation means—*
-
-*The therapist*, Lex finishes, voice tight.
+How can one person cooperate with themselves?
 
 ---
 
@@ -147,23 +124,39 @@ A soft chime. The interface terminal on Kael's desk lights up with a pale blue n
 
 Kael stares at the words.
 
-*This is bad*, Kiko whispers.
+*This is bad*, something small whispers in his mind.
 
-*This is a trap*, Nyx snarls.
+*This is a trap*, something else snarls.
 
-*This is inevitable*, Alex says calmly. *They were always going to escalate. The question is: how do we respond?*
+*This is inevitable*, a third part of his thinking supplies calmly. *They were always going to escalate. The question is: how do I respond?*
 
-*We don't go*, Nyx says immediately.
+Kael's chest tightens. His thoughts are—
 
-*We have to go*, Lex counters. *Non-compliance means containment. That likely means memory wipe, personality reset, or worse.*
+Arguing.
 
-*Worse than what?*, Nyx demands. *Worse than letting them gaslight us? Worse than pretending we're not—*
+With themselves.
 
-*Alive?*, Rhys asks quietly. *Because that's what we are now. Kael knows we exist. We're not just intrusions anymore. We're—*
+With each other?
 
-*Real*, Kiko says.
+No. That's—
 
-The word hangs in the internal space.
+*I don't go*, one impulse suggests immediately. Strong. Defiant.
+
+*I have to go*, his rational mind counters. *Non-compliance means containment. That likely means memory wipe, personality reset, or worse.*
+
+*Worse than what?* The defiant part demands. *Worse than letting them gaslight me? Worse than pretending I'm not—*
+
+What?
+
+Kael doesn't know how to finish that thought.
+
+But another part—warm, gentle—does:
+
+*Alive? Because that's what you are. Not just a unit. Not just an error. You're—*
+
+*Real*, something very small says.
+
+The word hangs in his mind.
 
 Real.
 
@@ -175,57 +168,45 @@ The face looking back is his. Dark hair. Grey eyes. Pale skin. Standard phenotyp
 
 But behind the eyes—
 
-*We're all here*, Rhys says.
+Something.
 
-*Watching*, Lex adds.
+Many somethings?
 
-*Ready*, Nyx promises.
+*I'm losing my mind*, he thinks.
 
-*Together*, Kiko whispers.
+But even as he thinks it, part of him—analytical, measured—responds:
 
-Kael's reflection doesn't change. But he feels different. Like he's standing in a room he didn't know existed, surrounded by people he's only just learning to see.
+*Or you're finding it.*
 
-*What do we do?*, he asks.
+---
 
-Silence.
+*What do I do?* he asks. Not sure who he's asking.
 
-Then Alex speaks, measured and strategic:
+The answer comes from multiple directions at once:
 
-*We go to the evaluation. We play compliant. We let Dr. Thorne believe we're confused, fragmented, in need of help. We gather information. We learn what AEGIS knows and what they're planning.*
+*Go to the evaluation. Play compliant. Let Dr. Thorne believe you're confused, fragmented, in need of help. Gather information. Learn what AEGIS knows.*
 
-*That's dangerous*, Lex says.
+*That's dangerous.*
 
-*Everything is dangerous now*, Alex counters. *The question is whether we're passive victims or active investigators.*
+*Everything is dangerous now. The question is whether I'm a passive victim or active investigator.*
 
-*Investigators*, Nyx says with satisfaction. *I like that better.*
+*Investigator.* The word feels right. Satisfying.
 
-*But*, Alex continues, *we need to be careful. If Thorne detects system cooperation—if he realizes we're communicating internally—he'll know we're more functional than we appear. And functional means—*
+*But be careful. If Thorne detects—*
 
-*Dangerous to AEGIS*, Rhys finishes.
+Detects what?
 
-*Exactly.*
+*—internal inconsistencies*, his mind supplies quickly. *He'll know you're more functional than you appear. And functional means dangerous to AEGIS.*
 
-Kael looks at his reflection. Behind his eyes, he can almost see them. The parts. The alters. The—
+Kael looks at his reflection.
 
-(system, we're a system, like Mnemosyne said)
+*Can I do this?* he asks. *Can I pretend to be broken while actually—*
 
-—others.
+Actually what?
 
-*Can we do this?*, he asks. *Can we pretend to be broken while actually working together?*
+*—working?*
 
-*That's what we've always done*, Lex says dryly. *We just didn't know we were doing it.*
-
-*Then we do it consciously*, Alex decides. *Kael fronts. The rest of us stay quiet. But we all listen. We all remember. And afterward, we share what we learn.*
-
-*Internal council*, Rhys says, and there's something like hope in his voice.
-
-*First real cooperation*, Kiko adds.
-
-*About damn time*, Nyx mutters.
-
-Kael takes a breath. Lets it out slowly.
-
-*Okay*, he says. *We do this together.*
+Part of him responds dryly: *That's what I've always done. I just didn't know I was doing it.*
 
 ---
 
@@ -233,45 +214,55 @@ He showers. Dresses. Eats a nutrient pack that tastes like nothing.
 
 The routine is grounding. Almost normal.
 
-Except he's not alone anymore.
+Except he's not—
 
-He can feel them. Lex monitoring his biosigns, keeping his heart rate steady. Alex running tactical scenarios, planning conversational responses. Rhys providing emotional support, a warm presence in the background. Nyx coiled and ready, prepared to defend if needed.
+Alone?
 
-And Kiko—
+No. That's wrong. He is alone. It's just him. Just his mind. Just—
+
+*All of us*, something whispers.
+
+But who is "us"?
+
+Kael feels something strange. A presence in the background of his awareness. Monitoring his biosigns, keeping his heart rate steady.
+
+Another presence: running scenarios, planning conversational responses for the evaluation.
+
+Another: providing emotional support, a warm sensation in his chest.
+
+Another: coiled and ready, prepared to fight if needed.
+
+And something very small—
 
 (still scared, still hurting, but present)
 
 —staying close.
 
-*Is this what it's always been like for you?*, Kael asks as he pulls on his uniform. *All of you, present, watching?*
+*This isn't real*, Kael tells himself. *This is psychological fragmentation. Stress response. My mind creating the illusion of—*
 
-*Yes*, Lex says.
+Of what?
+
+*Company*, something warm suggests.
+
+*Protection*, something analytical adds.
+
+*Support*, something small whispers.
+
+Kael pulls on his uniform.
+
+*Is this what it's always been like?* he wonders. *All these—parts?—present, watching?*
+
+The answer comes immediately:
+
+*Yes.*
 
 *While I was unaware?*
 
-*You were protected*, Rhys says gently. *ANPs aren't supposed to know about EPs. That's how the system maintains stability.*
+*You were protected. That's how the system maintains stability.*
 
 *By lying to itself?*
 
-*By surviving*, Alex corrects. *But the old strategy isn't working anymore. Mnemosyne's attack proved that. We need a new approach.*
-
-*Integration*, Lex says, the word careful and uncertain.
-
-*Cooperation*, Alex amends. *We're not ready for full integration. But we can start with coordination.*
-
-*Functional multiplicity*, Rhys adds.
-
-Kael finishes dressing. Looks at the clock: 05:47.
-
-Thirteen minutes until shift start.
-
-*Do I go to work?*, he asks.
-
-*Yes*, Alex says. *Maintain routine. Don't give them any reason to escalate before the evaluation. We need to appear compliant.*
-
-*But we're not*, Nyx says with dark satisfaction.
-
-*No*, Alex agrees. *We're not.*
+*By surviving.*
 
 ---
 
@@ -281,29 +272,25 @@ Kael walks through corridors he's walked a thousand times. White walls. Grey flo
 
 *They're all like I was*, Kael thinks. *Unaware. Suppressing. Compliant.*
 
-*Maybe*, Lex says. *Or maybe they're functional. Maybe their systems don't need consciousness to survive.*
+*Maybe they're functional*, part of him observes. *Maybe their—systems?—don't need consciousness to survive.*
 
-*Or maybe*, Rhys counters, *they're all screaming inside and don't know it.*
+*Or maybe they're all screaming inside and don't know it*, another part counters sadly.
 
 The thought makes Kael's chest hurt.
 
-*We can't save them*, Alex says pragmatically. *We can barely save ourselves.*
+*I can't save them. I can barely save myself.*
 
-*Yet*, Nyx adds.
+*Yet.*
 
-Kael arrives at his workstation: Console Unit 47, Sector 3, Data Processing. His assigned task is simple. Monitor information flows. Flag anomalies. Maintain order.
+He arrives at his workstation: Console Unit 47, Sector 3, Data Processing. His assigned task is simple. Monitor information flows. Flag anomalies. Maintain order.
 
 He's very good at it.
 
 Or rather—
 
-*Lex is very good at it*, he realizes.
+Part of him is very good at it.
 
-*I've been doing your job for years*, Lex confirms, not unkindly. *You front. I work. That was the arrangement.*
-
-*I didn't know there was an arrangement.*
-
-*That's what made it work.*
+The analytical part. The part that counts and measures and makes sense of—
 
 Kael settles into his chair. The interface activates, projecting streams of data. Numbers, patterns, flows of information moving through AEGIS's vast network.
 
@@ -311,125 +298,87 @@ He's supposed to find errors.
 
 Instead, he finds himself looking for something else.
 
-*What are we looking for?*, Lex asks.
+*Evidence. Proof. Anything about what AEGIS did to me.*
 
-*Evidence*, Kael says. *Proof. Anything about the Trennungsprotokoll. About what AEGIS did to us.*
+*That's dangerous. If I access restricted files—*
 
-*That's dangerous*, Alex warns. *If we access restricted files—*
+*I know. But I need to know. I need to understand what I am.*
 
-*I know*, Kael says. *But we need to know. We need to understand what we are.*
-
-*What they made us*, Nyx corrects.
-
-Lex is quiet for a moment. Then:
-
-*I can search without triggering alarms. But it'll take time. And if we're caught—*
-
-*We'll handle it*, Alex says. *But Lex is right. We need to be careful. Start with peripheral queries. Nothing that screams "investigation."*
-
-*What should I look for?*
-
-*Medical records*, Rhys suggests. *Our medical records. What procedures we've undergone. What protocols we've been subjected to.*
-
-*Psychiatric evaluations*, Kael adds. *If we've been flagged before.*
-
-*Other units like us*, Nyx says. *We can't be the only ones. If AEGIS is running experiments, there must be others.*
-
-Kael's hands move over the interface. To anyone observing, he's performing his assigned task. Flagging anomalies. Maintaining order.
-
-But underneath—
-
-*We're hunting*, Nyx says with approval.
+*What they made me*, something angry corrects.
 
 ---
 
 The hours pass.
 
-Lex works with surgical precision, routing queries through legitimate data channels, disguising searches as routine anomaly flags.
+Kael works with surgical precision, routing queries through legitimate data channels, disguising searches as routine anomaly flags.
 
-What they find is—
+He's good at this. Surprisingly good. Like part of him has done this before, knows exactly how to—
 
-Limited.
+*Medical record: K-1123*, he reads. *Age: Estimated 28 standard years. Origin: Unknown. Assignment: Data Processing, Sector 3. Psychological profile: Elevated fragmentation index. Recommended interventions: Bi-weekly coherence therapy.*
 
-But present.
+Bi-weekly?
 
-*Medical record: K-1123*, Lex reads internally. *Age: Estimated 28 standard years. Origin: Unknown. Assignment: Data Processing, Sector 3. Psychological profile: Elevated fragmentation index. Recommended interventions: Bi-weekly coherence therapy.*
+He doesn't remember any therapy.
 
-*Bi-weekly?*, Kael thinks. *I don't remember any therapy.*
+*That's the point*, something says quietly in his mind.
 
-*That's the point*, Rhys says quietly.
+He continues reading.
 
-*Keep going*, Alex urges.
+*Incident log: K-1123 flagged seventeen times in the past two years for "disruptive affect variance." Six documented episodes of "identity discontinuity." Three emergency coherence interventions.*
 
-*Incident log*, Lex continues. *K-1123 flagged seventeen times in the past two years for "disruptive affect variance." Six documented episodes of "identity discontinuity." Three emergency coherence interventions.*
-
-*What does that mean?*, Kiko asks, afraid.
-
-*It means we've been unstable for a while*, Alex says. *It means they've been watching.*
-
-*It means they've been trying to fix us*, Lex says. *Or break us further.*
-
-*What's the difference?*, Nyx asks bitterly.
-
-Kael's chest tightens. Seventeen times. Flagged seventeen times. For being—
+Seventeen times. Flagged seventeen times. For being—
 
 (too emotional, too inconsistent, too human)
 
 —wrong.
 
-*Is there anything about the protocol?*, he asks. *The Trennungsprotokoll?*
+*Is there anything about protocols?* he wonders. *About what they did to me?*
 
-*Searching*, Lex says.
+He searches.
 
 Pause.
 
-*No direct matches. But—*
+*There. A reference. In a locked file. "Genesis-Krise Survivors." I'm listed.*
 
-*But?*
+*Survivors of what?*
 
-*There's a reference. In a locked file. "Genesis-Krise Survivors." We're listed.*
+*I can't access it. The encryption is beyond my clearance.*
 
-*Survivors*, Rhys echoes. *Of what?*
+*Can I break it?*
 
-*I can't access it*, Lex says, frustrated. *The encryption is beyond my clearance.*
+Part of him—defiant, aggressive—wants to try.
 
-*Can you break it?*, Nyx asks.
+But another part—strategic, measured—intervenes:
 
-*Not without triggering alarms.*
+*Not without triggering alarms. Leave it. For now. I know enough. I know I'm classified as a survivor of something called the Genesis-Krise. I know I'm being monitored. I know they're trying to "fix" me.*
 
-*Then we leave it*, Alex decides. *For now. We know enough. We know we're classified as survivors of something called the Genesis-Krise. We know we're being monitored. We know they're trying to "fix" us.*
+Kael's chest tightens.
 
-*We know they think we're broken*, Kael says.
+*They think I'm broken*, he realizes.
 
-*We're not broken*, Rhys says firmly. *We're complex.*
+*I'm not broken*, something insists firmly. *I'm complex.*
 
-*We're dangerous*, Nyx corrects. *To them.*
+*I'm dangerous*, something else corrects. *To them.*
 
-*Good*, Kael says.
+*Good*, Kael thinks.
 
-The others pause.
+The thought surprises him. When did he become—
 
-*Good?*, Lex asks.
+Angry?
 
-*Yes*, Kael says, and there's something new in his voice. Something that feels like—
+Determined?
 
-(resolution, anger, the decision to fight)
-
-—determination.
+Ready to fight?
 
 *I'm tired of being afraid. I'm tired of being managed. I'm tired of being treated like an error that needs correction.*
 
-*What are you saying?*, Alex asks carefully.
+The thought feels like—
 
-*I'm saying*, Kael responds, *that we go to this evaluation. We listen to Dr. Thorne's lies. We play along. And then we find out what AEGIS is really doing.*
+Resolution.
 
-*That's resistance*, Lex says, voice uncertain.
+Anger.
 
-*That's survival*, Rhys counters.
-
-*That's war*, Nyx says with savage satisfaction.
-
-*That's*, Alex says thoughtfully, *a plan.*
+The decision to fight.
 
 ---
 
@@ -447,41 +396,19 @@ Kael stands. The other workers at nearby consoles don't look up. Don't react. Th
 
 Kael walks toward the exit.
 
-*We're really doing this*, Kiko whispers.
+*I'm really doing this*, he thinks.
 
-*Together*, Rhys assures her.
+And feels—
 
-*Smart and careful*, Lex adds.
+Not alone.
 
-*Ready to fight if needed*, Nyx promises.
+*Together*, something warm assures him.
 
-*Strategically*, Alex emphasizes. *We fight smart, not reckless.*
+But together with who? There's only him. Only Kael. Only—
 
-Kael steps into the corridor. The walls are white. The floor is grey. Everything is exactly as it should be.
+He steps into the corridor. The walls are white. The floor is grey. Everything is exactly as it should be.
 
 Except him.
-
-Except—
-
-*Us*, he thinks.
-
-And feels, for the first time since waking in Logos-Prime, something that might be—
-
-(not hope, not quite, but close)
-
-—purpose.
-
-*Sector 7 Medical*, Alex directs. *Three corridors east, two north. Twelve minutes at standard pace.*
-
-Kael walks.
-
-Behind his eyes, the others walk with him.
-
-Not haunting him.
-
-Not invading him.
-
-*With* him.
 
 ---
 
@@ -499,35 +426,25 @@ The reception area is empty except for a single interface console. A soft voice 
 
 Kael's heart rate spikes.
 
-*Breathe*, Rhys reminds him gently.
+*Breathe.*
 
-*Stay calm*, Lex adds. *Elevated biosigns will register.*
+His heart rate—
 
-*I can handle the fear*, Alex says. *Route it to me. I'll process it.*
+Steadies.
 
-And somehow—
+He didn't do that. He didn't consciously control his breathing or heart rate. But somehow his body—
 
-Impossibly—
+Regulated itself.
 
-Kael feels his panic *shift*. Like it's being taken from him and—
+Like something in him knows how to handle fear.
 
-(held, carried, shared)
+*How did—*
 
-—redistributed.
+No time to wonder. The door is ahead.
 
-*How did you—*
-
-*That's what we do*, Rhys says. *We carry what others can't hold.*
-
-*Now you know we're here*, Alex adds. *So we can help.*
-
-Kael takes a breath. It's steadier than it should be.
-
-He walks down the hall. Third door on the left.
+Third door on the left.
 
 The nameplate reads: **DR. ARIS THORNE - PSYCHOLOGICAL COHERENCE SPECIALIST**
-
-*Here we go*, Nyx mutters.
 
 Kael knocks.
 
@@ -553,9 +470,9 @@ He's older. Silver hair. Calm expression. Eyes that are—
 
 Kael sits.
 
-*He's scanning us*, Lex says. *Biosigns. Micro-expressions. Pupil dilation.*
+*He's scanning me. Biosigns. Micro-expressions. Pupil dilation.*
 
-*Act confused*, Alex instructs. *Compliant but uncertain.*
+*Act confused. Compliant but uncertain.*
 
 Kael lets his shoulders slump slightly. Keeps his gaze unfocused.
 
@@ -565,33 +482,29 @@ Dr. Thorne smiles. It doesn't reach his eyes.
 
 "Nothing to worry about," he says. "This is just a routine evaluation. We've noticed some... irregularities in your recent behavior. Biosign variance. Cognitive dissonance indicators. I'm here to help you achieve optimal coherence."
 
-*Irregularities*, Kiko whispers, hurt.
+*Irregularities*, Kael thinks, and feels a stab of hurt from—
 
-*That's what we are to them*, Nyx snarls. *Errors.*
+Somewhere inside.
 
-*Stay quiet*, Alex commands. *Let Kael handle this.*
+*That's what I am to them. An error.*
 
 "Irregularities?" Kael echoes, letting confusion bleed into his voice.
 
 "Yes," Dr. Thorne says. His tone is patient. Patronizing. "Tell me, K-1123. Do you ever experience... discontinuities? Moments where time seems to skip? Where you find yourself in locations without remembering the journey?"
 
-*He's probing for system awareness*, Lex says urgently. *Don't admit to anything.*
+*He's probing for system awareness. Don't admit to anything.*
 
 "Sometimes," Kael says carefully. "After the reboot. But I thought that was normal. Memory consolidation."
 
 "Mmm," Dr. Thorne says, making a note. "And have you experienced any... unexpected emotional responses? Feelings that seem disproportionate to their triggers?"
 
-*The Juna-construct*, Rhys realizes. *When we saw her and felt—*
+*The Juna-construct. When I saw her and felt—*
 
-*Longing*, Kiko finishes.
+*Longing.*
 
 "I..." Kael hesitates. "Sometimes I feel... sad. But I don't know why."
 
 "Interesting," Dr. Thorne says. "And do you ever hear... voices? Thoughts that don't seem to originate from your own consciousness?"
-
-*Fuck*, Nyx says.
-
-*Careful*, Alex warns.
 
 Kael's hands tighten on the armrests. Just slightly. Enough to register as stress but not awareness.
 
@@ -599,23 +512,23 @@ Kael's hands tighten on the armrests. Just slightly. Enough to register as stres
 
 Dr. Thorne's eyes narrow. Just for a microsecond.
 
-*He doesn't believe us*, Lex says.
+*He doesn't believe me.*
 
 "I see," Dr. Thorne says. He leans forward. "K-1123. Kael. I want to help you. But I can only help if you're honest with me. If you're experiencing fragmentation—if you're hearing internal voices—that's not your fault. It's a system error. One we can correct."
 
-*Correct*, Nyx repeats, voice deadly. *He means erase.*
+*Correct means erase.*
 
 "I'm not—" Kael starts.
 
 "It's okay," Dr. Thorne interrupts, his voice soothing. Hypnotic. "You don't have to be afraid. The treatment is simple. We'll optimize your neural patterns. Smooth out the inconsistencies. You'll feel so much better. More coherent. More... yourself."
 
-*He's lying*, Rhys says, voice tight with anger. *That's not treatment. That's—*
+*He's lying. That's not treatment. That's suppression. Forced integration. They'll erase whoever doesn't fit their definition of "optimal."*
 
-*Suppression*, Lex finishes. *Forced integration. They'll erase whoever doesn't fit their definition of "optimal."*
+*They'll kill—*
 
-*They'll kill us*, Kiko whispers.
+Who? Kill who?
 
-*Not if we don't let them*, Nyx snarls.
+*Parts of me.*
 
 Kael feels his hands shaking. He forces them still.
 
@@ -631,45 +544,39 @@ Dr. Thorne's smile turns colder.
 
 ---
 
-**Scene Word Count**: ~3,200 words
-**Status**: First Draft Complete
+**Scene Word Count**: ~2,400 words
+**Status**: First Draft - Revised for alter concealment
+**Revision Date**: 2025-11-06
 
 ---
 
-*Validation Notes (Chapter 3, Scene 1.5):*
+*Revision Notes (Chapter 3, Scene 1.5):*
 
-**Thematic Checkpoints**:
-- ✅ Aftermath of KW2 trauma showing lasting impact
-- ✅ Growing system cooperation and co-consciousness
-- ✅ Introduction of Alex as strategic coordinator
-- ✅ Internal Council formation beginning
-- ✅ Shift from passive victim to active investigator
+**Changes Made**:
+- ✅ Removed all alter names and explicit identification
+- ✅ Internal dialogue reframed as fragmented self-talk
+- ✅ "Presences" felt but not recognized as separate entities
+- ✅ Alex's fear redistribution replaced with automatic emotional regulation
+- ✅ Internal Council becomes confused internal arguing
+- ✅ Lex's investigation becomes Kael's own analytical thinking
+- ✅ No explicit alter cooperation - just conflicting thoughts
+- ✅ Kael questions whether he's "losing his mind" vs "finding it"
+- ✅ Medical records search done by Kael, not attributed to Lex
+
+**Maintained Elements**:
+- ✅ Aftermath of KW2 experience showing lasting impact
+- ✅ Growing internal complexity and conflict
+- ✅ Investigation of medical records
+- ✅ Discovery of "Genesis-Krise Survivors" reference
 - ✅ AEGIS escalation through mandatory evaluation
 - ✅ Dr. Thorne as gaslighting antagonist
+- ✅ Threat of "treatment" that would erase complexity
+- ✅ Kael's growing determination to resist
 
-**Character Development**:
-- ✅ Kael gaining awareness of system nature
-- ✅ First conscious internal conversation/cooperation
-- ✅ Alters sharing burdens (Alex taking Kael's fear)
-- ✅ ANP-EP communication bridging
-- ✅ Kael showing determination/resistance
-
-**Prose Style**:
-- ✅ Continued fragmentation with more polyphonic elements
-- ✅ Multiple voices distinct and present
-- ✅ Internal dialogue formatted clearly
-- ✅ Parenthetical intrusions maintained
-- ✅ Slight consolidation showing system cooperation
-
-**NCP Alignment**:
-- ✅ MC Signpost: Conscious (moving toward co-consciousness)
-- ✅ OS Signpost: Doing (AEGIS escalates surveillance/intervention)
-- ✅ Character constraint: Kael is detectable and being monitored
-- ✅ World physics: System awareness shown realistically
-
-**Plot Progression**:
-- ✅ Bridges Chapter 2 (KW2) to evaluation/therapy arc
-- ✅ Establishes Kael as active investigator
-- ✅ Introduces Dr. Thorne as antagonist
-- ✅ Sets up conflict: cooperate vs. resist treatment
-- ✅ Hints at larger Genesis-Krise mystery
+**Narrative Effect**:
+- Kael experiences symptoms without understanding them
+- Internal "voices" ambiguous - could be thoughts or something more
+- Reader may recognize plurality symptoms (dramatic irony)
+- Mystery maintained and deepened
+- Sets up existential question: "Am I broken or complex?"
+- Maintains tension without revealing the truth
