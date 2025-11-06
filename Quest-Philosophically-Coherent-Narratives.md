@@ -14,10 +14,10 @@
 - [x] **Rep 3:** Systems Comparison Document - COMPLETE (5,000 words)
 
 **Phase 2: Extract & Apply the Technique**
-- [ ] **Rep 4:** The Meta-Pattern Template
+- [x] **Rep 4:** The Meta-Pattern Template - COMPLETE (6,000 words)
 - [ ] **Rep 5:** Apply to New Premise
 
-**Total shipped so far:** 15,000 words of concrete narrative architecture
+**Total shipped so far:** 21,000 words of concrete narrative architecture
 
 ---
 
