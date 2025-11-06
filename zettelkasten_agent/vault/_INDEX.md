@@ -28,30 +28,47 @@ This index is **dynamically maintained** by the Integrator agent. As new Maps of
 
 ## Knowledge Domains
 
-### Getting Started
+### Active Learning Quests
 
-- [Example Topic](MOC-Example.md) - This is a placeholder that will be replaced as your knowledge base grows
+- [[MOC-20251105-2131-Deep-System-Understanding-Quest]] - Master the AEGIS theory→practice pipeline (4-6 week quest)
 
-### Core Concepts
+### AEGIS Project - Narrative Systems
 
-(Maps of Content will be added here as your knowledge base develops)
+#### Source Materials
+- [[SRC-20251105-2131-Act-I-Scene-Breakdown]] - Act I scene structure for Kohärenz Protokoll
+
+#### Action Plans
+- [[PLAN-20251105-2131-AEGIS-System-Understanding]] - 5-rep Ship-Learn-Next quest for learning NCP validation
+
+#### Core Concepts: Validation & Structure
+- [[ZTL-20251105-2131-NCP-Validation-Hierarchy]] - Recursive 4-layer validation system
+- [[ZTL-20251105-2131-Scene-Beat-Architecture]] - Goal/Conflict/Beats/Outcome pattern
+
+#### Core Concepts: World & Character
+- [[ZTL-20251105-2131-Four-Kernwelten-System]] - The nested simulation layers (KW1-KW4)
+- [[ZTL-20251105-2131-Psycho-Architecture]] - Psychology as world physics theory
+- [[ZTL-20251105-2131-ANP-EP-Phobia-Dynamics]] - Core TSDP internal conflict
+
+#### Core Concepts: Style & Voice
+- [[ZTL-20251105-2131-Prose-Evolution-Tracking]] - Fragmentation → Polyphony progression
 
 ### Practical Applications
 
-(Maps of Content will be added here as your knowledge base develops)
+(More applications will be added as your knowledge base develops)
 
 ### Research Areas
 
-(Maps of Content will be added here as your knowledge base develops)
+(Research areas will be added as your knowledge base develops)
 
 ---
 
 ## Meta-Information
 
-**Last Updated**: 2024-01-01
-**Total MOCs**: 0
-**Total Zettel**: 0
-**Total Sources**: 0
+**Last Updated**: 2025-11-05
+**Total MOCs**: 1
+**Total Zettel**: 6
+**Total Sources**: 1
+**Total Plans**: 1
 
 ---
 
