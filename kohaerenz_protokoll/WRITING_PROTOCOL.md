@@ -7,31 +7,57 @@
 
 ---
 
-## Pre-Scene Checklist (5-10 minutes)
+## Pre-Scene Checklist (2-5 minutes)
 
-### 1. Read Scene Outline
+### Option A: Automated (Recommended - NEW!)
+
+Use the `/write-scene` command or just ask for instant guidance:
+
+```bash
+# In Claude Code, just ask:
+"Help me write scene 1.4"
+"What do I need for scene 1.4?"
+
+# Or use the command:
+/write-scene 4 1.4    # Specific scene
+/write-scene 4        # Chapter overview
+```
+
+**This gives you:**
+- ✅ Scene structure (goal/conflict/outcome)
+- ✅ Active alter voices with dialogue samples
+- ✅ Location sensory keywords (KW1-4)
+- ✅ Prose style guidance for your Act
+- ✅ Opening hook suggestions
+
+**Time**: 2-3 minutes to review → Start writing immediately
+
+---
+
+### Option B: Manual (If You Prefer)
+
+### 1. Query NCP Directly
+```bash
+# Scene-specific guidance:
+python ARCHON/tools/ncp_assist.py --scene 1.4 --prompt --verbose
+
+# Chapter overview:
+python ARCHON/tools/ncp_assist.py --chapter 4 --prompt
+
+# Character voice samples:
+python ARCHON/tools/ncp_assist.py --character Lex --chapter 4 --voice-sample
+```
+
+### 2. Read Scene Outline
 - **File**: `kohaerenz_protokoll/narrative_design/act_1_scenes.md`
-- **Goal**: Know the scene's purpose, location, active alters, and thematic checkpoints
+- **Goal**: Know the scene's purpose, location, active alters
 - **Don't**: Get lost in details—skim for essence
 
-### 2. Query NCP (Optional)
-```bash
-# If NCP tools are available:
-python ARCHON/tools/ncp_query.py --chapter N --scene M
-```
-- **Use this**: To get thematic constraints and validation checkpoints
-- **Skip this**: If you already know what the scene needs to accomplish
-
-### 3. Review Character Profiles
-- **File**: `kohaerenz_protokoll/world/characters/system_kael.md`
-- **Focus**: Voices of alters who will be active in this scene
-- **Don't**: Read all 11 profiles every time—only the relevant ones
-
-### 4. Set Prose Style Target
+### 3. Set Prose Style Target
 Based on where you are in the arc:
-- **Chapters 1-3**: Maximum fragmentation (like Chapter 1)
-- **Chapters 4-7**: Emerging voices (parenthetical attribution)
-- **Chapters 8-13**: Nascent polyphony (beginning "we" moments)
+- **Chapters 1-3**: Maximum fragmentation
+- **Chapters 4-7**: Emerging voices
+- **Chapters 8-13**: Nascent polyphony
 
 ---
 
@@ -64,10 +90,15 @@ Based on where you are in the arc:
 
 ### 9. Validate Against NCP (Optional)
 ```bash
-python ARCHON/tools/ncp_validate.py --file manuscript/act_1/chapter_N.md
+# In Claude Code, just ask:
+"Can you validate scene 1.4?"
+
+# Or run manually:
+python ARCHON/tools/ncp_validate.py manuscript/act_1/chapter_N_scene_M.md --verbose
 ```
 - **Fix**: Critical coherence breaks (plot contradictions, world physics violations)
 - **Ignore**: Minor stylistic suggestions that would weaken the voice
+- **Remember**: Validation is optional. Only use if you want feedback.
 
 ### 10. Reflect Briefly
 - What worked well in this scene?
@@ -152,9 +183,16 @@ git push -u origin claude/aegis-project-reflection-011CUrJZyHbQbkkokmatDXVv
 
 **Target**: 1 chapter per week (3-4 scenes, ~5,000-6,000 words)
 
-**Monday**: Review week's chapter, prep first scene
+**Monday**: Review week's chapter
+- Run: `/write-scene <chapter>` for overview (2 min)
+- Prep first scene: `/write-scene <chapter> <scene>` (2 min)
+
 **Tuesday-Thursday**: Write 1 scene per day
-**Friday**: Light revision, validation, commit
+- Morning: Get scene guidance (2 min)
+- Write: 30-60 min uninterrupted
+- Optional: Validate if desired (5 min)
+
+**Friday**: Light revision, commit
 **Weekend**: Rest, reflect, read what you've written
 
 **End of Week**: Writer's log entry reflecting on the whole chapter
@@ -175,5 +213,39 @@ The architecture exists to serve the story, not the other way around.
 
 ---
 
+## Tools Quick Reference
+
+### ARCHON Writing Assistant (NEW!)
+When working in Claude Code, just ask naturally:
+- **"Help me write scene 1.4"** → Full scene guidance
+- **"What do I need for chapter 4?"** → Chapter overview
+- **"How should Lex sound?"** → Character voice sample
+- **"What's the style for Act I?"** → Prose style guide
+- **"Validate scene 1.4"** → Post-writing validation
+
+### Direct Tool Usage (Advanced)
+```bash
+# Scene prompts
+python ARCHON/tools/ncp_assist.py --scene 1.4 --prompt --verbose
+
+# Character voices
+python ARCHON/tools/ncp_assist.py --character Lex --chapter 4 --voice-sample
+
+# Style guidance
+python ARCHON/tools/ncp_assist.py --chapter 4 --style-guide
+
+# Validation
+python ARCHON/tools/ncp_validate.py scene_file.md --verbose
+```
+
+### Slash Commands
+```bash
+/write-scene 4 1.4    # Get scene guidance
+/write-scene 4        # Get chapter overview
+```
+
+---
+
 *Protocol established: November 6, 2025*
+*Updated: November 6, 2025 - Added ARCHON writing assistant integration*
 *Principle: Write first, validate later, iterate always*
