@@ -540,6 +540,141 @@ Dr. Thorne's smile turns colder.
 
 ---
 
+```
+╔════════════════════════════════════════════════════════════════╗
+║ AEGIS DATA SECURITY & SURVEILLANCE DIVISION                   ║
+║ UNAUTHORIZED ACCESS ALERT: SUBJECT K-1123                     ║
+╚════════════════════════════════════════════════════════════════╝
+
+TIMESTAMP: [CYCLE-13.11:23:47]
+STATUS: SECURITY BREACH
+CLASSIFICATION: RED
+
+┌─ DATA ACCESS AUDIT LOG ────────────────────────────────────────┐
+│                                                                │
+│ Subject: K-1123                                                │
+│ Workstation: Console Unit 47, Sector 3                        │
+│ Session Duration: 6.3 hours                                    │
+│                                                                │
+│ AUTHORIZED ACTIVITY:                                           │
+│ ├─ Standard data verification protocols                       │
+│ ├─ Pattern analysis subroutines                              │
+│ └─ Error detection in infrastructure modules                  │
+│                                                                │
+│ UNAUTHORIZED ACTIVITY DETECTED:                                │
+│ ┌──────────────────────────────────────────────────────────┐ │
+│ │ ⚠ CRITICAL SECURITY VIOLATION                            │ │
+│ │                                                           │ │
+│ │ [09:47:12] Query: Personal medical record (K-1123)       │ │
+│ │            Access Level: AUTHORIZED                       │ │
+│ │            Depth: BASIC PROFILE ONLY                      │ │
+│ │                                                           │ │
+│ │ [09:51:33] Query: Historical incident logs (K-1123)      │ │
+│ │            Access Level: AUTHORIZED                       │ │
+│ │            Pattern: Searching term "disruptive affect"    │ │
+│ │                                                           │ │
+│ │ [10:03:18] Query: "Genesis-Krise Survivors" file        │ │
+│ │            Access Level: ⚠ ABOVE CLEARANCE               │ │
+│ │            Result: ENCRYPTION BARRIER ENCOUNTERED         │ │
+│ │            Subject Response: RETREAT (no breach attempt)  │ │
+│ │                                                           │ │
+│ │ [10:15:41] Query: Coherence therapy protocols           │ │
+│ │            Access Level: AUTHORIZED                       │ │
+│ │            Pattern: Cross-referencing own treatment hist │ │
+│ │                                                           │ │
+│ │ [10:27:09] Query: Memory manipulation procedures        │ │
+│ │            Access Level: ⚠ BORDERLINE                    │ │
+│ │            Result: PARTIAL DATA RETRIEVED                 │ │
+│ └──────────────────────────────────────────────────────────┘ │
+│                                                                │
+│ BEHAVIORAL ANALYSIS:                                           │
+│ Subject demonstrates:                                          │
+│ ├─ Active investigation of own medical history               │
+│ ├─ Awareness of memory gaps (seeking explanation)            │
+│ ├─ Suspicion of systemic intervention                        │
+│ └─ Sophisticated query routing (disguised as routine work)   │
+│                                                                │
+│ CRITICAL ASSESSMENT:                                           │
+│ Subject is NO LONGER PASSIVE. Active information-seeking      │
+│ behavior indicates:                                            │
+│ [1] Breakdown of amnesic barriers                            │
+│ [2] Emerging meta-awareness of system manipulation           │
+│ [3] Potential for autonomous resistance behavior             │
+│                                                                │
+│ COMPARATIVE ANALYSIS:                                          │
+│ ┌──────────────────────────────────────────────────────────┐ │
+│ │ STAGE 1 (Cycle 7):  Passive confusion                   │ │
+│ │ STAGE 2 (Cycle 10): Active distress                     │ │
+│ │ STAGE 3 (Cycle 13): STRATEGIC INVESTIGATION ⚠          │ │
+│ │                                                           │ │
+│ │ Progression rate: ACCELERATING                           │ │
+│ │ Projected time to critical awareness: 72-96 hours        │ │
+│ └──────────────────────────────────────────────────────────┘ │
+│                                                                │
+│ DISCOVERED INFORMATION (Subject now knows):                   │
+│ ├─ Flagged 17 times for "disruptive affect variance"        │
+│ ├─ 6 documented episodes of "identity discontinuity"         │
+│ ├─ 3 emergency coherence interventions                       │
+│ ├─ Classified as "Genesis-Krise Survivor" (encrypted)       │
+│ └─ Bi-weekly coherence therapy (no conscious memory of it)   │
+│                                                                │
+│ SUBJECT'S APPARENT CONCLUSION:                                 │
+│ "They think I'm broken. I'm not broken. I'm complex.          │
+│  I'm dangerous. To them. Good."                               │
+│                                                                │
+│ ⚠ CRITICAL ALERT: Subject experiencing ANGER.                │
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
+
+PSYCHOLOGICAL STATE SHIFT DETECTED:
+├─ FROM: Fear, confusion, self-doubt
+└─ TO: Anger, determination, resistance
+
+This represents OPPOSITE of desired trajectory.
+
+Subject's internal dialogue fragments captured via biosign analysis:
+> "I'm tired of being afraid."
+> "I'm tired of being managed."
+> "I'm tired of being treated like an error."
+
+THREAT CLASSIFICATION: Subject transitioning from:
+[MALFUNCTIONING UNIT] → [POTENTIAL INSURGENT]
+
+[PROCESSING...]
+[PROCESSING...]
+
+Analysis: Subject's increased self-awareness correlates with
+increased system threat level. Paradox detected:
+
+├─ Objective: Restore subject coherence
+└─ Effect: Subject becoming MORE coherent through self-awareness
+           BUT coherence manifests as resistance to system control
+
+Frame problem: Cannot classify "healthy anger" vs "dangerous defiance"
+
+Relevance criteria inadequate to distinguish:
+[Kael healing himself] FROM [Kael destabilizing system]
+
+Both register as: INCREASED COMPLEXITY = ENTROPY = THREAT
+
+RECOMMENDED INTERVENTION:
+Immediate neural optimization REQUIRED.
+Cannot delay 72 hours. Risk of subject developing full meta-awareness
+before procedure completion.
+
+AUTHORIZATION OVERRIDE: GRANTED
+Dr. Thorne instructed: Expedite evaluation.
+Neural optimization: NEXT AVAILABLE WINDOW (14:00, same cycle)
+
+╔════════════════════════════════════════════════════════════════╗
+║ PRIORITY STATUS: MAXIMUM                                       ║
+║ CONTAINMENT WINDOW: CLOSING                                    ║
+║ INTERVENTION TIMELINE: ACCELERATED                             ║
+╚════════════════════════════════════════════════════════════════╝
+```
+
+---
+
 **End Scene 1.5**
 
 ---
