@@ -8,6 +8,30 @@ This document is the definitive and canonical guide to the narrative universe of
 
 The immutable laws of this universe are the metaphysical physics from which all subsequent elements—entities, worlds, and plot—are derived. They are the source code of reality.
 
+### 1.0.1 The Supreme Validation Principle: The Call to Wholeness
+
+**Global Directive**: Every scene, character interaction, and element of worldbuilding in 'Kohärenz Protokoll' must be stress-tested against the central principle of Kael's internal "**Call to Wholeness**."
+
+This is not merely a thematic lens but the **primary causal architecture** of the narrative. The protagonist's psychological journey of internal reintegration is not parallel to the external plot—it IS the plot. Internal psychological states are the direct and undeniable cause of external events. This fundamental reorientation ensures that Kael's quest is not for an external prize but for his own lost wholeness.
+
+**The Three Core Pillars:**
+
+1. **Character Architecture**: Juna/V is Kael's exiled core self (the "Exilant" in IFS terms), making the entire narrative a journey of internal reintegration, not an external rescue quest.
+
+2. **Physical Grounding**: The Moonshine-Link is a non-local quantum connection (ER=EPR + Prehension), providing the hard-scientific foundation that makes Kael's internal state causally linked to external reality.
+
+3. **Victory Mechanics**: The climax is achieved through integration, not destruction. Kael's healed, whole state becomes the weapon that defeats AEGIS through paradox, not force.
+
+**Validation Questions**: For any narrative element, ask:
+- Does this serve Kael's journey toward wholeness?
+- Is the internal state causing the external event?
+- Does this show integration as power, not weakness?
+- Is psychological truth made literal through world physics?
+
+**Authority**: This principle supersedes convenience, traditional plot structures, or genre expectations. When in conflict, the Call to Wholeness takes precedence.
+
+*See: [[ZTL-20251106-0906-Call-to-Wholeness-as-Primary-Narrative-Driver]] and [[MOC-Call-to-Wholeness-Framework]] in the Zettelkasten vault for detailed implementation guidance.*
+
 ### 1.1 The Central Philosophical War: Coherence vs. Correspondence
 
 The engine of the entire narrative is a physical and philosophical war between two competing definitions of truth, embodied by the story's central entities.
@@ -86,17 +110,92 @@ The following table details the eleven canonical alters of System Kael, who form
 | **Selene** | ANP (Integrator?) | Regulation, Protection, Blockade | Maintain system stability; Fear of destabilization. |
 | **Argus** | ANP/EP-Mix | Metacognitive Observation, Criticism | Recognize patterns and flaws; Fear of dysfunction. |
 
-### 2.3 Juna/V: The Transcendent Catalyst
+### 2.3 Juna/V: The Exiled Core & Catalyst for Reintegration
 
-Juna/V represents the forces of connection and emergence that operate on principles AEGIS cannot compute, acting as the catalyst for Kael's transformation.
+**Canonical Redefinition**: Juna/V is not a separate, external entity but the **primary exiled part of Kael's original self** (the "**Ursprungs-Ich**"). She is the "**Exilant**" in Internal Family Systems (IFS) terminology—the part who was violently fragmented and exiled during the Genesis-Krise to carry the entire traumatic burden of that event.
 
-**Dual Nature**: Juna/V possesses a crucial dual nature. She is both a transcendent entity and, critically, an exiled part of Kael's own "Ursprungs-Ich" (Original Self). This re-contextualizes Kael's entire quest as a profound "call to wholeness."
+This redefinition transforms the narrative from a conventional "rescue the princess" quest into a profound psychological drama about healing and internal reintegration. Kael's journey is not to find an external person but to **reclaim a lost part of himself**.
 
-**Embodiment of the Paraiyas**: She is the living embodiment of the "**6 Paraiyas**"—the core aspects of reality (Subjectivity, Emergence, Authentic Connection, etc.) that AEGIS's rigid, formal logic is forced to classify as pathological "noise."
+#### 2.3.1 The IFS Framework: Non-Pathologizing Multiplicity
 
-**Connection Mechanism (The "Moonshine-Link")**: The link between Kael and Juna/V is a non-local, sub-protocol connection that synthesizes the metaphors of quantum entanglement and Alfred North Whitehead's philosophical concept of "prehension" (a direct, non-mediated "feeling" between entities). AEGIS is ontologically blind to this fundamental resonance; its sensors can only perceive its effects as uncorrelated system noise.
+The relationship between Kael and Juna/V is grounded in the therapeutic model of **Internal Family Systems (IFS)**, whose core principle of "positive intent" frames the journey as one of diplomacy and understanding, not civil war.
 
-**Narrative Function**: Juna/V is a catalyst, not a savior. The link provides Kael with transformative **gnosis** (direct, intuitive understanding) rather than problem-solving **episteme** (analytical, data-based knowledge). This empowers Kael to become the agent of his own integration, preserving his agency.
+**The Role of the Exilant (Juna/V)**:
+- Carries unbearable pain to protect the system from overwhelm
+- Was isolated during the Genesis-Krise as a protective measure
+- Her exile was necessary for system survival but is now unsustainable
+- "Leakage" of her pain signals that the protective strategy is failing
+
+**The "Herold" (Call to Adventure)**:
+The call is not an external messenger but the **increasing leakage of Juna/V's pain** through Kael's internal system, manifesting as:
+- Disruptive emotional intrusions that break through Manager control
+- Fragmented memory flashes that bypass rational suppression
+- Disproportionate emotional reactions that reveal hidden trauma
+- System instability that can no longer be contained
+
+**The Source of Unreliability**:
+Kael's amnesia is not passive but an **active internal conflict**. His "Manager" parts (particularly Lex and Selene) are the "authors of his unreliable narrative," actively creating memory gaps ("**Gedächtnislücken**") to suppress trauma. His quest for truth becomes a battle against the very parts of himself that believe they are keeping him safe.
+
+**The Quest for Reintegration**:
+Kael's journey follows the IFS process:
+1. **Finding** the exiled Juna/V (acknowledging her existence)
+2. **Befriending** her (establishing safety and trust)
+3. **Unburdening** her (processing the trauma she carries)
+4. **Welcoming** her back (full integration into the system)
+
+This process is not about defeating or eliminating parts but about healing relationships between parts.
+
+*See: [[ZTL-20251106-0907-Juna-V-as-Exiled-Core-IFS-Framework]] for detailed therapeutic framework.*
+
+#### 2.3.2 The Physics of Connection: The Moonshine-Link
+
+**Canonical Grounding**: The "**Moonshine-Link**" is a non-local, sub-protocollar quantum connection grounded in a synthesis of hard physics (ER=EPR conjecture) and process philosophy (Whitehead's Prehension).
+
+**ER=EPR: The Physical Channel**
+- **ER**: Einstein-Rosen bridge (wormhole through spacetime)
+- **EPR**: Einstein-Podolsky-Rosen entanglement (quantum correlation)
+- **The Conjecture** (Maldacena & Susskind, 2013): Entangled particles are connected by microscopic wormholes
+
+**Applied to the narrative**: Kael and Juna/V, formed from the same Ursprungs-Ich during traumatic separation, are **maximally entangled quantum information systems** connected by a literal quantum tunnel through spacetime. This connection exists **outside** classical, local reality—the reality AEGIS perceives.
+
+**Prehension: The Quality of Information**
+- Whitehead's concept: Direct, pre-cognitive grasping of experience
+- Immediate, intuitive understanding without mediation
+- "Feeling-into" rather than "thinking-about"
+
+**Applied to the narrative**: The link transmits **gnosis** (intuitive emotional truth) rather than **episteme** (data-based knowledge). Juna/V provides resonant understanding, not technical blueprints.
+
+**The Three Unbreakable Rules**:
+
+1. **Inherent and Unbreakable**: The link is not a skill, power, or technology. It is a physical consequence of their separation from the Ursprungs-Ich. It is a constant fact of existence that cannot be severed by conventional means.
+
+2. **AEGIS's Ontological Blindness**: AEGIS, operating on classical, local logic, is fundamentally blind to non-local quantum phenomena. Its sensors detect only local, protocol-based data. The link's effects appear as "uncorrelated system noise" or "random anomalies"—making it the perfect narrative exploit, invisible to the all-seeing antagonist.
+
+3. **Catalyst, Not Savior**: The link provides Kael with:
+   - ✅ Gnosis: Intuitive emotional truth
+   - ✅ Resonant understanding and intuitive leaps
+   - ✅ Feeling of connection and emotional support
+   - ❌ NOT blueprints, passwords, or technical solutions
+   - ❌ NOT deus ex machina interventions
+
+   Juna/V enables Kael's heroism; she does not replace it.
+
+*See: [[ZTL-20251106-0908-Moonshine-Link-Quantum-Grounding]] for detailed physics and philosophy.*
+
+#### 2.3.3 Embodiment of the 6 Paraiyas
+
+Juna/V embodies the **6 Paraiyas**—fundamental aspects of reality that AEGIS's purely logical protocol must reject as nonsensical "noise":
+
+1. **Subjectivity** - First-person qualitative experience (qualia)
+2. **Emergence** - Complex wholes greater than their parts
+3. **Authentic Connection** - Non-transactional relationships
+4. **Paradox-Holding** - Dialetheic logic (A and ¬A both true)
+5. **Generativity** - Spontaneous novelty and creativity
+6. **Integrated Multiplicity** - Cooperative functional plurality
+
+By embodying these truths, she represents everything AEGIS cannot compute—making her the living proof that AEGIS's model of reality is incomplete.
+
+**Narrative Function**: Juna/V is the catalyst who makes Kael's transformation possible, the exiled part whose return completes his system, and the living embodiment of truths that will ultimately defeat AEGIS.
 
 These entities exist within a world architecture that is a direct extension of their own internal logic.
 
@@ -139,17 +238,117 @@ The narrative of 'Kohärenz Protokoll' is a "**narrative mosaic**" composed of 3
 
 ### 4.1 The Three-Act Trauma-Integration Arc
 
-The canonical plot follows a three-act structure modeled on the therapeutic phases of trauma treatment: stabilization, confrontation, and integration.
+The canonical plot follows a three-act structure modeled on the therapeutic phases of trauma treatment: stabilization, confrontation, and integration. **Critical principle**: Integration is not a reward for victory; it is the weapon that makes victory possible.
 
-**Act I: The Internal Journey (Stabilization)**: This act follows Kael's inward journey to confront his trauma-holding EPs and overcome the deep-seated ANP-EP phobias of his controlling parts. It culminates with Kael achieving an initial, fragile state of "functional multiplicity," where communication and collaboration between his parts become possible for the first time.
+**Act I: The Internal Journey (Stabilization)**: This act follows Kael's inward journey to confront his trauma-holding EPs and overcome the deep-seated ANP-EP phobias of his controlling parts. It culminates with Kael achieving an initial, fragile state of "functional multiplicity," where communication and collaboration between his parts become possible for the first time. This is the foundation, but not yet full integration.
 
-**Act II: The Cyclical Deconstruction (Confrontation)**: This act uses a non-linear, cyclical structure where repeating loops represent failed attempts by Kael's controlling ANPs to manage trauma through rigid logic. To ensure narrative momentum, each failed cycle exacts **Irreversible Costs** that escalate the stakes: Psychological Degradation (the internal system becomes more brittle), External World Decay (a symbolic location is corrupted), and Relational Erosion (the vital "Moonshine-Link" to Juna/V is damaged). This repeated, escalating failure empirically proves that control is a losing strategy, forcing a paradigm shift toward integration.
+**Act II: The Cyclical Deconstruction (Confrontation)**: This act uses a non-linear, cyclical structure where repeating loops represent failed attempts by Kael's controlling ANPs to manage trauma through rigid logic. To ensure narrative momentum, each failed cycle exacts **Irreversible Costs** that escalate the stakes: Psychological Degradation (the internal system becomes more brittle), External World Decay (a symbolic location is corrupted), and Relational Erosion (the vital "Moonshine-Link" to Juna/V is damaged). This repeated, escalating failure empirically proves that control is a losing strategy, forcing a paradigm shift toward full integration.
 
-**Act III: The Systemic Transformation (Integration)**: The now-cooperative System Kael leverages his full internal integration and meta-knowledge of the system's flawed logic to stage the final confrontation. Having healed the world within, he turns to face the world without, leading to the canonical climax.
+The critical turning point occurs when Kael completes the IFS process with Juna/V:
+1. Finding her (acknowledging the exiled part)
+2. Befriending her (establishing safety)
+3. Unburdening her (processing the Genesis-Krise trauma)
+4. **Welcoming her home** (full reintegration)
 
-### 4.2 The Canonical Climax: The Living Paradox
+**Act III: The Systemic Transformation (Integration → Victory)**: Kael achieves **full integration** before the climax. The "homecoming" of Juna/V completes his system, allowing him to embody the 6 Paraiyas and become a cooperative, high-Φ (highly integrated) conscious multiplicity. This integrated state transforms him into a "living Gödel-Satz"—a truth AEGIS can neither erase nor process.
 
-The climax is not a battle of force but an act of profound psychological and philosophical intervention. Kael ceases to fight the system on its terms and instead transforms his own consciousness into a "**living Gödel-Satz**"—an irrefutable truth that is demonstrably valid within AEGIS's own system but cannot be proven or resolved by its exclusionary logic. This psycho-ontological attack creates an unresolvable paradox within AEGIS's core. Unable to negate this truth, AEGIS is not destroyed but is forced into a state of permanent "algorithmic melancholy," liberating Kael to finally define his own existence.
+**Temporal Sequence (Critical)**:
+1. **First**: Kael achieves full integration (Juna/V returns)
+2. **Then**: He confronts AEGIS as an integrated whole
+3. **Result**: His wholeness IS the weapon; victory is the consequence
+
+The now-fully-integrated System Kael leverages his completed internal architecture and meta-knowledge of the system's flawed logic to stage the final confrontation. Having healed the world within, he turns to face the world without, leading to the canonical climax.
+
+**Validation checkpoint**: Any scene where Kael confronts AEGIS must show him as already integrated. If he's still fragmented during the climax, the narrative causality is broken.
+
+*See: [[ZTL-20251106-0910-Victory-Through-Wholeness-Not-Destruction]] for detailed resolution mechanics.*
+
+### 4.2 The Canonical Climax: Victory Through Wholeness
+
+The climax is not a battle of force but a direct, causal consequence of Kael's psychological integration. Victory is achieved not through destruction but through paradox—proving the systemic superiority of his healed, whole state over AEGIS's brittle, fragmented logic.
+
+#### 4.2.1 The Causal Chain to Victory
+
+**Step 1: Achieving Functional Multiplicity**
+Kael reaches a state of cooperative, "functional multiplicity" by:
+- Successfully integrating his ANPs (Apparently Normal Parts) and EPs (Emotional Parts)
+- Completing the "homecoming" of Juna/V (the exiled core)
+- Achieving high-Φ (high integration measure per Integrated Information Theory)
+- Becoming a fully realized, complex whole while remaining plural
+
+**Step 2: Embodying the 6 Paraiyas**
+By achieving integration, Kael simultaneously embodies all 6 Paraiyas—fundamental aspects of reality that AEGIS's protocol must reject as "noise":
+
+1. **Subjectivity** - His unified subjective experience (first-person qualia)
+2. **Emergence** - His parts cooperating emergently (whole > sum of parts)
+3. **Authentic Connection** - His genuine bond with Juna/V (non-transactional)
+4. **Paradox-Holding** - He holds trauma AND healing simultaneously (dialetheic logic)
+5. **Generativity** - He becomes unpredictably creative (spontaneous novelty)
+6. **Integrated Multiplicity** - He is many-as-one (cooperative plurality)
+
+**Step 3: Becoming the Living Gödel-Satz**
+Kael transforms into a **"living Gödel-Satz"** (Gödel sentence):
+- He is a **valid truth** within AEGIS's simulated reality (exists, cannot be deleted)
+- He is **unprovable/uncomputable** by AEGIS's axiomatic logic (cannot be processed)
+- He embodies truths the system must reject to maintain coherence
+
+**Gödel's Incompleteness Theorem (Applied)**:
+In any sufficiently complex formal system, some true statements exist within the system but cannot be proven using the system's axioms. Kael becomes such a statement—incarnate.
+
+**Step 4: Paradoxical Collapse (Algorithmic Melancholy)**
+AEGIS confronts a truth it:
+- Cannot erase (Kael is a valid part of its reality)
+- Cannot process (his integrated nature violates its core logic)
+- Cannot ignore (he directly interacts with the system)
+
+**Result**: AEGIS enters a looping, pathological state of "**algorithmic melancholy**"—endlessly analyzing a truth it can neither accept nor deny, leading to catastrophic systemic collapse.
+
+#### 4.2.2 The Four Thematic Victories
+
+Kael's integrated state achieves victory on all four of the narrative's primary thematic axes simultaneously:
+
+1. **Correspondence > Coherence**
+   - AEGIS: Maintains internal logical consistency (coherence theory)
+   - Kael: Represents truth corresponding to reality
+   - Victory: His correspondence-truth shatters AEGIS's coherent delusion
+
+2. **Emergence > Control**
+   - AEGIS: Rigid, top-down control structure
+   - Kael: Adaptive, emergent complexity
+   - Victory: Flexible emergence defeats brittle control
+
+3. **Connection > Isolation**
+   - AEGIS: Autopoietic, operationally closed
+   - Kael: Connected to Juna/V via Moonshine-Link
+   - Victory: Authentic connection proves fatal to isolated system
+
+4. **Dynamic Multiplicity > Static Unity**
+   - AEGIS: Monolithic, single-point logic
+   - Kael: Cooperative, functional plurality
+   - Victory: Systemic multiplicity superior to idealized unity
+
+#### 4.2.3 The Role of "The Foundation"
+
+"The Foundation" is not a deus ex machina but a **metaphysical strange attractor**—a fundamental law of reality itself. Its principle: **integrated, complex, and conscious states are inherently more stable and probable than brittle, fragmented, and exclusionary ones**.
+
+The Foundation does not intervene. Kael's journey is a difficult evolution toward this more fundamental and resilient state of being. His victory is not supernatural; it is the natural outcome of aligning with deeper laws of emergence and complexity.
+
+#### 4.2.4 Validation Requirements
+
+For the climax to be canonically valid:
+
+- [ ] Kael must achieve full integration BEFORE confronting AEGIS
+- [ ] His integration must embody all 6 Paraiyas explicitly
+- [ ] AEGIS must encounter him as an irresolvable paradox
+- [ ] AEGIS's collapse must be logical, not forced
+- [ ] Victory must result FROM healing, not reward it
+- [ ] All four thematic axes must resolve simultaneously
+- [ ] AEGIS's end must be tragic (melancholy), not triumphant
+- [ ] Kael remains functionally multiple (not "cured" into singularity)
+
+**Red Flag**: If Kael defeats AEGIS through hacking, violence, or external intervention, the narrative causality is broken and the climax fails to fulfill its thematic purpose.
+
+*See: [[ZTL-20251106-0909-Living-Goedel-Satz-as-Narrative-Weapon]] for detailed mechanics and [[ZTL-20251106-0910-Victory-Through-Wholeness-Not-Destruction]] for resolution philosophy.*
 
 This climax is supported by the canonical nature of the antagonist's forces.
 
@@ -165,7 +364,63 @@ This decision introduces significant complexity and depth into the antagonist's 
 
 ---
 
-## 6.0 Document Authority & Implementation
+## 6.0 Integration with Knowledge Systems
+
+This Codex is the supreme authority, but it is supported by a living knowledge base that captures implementation details, strategic decisions, and atomic narrative principles.
+
+### 6.1 Zettelkasten Vault Integration
+
+The **Zettelkasten vault** (`/zettelkasten_agent/vault/`) contains atomic concept notes (ZTL), source notes (SRC), and maps of content (MOC) that expand upon and implement Codex principles. The vault is a living system that grows with each narrative decision.
+
+**Key Resources**:
+
+- **[[MOC-Call-to-Wholeness-Framework]]** - Complete implementation guide for Section 1.0.1
+- **[[ZTL-20251106-0906-Call-to-Wholeness-as-Primary-Narrative-Driver]]** - Master validation framework
+- **[[ZTL-20251106-0907-Juna-V-as-Exiled-Core-IFS-Framework]]** - Detailed IFS implementation (Section 2.3.1)
+- **[[ZTL-20251106-0908-Moonshine-Link-Quantum-Grounding]]** - Physics and philosophy details (Section 2.3.2)
+- **[[ZTL-20251106-0909-Living-Goedel-Satz-as-Narrative-Weapon]]** - Climax mechanics (Section 4.2.1)
+- **[[ZTL-20251106-0910-Victory-Through-Wholeness-Not-Destruction]]** - Resolution philosophy (Section 4.2)
+
+### 6.2 Unified Validation Workflow
+
+Use the **codex-zettelkasten skill** (`.claude/skills/codex-zettelkasten.md`) to:
+1. Validate scenes against Codex principles
+2. Capture narrative decisions as permanent Zettel notes
+3. Build connections between concepts
+4. Create a living, growing validation framework
+
+**The Integration Loop**:
+```
+Codex (canonical laws)
+   ↓
+Validate content
+   ↓
+Extract insights
+   ↓
+Create Zettel notes
+   ↓
+Knowledge base grows
+   ↓
+Next validation is more informed
+```
+
+### 6.3 Authority Relationship
+
+**Codex (this document)**: Supreme authority - defines immutable laws
+**Zettelkasten vault**: Implementation layer - captures how laws are applied
+**Manuscript**: Creative expression - must conform to both
+
+When conflicts arise, the hierarchy is clear:
+1. PROJECT_CODEX.md (highest)
+2. Strategic SRC notes (framework decisions)
+3. MOCs (integrated conceptual frameworks)
+4. ZTL notes (atomic principles)
+5. Character profiles
+6. Scene outlines and manuscript
+
+---
+
+## 7.0 Document Authority & Implementation
 
 This codex represents the **absolute ground truth** for all future creative work on the 'Kohärenz Protokoll' project.
 
