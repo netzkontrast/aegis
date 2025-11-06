@@ -65,33 +65,70 @@ Use this skill when:
 
 **Before writing:**
 
-1. **Identify constraints**
-   ```
-   - Which act/chapter? (integration level)
-   - Which alters are active? (check master profile table)
-   - Which Kernwelt? (sensory rulebook)
-   - What philosophical principle is at play?
+1. **Query NCP for constraints (AUTOMATED - NEW)**
+   ```bash
+   # Get chapter-level constraints
+   python3 ARCHON/tools/ncp_query.py --chapter 1
+
+   # Get scene-specific requirements
+   python3 ARCHON/tools/ncp_query.py --scene 1.1 --verbose
+
+   # Get character state for chapter
+   python3 ARCHON/tools/ncp_query.py --character Nyx --chapter 1
    ```
 
-2. **Check codex sections**
+   This returns:
+   - Act and thematic focus
+   - Active alters for scene
+   - Prose style requirements
+   - Goal/conflict/outcome structure
+   - Thematic checkpoints to hit
+
+2. **Identify additional constraints**
+   ```
+   - Which Kernwelt? (sensory rulebook from 3.2)
+   - What philosophical principle is at play?
+   - Which TSDP action systems activate?
+   ```
+
+3. **Check codex sections manually**
    - Section 2.2.1: Alter profiles and action systems
    - Section 3.2: Kernwelt sensory signatures
    - Section 4.1: Act-appropriate integration level
 
-3. **Write scene applying constraints**
+4. **Write scene applying constraints**
 
 **After writing:**
 
-4. **Validate against codex**
+5. **Automated validation (NEW)**
+   ```bash
+   # Validate scene against NCP
+   python3 ARCHON/tools/ncp_validate.py \
+     kohaerenz_protokoll/manuscript/act_1/ch_01.md \
+     --chapter 1 \
+     --scene 1.1 \
+     --verbose
+   ```
+
+   Returns validation report:
+   - Overall score (0-10)
+   - Checks passed/total
+   - Specific issues by severity (ERROR, WARNING, INFO)
+   - Suggestions for fixes
+
+6. **Manual validation (cross-check)**
    - ✅ Alter behavior matches TSDP classification?
    - ✅ Dialogue reflects alter's core motivation/fear?
    - ✅ World physics match Kernwelt rulebook?
    - ✅ Prose style matches integration level?
    - ✅ Philosophical principle correctly embodied?
 
-5. **If validation fails:** Revise, don't rationalize
+7. **If validation fails:** Revise, don't rationalize
+   - Fix automated issues first (they're rule-based and clear)
+   - Then address manual checklist items
+   - Re-run automated validation to confirm fixes
 
-**Example validation:**
+**Example validation (manual):**
 ```
 Scene: Kael confronts trauma memory in KW2 (Mnemosyne)
 Alters: Kael (ANP Host), Nyx (EP Fight), Kiko (EP Child)
@@ -106,6 +143,253 @@ Codex check:
 
 Result: Scene is codex-compliant
 ```
+
+---
+
+### Workflow 1.5: Using ARCHON Tools (Automated Validation)
+
+**NEW: Programmatic access to canonical NCP constraints**
+
+This workflow demonstrates how to use ARCHON's command-line tools for automated validation and constraint querying. These tools provide programmatic access to the same canonical NCP that defines the narrative rules.
+
+#### Step 1: Query Chapter Constraints (Before Writing)
+
+```bash
+python3 ARCHON/tools/ncp_query.py --chapter 1
+```
+
+**Example output:**
+```
+============================================================
+CHAPTER 1 INFORMATION
+============================================================
+Act: 1 - The Fracture
+Thematic Focus: Dissociation as protective mechanism
+
+Protagonist State: Kael in denial, alters fragmented
+Antagonist State: AEGIS in observation mode, gathering data
+```
+
+**Use this to understand:**
+- Which act you're in (affects integration level)
+- Thematic focus (what philosophical ideas to embody)
+- Character states (how Kael and AEGIS behave in this chapter)
+
+#### Step 2: Query Scene Requirements (Before Writing)
+
+```bash
+python3 ARCHON/tools/ncp_query.py --scene 1.1 --verbose
+```
+
+**Example output:**
+```
+============================================================
+SCENE REQUIREMENTS: 1.1
+============================================================
+Chapter: 1
+Title: The Office
+Location: KW1: Logos-Prime (Kael's sterile office)
+POV: Kael
+Prose Style: Controlled, clinical, suppressed emotion
+
+Active Alters: Kael (ANP), Lex (ANP), Juna (external)
+
+────────────────────────────────────────────────────────────
+SCENE STRUCTURE
+────────────────────────────────────────────────────────────
+Goal: Kael maintains professional facade
+Conflict: Intrusive memory threatens composure
+Outcome: Suppression succeeds, but costs energy
+
+────────────────────────────────────────────────────────────
+THEMATIC CHECKPOINTS
+────────────────────────────────────────────────────────────
+✓ Show suppression mechanisms in action
+✓ Establish Kael's "normal" baseline
+✓ Hint at cracks in the facade
+
+────────────────────────────────────────────────────────────
+WORLD PHYSICS (KW1: Logos-Prime)
+────────────────────────────────────────────────────────────
+Sensory: Sterile, geometric, shadowless fluorescent lighting
+Somatic: Regulated breathing = sign of conformity lie
+Rule: The more controlled the environment, the more energy
+      spent suppressing internal chaos
+```
+
+**Use this to:**
+- Know exactly which alters appear
+- Understand scene structure (goal → conflict → outcome)
+- Get thematic checkpoints to hit
+- See world physics rules for the Kernwelt
+
+#### Step 3: Query Character State (Before Writing Dialogue)
+
+```bash
+python3 ARCHON/tools/ncp_query.py --character Nyx --chapter 1
+```
+
+**Example output:**
+```
+============================================================
+CHARACTER STATE: Nyx at Chapter 1
+============================================================
+Type: EP (Emotional Part)
+Function: Fight system - Protects vulnerable parts via aggression
+Arc State: Dormant but triggered by perceived threats
+
+────────────────────────────────────────────────────────────
+RELATIONSHIPS
+────────────────────────────────────────────────────────────
+• Kael (ANP) → Avoidance (Nyx represents what Kael denies)
+• Kiko (EP Child) → Protective (Will fight for Kiko's safety)
+• Lex (ANP) → Tension (Lex sees Nyx as liability)
+```
+
+**Use this to:**
+- Understand character's internal state at this point in story
+- See relationships with other alters
+- Know their TSDP function (guides behavior)
+
+#### Step 4: Write Scene (With Constraints in Mind)
+
+[Write your scene applying all queried constraints]
+
+#### Step 5: Validate Scene (After Writing)
+
+```bash
+python3 ARCHON/tools/ncp_validate.py \
+  kohaerenz_protokoll/manuscript/act_1/ch_01.md \
+  --chapter 1 \
+  --scene 1.1 \
+  --verbose
+```
+
+**Example output (successful validation):**
+```
+============================================================
+VALIDATION REPORT: ch_01.md
+============================================================
+Overall Score: 8.5/10
+Checks Passed: 4/5
+Word Count: 1,247 words
+
+Status: ✓ VALID (score >= 7.0, no errors)
+
+────────────────────────────────────────────────────────────
+ISSUES FOUND
+────────────────────────────────────────────────────────────
+
+[INFO] Scene length optimal (1,247 words for chapter 1)
+
+[WARNING] Prose style: Could use more clinical language
+  → Line: "Kael felt anxious..."
+  → Suggestion: In KW1 with Kael POV, use more detached
+    language. Try: "Kael noted the physiological markers
+    of anxiety..."
+
+────────────────────────────────────────────────────────────
+SUMMARY
+────────────────────────────────────────────────────────────
+✓ Character presence: All required alters appear
+✓ Prose style: Mostly appropriate for chapter 1
+✓ World setting: KW1 sensory signature present
+✓ Thematic keywords: Present throughout
+⚠ Minor improvement: Consider more clinical tone in places
+
+Recommendation: Scene is valid. Address warning if desired.
+```
+
+**Example output (validation failure):**
+```
+============================================================
+VALIDATION REPORT: ch_01.md
+============================================================
+Overall Score: 4.5/10
+Checks Passed: 2/5
+Word Count: 892 words
+
+Status: ✗ INVALID (score < 7.0, 2 errors found)
+
+────────────────────────────────────────────────────────────
+ISSUES FOUND
+────────────────────────────────────────────────────────────
+
+[ERROR] Missing required character: Lex
+  → NCP requires Lex (ANP) to be present in scene 1.1
+  → Suggestion: Add scene showing Lex's analytical presence
+
+[ERROR] Prose style mismatch: Too much internal emotion
+  → Line 23-45: Extended internal monologue
+  → Expected: Controlled, clinical prose (Act 1, Ch 1)
+  → Suggestion: Show suppression, not feeling. External
+    behavior over internal state.
+
+[WARNING] Thematic checkpoint missed: "Establish baseline"
+  → Scene should show Kael's "normal" professional behavior
+  → Current: Scene jumps directly to crisis
+  → Suggestion: Start with routine to contrast with disruption
+
+[INFO] Scene length: 892 words (acceptable range)
+
+────────────────────────────────────────────────────────────
+SUMMARY
+────────────────────────────────────────────────────────────
+✓ World setting: KW1 description present
+✓ Thematic keywords: Found "control", "facade", "suppression"
+✗ Character presence: Missing Lex
+✗ Prose style: Too emotionally expressive for Act 1
+⚠ Thematic checkpoints: 2/3 hit
+
+Recommendation: Revise to address errors before proceeding.
+```
+
+#### Step 6: Revise Based on Validation Report
+
+**Fix errors first** (they're rule violations):
+1. Add missing character (Lex)
+2. Adjust prose style (more clinical, less emotional)
+
+**Then address warnings** (they're suggestions):
+3. Add thematic checkpoint (establish baseline)
+
+**Re-run validation:**
+```bash
+python3 ARCHON/tools/ncp_validate.py \
+  kohaerenz_protokoll/manuscript/act_1/ch_01.md \
+  --chapter 1 \
+  --scene 1.1 \
+  --verbose
+```
+
+Keep iterating until score >= 7.0 and no errors.
+
+#### Benefits of Automated Validation
+
+**vs. Manual Validation:**
+- ✅ **Faster**: Instant feedback vs. manual checklist
+- ✅ **Consistent**: Same rules every time, no interpretation drift
+- ✅ **Specific**: Points to exact line numbers and issues
+- ✅ **Canonical**: Uses same NCP as source of truth
+- ✅ **Objective**: Score-based, not subjective feeling
+
+**When to use automation:**
+- Before writing: Query constraints from NCP
+- After first draft: Quick validation check
+- During revision: Verify fixes worked
+- Before committing: Final validation pass
+
+**When to use manual validation:**
+- Deep philosophical compliance (automation can't check this)
+- Subtle character voice distinctions
+- Artistic quality and prose beauty
+- Thematic resonance and emotional impact
+
+**Best practice:** Use both
+1. Automated validation catches rule violations
+2. Manual validation ensures artistry and depth
+
+---
 
 ### Workflow 2: Writing AEGIS Dialogue/Behavior
 
@@ -393,7 +677,8 @@ Apply relevant workflow → Validate with checklist → Ship
 ---
 
 **Meta:**
-- Version: 1.0.0
+- Version: 2.0.0
 - Codex location: `/kohaerenz_protokoll/PROJECT_CODEX.md`
 - Framework: TSDP + IFS + Protocol Ontology
-- Last updated: 2025-11-05
+- **NEW:** ARCHON tools integration (ncp_query.py, ncp_validate.py)
+- Last updated: 2025-11-06

@@ -9,9 +9,31 @@ allowed-tools:
   - Grep
 ---
 
+# ⚠️ DEPRECATED: Use `/learn` Instead
 
+**This command has been replaced by the unified `/learn` command.**
 
-This is the **master skill** that orchestrates content extraction, narrative validation, and action planning:
+**Use instead:**
+```
+/learn <URL>              # Same as /tapestry <URL> (extract + plan)
+/learn <file>             # Plan from existing content
+/learn <URL> --save       # Extract + plan + save to Zettelkasten
+```
+
+**Why the change?**
+- `/learn` uses modular architecture (easier to maintain)
+- Consistent interface across all learning workflows
+- Simplified command structure
+
+**This command still works** but will be removed in a future update.
+
+**For narrative content extraction:** Use `/learn` for URL-based content. For local manuscript analysis, use the Codex skill directly.
+
+---
+
+# Tapestry (Legacy Documentation)
+
+This is the **legacy master skill** that orchestrates content extraction, narrative validation, and action planning:
 1. Detect source type (URL, local file, repo directory, or interactive)
 2. Extract content using appropriate method
 3. Apply Codex validation for narrative content
