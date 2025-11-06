@@ -30,6 +30,7 @@ This index is **dynamically maintained** by the Integrator agent. As new Maps of
 
 ### Active Learning Quests
 
+- [[MOC-20251106-Writing-Excellence-Integration]] - Integrate exceptional writing into all AEGIS workflows (5 week quest) - Rep 1/5
 - [[MOC-20251105-2131-Deep-System-Understanding-Quest]] - Master the AEGIS theory→practice pipeline (4-6 week quest)
 
 ### AEGIS Project - Narrative Systems
@@ -77,9 +78,10 @@ This index is **dynamically maintained** by the Integrator agent. As new Maps of
 ## Meta-Information
 
 **Last Updated**: 2025-11-06
-**Total MOCs**: 2
+**Total MOCs**:
 **Total Zettel**: 13
 **Total Sources**: 2
+
 **Total Plans**: 1
 
 ---
