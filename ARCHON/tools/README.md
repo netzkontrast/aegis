@@ -109,20 +109,66 @@ Word Count: 1711
 ============================================================
 ```
 
-## Planned Tools
+### 3. ncp_assist.py - Writing Assistant ✅
 
-### 3. ncp_assist.py - Writing Assistant
-Generate writing prompts and character voice samples
+Generate writing prompts, character voice samples, and stylistic guidance.
 
-**Status**: Design phase
+**Installation**: No dependencies beyond Python 3.10+ standard library
 
-**Planned Usage**:
+**Usage**:
+
 ```bash
+# Generate scene writing prompt
+python ncp_assist.py --scene 1.4 --prompt
+
+# Generate chapter overview prompt
 python ncp_assist.py --chapter 4 --prompt
+
+# Get character voice sample
 python ncp_assist.py --character Lex --voice-sample
+
+# Get character voice at specific chapter
+python ncp_assist.py --character Lex --chapter 4 --voice-sample
+
+# Get style guidance for a chapter
+python ncp_assist.py --chapter 15 --style-guide
+
+# Verbose output with all details
+python ncp_assist.py --scene 1.4 --prompt --verbose
 ```
 
-### 4. kg_query.py - Knowledge Graph Query
+**Features**:
+- **Scene Prompts**: Complete writing guide including structure, active alters, sensory keywords, and opening hooks
+- **Chapter Prompts**: Overview of all scenes in a chapter with thematic focus
+- **Character Voice Samples**: Speech patterns, vocabulary, dialogue, and internal voice examples
+- **Style Guidance**: Act-specific prose techniques and emotional registers
+- **Sensory Keywords**: Location-specific visual, tactile, auditory, and emotional vocabulary
+- **Opening Hooks**: Suggested opening lines for scenes
+
+**Example Output**:
+
+```bash
+$ python ncp_assist.py --character Lex --voice-sample
+============================================================
+CHARACTER VOICE: Lex (Chapter 1)
+============================================================
+Type: ANP
+Function: Analyst and intellectual controller
+
+VOICE PROFILE
+────────────────────────────────────────────────────────────
+Speech Patterns: Logical, analytical, precise. Full sentences with technical detail.
+Vocabulary: Scientific, technical, controlling. Uses statistics and facts.
+
+DIALOGUE SAMPLES
+────────────────────────────────────────────────────────────
+  "Your emotional response is counterproductive. Focus on the data."
+  "I've calculated seventeen potential outcomes. None are optimal."
+```
+
+## Planned Tools
+
+### kg_query.py - Knowledge Graph Query
 Query and update the hierarchical narrative memory
 
 **Status**: Design phase
@@ -133,7 +179,7 @@ kg_query.py --entity Kael --chapter 4
 kg_add.py --fact "Kael entered KW2" --chapter 4
 ```
 
-### 5. archon_generate.py - Narrative Director CLI
+### archon_generate.py - Narrative Director CLI
 Full AI-assisted scene generation with self-critique
 
 **Status**: Design phase
@@ -148,10 +194,12 @@ python archon_generate.py --chapter 4 --scene 1.4
 ### Phase 1: Essential Read-Only Tools ✅
 - [x] `ncp_query.py` - Basic NCP querying
 
-### Phase 2: Validation Tools (In Progress)
+### Phase 2: Writing Support Tools ✅
 - [x] `ncp_validate.py` - Rule-based validation
+- [x] `ncp_assist.py` - Writing prompts and voice samples
 - [x] Character presence checking
 - [x] Thematic keyword matching
+- [x] Style guidance per Act
 - [ ] Advanced character voice consistency (LLM-based)
 - [ ] Prose style deep analysis
 
@@ -186,19 +234,26 @@ When adding new tools:
 ## Integration with Workflow
 
 ```bash
-# 1. Plan scene
+# 1. Get writing prompt and guidance
+python ncp_assist.py --scene 1.4 --prompt --verbose
+
+# 2. Get character voice samples for active alters
+python ncp_assist.py --character Lex --voice-sample
+python ncp_assist.py --character Rhys --voice-sample
+
+# 3. Check detailed scene requirements
 python ncp_query.py --scene 1.4 --verbose > scene_plan.txt
 
-# 2. Write scene (human)
+# 4. Write scene (human)
 vim manuscript/act_1/chapter_04.md
 
-# 3. Validate (future)
-python ncp_validate.py chapter_04.md
+# 5. Validate
+python ncp_validate.py chapter_04.md --verbose
 
-# 4. Update knowledge graph (future)
+# 6. Update knowledge graph (future)
 python kg_add.py --source chapter_04.md --auto-extract
 
-# 5. Generate next scene (future)
+# 7. Generate next scene (future)
 python archon_generate.py --chapter 5 --scene 2.1
 ```
 
@@ -227,15 +282,18 @@ All tools validate NCP against `ARCHON/ncp/schema.json` on load
 ### Workflow 1: Planning a Scene
 
 ```bash
-# Get chapter context
-python ncp_query.py --chapter 4 --verbose
+# Get chapter context and style guidance
+python ncp_assist.py --chapter 4 --prompt
 
-# Get specific scene requirements
-python ncp_query.py --scene 1.4
+# Get comprehensive scene writing prompt
+python ncp_assist.py --scene 1.4 --prompt --verbose
 
 # Get voice samples for active alters
-python ncp_query.py --character Lex --chapter 4
-python ncp_query.py --character Kiko --chapter 4
+python ncp_assist.py --character Lex --chapter 4 --voice-sample
+python ncp_assist.py --character Kiko --chapter 4 --voice-sample
+
+# Get detailed technical requirements
+python ncp_query.py --scene 1.4 --verbose
 
 # Now write scene with this guidance...
 ```
