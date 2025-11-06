@@ -27,6 +27,35 @@ Ensures narrative coherence, character consistency, and adherence to canonical m
 
 ---
 
+### coherence-enforcer.md
+**Use for:** Project architecture maintenance and systematic consolidation
+
+Maintains AEGIS project coherence by detecting duplication, disconnected systems, orphaned documentation, and documentation drift. Proposes and executes consolidation strategies.
+
+**Key Features:**
+- 4-phase audit system (Audit, Analyze, Propose, Execute, Validate)
+- 5 specialized workflows (system audit, command consolidation, skill-tool integration, documentation consolidation, dead code archival)
+- Safe removal process (archive, don't delete)
+- Integration gap detection
+- Automated coherence reporting
+
+**Triggers:**
+- Monthly maintenance audits
+- Pre-release coherence checks
+- Before adding features (duplication prevention)
+- When code feels fragmented
+- Documentation scattered or contradictory
+- Periodic refactoring
+
+**Philosophy:** Performs AEGIS's own theme—achieving coherence through *integration* of contradictions, not elimination
+
+**Supporting Files:**
+- `coherence-enforcer-demo.md` - Usage examples and anti-patterns
+- `coherence-audit-template.md` - Audit report template
+- `sample-audit-2025-11-06.md` - Example audit of AEGIS
+
+---
+
 ## Skill Development
 
 Skills in this directory follow the unified skill-authoring framework documented in `/skills/skill-authoring/SKILL.md`.
@@ -49,4 +78,4 @@ Skills are loaded when relevant context triggers appear in conversation (e.g., m
 
 ---
 
-**Last Updated:** 2025-11-05
+**Last Updated:** 2025-11-06
