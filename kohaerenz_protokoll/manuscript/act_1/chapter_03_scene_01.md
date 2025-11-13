@@ -248,6 +248,32 @@ Of what?
 
 *Support*, something small whispers.
 
+And for just a moment, Kael lets himself feel it:
+
+Not fragmentation.
+
+*Reaching.*
+
+Like the parts of him he doesn't consciously know are trying to—
+
+(make contact, communicate, tell him something important about—)
+
+—help him.
+
+The chest ache—the constant absence he's felt since waking—pulses with—
+
+Recognition?
+
+*You're trying to reach me*, he thinks. *Aren't you? You've been trying all along.*
+
+No answer.
+
+But the warm presence grows slightly—
+
+(closer, like someone stepping out of shadow)
+
+—stronger.
+
 Kael pulls on his uniform.
 
 *Is this what it's always been like?* he wonders. *All these—parts?—present, watching?*
@@ -524,11 +550,29 @@ Dr. Thorne's eyes narrow. Just for a microsecond.
 
 *He's lying. That's not treatment. That's suppression. Forced integration. They'll erase whoever doesn't fit their definition of "optimal."*
 
+And Kael feels it—a surge of terror from—
+
+(inside, from the presences, from the parts trying to reach him)
+
+—somewhere deep.
+
+*They'll kill us*, something small whispers. *They'll delete us and you'll be alone and empty and—*
+
+*They'll make you simple*, something analytical adds coldly. *Reduced. A single point of consciousness. "Coherent" by their definition means—*
+
+*Dead*, something else finishes. *We'll be dead.*
+
 *They'll kill—*
 
 Who? Kill who?
 
 *Parts of me.*
+
+The parts that have been trying to help. The presences that made him feel less—
+
+(alone, lost, broken)
+
+—incomplete.
 
 Kael feels his hands shaking. He forces them still.
 

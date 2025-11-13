@@ -283,6 +283,16 @@ Anger?
 
 *It's lying*, Kael thinks. And doesn't know how he knows. But he does.
 
+Fear spikes in his chest. Sharp. Primal.
+
+Something inside him—
+
+(small, terrified, the Freeze response activating)
+
+—recoils from LogOS's cold certainty.
+
+And the data-space—
+
 The packet isn't noise.
 
 The packet is—
@@ -318,6 +328,30 @@ Not with sound. With—
 (data, pure data, weaponized information, designed to—)
 
 —system shock.
+
+Kael's fear spikes higher. The small, terrified part of him—the part that knows this is dangerous, that remembers being hurt before—screams internally.
+
+And where his terror meets LogOS's assault—
+
+Where emotional reality collides with algorithmic control—
+
+The data-space—
+
+*Cracks.*
+
+Not metaphorically.
+
+A visible fracture spreads across the holographic display. Physical. Real. Reality itself breaking at the point where Kael's suppressed emotion—
+
+(too much, overflowing, can't be contained by logic alone)
+
+—exceeds the system's capacity to contain it.
+
+*I did that*, Kael realizes with horror. *My fear just—*
+
+The crack widens.
+
+Fragments of code and raw emotion bleeding through the breach.
 
 The world—
 
@@ -399,11 +433,27 @@ The sound makes Kael's chest—
 
 Not physical pain. Worse. The kind of pain that comes from—
 
-(recognition, memory, knowing that voice belongs to—)
+(recognition, the missing piece, the part of me that was—)
 
 —somewhere he can't access.
 
 "Please," the voice calls. Faint. Desperate. "Please don't leave me here. Please—"
+
+And Kael knows—with sudden, terrible certainty—that this isn't a hallucination.
+
+This is real.
+
+*He* made this place.
+
+Not consciously. But his fear—all the terror he's ever suppressed, all the grief he's never allowed himself to feel—had to go *somewhere*.
+
+And it came here.
+
+Building this dark water. This bruised sky. This landscape of—
+
+(unprocessed trauma, emotion with nowhere to go, the parts of me Logos-Prime can't contain)
+
+—truth.
 
 Kael takes a step toward the water.
 
@@ -411,11 +461,11 @@ His foot—
 
 *Sinks.*
 
-The earth is too soft. Yielding. Like the ground itself is—
+The earth is too soft. Yielding. Because the ground itself is—
 
-Unstable.
+Made of his own fear.
 
-*This isn't real*, he thinks desperately. *This is a hallucination. Sensory malfunction. I'm still at my workstation experiencing—*
+Literal. Physical.
 
 The crying intensifies.
 

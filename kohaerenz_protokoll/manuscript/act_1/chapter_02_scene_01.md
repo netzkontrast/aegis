@@ -185,11 +185,15 @@ Her smile is serene.
 
 She moves closer. Glides. Her feet don't quite touch the ground.
 
-*This is your real home, Unit K-1123. This is where you keep the parts of yourself that Logos-Prime cannot process. The feelings. The memories. The—*
+*This is your real home, Unit K-1123. You built this place. Not consciously, but every time you felt something Logos-Prime couldn't accept—fear, grief, rage—it had to go somewhere. So it came here. Accumulated.*
 
 Her hand gestures to the dark water.
 
-*—tears.*
+*That ocean? Made of every tear you weren't allowed to cry. These islands? Formed from memories you had to bury to survive. This entire realm exists because you—*
+
+She smiles with something like tenderness.
+
+*—needed somewhere to put the parts of yourself that Logos-Prime calls 'noise.'*
 
 Kael's throat is—
 
@@ -466,6 +470,25 @@ Again.
 *—RESET—*
 
 *—by making you experience them forever.*
+
+*You're not protecting me!* Kael screams internally. *You're torturing me!*
+
+*Both are true*, Mnemosyne says calmly. *This is KW2. Here, contradictions don't cancel. They coexist.*
+
+And Kael feels it. The memory holds two truths simultaneously:
+
+This was the worst thing that ever happened to me.
+This made me who I am.
+
+I need to forget this.
+I can't afford to forget this.
+
+This broke me.
+This is what I survived.
+
+Both. Always both. Never resolved.
+
+*That's the logic of trauma*, Mnemosyne explains. *Not A or B. Not A instead of B. A **and** B. Both true. Forever.*
 
 Kael's mind is—
 
