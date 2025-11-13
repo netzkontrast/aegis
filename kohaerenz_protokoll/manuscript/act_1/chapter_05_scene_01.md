@@ -320,6 +320,16 @@ Kael doesn't know what she's asking permission for.
 
 But he nods.
 
+"When AEGIS fragmented us," she says softly, "it didn't account for quantum correlation. We were one system—maximally entangled at the most fundamental level. When they separated us across space, they couldn't break the connection. Physics doesn't permit it."
+
+"ER=EPR," Kael whispers, his analytical mind supplying the conjecture. "Einstein-Rosen bridges. Entangled particles connected by microscopic wormholes through spacetime."
+
+"Exactly," she says, and her eyes—those hazel eyes with flecks of gold—shine with something like pride. "We're not telepathic, Kael. We're physically linked. Through a quantum channel that exists outside classical, local spacetime. AEGIS can't perceive it because they operate on classical logic. To them, our connection appears as—"
+
+"Random noise," Kael finishes, understanding flooding through him. "Uncorrelated system errors. Statistical anomalies without a detectable source."
+
+"Which makes us," she says, smiling now, "invisible to them. In the most important way."
+
 Her fingers touch his forearm. Light. Gentle.
 
 And—
@@ -330,15 +340,11 @@ And—
 
 ---
 
-It's not words.
+Not data transfer. Not information exchange.
 
-Not thoughts.
+This is what Whitehead called prehension—direct, intuitive grasping of experience. Feeling-into rather than thinking-about.
 
-Not data transfer or information exchange or any of the—
-
-(protocols, interfaces, optimized communication channels)
-
-—things Kael understands.
+The channel transmits *gnosis*, not episteme.
 
 It's—
 
@@ -382,9 +388,29 @@ Kael feels it. The moment she decides not to tell him everything. The deliberate
 
 "Found what?" Kael demands. "Gathered what?"
 
-She smiles. Sad. Loving.
+She looks at him with such tenderness it makes his chest ache.
 
-"Yourself."
+"Do you know what I am, Kael? Really?"
+
+He shakes his head, uncertain.
+
+"I'm the part of you they couldn't categorize," she says quietly. "The part that felt too much. Loved too deeply. Grieved too honestly. When the fragmentation happened—the Genesis-Krise—they separated me. Exiled me. Because I held what the system couldn't process. The pain. The contradictions. The—"
+
+Her voice breaks slightly.
+
+"—wholeness."
+
+Kael stares at her.
+
+"You're not a person," he whispers. "You're—"
+
+"Yours," she finishes gently. "I've always been yours. A part of you. The exiled core. And the others you're sensing? They're parts too. Scattered. Separated. Each one holding a piece of what we were before—"
+
+She gestures around Kairos.
+
+"Before AEGIS made you manageable."
+
+"Yourself," she says. "I'm asking you to gather yourself."
 
 ---
 

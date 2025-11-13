@@ -217,19 +217,37 @@ But it doesn't feel like a dream. It feels like—
 
 (a place I've always known, always lived, always—)
 
-—home.
+—recognition.
 
-Not his apartment. Not Logos-Prime.
+Not invention. Discovery.
 
-This.
+*I didn't create this in a dream*, he realizes with sudden clarity. *This is what I do. What I've always done. Internally.*
 
-This fortress of walls within walls within walls.
+This fortress isn't a metaphor his sleeping mind invented.
 
-This labyrinth built to keep things OUT.
+It's a structure his mind *built*. Continuously. Throughout his life. A psychological architecture as real as—
 
-Or—
+(more real than Logos-Prime's sterile geometry)
 
-*Or to keep things in*, he realizes with sudden horror.
+—anything.
+
+This labyrinth wasn't designed to keep things OUT.
+
+It was built to keep things—
+
+*In.*
+
+To contain. To isolate. To separate the parts of him that—
+
+(hurt too much, remember too much, feel too much)
+
+—couldn't be allowed to reach consciousness.
+
+*Or to keep things in*, he realizes with sudden horror. *This is a prison. My prison. And I'm both—*
+
+Both jailer and prisoner.
+
+Both architect and captive.
 
 ---
 

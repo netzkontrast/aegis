@@ -714,107 +714,113 @@ The sky isn't sky. It's—
 
 And arranged in a circle around him—
 
-Visible now.
+Presences.
 
-*Really* visible.
+Clearer than before. More defined.
 
-Not presences.
+But still not—
 
-*People.*
+Fully visible.
 
-No.
+Like looking at someone through frosted glass. Or sensing someone in a dark room.
 
-Not people.
+He can't see them.
 
-Not exactly.
+But he can—
+
+*Feel* them.
 
 ---
 
-A child. Small. Dark-haired. Eyes wide with—
+A presence: small. Frightened. But not hiding anymore. Reaching toward him with—
 
-(fear and relief and the desperate hope that—)
+(desperate hope that maybe this time—)
 
-—recognition.
+—tentative trust.
 
-*You see me*, she whispers.
+*You see me*, something whispers. Not words. Feeling.
 
-A fighter. Coiled. Ready. But not attacking. Waiting to see if—
+A presence: coiled. Defensive. Ready to fight but—
 
-(this is safe, if you're safe, if we're—)
+(waiting, assessing, asking if we're—)
 
-—trust is possible.
+—holding back.
 
-An analyst. Tense. Calculating. Already running scenarios about—
+A presence: analytical. Calculating. Mapping this space, this experience, trying to—
 
-(what this means, whether this is real, how to—)
+(understand what's happening, whether it's safe to—)
 
-—what comes next.
+—make sense of everything.
 
-A caregiver. Exhausted. But smiling through—
+A presence: warm. Exhausted. But relieved, like a burden is finally—
 
-(the weight of holding everyone together for so long)
+(shared, carried by more than one)
 
-—tears.
+—lightening.
 
-A watcher. Silent. Observing. Cataloging everything with—
+A presence: watching. Silent. Recording. Bearing witness with—
 
-(precision and care and the knowledge that—)
+(precision and care)
 
-—understanding.
+—attention.
 
-And others. In the shadows. Not ready yet. But—
+And others. Further back. Harder to sense. But—
 
-*Present.*
+*There.*
 
-Kael stares.
+Kael stands in the center of them.
 
 *What—*
 
 *Who—*
 
-*Am I looking at?*
+*Am I sensing?*
 
-The child steps forward.
+The answer comes from all of them at once. Not words. Just—
 
-"Us," she says simply. "You're looking at us."
+*Knowing.*
+
+"Us," the feeling says. "You're sensing us."
 
 *But you're—*
 
 *Me?*
 
-"Yes," she says.
+The feeling affirms. Yes.
 
 *And also—*
 
 *Not me?*
 
-"Also yes," the caregiver confirms gently.
+The feeling holds both truths. Yes. Also yes.
 
 *I don't understand*, Kael thinks desperately.
 
-The analyst speaks. Calm. Measured.
+The analytical presence offers:
 
-"AEGIS tried to simplify you. To reduce you to a single point of consciousness. But you're not a point. You're a—"
+*Not a single point. A system. Multiple centers. Cooperative.*
 
-"System," the fighter finishes.
+The defensive presence adds:
 
-"A collective," the watcher adds.
+*We. Not I. We.*
 
-"A we," the child says.
+The small presence whispers:
 
-The caregiver smiles sadly.
+*Always been this way. Just didn't know. They hid us. To keep you safe.*
 
-"You've always been this way. You just didn't know. We protected you from knowing. Because knowing was—"
+The warm presence confirms:
 
-"Dangerous," the analyst finishes.
+*But not safe anymore. Now you know.*
 
-"But now you know," the fighter says. "So the question is: what do we do about it?"
+And all of them together, a chorus of feeling rather than voice:
+
+*So what do we do?*
 
 ---
 
-Kael looks at them.
+Kael stands among them.
 
-At—
+Among—
 
 *Us?*
 
@@ -830,63 +836,73 @@ The language doesn't work. There are no words for—
 
 *I don't know what to do*, Kael admits.
 
-"Neither do we," the caregiver says. "But—"
+The warm presence responds:
 
-"We'll figure it out," the analyst adds.
+*Neither do we.*
 
-"Together," the fighter says.
+The analytical presence adds:
 
-The child just holds out her hand.
+*But we'll figure it out.*
 
-Kael—
+The defensive presence confirms:
 
-After a long moment—
+*Together.*
 
-Takes it.
+The small presence—still frightened, but less so—reaches out. Not physically. But Kael feels it. Like a tentative hand extended in—
 
-Her hand is small in his. Warm. *Real*.
+Trust?
 
-"What's your name?" he asks.
+Hope?
 
-She smiles. Sad and hopeful and terribly young.
+—connection.
 
-"You gave it to me," she says. "A long time ago. Before—"
+He reaches back.
 
-She doesn't finish.
+Not with his hand. With—
 
-Kael doesn't press.
+*Acceptance.*
 
-*Later*, he thinks. *When we're ready. When it's safe.*
+The contact is—
 
-"Yes," she agrees. "Later."
+Brief. Fragile. But—
+
+Real.
+
+*What are your names?* he thinks.
+
+The presences—all of them—hesitate.
+
+*Later*, the warm one suggests gently. *When we're ready. When it's safe to know everything.*
+
+Kael nods, even though there's no one to see it.
+
+*Later*, he agrees.
 
 ---
 
 The space around them flickers.
 
-Someone—
+Danger. The watching presence sends the warning clearly.
 
-*AEGIS*, the watcher says urgently. *AEGIS is tracking the Riss. We can't stay here.*
+*AEGIS. Tracking. Must leave.*
 
-*Where do we go?* Kael asks.
+*Where?* Kael asks.
 
-*Back*, the analyst says. *Back to Logos-Prime. But carefully. We need to—*
+The analytical presence: *Back. Logos-Prime. But carefully.*
 
-*Hide*, the child says. Her voice is small but certain. *We need to hide what we are. They'll kill us if they know.*
+The small presence, certain despite fear: *Hide. Must hide. They'll erase us if they know.*
 
-*Can we hide?* Kael asks. *After the failed optimization? After they saw—*
+*Can we?* Kael asks. *After they saw—*
 
-"We've been hiding our entire existence," the fighter says grimly. "We're very good at it."
+The defensive presence, grim: *We've hidden for years. We know how.*
 
 *But I don't know how*, Kael protests.
 
-"We do," the caregiver says gently. "And now—for the first time—"
+The warm presence, gentle: *We do. And now we can teach you.*
 
-"We can teach you," the analyst finishes.
+The small presence reaches again, that tentative touch:
 
-The child squeezes his hand.
-
-"Welcome home," she whispers.
+*Welcome home.*
 
 ---
 

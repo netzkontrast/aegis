@@ -25,6 +25,20 @@ He rises. The sheet falls with a sound like—
 
 —processed fiber against processed fiber. Synthetic whisper.
 
+His chest aches.
+
+Not pain. Something else. Like—
+
+(missing something, like a space where something used to be, like incompleteness made physical)
+
+—absence.
+
+He doesn't know what's missing. He's never known. But the ache is always there. Baseline. Constant. The feeling that he's—
+
+Not whole?
+
+*That's ridiculous*, he thinks. *I'm one person. Complete. Optimal.*
+
 Routine is—
 
 (drowning)
@@ -44,6 +58,21 @@ He showers. Water temperature: 37.2°C. Pressure: 2.1 bar. Duration: 4.3 minutes
 (control that isn't control, prison that isn't—)
 
 —understanding.
+
+His breathing follows the pattern. Always the pattern:
+
+In for four counts.
+Hold for four.
+Out for four.
+Hold for four.
+
+The optimal respiratory cycle. Regulated. Efficient. Safe.
+
+But underneath the counting, something—
+
+(wants to gasp, to sob, to breathe like breathing isn't an algorithm but a—)
+
+—resists.
 
 The apartment is small. Twelve square meters. Walls: white. Floor: grey composite. Furniture: minimal. A bed. A chair. A desk with an interface terminal. No windows. There are no windows in Logos-Prime. Windows would require—
 
@@ -103,11 +132,31 @@ Not smooth. Not perfect. A woman with—emotion. With lines at her eyes. With a 
 
 Real.
 
+And his heart—
+
+Skips.
+
+Not from emotion. From something else. A resonance. Physical. Like two particles in—
+
+(quantum entanglement, correlated states, synchronized without—)
+
+—sync.
+
+The chest ache—the constant absence—suddenly becomes—
+
+*Presence.*
+
+For one second, the missing piece is—
+
+(here, with me, looking at me with eyes that are—)
+
+—visible.
+
 Then: standard model. Standard smile. "—workstation duty at 09:00. You have forty-three minutes."
 
 Kael's heart is—
 
-(wrong wrong wrong the rhythm is wrong it's racing it's—)
+(wrong wrong wrong the rhythm is wrong it's racing like it recognized—)
 
 —elevated. Pulse: 94 BPM. Anomalous. Stress response without identified stressor.
 
@@ -131,7 +180,13 @@ He's never seen that other face.
 
 But his chest aches like—
 
-(loss, like something torn away, like someone he loved who—)
+(loss, like something torn away, not someone but some*thing*, a part of himself that—)
+
+No. That doesn't make sense. You can't lose a part of yourself. You're one person. Unified. Complete.
+
+Except the ache says otherwise.
+
+The ache says: *You were more. You were whole. And something was taken.*
 
 "Are you experiencing discomfort?" Juna asks. Clinical. Concerned. "Your biometrics indicate elevated stress markers."
 
