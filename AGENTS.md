@@ -11,9 +11,60 @@ AEGIS (Agentic Reasoning & Coherent Hypergraph Orchestration for Narratives) is 
 - `skill_seeker/` – A Python-based toolset for converting documentation, PDFs, and GitHub repos into Claude AI skills.
 - `zettelkasten_agent/` – An MCP-based agent for managing a hierarchical Zettelkasten note-taking system.
 - `skills/` – A library of reusable Claude AI skills (e.g., authoring frameworks, learning systems).
+- `quests/` – **The central hub for all active project missions and goals.**
+- `todos/` – **Actionable task lists linked to specific Quests.**
 - `vercel-prototype/` – A Next.js/TypeScript web application for the interactive book interface.
 - `docs/` – Research papers, analysis of knowledge extraction, and implementation plans.
 - `.claude/` – Configuration for Claude Code integration, including custom skills and commands.
+
+## Quest Index
+
+This section tracks the high-level status of all project missions.
+
+**[> View Detailed Quest Navigation Hub <](./quests/README.md)**
+**[> View Active Todos <](./todos/README.md)**
+
+### 🟢 Active Quests
+- **[[Quest-System-AEGIS.md]](./quests/Quest-System-AEGIS.md)**: AEGIS System Architecture
+- **[[Quest-System-Protagonist.md]](./quests/Quest-System-Protagonist.md)**: Kael's Internal Systems
+- **[[Quest-Narrative-Architecture.md]](./quests/Quest-Narrative-Architecture.md)**: Structure & Pacing
+- **[[Quest-World-Physics.md]](./quests/Quest-World-Physics.md)**: Landauer & Metaphysics
+- **[[Quest-Philosophical-Core.md]](./quests/Quest-Philosophical-Core.md)**: Core Themes
+- **[[Quest-Roman-Entwicklung-Implementation.md]](./quests/Quest-Roman-Entwicklung-Implementation.md)**: Skill Implementation
+- **[[Quest-Skill-Gap-Analysis.md]](./quests/Quest-Skill-Gap-Analysis.md)**: Workflow Optimization
+
+### ⚪ Backlog / On Hold
+- **[[Quest-Style-And-Meta.md]](./quests/Quest-Style-And-Meta.md)**: Prose Style
+- **[[Quest-Philosophically-Coherent-Narratives.md]](./quests/Quest-Philosophically-Coherent-Narratives.md)**: Narrative Theory
+- **[[Quest-Integrate-Writing-Excellence.md]](./quests/Quest-Integrate-Writing-Excellence.md)**: Writing Quality
+
+---
+
+## Workflows & Skills
+
+Use the following skills to maintain project coherence and momentum.
+
+### 1. `kohaerenz-roman-entwicklung` (The Novel Engine)
+**Use When:** Working on ANY aspect of the novel (plotting, character, decisions, conflicts).
+**Function:** Manages the canonical state, tracks open questions, and guides decision-making.
+**Trigger:** "Roman", "Konflikt", "Entscheidung", "Kael", "AEGIS".
+
+### 2. `quest-management` (Mission Control)
+**Use When:** Defining a new major goal or updating high-level progress.
+**Function:** Creates and maintains Quest files in `quests/`.
+**Trigger:** "New Quest", "Update Mission", "What are we working on?".
+
+### 3. `todo-management` (Tactical Execution)
+**Use When:** Adding specific tasks or checking off items.
+**Function:** Manages todo lists in `todos/` linked to Quests.
+**Trigger:** "Add todo", "Task complete", "What's next?".
+
+### 4. `zettelkasten-tapestry` (Knowledge Synthesis)
+**Use When:** Learning new concepts or processing external content (URLs, PDFs).
+**Function:** Extracts content and integrates it into the Zettelkasten knowledge graph.
+**Trigger:** "Tapestry [URL]", "Learn from this", "Connect to knowledge".
+
+---
 
 ## Build & Development Commands
 
@@ -129,7 +180,7 @@ graph TD
 ## Agent Guardrails
 
 - **Protected Files**: Agents should strictly avoid modifying `ARCHON/ncp/schema.json` directly without explicit instruction.
-- **Review Required**: Changes to `kohaerenz_protokoll/PROJECT_CODEX.md` (canonical truth) require human sign-off.
+- **Review Required**: Changes to `kohaerenz-roman-entwicklung/references/CANON_STATE.md` (canonical truth) require human sign-off.
 - **Rate Limits**: Be mindful of Anthropic API usage loops in `skill_seeker` enhancement scripts.
 - **Output Constraints**: Agents must produce Markdown-formatted output for all text generation tasks.
 
@@ -187,7 +238,7 @@ For a comprehensive breakdown, see `docs/ACT_1_ANALYSIS.md`.
 
 ### Narrative Simulator Rules (Consolidated)
 *   **Master Navigation:** Always start with the [Encyclopedia & Navigation Hub](docs/kohaerenz_protokoll_encyclopedia.md). This file maps all narrative content and links to the deep-dive Quests.
-*   **Knowledge Quests:** For deep work on specific topics (AEGIS, Kael, Physics, etc.), consult the relevant **Quest File** in the root directory (e.g., `Quest-System-AEGIS.md`). These contain consolidated canonical knowledge.
+*   **Knowledge Quests:** For deep work on specific topics (AEGIS, Kael, Physics, etc.), consult the relevant **Quest File** in the `quests/` directory. These contain consolidated canonical knowledge.
 *   **Master Skill:** All narrative generation must adhere to the [Kohärenz Protokoll Master Skill](docs/kohaerenz_protokoll_master_skill.md). This document supersedes all other loose instructions regarding tone, physics, and character voice.
 *   **Project Codex:** The [Project Codex](kohaerenz_protokoll/PROJECT_CODEX.md) is the canonical source for universe rules.
 *   **Writing Protocol:** Follow the [Writing Protocol](kohaerenz_protokoll/WRITING_PROTOCOL.md) for formatting and stylistic consistency.
