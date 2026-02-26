@@ -25,9 +25,9 @@ description: Manages high-level narrative and development quests. Use when creat
 ```
 Identify Mission/Goal
     ↓
-Check `quests/README.md` (Is it already covered?)
+Check `quests/README.md` and `quests/*.md` (Is it already covered?)
     ↓
-Create New Quest File (`quests/Quest-Name.md`)
+Merge/Update if exists OR Create New Quest File (`quests/Quest-Name.md`)
     ↓
 Generate Todo List (via `todo-management`)
     ↓
@@ -41,11 +41,15 @@ Update `AGENTS.md` (Quest Index)
 ### 1. Create New Quest
 **Use when**: A new major goal is identified (e.g., "Fix Plot Hole X", "Implement Feature Y").
 
-1.  **Read Template**: Load `assets/quest_template.md`.
-2.  **Populate**: Fill in Title, Focus, Challenge, Goal.
-3.  **Save**: Save to `quests/Quest-[Name].md`.
-4.  **Link**: Add entry to `quests/README.md` and `AGENTS.md`.
-5.  **Trigger**: Ask user if they want to populate specific todos immediately.
+1.  **Pre-Flight Check**:
+    *   Read `quests/README.md`.
+    *   List files in `quests/`.
+    *   **CRITICAL**: If a similar quest exists, UPDATE or MERGE it. Do not create duplicates.
+2.  **Read Template**: Load `quests/TEMPLATE.md`.
+3.  **Populate**: Fill in Title, Focus, Challenge, Goal, and "Related Quests".
+4.  **Save**: Save to `quests/Quest-[Name].md`.
+5.  **Link**: Add entry to `quests/README.md` and `AGENTS.md`.
+6.  **Trigger**: Ask user if they want to populate specific todos immediately.
 
 ### 2. Update Quest Status
 **Use when**: Progress is made or a quest is completed.

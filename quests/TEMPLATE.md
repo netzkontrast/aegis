@@ -11,6 +11,10 @@
 ## 🎯 Objective
 *Briefly describe the goal of this quest. What are we achieving? Why is it important?*
 
+## 🔗 Related Quests / Merged Context
+*List any existing quests that are related or were merged into this one. Check `quests/` before creating.*
+- [Quest-Name](path/to/quest)
+
 ## CONTEXT
 *Link to relevant documents, issues, or previous discussions. Explain the background.*
 - [Related Plan/Doc](path/to/doc)
