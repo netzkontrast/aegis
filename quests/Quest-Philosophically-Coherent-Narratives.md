@@ -1,6 +1,6 @@
 # Quest: Master Philosophically Coherent Narrative Architecture
 
-**Source:** Metaphysics-of-Wholeness-Analysis.md
+**Source:** [Metaphysics-of-Wholeness-Analysis.md](../kohaerenz_protokoll/narrative_design/Metaphysics-of-Wholeness-Analysis.md)
 **Duration:** 5 weeks (expandable)
 **Status:** ✅ QUEST COMPLETE ✅
 **Created:** 2025-11-06
@@ -9,13 +9,13 @@
 ## Progress Tracker
 
 **Phase 1: Deepen the Framework** ✅
-- [x] **Rep 1:** The Foundation Deep Dive - COMPLETE (4,500 words)
-- [x] **Rep 2:** The 6 Pariahs Taxonomy - COMPLETE (5,500 words)
-- [x] **Rep 3:** Systems Comparison Document - COMPLETE (5,000 words)
+- [x] **Rep 1:** [The Foundation Deep Dive](../kohaerenz_protokoll/narrative_design/Rep1-Foundation-Deep-Dive.md) - COMPLETE (4,500 words)
+- [x] **Rep 2:** [The 6 Pariahs Taxonomy](../kohaerenz_protokoll/narrative_design/Rep2-The-6-Pariahs-System.md) - COMPLETE (5,500 words)
+- [x] **Rep 3:** [Systems Comparison Document](../kohaerenz_protokoll/narrative_design/Rep3-AEGIS-vs-Foundation-Systems.md) - COMPLETE (5,000 words)
 
 **Phase 2: Extract & Apply the Technique** ✅
-- [x] **Rep 4:** The Meta-Pattern Template - COMPLETE (6,000 words)
-- [x] **Rep 5:** The Writer's Integration Framework - COMPLETE (4,000 words)
+- [x] **Rep 4:** [The Meta-Pattern Template](../kohaerenz_protokoll/narrative_design/Rep4-Building-Philosophically-Coherent-Narratives.md) - COMPLETE (6,000 words)
+- [x] **Rep 5:** [The Writer's Integration Framework](../kohaerenz_protokoll/narrative_design/Rep5-The-Writers-Integration-Framework.md) - COMPLETE (4,000 words)
 
 **Total shipped:** 25,000 words of concrete narrative architecture
 

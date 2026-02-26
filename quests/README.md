@@ -1,56 +1,8 @@
-# AEGIS Quest Dashboard
-
-**Last Updated:** 2025-05-18
-**Status:** 🟢 Active / 🟡 Maintenance / 🔴 Blocked
-**Purpose:** Central hub for all active development and narrative quests.
-
----
-
-## 🚀 Active Quests
-
-| Quest Name | Status | Priority | Description |
-| :--- | :--- | :--- | :--- |
-| **[Quest-Zettelkasten-Tapestry](./Quest-Zettelkasten-Tapestry.md)** | 🟡 In Progress | 🔥 High | Implementation and refinement of the Zettelkasten knowledge graph system. |
-| **[Quest-Knowledge-Graph-Foundation](./Quest-Knowledge-Graph-Foundation.md)** | 🔴 Not Started | 🚨 Critical | Core data structures and tools for the narrative knowledge graph. |
-| **[Quest-NCP-Writing-Assistant](./Quest-NCP-Writing-Assistant.md)** | 🔴 Not Started | 🔥 High | Development of the Narrative coherence protocol writing assistant. |
-| **[Quest-Writing-Excellence](./Quest-Writing-Excellence.md)** | 🟢 Active | 🔥 High | Continuous improvement of writing quality across documentation and narrative. |
-| **[Quest-Documentation-Improvements](./Quest-Documentation-Improvements.md)** | 🟡 In Progress | 🎯 Medium | Enhancements to project documentation structure and clarity. |
-| **[Quest-Narrative-System](./Quest-Narrative-System.md)** | 📦 Backlog | 🎯 Medium | Narrative system enhancements and features. |
-| **[Quest-System-Maintenance](./Quest-System-Maintenance.md)** | 🟡 Ongoing | 🎯 Medium | Ongoing maintenance, bug fixes, and technical debt resolution. |
-
----
-
-## 📦 Backlog Quests
-
-| Quest Name | Priority | Description |
-| :--- | :--- | :--- |
-| [Quest-Future-Feature-X](./Quest-Future-Feature-X.md) | 📦 Low | Brief description. |
-
----
-
-## 🛠️ Completed Quests
-
-| Quest Name | Completion Date | Notes |
-| :--- | :--- | :--- |
-| [Quest-Philosophically-Coherent-Narratives](../Quest-Philosophically-Coherent-Narratives.md) | 2025-11-06 | Completed initial narrative architecture. |
-
----
-
-## 📝 Instructions for Agents
-
-1.  **Check Before You Start:** Always consult this dashboard before picking up a task.
-2.  **Update Frequently:** Update the status of the quest you are working on.
-3.  **Create New Quests:** Use `quests/TEMPLATE.md` for new initiatives.
-4.  **Link Everything:** Ensure all work items are linked to a specific Quest.
-
----
-
-**Note:** This file is the source of truth for project status. Keep it clean and updated.
 # Quest Navigation Hub
 
 This directory contains all active and completed Quests for the AEGIS project.
 
-**Current Focus:** [Dynamic - update based on active quests]
+**Current Focus:** Foundation Systems & Writing Excellence
 
 ## 🟢 Active Quests
 
@@ -63,22 +15,37 @@ This directory contains all active and completed Quests for the AEGIS project.
 | [[Quest-Philosophical-Core.md]] | Core Themes | 🟢 Active |
 | [[Quest-Roman-Entwicklung-Implementation.md]] | Skill Implementation | 🟢 Active |
 | [[Quest-Skill-Gap-Analysis.md]] | Workflow Optimization | 🟢 Active |
+| [[Quest-Writing-Excellence.md]] | Writing Quality & Standards | 🟢 Active |
+| [[Quest-Zettelkasten-Tapestry.md]] | Zettelkasten Implementation | 🟡 In Progress |
+| [[Quest-Knowledge-Graph-Foundation.md]] | KG Data Structures | 🔴 Not Started |
+| [[Quest-NCP-Writing-Assistant.md]] | NCP Assistant Tool | 🔴 Not Started |
+| [[Quest-Documentation-Improvements.md]] | Docs Structure | 🟡 In Progress |
+| [[Quest-System-Maintenance.md]] | Maintenance & Tech Debt | 🟡 Ongoing |
 
 ## ⚪ Backlog / On Hold
 
 | Quest | Focus | Status |
 |---|---|---|
 | [[Quest-Style-And-Meta.md]] | Prose Style | ⚪ On Hold |
-| [[Quest-Philosophically-Coherent-Narratives.md]] | Narrative Theory | ⚪ On Hold |
-| [[Quest-Integrate-Writing-Excellence.md]] | Writing Quality | ⚪ On Hold |
+| [[Quest-Narrative-System.md]] | Narrative System Features | 📦 Backlog |
 
 ## ✅ Completed
 
-*None yet.*
+| Quest | Completion Date | Notes |
+|---|---|---|
+| [[Quest-Philosophically-Coherent-Narratives.md]] | 2025-11-06 | Narrative Architecture & Meta-Pattern |
 
 ---
 
-## How to Use
-1.  **Start Here**: Check the active quests above.
-2.  **Drill Down**: Open the specific Quest file for details.
-3.  **Check Todos**: Go to `todos/[Quest-Name].md` for actionable tasks.
+## Instructions for Agents
+
+1.  **Check Before You Start:** Always consult this dashboard before picking up a task.
+2.  **Update Frequently:** Update the status of the quest you are working on.
+3.  **Create New Quests:** Use `quests/TEMPLATE.md` for new initiatives.
+4.  **Check Existing:** Before creating a new quest, check if an existing one covers the scope. Merge if possible.
+5.  **Link Everything:** Ensure all work items are linked to a specific Quest.
+6.  **Drill Down:** Open the specific Quest file for details and Todos.
+
+---
+
+**Note:** This file is the source of truth for project status. Keep it clean and updated.
