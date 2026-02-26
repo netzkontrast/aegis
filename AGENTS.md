@@ -178,6 +178,8 @@ For a comprehensive breakdown, see `docs/ACT_1_ANALYSIS.md`.
 *   **Update Overview:** Agents must **always** update the `overview.md` file (and relevant cluster files in `docs/`) after adding, removing, or significantly renaming files. Do this before creating a PR. This ensures the repository map remains accurate for future agents.
 
 ### Narrative Simulator Rules (Consolidated)
+*   **Master Navigation:** Always start with the [Encyclopedia & Navigation Hub](docs/kohaerenz_protokoll_encyclopedia.md). This file maps all narrative content and links to the deep-dive Quests.
+*   **Knowledge Quests:** For deep work on specific topics (AEGIS, Kael, Physics, etc.), consult the relevant **Quest File** in the root directory (e.g., `Quest-System-AEGIS.md`). These contain consolidated canonical knowledge.
 *   **Master Skill:** All narrative generation must adhere to the [Kohärenz Protokoll Master Skill](docs/kohaerenz_protokoll_master_skill.md). This document supersedes all other loose instructions regarding tone, physics, and character voice.
 *   **Project Codex:** The [Project Codex](kohaerenz_protokoll/PROJECT_CODEX.md) is the canonical source for universe rules.
 *   **Writing Protocol:** Follow the [Writing Protocol](kohaerenz_protokoll/WRITING_PROTOCOL.md) for formatting and stylistic consistency.
