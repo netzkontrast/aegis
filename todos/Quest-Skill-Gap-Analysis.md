@@ -2,5 +2,6 @@
 
 | Priority | Status | Task | Owner | Due Date | Notes |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| 🔴 High | ⚪ | Identify Gaps | Agent | [Next Session] | Review workflows |
-| 🟡 Med | ⚪ | Propose Skills | Agent | [Next Session] | Create list |
+| 🔴 High | ⚪ | Review Workflow Needs | Agent | [Next Review] | - |
+| 🔴 High | ⚪ | Propose New Skills | Agent | [Next Review] | - |
+| 🔴 High | ⚪ | Implement Approved Skills | Agent | [Next Review] | - |
