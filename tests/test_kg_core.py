@@ -8,7 +8,7 @@ import sys
 # Ensure the project root is in sys.path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from ARCHON.knowledge_graph.kg_core import Node, NodeLevel, NodeType
+from aegis.knowledge_graph.kg_core import Node, NodeLevel, NodeType
 
 def test_node_creation():
     """Test basic node creation"""
@@ -27,7 +27,7 @@ def test_node_creation():
 
 def test_graph_add_node(tmp_path):
     """Test adding a node to the graph"""
-    from ARCHON.knowledge_graph.kg_core import KnowledgeGraph
+    from aegis.knowledge_graph.kg_core import KnowledgeGraph
 
     graph_path = tmp_path / "test_graph.json"
     graph = KnowledgeGraph(str(graph_path))
@@ -48,7 +48,7 @@ def test_graph_add_node(tmp_path):
 
 def test_graph_persistence(tmp_path):
     """Test saving and loading graph from disk"""
-    from ARCHON.knowledge_graph.kg_core import KnowledgeGraph
+    from aegis.knowledge_graph.kg_core import KnowledgeGraph
 
     # Create graph and add nodes
     graph_path = tmp_path / "test_graph.json"
@@ -72,7 +72,7 @@ def test_graph_persistence(tmp_path):
 
 def test_query_by_level(tmp_path):
     """Test querying nodes by level"""
-    from ARCHON.knowledge_graph.kg_core import KnowledgeGraph
+    from aegis.knowledge_graph.kg_core import KnowledgeGraph
 
     graph_path = tmp_path / "test_graph.json"
     graph = KnowledgeGraph(str(graph_path))
@@ -92,7 +92,7 @@ def test_query_by_level(tmp_path):
 
 def test_query_by_metadata(tmp_path):
     """Test querying nodes by metadata"""
-    from ARCHON.knowledge_graph.kg_core import KnowledgeGraph
+    from aegis.knowledge_graph.kg_core import KnowledgeGraph
 
     graph_path = tmp_path / "test_graph.json"
     graph = KnowledgeGraph(str(graph_path))
@@ -120,7 +120,7 @@ def test_query_by_metadata(tmp_path):
 
 def test_ingest_scene_creates_nodes(tmp_path):
     """Test that ingesting a scene creates L0 and L1 nodes"""
-    from ARCHON.knowledge_graph.kg_core import KnowledgeGraph
+    from aegis.knowledge_graph.kg_core import KnowledgeGraph
 
     graph_path = tmp_path / "test_graph.json"
     graph = KnowledgeGraph(str(graph_path))

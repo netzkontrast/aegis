@@ -17,7 +17,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-6 text-[var(--primary)]">The Dual Project</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <div className="bg-[var(--muted)] border border-[var(--border)] rounded-lg p-6 card-hover">
-            <h3 className="text-2xl font-bold mb-3 text-[var(--primary)]">ARCHON</h3>
+            <h3 className="text-2xl font-bold mb-3 text-[var(--primary)]">AEGIS</h3>
             <p className="text-sm text-gray-400 mb-2">The Meta-Framework</p>
             <p className="text-gray-300">
               A functional implementation of an AI-assisted narrative coherence system,
@@ -56,7 +56,7 @@ export default function Home() {
             <div className="flex items-start gap-4">
               <span className="text-3xl">🔧</span>
               <div>
-                <strong className="text-[var(--primary)]">ARCHON</strong> seeks to maintain narrative
+                <strong className="text-[var(--primary)]">AEGIS</strong> seeks to maintain narrative
                 coherence through formal systems
               </div>
             </div>
@@ -115,7 +115,7 @@ export default function Home() {
 
           <a href="/about" className="bg-[var(--muted)] border border-[var(--border)] rounded-lg p-6 card-hover block">
             <div className="text-4xl mb-4">ℹ️</div>
-            <h3 className="text-xl font-bold mb-2">About ARCHON</h3>
+            <h3 className="text-xl font-bold mb-2">About AEGIS</h3>
             <p className="text-sm text-gray-400">
               Learn about the narrative coherence framework
             </p>

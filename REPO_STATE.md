@@ -48,9 +48,9 @@ AEGIS (Agentic Reasoning & Coherent Hypergraph Orchestration for Narratives) is 
 How these components talk to each other:
 
 1.  **The Narrative Loop:**
-    *   **Input:** `ARCHON/ncp/` defines the constraints (Thematic Guardrails).
+    *   **Input:** `aegis/ncp/` defines the constraints (Thematic Guardrails).
     *   **Process:** Agent (using `Codex` skill) writes manuscript content in `kohaerenz_protokoll/`.
-    *   **Validation:** `ARCHON/tools/ncp_validate.py` checks the prose against the constraints.
+    *   **Validation:** `aegis/tools/ncp_validate.py` checks the prose against the constraints.
     *   **Feedback:** Violations are corrected, ensuring thematic coherence.
 
 2.  **The Learning Loop:**
@@ -66,9 +66,9 @@ How these components talk to each other:
 
 | Component | Feature | Status | Notes |
 |---|---|---|---|
-| **ARCHON** | NCP Schema | ✅ Complete | `ARCHON/ncp/schema.json` |
-| | NCP Query Tool | ✅ Complete | `ARCHON/tools/ncp_query.py` |
-| | NCP Validate Tool | ✅ Complete | `ARCHON/tools/ncp_validate.py` |
+| **ARCHON** | NCP Schema | ✅ Complete | `aegis/ncp/schema.json` |
+| | NCP Query Tool | ✅ Complete | `aegis/tools/ncp_query.py` |
+| | NCP Validate Tool | ✅ Complete | `aegis/tools/ncp_validate.py` |
 | | NCP Assist Tool | 🔴 Planned | Writing assistant / prompt generator |
 | | Knowledge Graph | 🔴 Planned | L0-L3 Hierarchical Memory |
 | **Novel** | World Building | 🟡 In Progress | Kernwelten & Characters defined |
@@ -137,7 +137,7 @@ The repository is driven by "Quests" - high-level missions that group related ta
 ## 5. Agent Instructions
 
 **For all Agents:**
-1.  **Read `SESSION_SKILL.md` First:** This is your operating system.
+1.  **Read `aegis/SKILL.md` First:** This is your operating system.
 2.  **Check `quests/README.md`:** Know what is active.
 3.  **Update `REPO_STATE.md`:** If you add a major component, update this file.
 4.  **Respect the Architecture:** Do not bypass ARCHON constraints when writing narrative.

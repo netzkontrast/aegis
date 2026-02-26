@@ -22,7 +22,7 @@ In production, this would query the NCP JSON schema to retrieve:
 - Throughline checkpoints
 - Structural validation criteria
 
-The actual NCP implementation is available in the ARCHON/ncp/ directory.`);
+The actual NCP implementation is available in the aegis/ncp/ directory.`);
       setLoading(false);
     }, 1000);
   };
@@ -116,9 +116,9 @@ The actual NCP implementation is available in the ARCHON/ncp/ directory.`);
             This is a prototype interface. The actual NCP tools are available via CLI:
           </p>
           <code className="block bg-black/50 p-3 rounded text-sm font-mono">
-            python ARCHON/tools/ncp_query.py --chapter 4 --verbose
+            python aegis/tools/ncp_query.py --chapter 4 --verbose
             <br />
-            python ARCHON/tools/ncp_validate.py manuscript/chapter_01.md
+            python aegis/tools/ncp_validate.py manuscript/chapter_01.md
           </code>
         </div>
       </div>
