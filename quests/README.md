@@ -19,7 +19,7 @@ This directory contains all active and completed Quests for the AEGIS project.
 | [[Quest-Zettelkasten-Tapestry.md]] | Zettelkasten Implementation | 🟡 In Progress |
 | [[Quest-Knowledge-Graph-Foundation.md]] | KG Data Structures | 🔴 Not Started |
 | [[Quest-NCP-Writing-Assistant.md]] | NCP Assistant Tool | 🔴 Not Started |
-| [[Quest-Documentation-Improvements.md]] | Docs Structure | 🟡 In Progress |
+| [[Quest-Documentation-Improvements.md]] | Docs Structure | ✅ Completed (Phase 1) |
 | [[Quest-System-Maintenance.md]] | Maintenance & Tech Debt | 🟡 Ongoing |
 
 ## ⚪ Backlog / On Hold
