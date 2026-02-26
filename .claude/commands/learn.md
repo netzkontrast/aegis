@@ -153,6 +153,8 @@ if [ "$MODE" = "extract" ]; then
     # Detect content type
     if [[ "$URL" =~ youtube\.com/watch || "$URL" =~ youtu\.be/ || "$URL" =~ youtube\.com/shorts || "$URL" =~ m\.youtube\.com/watch ]]; then
         CONTENT_TYPE="youtube"
+    elif [[ "$URL" =~ github\.com ]]; then
+        CONTENT_TYPE="github"
     elif [[ "$URL" =~ \.pdf$ ]] || curl -sI "$URL" 2>/dev/null | grep -iq "Content-Type: application/pdf"; then
         CONTENT_TYPE="pdf"
     else
@@ -164,6 +166,55 @@ if [ "$MODE" = "extract" ]; then
 
     # Extract based on type
     case $CONTENT_TYPE in
+        github)
+            # GitHub extraction
+            echo "🐙 Extracting GitHub repository..."
+
+            # Check for python/pip
+            if ! command -v python3 &> /dev/null; then
+                echo "❌ Error: Python 3 not found."
+                exit 1
+            fi
+
+            # Check for dependencies
+            if ! python3 -c "import github" 2>/dev/null; then
+                echo "❌ Error: PyGithub is not installed."
+                echo "   Please run: pip3 install PyGithub"
+                exit 1
+            fi
+
+            # Parse repo name
+            REPO_NAME=$(echo "$URL" | sed 's/.*github.com\///' | cut -d/ -f1-2)
+            echo "   Repo: $REPO_NAME"
+
+            # Run scraper
+            # Using skill_seeker/cli/github_scraper.py
+            # Output goes to output/<repo_name>/references/README.md
+
+            # Note: We use --token from env if available, or rely on public access
+            python3 skill_seeker/cli/github_scraper.py --repo "$REPO_NAME"
+
+            # Locate content
+            REPO_SHORT_NAME=$(echo "$REPO_NAME" | cut -d/ -f2)
+            # The scraper uses just the repo name for the output folder usually, checking logic...
+            # Scraper logic: name = config.get('name', repo.split('/')[-1])
+            # So output folder is output/{REPO_SHORT_NAME}
+
+            POSSIBLE_CONTENT="output/${REPO_SHORT_NAME}/references/README.md"
+            POSSIBLE_SKILL="output/${REPO_SHORT_NAME}/SKILL.md"
+
+            if [ -f "$POSSIBLE_CONTENT" ]; then
+                CONTENT_FILE="$POSSIBLE_CONTENT"
+                echo "✓ Extracted README: $CONTENT_FILE"
+            elif [ -f "$POSSIBLE_SKILL" ]; then
+                CONTENT_FILE="$POSSIBLE_SKILL"
+                echo "✓ Extracted Skill Summary: $CONTENT_FILE"
+            else
+                echo "❌ Error: Could not locate extracted content for $REPO_NAME"
+                exit 1
+            fi
+            ;;
+
         youtube)
             # YouTube extraction
             echo "📺 Extracting YouTube transcript..."

@@ -12,7 +12,6 @@
 Complete the implementation, testing, and documentation of the Zettelkasten Tapestry Skill, ensuring it is a robust and reliable tool for knowledge graph generation.
 
 ## CONTEXT
-- [Original TODO List](skills/zettelkasten-tapestry/TODO.md)
 - [CONSOLIDATED_IMPLEMENTATION_PLAN.md](CONSOLIDATED_IMPLEMENTATION_PLAN.md)
 
 ## 🛠️ Implementation Plan

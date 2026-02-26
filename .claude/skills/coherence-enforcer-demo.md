@@ -416,6 +416,8 @@ After fix:
 
 **User approves Option B → Implement → Validate → Fix drift**
 
+**Update (2025-11-06):** GitHub support has since been implemented in the `/learn` command, which replaces `tapestry`. The example above is preserved for historical context on detecting drift.
+
 ---
 
 ## Example 5: Safe Dead Code Archival
