@@ -13,10 +13,11 @@ This document serves as the comprehensive "State of the Union" for the AEGIS rep
 
 AEGIS (Agentic Reasoning & Coherent Hypergraph Orchestration for Narratives) is a meta-recursive system composed of five primary components:
 
-### A. ARCHON (The Framework)
+### A. AEGIS Framework (formerly ARCHON)
 *   **Role:** The "Legislative Branch". Defines the laws of narrative physics and coherence.
+*   **Location:** `aegis/` (Consolidated from `ARCHON/`)
 *   **Core:** The Narrative Context Protocol (NCP) - a formal JSON schema encoding thematic constraints.
-*   **Tools:** Python CLI utilities (`ncp_query`, `ncp_validate`) for enforcing these laws.
+*   **Tools:** Python CLI utilities (`ncp_query`, `ncp_validate`) in `aegis/tools/`.
 *   **Status:** **Functional Core**. Schema and basic validation tools exist.
 
 ### B. Kohärenz Protokoll (The Novel)
@@ -66,7 +67,7 @@ How these components talk to each other:
 
 | Component | Feature | Status | Notes |
 |---|---|---|---|
-| **ARCHON** | NCP Schema | ✅ Complete | `aegis/ncp/schema.json` |
+| **AEGIS Framework** | NCP Schema | ✅ Complete | `aegis/ncp/schema.json` |
 | | NCP Query Tool | ✅ Complete | `aegis/tools/ncp_query.py` |
 | | NCP Validate Tool | ✅ Complete | `aegis/tools/ncp_validate.py` |
 | | NCP Assist Tool | 🔴 Planned | Writing assistant / prompt generator |
@@ -91,9 +92,9 @@ The repository is driven by "Quests" - high-level missions that group related ta
 
 ### 🟢 Active Missions
 
-*   **System Architecture (`aegis.md`)**:
+*   **System Architecture (`aegis/README.md`)**:
     *   *Goal:* Define and refine the overall system architecture.
-    *   *Focus:* Integration of all components.
+    *   *Focus:* Integration of all components. (See `quests/Quest-System-AEGIS-Implementation.md` for completed migration).
 
 *   **Narrative Architecture (`narrative.md`)**:
     *   *Goal:* Structure the novel's pacing and thematic arcs.

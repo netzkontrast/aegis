@@ -24,6 +24,7 @@ Bevor du irgendetwas tust, navigiere durch diese Karte:
 ```
 AEGIS/
 ├── README.md                                    ← STARTE HIER — zentraler Navigationsknoten
+├── aegis/SKILL.md                               ← MANDATORY SYSTEM INSTRUCTION (OS)
 ├── docs/kohaerenz_protokoll_encyclopedia.md     ← Narratives Wissens-Hub
 ├── aegis/ncp/kohaerenz_protokoll.ncp.json      ← Kanonische Wahrheit (NCP)
 ├── kohaerenz_protokoll/PROJECT_CODEX.md         ← Universumsregeln (unveränderlich)
@@ -32,7 +33,7 @@ AEGIS/
 └── quests/Quest-System-*.md                     ← Tiefenwissen zu spez. Themen
 ```
 
-**Zwingend:** Lies `README.md` bevor du mit einer Aufgabe beginnst. Aktualisiere `README.md` und die relevanten `docs/cluster_*.md`-Dateien nach jedem Hinzufügen, Umbenennen oder Entfernen von Dateien.
+**Zwingend:** Lies `aegis/SKILL.md` (dein Betriebssystem) und `README.md` bevor du mit einer Aufgabe beginnst. Aktualisiere `README.md` und die relevanten `docs/cluster_*.md`-Dateien nach jedem Hinzufügen, Umbenennen oder Entfernen von Dateien.
 
 ---
 
