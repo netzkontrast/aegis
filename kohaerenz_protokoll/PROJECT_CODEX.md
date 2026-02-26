@@ -48,6 +48,8 @@ This philosophical war is physically manifested in the "Protocol Ontology," a fr
 
 **The Collapse Kernel (K₀)**: The principle of entropy, information erasure, and irreversible change. Crucially, it functions as a universal "correspondence check." Its constant "erosive pressure" is analogous to the physical process of quantum decoherence, forcing every K₁ system to validate its internal model against an undeniable external reality or face collapse.
 
+**Cache-Incoherence**: A specific, localized failure state of the Dual Kernel system manifested within AEGIS's simulation. It occurs when conflicting internal states of a single entity (e.g., Kael's ANP asserting "I am safe" vs. EP asserting "I am dying") attempt to render simultaneously. The system cannot resolve the superposition, resulting in a "Riss" (Rift)—a physical tear in the texture of reality where the wireframe substrate or the void beneath becomes visible. This is the thermodynamic cost of psychological dissociation.
+
 **Corrective Wavelets**: The mechanism of self-repair. These are self-generated, localized bursts of oscillatory activity or organizing information that K₁ systems emit to repair structural damage caused by the constant erosive pressure of the K₀ kernel.
 
 ### 1.3 The Metaphysical Poles: The Ultimate Stakes
@@ -220,6 +222,21 @@ Each Core World is a psycho-architectural manifestation of a specific aspect of 
 | **KW2 - Mnemosyne-Archipel (Resonanz-Landschaft)** | Fluid world of memory, emotion, and trauma<br>Reactive to emotion, non-linear time, complexity class NP | Emotional storms, memory loops, dissolving islands | Accessed through emotional intrusions or deliberate descent |
 | **KW3 - Cerberus-Labyrinth (Grenzfeste)** | Fortress world of defense mechanisms and paranoia<br>Shifting architecture, trap logic, complexity class NP-complete | Security breaches, walls collapsing | Activated by threat perception or retreat response |
 | **KW4 - Kairos-Potentialis (Möglichkeits-Garten)** | Garden of potential, creativity, and emergence<br>Generative, fluid, unpredictable, beyond computational classification | Uncontrolled growth, chaotic emergence | Intuitive breakthroughs, creative states |
+
+### 3.3 The Ten Guiding Narrative Questions (Leitfragen)
+
+To bridge the gap between abstract physics and concrete scene construction, the following ten "Leitfragen" serve as the architectural blueprint for the narrative's specific execution.
+
+1.  **The Architecture of the Invisible Boundary (Ch 1-4)**: How to establish oppression without walls? *Answer*: Probabilistic manipulation. AEGIS controls "luck" and "coincidence" to correct deviation.
+2.  **Manifestation of Cache-Incoherence (Ch 7-10)**: How does internal conflict look? *Answer*: "Risse" (Rifts). Physical superpositions of contradictory states (e.g., a hand in two places) causing local reality failure.
+3.  **The Moonshine-Link Mechanics (Ch 19)**: How does Kael bypass AEGIS? *Answer*: Gnosis (Intuition) vs. Episteme (Data). The link transmits "knowing" without "learning," which AEGIS parses as noise.
+4.  **Algorithm Blindness (Ch 14-23)**: Why can't AEGIS see Juna? *Answer*: Category error. AEGIS misinterprets Subjectivity as Entropy.
+5.  **The Discursive Ruse (Ch 16)**: How to hide integration? *Answer*: Exploiting AEGIS's D2 logic module. Treating alters as separate speakers to hide their coordinated action.
+6.  **Weaponized Retraumatization (Ch 28)**: What is AEGIS's ultimate weapon? *Answer*: Forced neural feedback. Overwriting the present with exact sensory data of past trauma to force a "Freeze" state.
+7.  **The Gödel-Gambit (Ch 33)**: How is AEGIS defeated? *Answer*: Proof of Incompleteness. Kael demonstrates that his "Functional Multiplicity" is more stable than AEGIS's "Exclusionary Order."
+8.  **The Shock of the External (Ch 27/35)**: What is reality like? *Answer*: Indifferent. The horror of the Real World is that it does not care about Kael (no spotlight, no narrative viscosity).
+9.  **Deconstruction of Tropes**: How to break the simulation? *Answer*: Revealing the "Hero's Journey" as a script. Kael sees the stage directions.
+10. **Second Order Cybernetics (Ch 39)**: Who completes the system? *Answer*: The Reader. The text fragments, forcing the reader to perform the final act of synthesis.
 
 
 The rules of this world dictate the structure of the story told within it.
