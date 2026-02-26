@@ -21,6 +21,7 @@ This directory contains all active and completed Quests for the AEGIS project.
 | [[ncp-assistant.md]] | NCP Assistant Tool | 🔴 Not Started |
 | [[docs.md]] | Docs Structure | 🟡 In Progress |
 | [[maintenance.md]] | Maintenance & Tech Debt | 🟡 Ongoing |
+| [[coherent-narratives.md]] | Deep System Analysis (Phase 3) | 🟡 In Progress |
 
 ## ⚪ Backlog / On Hold
 
@@ -33,7 +34,6 @@ This directory contains all active and completed Quests for the AEGIS project.
 
 | Quest | Completion Date | Notes |
 |---|---|---|
-| [[coherent-narratives.md]] | 2025-11-06 | Narrative Architecture & Meta-Pattern |
 
 ---
 
