@@ -10,6 +10,58 @@ def load_json(path):
     with open(path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
+def generate_physics_engine(data):
+    physics = data.get('world_building', {}).get('physics_engine', {})
+    if not physics:
+        return "No physics engine data found."
+
+    text = "### 1.2 The Protocol Ontology: The Mechanics of Persistence\n\n"
+
+    # Dual Kernel Theory
+    dkt = physics.get('dual_kernel_theory', {})
+    if dkt:
+        text += f"The universe's fundamental mechanics are governed by the **Dual Kernel Theory**.\n\n"
+        text += f"{dkt.get('description', '')}\n\n"
+        for k in dkt.get('kernels', []):
+            text += f"**{k.get('name')}**: {k.get('domain')} Guardian: {k.get('guardian', 'N/A')}. Goal: {k.get('goal', '')}\n\n"
+
+    # Nothingness Roaring
+    nr = physics.get('nothingness_roaring', {})
+    if nr:
+        text += f"### 1.3 The Metaphysical Poles: The Ultimate Stakes\n\n"
+        text += f"**{nr.get('name')}**: {nr.get('description')} {nr.get('impact')}\n\n"
+
+    # The Foundation
+    found = physics.get('the_foundation', {})
+    if found:
+        text += f"**{found.get('name')}**: {found.get('description')} {found.get('impact')}\n\n"
+
+    # Thermodynamics
+    thermo = physics.get('thermodynamics_of_repression', {})
+    if thermo:
+        text += f"### 1.4 The Thermodynamics of Repression\n\n"
+        text += f"**Principle**: {thermo.get('principle')}\n"
+        text += f"**Application**: {thermo.get('application')}\n"
+        text += f"**Narrative Effect**: {thermo.get('narrative_effect')}\n\n"
+
+    # Godel Prison
+    godel = physics.get('godel_prison', {})
+    if godel:
+        text += f"### 1.5 The Gödel Prison\n\n"
+        text += f"**Concept**: {godel.get('concept')}\n"
+        text += f"**Application**: {godel.get('application')}\n"
+        text += f"**Narrative Effect**: {godel.get('narrative_effect')}\n\n"
+
+    # Holographic Trauma
+    holo = physics.get('holographic_trauma', {})
+    if holo:
+        text += f"### 1.6 Holographic Trauma\n\n"
+        text += f"**Concept**: {holo.get('concept')}\n"
+        text += f"**Application**: {holo.get('application')}\n"
+        text += f"**Narrative Effect**: {holo.get('narrative_effect')}\n\n"
+
+    return text
+
 def generate_character_table(data):
     parts = data.get('character_systems', {}).get('protagonist_system', {}).get('parts', [])
     if not parts:
@@ -160,12 +212,14 @@ def main():
         template = f.read()
 
     print("Generating sections...")
+    physics_engine = generate_physics_engine(data)
     char_table = generate_character_table(data)
     world_table = generate_world_table(data)
     act_structure = generate_act_structure(data)
     validation = generate_validation_requirements(data)
 
-    content = template.replace('{{CHARACTER_TABLE}}', char_table)
+    content = template.replace('{{PHYSICS_ENGINE}}', physics_engine)
+    content = content.replace('{{CHARACTER_TABLE}}', char_table)
     content = content.replace('{{WORLD_TABLE}}', world_table)
     content = content.replace('{{ACT_STRUCTURE}}', act_structure)
     content = content.replace('{{VALIDATION_REQUIREMENTS}}', validation)
