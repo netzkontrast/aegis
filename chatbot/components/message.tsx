@@ -4,6 +4,11 @@ import { useState } from "react";
 import type { Vote } from "@/lib/db/schema";
 import type { ChatMessage } from "@/lib/types";
 import { cn, sanitizeText } from "@/lib/utils";
+import {
+  CoreWorldView,
+  EntityProfile,
+  FissureAlert,
+} from "@/components/coherence";
 import { useDataStream } from "./data-stream-provider";
 import { DocumentToolResult } from "./document";
 import { DocumentPreview } from "./document-preview";
@@ -339,6 +344,57 @@ const PurePreviewMessage = ({
                     )}
                   </ToolContent>
                 </Tool>
+              );
+            }
+
+            if (type === "tool-renderCoreWorld") {
+              const { toolCallId, state } = part;
+              if (state === "output-available") {
+                return (
+                  <div className="w-full max-w-lg" key={toolCallId}>
+                    {/* @ts-ignore */}
+                    <CoreWorldView {...part.output} />
+                  </div>
+                );
+              }
+              return (
+                <div key={toolCallId} className="animate-pulse">
+                  Rendering World State...
+                </div>
+              );
+            }
+
+            if (type === "tool-displayEntityProfile") {
+              const { toolCallId, state } = part;
+              if (state === "output-available") {
+                return (
+                  <div className="w-full max-w-md" key={toolCallId}>
+                    {/* @ts-ignore */}
+                    <EntityProfile {...part.output} />
+                  </div>
+                );
+              }
+              return (
+                <div key={toolCallId} className="animate-pulse">
+                  Loading Entity Profile...
+                </div>
+              );
+            }
+
+            if (type === "tool-triggerFissureAlert") {
+              const { toolCallId, state } = part;
+              if (state === "output-available") {
+                return (
+                  <div className="w-full max-w-lg" key={toolCallId}>
+                    {/* @ts-ignore */}
+                    <FissureAlert {...part.output} />
+                  </div>
+                );
+              }
+              return (
+                <div key={toolCallId} className="animate-pulse text-red-500">
+                  Detecting System Fissure...
+                </div>
               );
             }
 
