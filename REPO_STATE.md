@@ -91,46 +91,46 @@ The repository is driven by "Quests" - high-level missions that group related ta
 
 ### 🟢 Active Missions
 
-*   **System Architecture (`Quest-System-AEGIS.md`)**:
+*   **System Architecture (`aegis.md`)**:
     *   *Goal:* Define and refine the overall system architecture.
     *   *Focus:* Integration of all components.
 
-*   **Narrative Architecture (`Quest-Narrative-Architecture.md`)**:
+*   **Narrative Architecture (`narrative.md`)**:
     *   *Goal:* Structure the novel's pacing and thematic arcs.
     *   *Focus:* Act I refinement, Act II planning.
 
-*   **Protagonist Systems (`Quest-System-Protagonist.md`)**:
+*   **Protagonist Systems (`protagonist.md`)**:
     *   *Goal:* Define Kael's internal systems (Dissociation, Alters).
     *   *Focus:* Character mechanics and voice distinction.
 
-*   **World Physics (`Quest-World-Physics.md`)**:
+*   **World Physics (`physics.md`)**:
     *   *Goal:* Define the metaphysical rules of the simulation.
     *   *Focus:* Landauer Limit, Thermodynamic costs of processing.
 
-*   **Skill Implementation (`Quest-Roman-Entwicklung-Implementation.md`)**:
+*   **Skill Implementation (`engine.md`)**:
     *   *Goal:* Implement the `kohaerenz-roman-entwicklung` skill.
     *   *Focus:* Making the "Novel Engine" operational.
 
-*   **Workflow Optimization (`Quest-Skill-Gap-Analysis.md`)**:
+*   **Workflow Optimization (`gap-analysis.md`)**:
     *   *Goal:* Streamline agent workflows.
     *   *Focus:* Reducing friction in the dev loop.
 
 ### 🟡 In Progress / Maintenance
 
-*   **Zettelkasten Implementation (`Quest-Zettelkasten-Tapestry.md`)**:
+*   **Zettelkasten Implementation (`zettelkasten.md`)**:
     *   *Goal:* Full integration of Zettelkasten with the Tapestry learning workflow.
 
-*   **Documentation (`Quest-Documentation-Improvements.md`)**:
+*   **Documentation (`docs.md`)**:
     *   *Goal:* restructuring docs for clarity (Current Task).
 
-*   **Maintenance (`Quest-System-Maintenance.md`)**:
+*   **Maintenance (`maintenance.md`)**:
     *   *Goal:* Managing technical debt and updates.
 
 ### 🔴 Planned / Backlog
 
-*   **Knowledge Graph (`Quest-Knowledge-Graph-Foundation.md`)**: Building the L0-L3 memory.
-*   **Writing Assistant (`Quest-NCP-Writing-Assistant.md`)**: The interactive writing tool.
-*   **Style & Meta (`Quest-Style-And-Meta.md`)**: Prose style guide refinement.
+*   **Knowledge Graph (`knowledge-graph.md`)**: Building the L0-L3 memory.
+*   **Writing Assistant (`ncp-assistant.md`)**: The interactive writing tool.
+*   **Style & Meta (`style.md`)**: Prose style guide refinement.
 
 ---
 
