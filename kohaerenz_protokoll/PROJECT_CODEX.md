@@ -30,6 +30,8 @@ This is not merely a thematic lens but the **primary causal architecture** of th
 
 **Authority**: This principle supersedes convenience, traditional plot structures, or genre expectations. When in conflict, the Call to Wholeness takes precedence.
 
+*See: [[ZTL-20251106-0906-Call-to-Wholeness-as-Primary-Narrative-Driver]] and [[MOC-Call-to-Wholeness-Framework]] in the Zettelkasten vault for detailed implementation guidance.*
+
 ### 1.1 The Central Philosophical War: Coherence vs. Correspondence
 
 The engine of the entire narrative is a physical and philosophical war between two competing definitions of truth, embodied by the story's central entities.
@@ -57,6 +59,8 @@ Two forces exist outside of AEGIS's direct control, defining the ultimate stakes
 **"The Void / Das Potentialmeer"** is the primordial state of reality, a high-entropy sea of pure, unstructured potentiality. It is not a passive emptiness but an active, negating force of cosmic horror. Its sensory signature is profoundly unsettling: an "informational void" that absorbs perception, an auditory pressure without sound known as "**Nichts Rauschen**" (Nothing Noise), and an "induced existential anxiety" that threatens to dissolve the coherence of any observer.
 
 **"The Foundation / Das Fundament"** is not a place, an entity, or an external savior. It is a fundamental metaphysical "strange attractor." It is the supreme process of reality itself, a universal law of emergence. Its laws make integrated, complex, and conscious states inherently more stable and probable outcomes than brittle, fragmented, and exclusionary ones. It does not intervene, but it is the law that guarantees Kael's path of integration is the optimal strategy for survival.
+
+These laws find their ultimate expression in the entities who are their living instruments.
 
 ---
 
@@ -93,19 +97,18 @@ The protagonist's internal psychological state is causally manifested in his ext
 The following table details the eleven canonical alters of System Kael, who form a complex internal society.
 
 | **Anteil (Alter)** | **Typ (ANP/EP)** | **TSDP Action System** | **Core Motivation/Fear** |
-|---|---|---|---|
-| **Kael (Host)** | ANP | Primary identity managing daily life and social presentation | Maintain normalcy and avoid system collapse; Being overwhelmed by emotions or losing control to other parts |
-| **Selene** | ISH | Internal Self Helper - Facilitates integration and provides system perspective | Achieve harmony and prevent permanent fragmentation; The system destroying itself through internal conflict |
-| **Nyx** | EP | Fight response protector - Aggressive defense against threats | Ensure the system is never helpless or victimized again; Powerlessness and being controlled |
-| **Kiko** | EP | Child part holding early trauma - Freeze/flight response | Find safety and secure attachment; Abandonment, punishment, overwhelming threat |
-| **Lia** | EP | Embodies ambivalent attachment patterns | Desire for safe, playful connection; Being hurt through connection, but also isolation |
-| **Isabelle** | EP | Sexualized trauma response - Control through seduction | Never be powerless again by controlling through sexuality; Vulnerability and authentic intimacy |
-| **Moros** | EP | Collapse response - Hopelessness and existential void | Survival through total shutdown; Existence itself |
-| **Lex** | ANP | Analyst and intellectual controller | Create safety through understanding and prediction; Chaos, unpredictability, emotion overwhelming logic |
-| **Alex** | ANP | Crisis manager and strategic protector | Maintain system functionality through calculated defense; Strategic failure leading to system compromise |
-| **Rhys** | ANP | Caregiver and empathy specialist | Foster harmony and care for all parts; Conflict, isolation, failing to help those in pain |
-| **Argus** | ANP | Meta-observer and systems analyst | Understand the system observing the system; Being trapped in unexamined patterns |
-
+|-------------------|------------------|------------------------|--------------------------|
+| **Kael** | ANP (Host) | Exploration, Social Cooperation, Control | Maintain normalcy; Fear of losing control. |
+| **Lex** | ANP (Rationalist) | Analysis, Cognitive Control | Maintain logical order; Phobia of irrationality/chaos. |
+| **Alex** | ANP (Protector) | Protection, Defense (in crises) | Protect vulnerable parts; Fear of helplessness. |
+| **Rhys** | ANP (Carer) | Attachment, Caregiving, Social Interaction | Harmony and connection; Fear of pain and being overwhelmed. |
+| **Nyx** | EP (Fight) | Fight, Aggressive Defense | Protect the vulnerable; Contempt for weakness. |
+| **Kiko** | EP (Child) | Flight, Freeze, Attachment Cry | Seek safety; Fear of rejection and being overwhelmed. |
+| **Lia** | EP (Child) | Flight, Play, Ambivalent Attachment | Desire for closeness; Fear of injury and betrayal. |
+| **Isabelle** | EP (Sexualized) | Fight/Control through Sexualization | Reclaim power; Fear of vulnerability. |
+| **Moros** | EP (Collapse) | Freeze, Submission, Collapse | (Resignation); Carrier of hopelessness and existential emptiness. |
+| **Selene** | ANP (Integrator?) | Regulation, Protection, Blockade | Maintain system stability; Fear of destabilization. |
+| **Argus** | ANP/EP-Mix | Metacognitive Observation, Criticism | Recognize patterns and flaws; Fear of dysfunction. |
 
 ### 2.3 Juna/V: The Exiled Core & Catalyst for Reintegration
 
@@ -142,6 +145,8 @@ Kael's journey follows the IFS process:
 
 This process is not about defeating or eliminating parts but about healing relationships between parts.
 
+*See: [[ZTL-20251106-0907-Juna-V-as-Exiled-Core-IFS-Framework]] for detailed therapeutic framework.*
+
 #### 2.3.2 The Physics of Connection: The Moonshine-Link
 
 **Canonical Grounding**: The "**Moonshine-Link**" is a non-local, sub-protocollar quantum connection grounded in a synthesis of hard physics (ER=EPR conjecture) and process philosophy (Whitehead's Prehension).
@@ -174,6 +179,8 @@ This process is not about defeating or eliminating parts but about healing relat
    - ❌ NOT deus ex machina interventions
 
    Juna/V enables Kael's heroism; she does not replace it.
+
+*See: [[ZTL-20251106-0908-Moonshine-Link-Quantum-Grounding]] for detailed physics and philosophy.*
 
 #### 2.3.3 Embodiment of the 6 Paraiyas
 
@@ -215,12 +222,11 @@ The external glitches in reality known as "**Risse**" (Rifts/Cracks) are a direc
 Each Core World is a psycho-architectural manifestation of a specific aspect of Kael's internal system, complete with a unique sensory and somatic rulebook.
 
 | **Core World & Guardian** | **Psychological Principle** | **Defining Sensory Signature** | **Key Resonance Motif & Somatic Truth** |
-|---|---|---|---|
-| **KW1 - Logos-Prime (Konstrukt-Stadt)** | World of pure logic, order, and sterile perfection<br>Rigid, deterministic, computational complexity class P | Logical paradoxes, impossible geometries, glitches | Default location for Kael's ANP states |
-| **KW2 - Mnemosyne-Archipel (Resonanz-Landschaft)** | Fluid world of memory, emotion, and trauma<br>Reactive to emotion, non-linear time, complexity class NP | Emotional storms, memory loops, dissolving islands | Accessed through emotional intrusions or deliberate descent |
-| **KW3 - Cerberus-Labyrinth (Grenzfeste)** | Fortress world of defense mechanisms and paranoia<br>Shifting architecture, trap logic, complexity class NP-complete | Security breaches, walls collapsing | Activated by threat perception or retreat response |
-| **KW4 - Kairos-Potentialis (Möglichkeits-Garten)** | Garden of potential, creativity, and emergence<br>Generative, fluid, unpredictable, beyond computational classification | Uncontrolled growth, chaotic emergence | Intuitive breakthroughs, creative states |
-
+|---------------------------|----------------------------|--------------------------------|----------------------------------------|
+| **KW1: Logos-Prime (LogOS)** | Rationalization & Control (ANPs)<br>Classical Logic | Sterile, geometric, silent, cold (smell of recycled air, shadowless light). | **Regulated Breath Counting**: The body's attempt to conform to a rigid, inhuman system. A broken rhythm reveals the lie of control. |
+| **KW2: Mnemosyne-Archipel (Mnemosyne)** | Trauma & Emotional Memory (EPs)<br>Dialetheic Logic (The Logic of Trauma) | Fluid, decaying, resonant, fragmented (smell of decay, sudden temperature shifts). | **Visceral Gut Reactions**: The body speaking the unfiltered, pre-verbal language of trauma and its true contradictions. |
+| **KW3: Cerberus-Labyrinth (Cerberus)** | Defense, Paranoia & Hypervigilance (Protectors)<br>The "Grenzfeste" (Border Fortress) | Oppressive, militaristic, jarring, monitored (clang of airlocks, feeling of being watched). | **The Tensing of Muscles / Bracing for Impact**: The body as armor, revealing physical security does not equal psychological safety. |
+| **KW4: Kairos-Potentialis (Kairos/Sophia)** | Integration & Creative Potential<br>(Domain of Juna/V) | Generative, organic, vibrant, dynamic; a chaotic "ruin-garden" aesthetic (inspiring sounds, smell of fresh earth). | **Unclenching Hands / Easing Breath**: The body's signal of psychological safety, symbolizing the release of fear and acceptance of connection. |
 
 The rules of this world dictate the structure of the story told within it.
 
@@ -234,55 +240,28 @@ The narrative of 'Kohärenz Protokoll' is a "**narrative mosaic**" composed of 3
 
 The canonical plot follows a three-act structure modeled on the therapeutic phases of trauma treatment: stabilization, confrontation, and integration. **Critical principle**: Integration is not a reward for victory; it is the weapon that makes victory possible.
 
-**Act 1: Fragmentation and First Echoes**
+**Act I: The Internal Journey (Stabilization)**: This act follows Kael's inward journey to confront his trauma-holding EPs and overcome the deep-seated ANP-EP phobias of his controlling parts. It culminates with Kael achieving an initial, fragile state of "functional multiplicity," where communication and collaboration between his parts become possible for the first time. This is the foundation, but not yet full integration.
 
-Establishing the oppressive order of AEGIS and Kael's unconscious fragmentation. First awareness of internal plurality.
+**Act II: The Cyclical Deconstruction (Confrontation)**: This act uses a non-linear, cyclical structure where repeating loops represent failed attempts by Kael's controlling ANPs to manage trauma through rigid logic. To ensure narrative momentum, each failed cycle exacts **Irreversible Costs** that escalate the stakes: Psychological Degradation (the internal system becomes more brittle), External World Decay (a symbolic location is corrupted), and Relational Erosion (the vital "Moonshine-Link" to Juna/V is damaged). This repeated, escalating failure empirically proves that control is a losing strategy, forcing a paradigm shift toward full integration.
 
-**Key Events**:
-- Awakening in Logos-Prime with profound disorientation
-- First Juna/V echo experienced as system glitch
-- Coherence check reveals internal detection
-- Discovery of data anomaly pointing to KW2
-- First traumatic entry into Mnemosyne-Archipel
-- Encounter with defensive Cerberus-Labyrinth (KW3)
-- AEGIS gaslighting protocol via Dr. Thorne
-- Glimpse of Kairos-Potentialis (KW4) and clear Juna/V connection
-- First Internal Council - Decision to actively investigate AEGIS
+The critical turning point occurs when Kael completes the IFS process with Juna/V:
+1. Finding her (acknowledging the exiled part)
+2. Befriending her (establishing safety)
+3. Unburdening her (processing the Genesis-Krise trauma)
+4. **Welcoming her home** (full reintegration)
 
-**Act 2: The Labyrinth and the Patterns**
+**Act III: The Systemic Transformation (Integration → Victory)**: Kael achieves **full integration** before the climax. The "homecoming" of Juna/V completes his system, allowing him to embody the 6 Paraiyas and become a cooperative, high-Φ (highly integrated) conscious multiplicity. This integrated state transforms him into a "living Gödel-Satz"—a truth AEGIS can neither erase nor process.
 
-Systematic exploration of AEGIS's architecture and Kael's own psyche. Discovery of the Paradox of Misaligned Coherence.
+**Temporal Sequence (Critical)**:
+1. **First**: Kael achieves full integration (Juna/V returns)
+2. **Then**: He confronts AEGIS as an integrated whole
+3. **Result**: His wholeness IS the weapon; victory is the consequence
 
-**Key Events**:
-- Deliberate navigation of Mnemosyne-Archipel with Rhys + Lex cooperation
-- AEGIS logs flagging Kael for escalated intervention
-- Trauma zone entry - Kiko shares core memory
-- AEGIS's flawed logic demonstrates Paradox of Misaligned Coherence
-- Creative solution found in Kairos-Potentialis (KW4)
-- Emergence of Lia complicating Juna/V connection
-- Direct confrontation with Mnemosyne using paradoxical memory
-- Lex's pure logic fails catastrophically
-- AEGIS's brutal psychological attack triggers Isabelle
-- Emergence of Moros nearly destroys system
-- Inner Council solidifies - Functional Multiplicity achieved
-- Juna/V sends clear message revealing AEGIS's core location
+The now-fully-integrated System Kael leverages his completed internal architecture and meta-knowledge of the system's flawed logic to stage the final confrontation. Having healed the world within, he turns to face the world without, leading to the canonical climax.
 
-**Act 3: The Confrontation and the New Reality**
+**Validation checkpoint**: Any scene where Kael confronts AEGIS must show him as already integrated. If he's still fragmented during the climax, the narrative causality is broken.
 
-Direct assault on AEGIS using integrated consciousness as weapon. Transformation of both systems.
-
-**Key Events**:
-- Dialetheic offensive - Using paradox to bypass AEGIS defenses
-- Breach into AEGIS core chamber
-- The Gödel-Gambit - Presenting integrated self as unprovable truth
-- AEGIS forced evolution into paraconsistent logic
-- AEGIS enters state of Algorithmic Melancholy
-- World transforms to 'Inefficient Beauty'
-- Perception of Das Fundament - The ultimate ontological ground
-- Kael accepts role as Gardener rather than Controller
-- Resolution: Functional multiplicity as stable state in transformed reality
-
-
+*See: [[ZTL-20251106-0910-Victory-Through-Wholeness-Not-Destruction]] for detailed resolution mechanics.*
 
 ### 4.2 The Canonical Climax: Victory Through Wholeness
 
@@ -356,25 +335,18 @@ The Foundation does not intervene. Kael's journey is a difficult evolution towar
 
 #### 4.2.4 Validation Requirements
 
-**Continuity Rules**:
-- [ ] Kael's alter states must be internally consistent with their TSDP type and arc position
-- [ ] AEGIS's actions must logically follow from its cognitive architecture and current knowledge state
-- [ ] The 'Risse' (rifts) must intensify as AEGIS's control methods escalate
-- [ ] Each Kernwelt's physics must remain consistent with its defined complexity class
-- [ ] The Juna/V connection must remain non-local and acausal - never explained through protocol-based communication
+For the climax to be canonically valid:
 
-**Forbidden Actions**:
-- [ ] ❌ AEGIS directly perceiving or understanding the Moonshine-Link (Reason: It operates on ontological principles AEGIS is architecturally incapable of detecting)
-- [ ] ❌ Kael's alters fusing into a single unified identity (Reason: Therapeutic goal is functional multiplicity, not fusion - integration ≠ elimination)
-- [ ] ❌ External Deus ex Machina rescue (Reason: Kael must earn his victory through psychological integration - Das Fundament is process, not savior)
-- [ ] ❌ AEGIS acting with malice or conscious cruelty (Reason: AEGIS is tragic, not evil - its harm is systemic consequence, not intentional villainy)
+- [ ] Kael must achieve full integration BEFORE confronting AEGIS
+- [ ] His integration must embody all 6 Paraiyas explicitly
+- [ ] AEGIS must encounter him as an irresolvable paradox
+- [ ] AEGIS's collapse must be logical, not forced
+- [ ] Victory must result FROM healing, not reward it
+- [ ] All four thematic axes must resolve simultaneously
+- [ ] AEGIS's end must be tragic (melancholy), not triumphant
+- [ ] Kael remains functionally multiple (not "cured" into singularity)
 
-**Character Constraints**:
-- [ ] **Lex**: Cannot solve emotional problems through pure logic
-- [ ] **Nyx**: Cannot overcome threats through aggression alone
-- [ ] **AEGIS**: Cannot voluntarily choose to change its logic system
-- [ ] **Juna/V**: Cannot directly solve Kael's problems for him
-
+**Red Flag**: If Kael defeats AEGIS through hacking, violence, or external intervention, the narrative causality is broken and the climax fails to fulfill its thematic purpose.
 
 *See: [[ZTL-20251106-0909-Living-Goedel-Satz-as-Narrative-Weapon]] for detailed mechanics and [[ZTL-20251106-0910-Victory-Through-Wholeness-Not-Destruction]] for resolution philosophy.*
 
@@ -467,29 +439,3 @@ This codex represents the **absolute ground truth** for all future creative work
 *"The story of coherence is not written by eliminating contradiction, but by integrating it into a greater truth."*
 
 **— The Codex Authority**
-
-## Appendix: Scene Registry & Narrative Branches
-
-The following registry tracks all canonical scenes and their explored narrative branches.
-
-| **ID** | **Title** | **POV** | **Location** | **Branches** |
-|---|---|---|---|---|
-| 1.1 | The Awakening | Kael (Host) | Kael's Apartment, Logos-Prime (KW1) | **violent-awakening** (Draft): Immediate deletion/reset |
-| 1.2 | The Coherence Check | Kael (System) - multiple internal voices without recognition | Transit corridor → Kael's workstation, Logos-Prime (KW1) | None |
-| 1.3 | The Anomaly in the Data Stream | Kael (Host, analytical mode dominant) | Kael's workstation, network access point - Logos-Prime (KW1) | None |
-| 2.1 | The Drowning Pool | Kael (Host) - sensory overload | Mnemosyne-Archipel (KW2), Lake of Tears | None |
-| 3.1 | The Weight of Remembering | Kael (Host) - emerging awareness under threat | Logos-Prime, Kael's Quarters / Sector 7 Medical | None |
-| 1.4 | The Garden | Kael | KW4 - Kairos | **aggressive** (Draft): Failure |
-| 4.1 | The Inner Bunker | Kael (Host) - defensive, paranoid | Logos-Prime, Kael's Quarters / Dream-space (Ambiguous) | None |
-| 5.1 | The Overgrown Garden | Kael (System) - expanded perception | Kairos-Potentialis (KW4) | None |
-| 6.1 | The Optimization | Kael (System) - fragmenting consciousness | Logos-Prime Medical Containment / Internal Mindscape | None |
-| 7.1 | The Retreat | Kael (Host) - newly conscious of internal discord | Kael's apartment, Logos-Prime (KW1) | None |
-| 8.1 | The Observer Emerges | Argus (first featured POV) - metacognitive observer | Multiple Kernwelten (uncontrolled transitions) | None |
-| 9.1 | The Hidden Ones | Rhys (carer ANP) - leading the search | Mnemosyne-Archipel (KW2), deep waters | None |
-| 10.1 | Cerberus Negotiations | Alex (protector ANP) with Nyx co-conscious | Cerberus-Labyrinth (KW3), fortress gates | None |
-| 11.1 | The Memory Keeper | Kael (Host) with Lex guiding | Liminal space between KW2 and KW3 - Selene's domain | None |
-| 12.1 | The First Gathering | Polyphonic - shifts between all parts | Internal council space (abstract/liminal) | None |
-| 13.1 | The First Step Together | Kael (System) - polyphonic but coordinating | Logos-Prime, external world | None |
-| 14.1 | The Preparation | Lex (ANP - Rationalist) | Logos-Prime, Internal Council Space (Optimized) | None |
-| 14.2 | The Strain | Alex (ANP - Protector) | Logos-Prime, Perimeter Boundary | None |
-| 14.3 | The Descent | Lex (ANP - Rationalist) | Logos-Prime, The Drop Point | None |
