@@ -1,7 +1,7 @@
 # Quest: Master Style & Meta-Narrative
 
 **Focus:** Comprehensive definition and mastery of the novel's stylistic levels (Dual-Voice Strategy) and the meta-narrative layer (Reader as Integrator).
-**Status:** 🟢 Active - Definition Phase
+**Status:** 🟢 Active - Implementation Phase
 **Source of Truth:** `kohaerenz_protokoll_master_skill.md` (Modul 7, 8)
 
 ---
