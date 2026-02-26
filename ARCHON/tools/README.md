@@ -166,18 +166,48 @@ DIALOGUE SAMPLES
   "I've calculated seventeen potential outcomes. None are optimal."
 ```
 
-## Planned Tools
+### 4. kg_add.py - Add Nodes to Knowledge Graph ✅
 
-### kg_query.py - Knowledge Graph Query
-Query and update the hierarchical narrative memory
+Add nodes manually to the knowledge graph.
 
-**Status**: Design phase
+**Status**: Implemented
 
-**Planned Usage**:
+**Usage**:
+
 ```bash
-kg_query.py --entity Kael --chapter 4
-kg_add.py --fact "Kael entered KW2" --chapter 4
+# Add an entity
+python kg_add.py --level L1 --type entity --content "Kael" \
+  --metadata '{"chapter": 4}' --tags character,protagonist
+
+# Add a fact
+python kg_add.py --level L1 --type fact \
+  --content "Kael entered Mnemosyne-Archipel" \
+  --metadata '{"chapter": 4}'
 ```
+
+### 5. kg_query.py - Query Knowledge Graph ✅
+
+Query the knowledge graph with flexible filters.
+
+**Status**: Implemented
+
+**Usage**:
+
+```bash
+# Query by level
+python kg_query.py --level L1
+
+# Query by chapter
+python kg_query.py --chapter 4
+
+# Search content
+python kg_query.py --search "Kael"
+
+# JSON output
+python kg_query.py --level L1 --json
+```
+
+## Planned Tools
 
 ### archon_generate.py - Narrative Director CLI
 Full AI-assisted scene generation with self-critique
@@ -203,10 +233,11 @@ python archon_generate.py --chapter 4 --scene 1.4
 - [ ] Advanced character voice consistency (LLM-based)
 - [ ] Prose style deep analysis
 
-### Phase 3: Knowledge Graph
-- [ ] Graph database setup
-- [ ] `kg_query.py` and `kg_add.py`
-- [ ] Auto-extraction from scenes
+### Phase 3: Knowledge Graph ✅
+- [x] JSON storage setup
+- [x] `kg_query.py` and `kg_add.py` (CLI tools)
+- [x] Auto-extraction from scenes (Basic)
+- [ ] Advanced Graph database (Neo4j - Future)
 
 ### Phase 4: AI Integration
 - [ ] `archon_generate.py` - Full Narrative Director
