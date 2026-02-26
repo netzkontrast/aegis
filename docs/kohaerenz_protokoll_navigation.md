@@ -159,10 +159,6 @@ description: |
 
 ## Referenzdateien dieses Skills
 
-Für Details zu bestimmten Clustern → lies `/references/`:
-- `cluster-a-aegis.md` — Schlüssel-Zitate & Konzepte aus allen AEGIS-Docs
-- `cluster-b-simulation.md` — DKT-Theorie, Entropie-Regeln, Hard Science
-- `cluster-c-charaktere.md` — Charakterprofile, Alters, Juna-Konzept
-- `cluster-g-outline.md` — 39 Kapitel-Übersicht, Plot-Karte
+*Hinweis: Die Cluster-Referenzdateien werden derzeit überarbeitet. Bitte nutze den [Dokumentations-Hub](./README.md) für die aktuelle Struktur.*
 
-*(Diese werden bei Bedarf ergänzt. Nutze die Themen-Index-Tabelle als primären Einstieg.)*
+Für Details zu bestimmten Themenbereichen, konsultiere die primären Dokumente in der Themen-Index-Tabelle oben oder navigiere über den [Dokumentations-Hub](./README.md).
