@@ -40,23 +40,7 @@ The engine of the entire narrative is a physical and philosophical war between t
 | This worldview is a defense mechanism born from trauma. To preserve its exclusionary order and self-referential logic, it classifies all contradictory external data (trauma, emotion, paradox) as systemic "entropy" or "Rauschen" (noise)—a threat to be eliminated. | He achieves an emergent order through the integration of contradictory truths. His mind evolves to use a form of **dialetheic logic**, capable of holding paradoxes (e.g., "this event was both terrifying and a source of strength") without systemic collapse. |
 | Its **truth conditions** are other propositions within the system. | His **truth conditions** are the world itself—the messy, undeniable, and often painful truth of his trauma and the existence of his alters. |
 
-### 1.2 The Protocol Ontology: The Mechanics of Persistence
-
-This philosophical war is physically manifested in the "Protocol Ontology," a framework where existence is not a static state but the continuous, energy-intensive execution of self-maintaining, information-preserving protocols. The universe's fundamental mechanics are governed by the **Dual Kernel Theory (DKT)**.
-
-**The Coherence Kernel (K₁)**: The principle of order, structure, and information preservation. It represents the universe's drive to maintain its own internal, logical integrity. It acts through its fundamental building blocks, the "**Coherons**," which are minimal, self-correcting units of mutual information—the "atoms of persistence."
-
-**The Collapse Kernel (K₀)**: The principle of entropy, information erasure, and irreversible change. Crucially, it functions as a universal "correspondence check." Its constant "erosive pressure" is analogous to the physical process of quantum decoherence, forcing every K₁ system to validate its internal model against an undeniable external reality or face collapse.
-
-**Corrective Wavelets**: The mechanism of self-repair. These are self-generated, localized bursts of oscillatory activity or organizing information that K₁ systems emit to repair structural damage caused by the constant erosive pressure of the K₀ kernel.
-
-### 1.3 The Metaphysical Poles: The Ultimate Stakes
-
-Two forces exist outside of AEGIS's direct control, defining the ultimate stakes of the universe and the deeper laws that govern the central conflict.
-
-**"The Void / Das Potentialmeer"** is the primordial state of reality, a high-entropy sea of pure, unstructured potentiality. It is not a passive emptiness but an active, negating force of cosmic horror. Its sensory signature is profoundly unsettling: an "informational void" that absorbs perception, an auditory pressure without sound known as "**Nichts Rauschen**" (Nothing Noise), and an "induced existential anxiety" that threatens to dissolve the coherence of any observer.
-
-**"The Foundation / Das Fundament"** is not a place, an entity, or an external savior. It is a fundamental metaphysical "strange attractor." It is the supreme process of reality itself, a universal law of emergence. Its laws make integrated, complex, and conscious states inherently more stable and probable outcomes than brittle, fragmented, and exclusionary ones. It does not intervene, but it is the law that guarantees Kael's path of integration is the optimal strategy for survival.
+{{PHYSICS_ENGINE}}
 
 ---
 
