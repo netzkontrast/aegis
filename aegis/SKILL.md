@@ -29,7 +29,7 @@ Every session must follow this recursive loop. Do not skip steps.
 ### Phase III: Verification (The Test)
 1.  **Run Tests:**
     *   Python/Tools: `python skill_seeker/cli/run_tests.py`
-    *   Narrative: `python ARCHON/tools/ncp_validate.py <file>`
+    *   Narrative: `python aegis/tools/ncp_validate.py <file>`
 2.  **Verify Integrity:** Ensure no broken links or orphaned files.
 
 ### Phase IV: Update (The Documentation)
@@ -76,7 +76,7 @@ Every session must follow this recursive loop. Do not skip steps.
 
 ### 🟢 Workflow Optimization (`Quest-Skill-Gap-Analysis.md`)
 *   **Goal:** Make agents smarter and faster.
-*   **Current Focus:** This very file (`SESSION_SKILL.md`) is a deliverable of this quest.
+*   **Current Focus:** This very file (`aegis/SKILL.md`) is a deliverable of this quest.
 
 ### 🟢 World Physics (`Quest-World-Physics.md`)
 *   **Goal:** Define the "Hard Magic" system (Landauer Limit, Processing Cost).
@@ -100,7 +100,7 @@ Every session must follow this recursive loop. Do not skip steps.
 
 ## 4. Self-Correction Protocol
 
-If this `SESSION_SKILL.md` is missing something or leading to errors:
+If this `aegis/SKILL.md` is missing something or leading to errors:
 1.  **Do not ignore it.**
 2.  **Log the error** in `SESSION_LEARNINGS.md`.
 3.  **Create a task** to update this file in the next session.

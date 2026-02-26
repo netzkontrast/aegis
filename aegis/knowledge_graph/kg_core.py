@@ -127,7 +127,7 @@ class KnowledgeGraph:
 
         Args:
             storage_path: Path to JSON file for persistence.
-                         Defaults to ARCHON/knowledge_graph/graph.json
+                         Defaults to aegis/knowledge_graph/graph.json
         """
         if storage_path is None:
             storage_path = Path(__file__).parent / "graph.json"
