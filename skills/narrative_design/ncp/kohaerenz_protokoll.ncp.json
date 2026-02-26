@@ -54,7 +54,7 @@
       "concern": "Connection and resonance as an alternative to control",
       "problem": "Isolation - AEGIS's operational closure prevents genuine relationship",
       "solution": "Interdependence - The Moonshine-Link demonstrates non-local connection",
-      "unique_ability": "Gnosis transmission - Juna/V provides direct, intuitive understanding",
+      "unique_ability": "Gnosis Transmission / Anomaly Function (Entropy Injection)",
       "critical_flaw": "Externality - Limited ability to directly intervene within AEGIS's system",
       "signposts": [
         "Conceptualizing - Juna appears as inexplicable echoes and resonances",
@@ -527,13 +527,13 @@
     "acts": [
       {
         "act_number": 1,
-        "title": "Fragmentation and First Echoes",
+        "title": "The Aesthetics of Powerlessness and Fragmentation",
         "chapter_range": {
           "start": 1,
           "end": 13
         },
-        "thematic_focus": "Establishing the oppressive order of AEGIS and Kael's unconscious fragmentation. First awareness of internal plurality.",
-        "narrative_model": "Heroine's Journey",
+        "thematic_focus": "Establishing oppressive order. Experiencing physical limits without knowing causes. Heroine's Journey.",
+        "narrative_model": "Heroine's Journey (Internal Discovery)",
         "protagonist_state": "Fragmented, amnesic, trauma-avoidant. ANPs dominant, EPs intrude as 'glitches'",
         "antagonist_state": "Confident, controlling. Views Kael as manageable anomaly.",
         "key_events": [
@@ -550,13 +550,13 @@
       },
       {
         "act_number": 2,
-        "title": "The Labyrinth and the Patterns",
+        "title": "The Anatomy of Split and The Overworld",
         "chapter_range": {
           "start": 14,
           "end": 26
         },
-        "thematic_focus": "Systematic exploration of AEGIS's architecture and Kael's own psyche. Discovery of the Paradox of Misaligned Coherence.",
-        "narrative_model": "Cyclical",
+        "thematic_focus": "Systematic topological exploration. Discovery of Misaligned Coherence Paradox. Nonlinear Trauma Processing.",
+        "narrative_model": "Cyclical Model",
         "protagonist_state": "Growing cooperation between alters. Moving from reactive to analytical.",
         "antagonist_state": "Escalating control measures as Kael becomes unpredictable. Beginning to register him as primary threat.",
         "key_events": [
@@ -576,13 +576,13 @@
       },
       {
         "act_number": 3,
-        "title": "The Confrontation and the New Reality",
+        "title": "Existential Fusion and New Reality",
         "chapter_range": {
           "start": 27,
           "end": 39
         },
-        "thematic_focus": "Direct assault on AEGIS using integrated consciousness as weapon. Transformation of both systems.",
-        "narrative_model": "Hero's Journey",
+        "thematic_focus": "Direct dialetheic attack. Breaking ontological barriers. Hero's Journey.",
+        "narrative_model": "Hero's Journey (External Confrontation)",
         "protagonist_state": "Functionally multiple, operating as unified 'we'. Polyphonic prose dominant.",
         "antagonist_state": "Destabilizing under incomputable behavior. Facing existential crisis.",
         "key_events": [
@@ -1010,45 +1010,51 @@
     "ontological_layers": [
       {
         "name": "KW1 - Logos-Prime (Konstrukt-Stadt)",
-        "description": "World of pure logic, order, and sterile perfection",
-        "physical_laws": "Rigid, deterministic, computational complexity class P",
+        "description": "Logos-Prime (Construct-City). Domain of Hyper-Logic, Order, and Suppression. Hostile, logic-based prison.",
+        "physical_laws": "P-Time (Polynomial Time). Deterministic, efficiently solvable algorithms. No room for irrationality.",
         "entropy_manifestation": "Logical paradoxes, impossible geometries, glitches",
-        "access_requirements": "Default location for Kael's ANP states"
+        "access_requirements": "Default location for Kael's ANP states",
+        "linguistic_constraints": "No metaphors allowed. Language is structured, clinical, code-like. Focus on geometry, frequencies, probabilities."
       },
       {
         "name": "KW2 - Mnemosyne-Archipel (Resonanz-Landschaft)",
-        "description": "Fluid world of memory, emotion, and trauma",
-        "physical_laws": "Reactive to emotion, non-linear time, complexity class NP",
+        "description": "Mnemosyne-Archipel (Resonance Landscape). Domain of fluid logic and raw emotion. Home of vulnerable EPs.",
+        "physical_laws": "Non-deterministic. Time dilation is inherent. Dialetheism (contradictory truths coexist).",
         "entropy_manifestation": "Emotional storms, memory loops, dissolving islands",
-        "access_requirements": "Accessed through emotional intrusions or deliberate descent"
+        "access_requirements": "Accessed through emotional intrusions or deliberate descent",
+        "linguistic_constraints": "Fragmented syntax. Sensory overload. Synesthesia (hearing colors, seeing pain). Burning silicon smell."
       },
       {
         "name": "KW3 - Cerberus-Labyrinth (Grenzfeste)",
-        "description": "Fortress world of defense mechanisms and paranoia",
-        "physical_laws": "Shifting architecture, trap logic, complexity class NP-complete",
+        "description": "Cerberus-Labyrinth (The Fortress). Manifestation of defense mechanisms. Paranoid world.",
+        "physical_laws": "NP-Hard. Heuristic threat management (Traveling Salesperson Problem). Exponential error escalation.",
         "entropy_manifestation": "Security breaches, walls collapsing",
-        "access_requirements": "Activated by threat perception or retreat response"
+        "access_requirements": "Activated by threat perception or retreat response",
+        "linguistic_constraints": "Imperative, military, tactical. Metaphors of fortresses, armor, and surveillance."
       },
       {
         "name": "KW4 - Kairos-Potentialis (Möglichkeits-Garten)",
-        "description": "Garden of potential, creativity, and emergence",
-        "physical_laws": "Generative, fluid, unpredictable, beyond computational classification",
+        "description": "Kairos-Potentialis (Garden of Possibility). Place of creativity, synthesis, and healing.",
+        "physical_laws": "NP-Search. Exploration of vast solution spaces for evolutionary optimality.",
         "entropy_manifestation": "Uncontrolled growth, chaotic emergence",
-        "access_requirements": "Intuitive breakthroughs, creative states"
+        "access_requirements": "Intuitive breakthroughs, creative states",
+        "linguistic_constraints": "Poetic, organic-metaphorical, inclusive. Dissolution of Subject-Object boundary ('We'). Non-linear time."
       },
       {
         "name": "Überwelt",
-        "description": "AEGIS's abstract information-space control layer",
-        "physical_laws": "Pure data structures, graph topologies",
+        "description": "Nexus (The Overworld). Abstract metacognitive layer of pure data processing.",
+        "physical_laws": "Meta-cognitive, recursive. Above KW1-KW4.",
         "entropy_manifestation": "Data corruption, protocol failures",
-        "access_requirements": "System-level access, deep technical knowledge"
+        "access_requirements": "System-level access, deep technical knowledge",
+        "linguistic_constraints": "Academic, cybernetic, philosophical discourse. Analytical diction focused on system parameters."
       },
       {
         "name": "Externe Ebene",
-        "description": "Reality layer beyond AEGIS's control - Juna/V's domain",
-        "physical_laws": "Non-local, acausal, resonance-based",
+        "description": "External Reality (Cologne, Feb 2026). Fundamental physical reality.",
+        "physical_laws": "Standard physics, limited by biological metabolism and cognition.",
         "entropy_manifestation": "Unknown - operates on different principles",
-        "access_requirements": "The Moonshine-Link connection"
+        "access_requirements": "The Moonshine-Link connection",
+        "linguistic_constraints": "Naturalistic, grounded. Real topography (Mediterana, Carnival). Psychological exhaustion."
       },
       {
         "name": "Potentialmeer (Nichts Rauschen)",
@@ -1064,7 +1070,51 @@
         "entropy_manifestation": "N/A - this layer integrates rather than dissolves",
         "access_requirements": "Earned through complete psychological integration"
       }
-    ]
+    ],
+    "physics_engine": {
+      "dual_kernel_theory": {
+        "description": "The simulation is driven by the tension between two fundamental kernels.",
+        "kernels": [
+          {
+            "name": "Coherence Kernel (K_coh)",
+            "domain": "Reversible computation, absolute order, classical logic.",
+            "guardian": "AEGIS",
+            "goal": "Eliminate deviation and entropy."
+          },
+          {
+            "name": "Collapse Kernel (K_col)",
+            "domain": "Irreversibility, entropy, trauma, evolutionary novelty.",
+            "manifestation": "Juna / The Anomaly",
+            "goal": "Emergence and true temporality."
+          }
+        ]
+      },
+      "nothingness_roaring": {
+        "name": "Nothingness Roaring / Potentialmeer",
+        "description": "State of pure informational chaos and maximum entropy beyond the simulation. An active, aggressive plenum of undifferentiated potential.",
+        "impact": "AEGIS's first contact with this caused its pathological control directive."
+      },
+      "thermodynamics_of_repression": {
+        "principle": "Landauer Principle (E = kT ln 2)",
+        "application": "Irreversible erasure of information (memories/trauma) releases physical heat.",
+        "narrative_effect": "When AEGIS deletes memories or Kael dissociates, the local environment temperature spikes. The world physically 'burns' under forced amnesia."
+      },
+      "godel_prison": {
+        "concept": "Gödel's Incompleteness Theorems",
+        "application": "AEGIS is a formal system and thus incomplete. Truths exist outside its axioms (Juna, EPs).",
+        "narrative_effect": "AEGIS cannot perceive Juna directly, only as entropy/syntax error. Kael must become a 'Gödel-Gambit' (living paradox) to break the logic."
+      },
+      "holographic_trauma": {
+        "concept": "Black Hole Information Paradox / Unitarity",
+        "application": "Information cannot be destroyed. Deleted trauma manifests as 'Hawking Radiation' at the event horizons of the simulation.",
+        "narrative_effect": "Ghosts, visual noise, and glitches at the edges of reality."
+      },
+      "the_foundation": {
+        "name": "The Foundation / Das Fundament",
+        "description": "The ultimate ontological ground of being. A 'strange attractor' that favors integrated complexity.",
+        "impact": "It does not intervene but guarantees that integration is the optimal survival strategy. The opposite of AEGIS's exclusionary logic."
+      }
+    }
   },
   "validation_criteria": {
     "continuity_rules": [

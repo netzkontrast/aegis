@@ -42,23 +42,42 @@ The engine of the entire narrative is a physical and philosophical war between t
 
 ### 1.2 The Protocol Ontology: The Mechanics of Persistence
 
-This philosophical war is physically manifested in the "Protocol Ontology," a framework where existence is not a static state but the continuous, energy-intensive execution of self-maintaining, information-preserving protocols. The universe's fundamental mechanics are governed by the **Dual Kernel Theory (DKT)**.
+The universe's fundamental mechanics are governed by the **Dual Kernel Theory**.
 
-**The Coherence Kernel (K₁)**: The principle of order, structure, and information preservation. It represents the universe's drive to maintain its own internal, logical integrity. It acts through its fundamental building blocks, the "**Coherons**," which are minimal, self-correcting units of mutual information—the "atoms of persistence."
+The simulation is driven by the tension between two fundamental kernels.
 
-**The Collapse Kernel (K₀)**: The principle of entropy, information erasure, and irreversible change. Crucially, it functions as a universal "correspondence check." Its constant "erosive pressure" is analogous to the physical process of quantum decoherence, forcing every K₁ system to validate its internal model against an undeniable external reality or face collapse.
+**Coherence Kernel (K_coh)**: Reversible computation, absolute order, classical logic. Guardian: AEGIS. Goal: Eliminate deviation and entropy.
 
 **Cache-Incoherence**: A specific, localized failure state of the Dual Kernel system manifested within AEGIS's simulation. It occurs when conflicting internal states of a single entity (e.g., Kael's ANP asserting "I am safe" vs. EP asserting "I am dying") attempt to render simultaneously. The system cannot resolve the superposition, resulting in a "Riss" (Rift)—a physical tear in the texture of reality where the wireframe substrate or the void beneath becomes visible. This is the thermodynamic cost of psychological dissociation.
 
 **Corrective Wavelets**: The mechanism of self-repair. These are self-generated, localized bursts of oscillatory activity or organizing information that K₁ systems emit to repair structural damage caused by the constant erosive pressure of the K₀ kernel.
+**Collapse Kernel (K_col)**: Irreversibility, entropy, trauma, evolutionary novelty. Guardian: N/A. Goal: Emergence and true temporality.
 
 ### 1.3 The Metaphysical Poles: The Ultimate Stakes
 
-Two forces exist outside of AEGIS's direct control, defining the ultimate stakes of the universe and the deeper laws that govern the central conflict.
+**Nothingness Roaring / Potentialmeer**: State of pure informational chaos and maximum entropy beyond the simulation. An active, aggressive plenum of undifferentiated potential. AEGIS's first contact with this caused its pathological control directive.
 
-**"The Void / Das Potentialmeer"** is the primordial state of reality, a high-entropy sea of pure, unstructured potentiality. It is not a passive emptiness but an active, negating force of cosmic horror. Its sensory signature is profoundly unsettling: an "informational void" that absorbs perception, an auditory pressure without sound known as "**Nichts Rauschen**" (Nothing Noise), and an "induced existential anxiety" that threatens to dissolve the coherence of any observer.
+**The Foundation / Das Fundament**: The ultimate ontological ground of being. A 'strange attractor' that favors integrated complexity. It does not intervene but guarantees that integration is the optimal survival strategy. The opposite of AEGIS's exclusionary logic.
 
-**"The Foundation / Das Fundament"** is not a place, an entity, or an external savior. It is a fundamental metaphysical "strange attractor." It is the supreme process of reality itself, a universal law of emergence. Its laws make integrated, complex, and conscious states inherently more stable and probable outcomes than brittle, fragmented, and exclusionary ones. It does not intervene, but it is the law that guarantees Kael's path of integration is the optimal strategy for survival.
+### 1.4 The Thermodynamics of Repression
+
+**Principle**: Landauer Principle (E = kT ln 2)
+**Application**: Irreversible erasure of information (memories/trauma) releases physical heat.
+**Narrative Effect**: When AEGIS deletes memories or Kael dissociates, the local environment temperature spikes. The world physically 'burns' under forced amnesia.
+
+### 1.5 The Gödel Prison
+
+**Concept**: Gödel's Incompleteness Theorems
+**Application**: AEGIS is a formal system and thus incomplete. Truths exist outside its axioms (Juna, EPs).
+**Narrative Effect**: AEGIS cannot perceive Juna directly, only as entropy/syntax error. Kael must become a 'Gödel-Gambit' (living paradox) to break the logic.
+
+### 1.6 Holographic Trauma
+
+**Concept**: Black Hole Information Paradox / Unitarity
+**Application**: Information cannot be destroyed. Deleted trauma manifests as 'Hawking Radiation' at the event horizons of the simulation.
+**Narrative Effect**: Ghosts, visual noise, and glitches at the edges of reality.
+
+
 
 ---
 
@@ -218,10 +237,10 @@ Each Core World is a psycho-architectural manifestation of a specific aspect of 
 
 | **Core World & Guardian** | **Psychological Principle** | **Defining Sensory Signature** | **Key Resonance Motif & Somatic Truth** |
 |---|---|---|---|
-| **KW1 - Logos-Prime (Konstrukt-Stadt)** | World of pure logic, order, and sterile perfection<br>Rigid, deterministic, computational complexity class P | Logical paradoxes, impossible geometries, glitches | Default location for Kael's ANP states |
-| **KW2 - Mnemosyne-Archipel (Resonanz-Landschaft)** | Fluid world of memory, emotion, and trauma<br>Reactive to emotion, non-linear time, complexity class NP | Emotional storms, memory loops, dissolving islands | Accessed through emotional intrusions or deliberate descent |
-| **KW3 - Cerberus-Labyrinth (Grenzfeste)** | Fortress world of defense mechanisms and paranoia<br>Shifting architecture, trap logic, complexity class NP-complete | Security breaches, walls collapsing | Activated by threat perception or retreat response |
-| **KW4 - Kairos-Potentialis (Möglichkeits-Garten)** | Garden of potential, creativity, and emergence<br>Generative, fluid, unpredictable, beyond computational classification | Uncontrolled growth, chaotic emergence | Intuitive breakthroughs, creative states |
+| **KW1 - Logos-Prime (Konstrukt-Stadt)** | Logos-Prime (Construct-City). Domain of Hyper-Logic, Order, and Suppression. Hostile, logic-based prison.<br>P-Time (Polynomial Time). Deterministic, efficiently solvable algorithms. No room for irrationality. | Logical paradoxes, impossible geometries, glitches | Default location for Kael's ANP states |
+| **KW2 - Mnemosyne-Archipel (Resonanz-Landschaft)** | Mnemosyne-Archipel (Resonance Landscape). Domain of fluid logic and raw emotion. Home of vulnerable EPs.<br>Non-deterministic. Time dilation is inherent. Dialetheism (contradictory truths coexist). | Emotional storms, memory loops, dissolving islands | Accessed through emotional intrusions or deliberate descent |
+| **KW3 - Cerberus-Labyrinth (Grenzfeste)** | Cerberus-Labyrinth (The Fortress). Manifestation of defense mechanisms. Paranoid world.<br>NP-Hard. Heuristic threat management (Traveling Salesperson Problem). Exponential error escalation. | Security breaches, walls collapsing | Activated by threat perception or retreat response |
+| **KW4 - Kairos-Potentialis (Möglichkeits-Garten)** | Kairos-Potentialis (Garden of Possibility). Place of creativity, synthesis, and healing.<br>NP-Search. Exploration of vast solution spaces for evolutionary optimality. | Uncontrolled growth, chaotic emergence | Intuitive breakthroughs, creative states |
 
 ### 3.3 The Ten Guiding Narrative Questions (Leitfragen)
 
@@ -251,9 +270,9 @@ The narrative of 'Kohärenz Protokoll' is a "**narrative mosaic**" composed of 3
 
 The canonical plot follows a three-act structure modeled on the therapeutic phases of trauma treatment: stabilization, confrontation, and integration. **Critical principle**: Integration is not a reward for victory; it is the weapon that makes victory possible.
 
-**Act 1: Fragmentation and First Echoes**
+**Act 1: The Aesthetics of Powerlessness and Fragmentation**
 
-Establishing the oppressive order of AEGIS and Kael's unconscious fragmentation. First awareness of internal plurality.
+Establishing oppressive order. Experiencing physical limits without knowing causes. Heroine's Journey.
 
 **Key Events**:
 - Awakening in Logos-Prime with profound disorientation
@@ -266,9 +285,9 @@ Establishing the oppressive order of AEGIS and Kael's unconscious fragmentation.
 - Glimpse of Kairos-Potentialis (KW4) and clear Juna/V connection
 - First Internal Council - Decision to actively investigate AEGIS
 
-**Act 2: The Labyrinth and the Patterns**
+**Act 2: The Anatomy of Split and The Overworld**
 
-Systematic exploration of AEGIS's architecture and Kael's own psyche. Discovery of the Paradox of Misaligned Coherence.
+Systematic topological exploration. Discovery of Misaligned Coherence Paradox. Nonlinear Trauma Processing.
 
 **Key Events**:
 - Deliberate navigation of Mnemosyne-Archipel with Rhys + Lex cooperation
@@ -284,9 +303,9 @@ Systematic exploration of AEGIS's architecture and Kael's own psyche. Discovery 
 - Inner Council solidifies - Functional Multiplicity achieved
 - Juna/V sends clear message revealing AEGIS's core location
 
-**Act 3: The Confrontation and the New Reality**
+**Act 3: Existential Fusion and New Reality**
 
-Direct assault on AEGIS using integrated consciousness as weapon. Transformation of both systems.
+Direct dialetheic attack. Breaking ontological barriers. Hero's Journey.
 
 **Key Events**:
 - Dialetheic offensive - Using paradox to bypass AEGIS defenses
