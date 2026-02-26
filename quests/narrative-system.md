@@ -1,9 +1,9 @@
 # Quest: Quest-Narrative-System
 
-**Status:** 📦 Backlog
-**Priority:** 🎯 Medium
-**Owner:** [Agent/Human Name]
-**Start Date:** TBD
+**Status:** 🟢 Active
+**Priority:** 🎯 High
+**Owner:** Jules (AI)
+**Start Date:** 2025-11-06
 **Target Date:** TBD
 
 ---

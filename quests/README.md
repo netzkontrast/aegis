@@ -16,6 +16,8 @@ This directory contains all active and completed Quests for the AEGIS project.
 | [[engine.md]] | Skill Implementation | 🟢 Active |
 | [[gap-analysis.md]] | Workflow Optimization | 🟢 Active |
 | [[writing.md]] | Writing Quality & Standards | 🟢 Active |
+| [[style.md]] | Prose Style | 🟢 Active |
+| [[narrative-system.md]] | Narrative System Features | 🟢 Active |
 | [[zettelkasten.md]] | Zettelkasten Implementation | 🟡 In Progress |
 | [[knowledge-graph.md]] | KG Data Structures | 🔴 Not Started |
 | [[ncp-assistant.md]] | NCP Assistant Tool | 🔴 Not Started |
@@ -26,8 +28,6 @@ This directory contains all active and completed Quests for the AEGIS project.
 
 | Quest | Focus | Status |
 |---|---|---|
-| [[style.md]] | Prose Style | ⚪ On Hold |
-| [[narrative-system.md]] | Narrative System Features | 📦 Backlog |
 
 ## ✅ Completed
 
