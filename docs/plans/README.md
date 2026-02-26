@@ -1,6 +1,8 @@
-# ARCHON Implementation Plans
+# AEGIS Implementation Plans
 
-This directory contains detailed, step-by-step implementation plans for ARCHON components.
+> [← Back to Documentation Hub](../README.md)
+
+This directory contains detailed, step-by-step implementation plans for AEGIS Framework components.
 
 ## Purpose
 
@@ -17,7 +19,7 @@ Each plan is designed for engineers with **zero codebase context** and follows:
 - **[2025-11-05-ncp-writing-assistant.md](2025-11-05-ncp-writing-assistant.md)**
   - Implements `ncp_assist.py` - Writing Assistant tool
   - Generates writing prompts, character voice samples, and scene guidance
-  - Completes ARCHON Phase 1 (MVP CLI tools)
+  - Completes AEGIS Phase 1 (MVP CLI tools)
   - **Estimated time:** 2-3 hours
   - **Status:** Ready to implement
 
@@ -27,7 +29,7 @@ Each plan is designed for engineers with **zero codebase context** and follows:
   - Implements hierarchical knowledge graph (L0-L3)
   - Python API (`kg_core.py`) and CLI tools (`kg_add.py`, `kg_query.py`)
   - JSON-based storage, flexible query system, basic scene ingestion
-  - Starts ARCHON Phase 2 (Knowledge Graph)
+  - Starts AEGIS Phase 2 (Knowledge Graph)
   - **Estimated time:** 4-6 hours
   - **Status:** Ready to implement
 
@@ -109,7 +111,7 @@ Each plan includes:
 - ✅ Notes for engineers with design decisions
 - ✅ References to relevant documentation
 
-## Integration with ARCHON
+## Integration with AEGIS
 
 These plans build on the existing foundation:
 
@@ -164,9 +166,9 @@ When adding new plans:
 
 ## Questions?
 
-- See `ARCHON/INTERFACE_DESIGN.md` for overall architecture
-- See `ARCHON/tools/README.md` for existing tool documentation
-- See `ARCHON/agents/README.md` for Narrative Director spec
+- See `aegis/INTERFACE_DESIGN.md` for overall architecture
+- See `aegis/tools/README.md` for existing tool documentation
+- See `aegis/agents/README.md` for Narrative Director spec
 
 ---
 
