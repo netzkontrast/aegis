@@ -5,6 +5,10 @@ description: Use when writing, editing, or validating content for Kohärenz Prot
 
 # Codex: Kohärenz Protokoll Canonical Reference
 
+## 🚨 ACTIVATION TRIGGER
+**Use ONLY when writing prose, dialogue, designing world physics, or validating narrative constraints.**
+*   For high-level planning, decision making, or session management, use the **`kohaerenz-roman-entwicklung`** skill.
+
 ## Overview
 
 **Core principle:** The PROJECT_CODEX.md defines the immutable laws of the Kohärenz Protokoll universe. All creative work must conform to these canonical principles.

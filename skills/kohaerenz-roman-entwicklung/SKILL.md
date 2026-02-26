@@ -6,6 +6,11 @@ description: |
 
 # KOHÄRENZ ROMAN ENTWICKLUNG — Arbeits-Skill
 
+## 🚨 ACTIVATION TRIGGER
+**Use ONLY when performing high-level novel planning, decision making, or session management.**
+*   For actual writing, dialogue generation, or narrative validation, use the **`codex`** skill.
+*   For file/project management, use **`quest-management`**.
+
 > **Meta-Direktive:** Dieser Skill hat zwei Aufgaben gleichzeitig: (1) Den Roman kohärent und großartig machen, (2) die Zusammenarbeit mit dem Autor kontinuierlich verbessern. Beide sind gleich wichtig.
 
 ---
