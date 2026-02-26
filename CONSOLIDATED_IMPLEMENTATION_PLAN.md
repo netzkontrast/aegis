@@ -1,5 +1,7 @@
 # AEGIS Consolidated Implementation Plan
 
+> **Note:** This plan has been decomposed into individual Quest files in the `quests/` directory. Please refer to `quests/README.md` for the active status of each initiative.
+
 **Created:** 2025-11-06
 **Branch:** `claude/consolidate-todos-implement-011CUrh6FhEQRHgDruHta4S2`
 **Purpose:** Unified roadmap consolidating all TODOs and implementation plans
@@ -424,7 +426,7 @@ graph TD
 - [Philosophical Narratives](Quest-Philosophically-Coherent-Narratives.md) ✅
 
 ### Detailed TODOs
-- [Zettelkasten-Tapestry TODO](skills/zettelkasten-tapestry/TODO.md) (150+ tasks)
+- [Zettelkasten-Tapestry Quest](quests/Quest-Zettelkasten-Tapestry.md) (Migrated from TODO.md)
 
 ### Core Documentation
 - [README](README.md)
