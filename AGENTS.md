@@ -177,6 +177,14 @@ For a comprehensive breakdown, see `docs/ACT_1_ANALYSIS.md`.
 ### Maintenance Protocol
 *   **Update Overview:** Agents must **always** update the `overview.md` file (and relevant cluster files in `docs/`) after adding, removing, or significantly renaming files. Do this before creating a PR. This ensures the repository map remains accurate for future agents.
 
+### Quest & Task Management
+*   **Active Quests:** All work must be associated with an active Quest. See the [Quest Dashboard](quests/README.md) for the current status.
+*   **Pre-PR Protocol:** Before submitting any Pull Request, agents must:
+    1.  Check the [Quest Dashboard](quests/README.md) to ensure their work aligns with an active Quest.
+    2.  Update the status of the relevant Quest file (e.g., mark tasks as complete).
+    3.  Check `quests/Quest-System-Maintenance.md` for any new technical debt or TODOs that can be addressed quickly.
+    4.  Ensure no new `TODO` comments are introduced in the codebase without being captured in a Quest file.
+
 ### Narrative Simulator Rules (Consolidated)
 *   **Master Navigation:** Always start with the [Encyclopedia & Navigation Hub](docs/kohaerenz_protokoll_encyclopedia.md). This file maps all narrative content and links to the deep-dive Quests.
 *   **Knowledge Quests:** For deep work on specific topics (AEGIS, Kael, Physics, etc.), consult the relevant **Quest File** in the root directory (e.g., `Quest-System-AEGIS.md`). These contain consolidated canonical knowledge.

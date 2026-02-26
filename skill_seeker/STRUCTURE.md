@@ -8,7 +8,6 @@ Skill_Seekers/
 │   ├── CLAUDE.md                  # Quick reference for Claude Code
 │   ├── QUICKSTART.md              # 3-step quick start guide
 │   ├── ROADMAP.md                 # Development roadmap
-│   ├── TODO.md                    # Current sprint tasks
 │   ├── STRUCTURE.md               # This file
 │   ├── LICENSE                    # MIT License
 │   └── .gitignore                 # Git ignore rules
@@ -86,7 +85,6 @@ Skill_Seekers/
 
 ### For Contributors:
 - **ROADMAP.md** - Development roadmap
-- **TODO.md** - Current sprint tasks
 - **.github/SETUP_GUIDE.md** - GitHub setup
 - **LICENSE** - MIT License
 

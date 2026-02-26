@@ -338,7 +338,7 @@ grep -n "github\|GitHub" .claude/commands/tapestry.md | tail -20
 **Finding:**
 ```
 Line 45: "- GitHub repositories"
-Line 120: "# TODO: GitHub support not yet implemented"
+Line 120: "# GitHub support not yet implemented (See Quest-Zettelkasten-Tapestry)"
 ```
 
 **Analysis:**

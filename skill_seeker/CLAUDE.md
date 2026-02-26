@@ -682,8 +682,6 @@ The correct command uses the local `cli/package_skill.py` in the repository root
 - **[docs/ENHANCEMENT.md](docs/ENHANCEMENT.md)** - AI enhancement guide
 - **[docs/UPLOAD_GUIDE.md](docs/UPLOAD_GUIDE.md)** - How to upload skills to Claude
 - **[FLEXIBLE_ROADMAP.md](FLEXIBLE_ROADMAP.md)** - Complete task catalog (134 tasks)
-- **[NEXT_TASKS.md](NEXT_TASKS.md)** - What to work on next
-- **[TODO.md](TODO.md)** - Current focus
 - **[STRUCTURE.md](STRUCTURE.md)** - Repository structure
 
 ## Notes for Claude Code

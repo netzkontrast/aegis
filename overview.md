@@ -33,6 +33,10 @@ The Next.js-based interactive prototype for reading the novel.
 **File:** [docs/cluster_docs.md](docs/cluster_docs.md)
 Analysis, planning documents, research papers, and project history.
 
+### 6. Active Quests & Tasks
+**File:** [quests/README.md](quests/README.md)
+The central hub for all active development tasks, tracking progress on features, refactoring, and narrative initiatives.
+
 ---
 **Note to Agents:**
 Always update this file and the relevant cluster files after adding or removing significant files from the repository. This ensures the map remains accurate.
