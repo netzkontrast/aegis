@@ -67,3 +67,25 @@ The room is *hot*.
 **NCP Validation**:
 - **Physics**: Moonshine-Link established as non-local/quantum.
 - **Cost**: High heat signature confirms Information Theory.
+
+
+## Narrative Design Data (Act 2 Consolidated Outline)
+## Chapter 19: Feedback Loops
+**Concept**: Feedback-Schleifen: AEGIS' Verteidigungsarchitektur
+**NCP Event**: AEGIS deploys NE-Protocol cascade.
+**Irreversible Cost**: **Physical Scarring**. Burns on hands/temples that do not heal.
+
+### Scene 19.1: The Gnosis Exploit
+**Location**: The Network
+**POV**: Kael (Feverish) / Argus
+**Goal**: Inject the "Truth" virus.
+**Beats**:
+1.  Using the Moonshine-Link (Gnosis), Kael connects to the network.
+2.  He inputs the "Heat" data from Ch 18.
+3.  **LEITFRAGE**: Gnosis vs. Episteme.
+4.  AEGIS tries to parse the heat as data. Fails.
+5.  **FEEDBACK**: The system purges the sector to save itself.
+6.  Kael's hands are burned by the console. Real physical damage.
+7.  AEGIS is hurt. It screams (a digital screech).
+
+---

@@ -64,3 +64,22 @@ Kael looks "up." Through the page.
 **NCP Validation**:
 - **Meta-Physics**: Confirms the "Reader as Hardware" theory.
 - **Victory**: Total operational independence (Autopoiesis achieved).
+
+
+## Narrative Design Data (Act 3 Consolidated Outline)
+## Chapter 39: The Circle Closes
+**Concept**: Der Kreis schließt sich: Universal Re-Connecting
+**NCP Event**: The Meta-Twist. Reader acknowledgment.
+
+### Scene 39.1: The Last Page
+**Location**: Everywhere
+**POV**: Kael / The Reader
+**Goal**: Hand over the world.
+**Beats**:
+1.  Kael looks up. At *you*.
+2.  **META**: "The simulation ends when you close the book."
+3.  "But the coherence remains."
+4.  **FINAL LOG**: AEGIS logs the reader's attention one last time.
+5.  Kael smiles.
+6.  **END**: "What do I do with my part of the incompleteness?"
+7.  Fade to warm white.

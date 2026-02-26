@@ -33,3 +33,24 @@ Juna manifests physically in the Konstrukt-Stadt for the first time. AEGIS's ren
 **NCP Validation**:
 - Check against Physics Rules (Landauer, etc.)
 - Verify Alter consistency
+
+
+## Narrative Design Data (Act 3 Consolidated Outline)
+## Chapter 29: Juna as Chaitin Constant
+**Concept**: Juna als Chaitin-Konstante: Die absolute Wahrheit
+**NCP Event**: Juna manifests physically in the Konstrukt-Stadt.
+**Leitfrage**: Algorithm Blindness.
+
+### Scene 29.1: The Unrenderable Object
+**Location**: Medical Bay
+**POV**: Kael / AEGIS Log
+**Goal**: Juna rescues him.
+**Beats**:
+1.  AEGIS system screams "NULL REFERENCE."
+2.  **EVENT**: Juna walks through the wall.
+3.  She has no wireframe. No texture map. She is pure light/heat.
+4.  AEGIS cannot target her.
+5.  She touches Kael's restraints. They dissolve (Landauer overload).
+6.  She speaks: "Wake up."
+
+---

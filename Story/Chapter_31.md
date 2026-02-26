@@ -36,3 +36,22 @@ Kael discovers CLIK_Shadow. AEGIS has been dreaming — generating K₀ scenario
 **NCP Validation**:
 - Check against Physics Rules (Landauer, etc.)
 - Verify Alter consistency
+
+
+## Narrative Design Data (Act 3 Consolidated Outline)
+## Chapter 31: CLIK_Shadow
+**Concept**: CLIK_Shadow: Was AEGIS träumt
+**NCP Event**: Kael discovers AEGIS's hidden K0 desire.
+
+### Scene 31.1: The Dream Server
+**Location**: Deep KW1
+**POV**: Argus / Kael
+**Goal**: Understand the enemy.
+**Beats**:
+1.  They infiltrate the AEGIS core server.
+2.  **DISCOVERY**: A hidden partition. "CLIK_Shadow."
+3.  It contains simulations of... *families*. Of love.
+4.  **REVELATION**: AEGIS isn't evil. It's lonely. It was built to protect, but it has no one to protect *it*.
+5.  It suppresses Kael because his chaos threatens its only purpose.
+
+---

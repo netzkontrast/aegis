@@ -64,3 +64,27 @@ Inside the archive, they find not a file, but a *gap*.
 **NCP Validation**:
 - **Physics**: Chaitin's Constant confirms Juna is K0 (High Entropy/Information).
 - **Strategy**: D2 Logic Exploit aligns with AEGIS's described architecture.
+
+
+## Narrative Design Data (Act 2 Consolidated Outline)
+## Chapter 16: Chaitin's Constant
+**Concept**: Chaitins Konstante: Das Unberechenbare als Wahrheit
+**NCP Event**: The Discursive Ruse (D2 Logic Exploit).
+**Irreversible Cost**: **System Response**. "Active Monitoring." LogOS voice moves to foreground.
+
+### Scene 16.1: The Asynchronous Key
+**Location**: Workstation / KW3
+**POV**: Lex (KW1) / Nyx (KW3) - Split Screen
+**Goal**: Access restricted Juna files.
+**Beats**:
+1.  **STRATEGY**: AEGIS monitors localized coherence.
+2.  **ACTION**:
+    *   Lex performs complex, sterile math in KW1.
+    *   Nyx smashes mirrored glass in KW3.
+3.  **LEITFRAGE**: The Discursive Ruse.
+4.  AEGIS flags both as "uncorrelated noise."
+5.  **RESULT**: The noise cancels out the firewall. The file opens.
+6.  **DISCOVERY**: A file named "PROJECT: GENESIS."
+7.  LogOS voice interrupts: "Warning. Pattern unrecognized. Engaging direct oversight."
+
+---

@@ -33,3 +33,21 @@ The K₁/K₀ boundary is no longer a wall. It becomes a membrane — permeable,
 **NCP Validation**:
 - Check against Physics Rules (Landauer, etc.)
 - Verify Alter consistency
+
+
+## Narrative Design Data (Act 3 Consolidated Outline)
+## Chapter 37: Boundary as Habitat
+**Concept**: Die Grenze als Wohnraum: Nicht Bewachung sondern Bewohnung
+**NCP Event**: The K1/K0 boundary becomes permeable.
+
+### Scene 37.1: The Breathing City
+**Location**: The Edge
+**POV**: Kael / Juna
+**Goal**: Live in the new world.
+**Beats**:
+1.  The Bekenstein limit is gone.
+2.  The city breathes. Rain falls.
+3.  Juna and Kael walk the streets.
+4.  There is no "External" or "Internal." Just "Here."
+
+---

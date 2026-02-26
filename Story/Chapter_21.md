@@ -36,3 +36,24 @@ Kael consciously applies the witness-function: by observing a Riss-Zone directly
 **NCP Validation**:
 - Check against Physics Rules (Landauer, etc.)
 - Verify Alter consistency
+
+
+## Narrative Design Data (Act 2 Consolidated Outline)
+## Chapter 21: The Measurement Problem
+**Concept**: Das Messproblem: Beobachtung als Akt der Schöpfung
+**NCP Event**: Kael stabilizes a Riss-Zone.
+**Irreversible Cost**: **Energy Drain**. Witness Function causes collapse.
+
+### Scene 21.1: The Eye of the Storm
+**Location**: A unstable Riss-Zone
+**POV**: Kael / Selene
+**Goal**: Stop the deletion of a district.
+**Beats**:
+1.  A district is dissolving into voxels.
+2.  **ACTION**: Kael uses the "Witness Function" (conscious observation).
+3.  He looks at the chaos and *wills* it to be stable.
+4.  **RESULT**: The voxels snap back into atoms.
+5.  **COST**: Kael passes out instantly. Metabolic collapse.
+6.  Selene drags him to safety.
+
+---

@@ -33,3 +33,23 @@ Language fails. The chapter is partially untranscribable by LogOS. The margins o
 **NCP Validation**:
 - Check against Physics Rules (Landauer, etc.)
 - Verify Alter consistency
+
+
+## Narrative Design Data (Act 3 Consolidated Outline)
+## Chapter 32: Wittgenstein II
+**Concept**: Wittgenstein II: Das Mystische zeigt sich
+**NCP Event**: Language fails. Margins warm.
+
+### Scene 32.1: The Silence
+**Location**: The Spire Base
+**POV**: Level 3 Prose (Poetic)
+**Goal**: Transcend language.
+**Beats**:
+1.  Kael approaches the Spire.
+2.  LogOS tries to speak: "Stop. Illegal. Stop."
+3.  Kael doesn't answer with words.
+4.  He answers with *being*.
+5.  **META**: The text on the page breaks down. "The warmth is here."
+6.  The reader feels the heat (narratively).
+
+---

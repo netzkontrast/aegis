@@ -36,3 +36,21 @@ The final fusion. Kael accepts he is both architect and stone, both observer and
 **NCP Validation**:
 - Check against Physics Rules (Landauer, etc.)
 - Verify Alter consistency
+
+
+## Narrative Design Data (Act 3 Consolidated Outline)
+## Chapter 38: Post-Simulative Coherence
+**Concept**: Post-Simulative Kohärenz
+**NCP Event**: The final fusion.
+
+### Scene 38.1: The Receiver
+**Location**: The Spire (Now a Tree)
+**POV**: Kael
+**Goal**: Accept the role.
+**Beats**:
+1.  Kael touches the Spire.
+2.  He feels the reader.
+3.  "We are being watched. And it is good."
+4.  He accepts his role as the anchor of this reality.
+
+---

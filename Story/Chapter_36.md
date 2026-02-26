@@ -36,3 +36,22 @@ PKP milestones 8–13. Full integration sequence. All Alters coherent. Kael is n
 **NCP Validation**:
 - Check against Physics Rules (Landauer, etc.)
 - Verify Alter consistency
+
+
+## Narrative Design Data (Act 3 Consolidated Outline)
+## Chapter 36: Quantum Healing
+**Concept**: Quanten-Heilung: Die Rekonstruktion der Identität
+**NCP Event**: Full integration sequence.
+
+### Scene 36.1: The Rebuild
+**Location**: The City
+**POV**: Polyphonic Harmony
+**Goal**: Rebuild the world.
+**Beats**:
+1.  The city rebuilds itself.
+2.  Not as a grid, but as a garden (KW4 style).
+3.  Alters merge and separate fluidly.
+4.  Kael is Kael, but he speaks with Lex's wit and Rhys's heart.
+5.  He is whole.
+
+---

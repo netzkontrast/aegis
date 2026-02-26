@@ -68,3 +68,25 @@ Touching the watch triggers a massive system load.
 **NCP Validation**:
 - **Physics**: Bekenstein Limit visualization (pixels/voxels).
 - **Stakes**: Reality failure is more terrifying than monsters.
+
+
+## Narrative Design Data (Act 2 Consolidated Outline)
+## Chapter 22: The Bekenstein Bound II
+**Concept**: Die Bekenstein-Grenze II: In die Tiefe der Architektur
+**NCP Event**: Entering the Void Antechamber.
+**Irreversible Cost**: **Ontological Vertigo**. Permanent sensation of falling.
+
+### Scene 22.1: The Edge of Resolution
+**Location**: Deep KW1 / Void Boundary
+**POV**: Argus / Kael
+**Goal**: Find the entrance to the "Black Chapter".
+**Beats**:
+1.  They travel to the lowest render level.
+2.  Geometry is blocky (Minecraft-like but terrifying).
+3.  **EVENT**: They find the door to KW4 (The Void).
+4.  AEGIS RAM usage is at 99.7%.
+5.  **LEITFRAGE**: Algorithm Blindness.
+6.  The door shouldn't exist in AEGIS's map.
+7.  Kael opens it. Just looking inside causes vertigo that never leaves him.
+
+---

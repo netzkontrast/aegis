@@ -71,3 +71,27 @@ Kael emerges from the Black Chapter. He is glowing.
 **NCP Validation**:
 - **Thermodynamics**: Massive heat release confirms trauma processing (Landauer).
 - **Resolution**: Victory through integration, not destruction.
+
+
+## Narrative Design Data (Act 3 Consolidated Outline)
+## Chapter 33: The Black Chapters (Gödel-Gambit)
+**Concept**: Die Schwarzen Kapitel: Das Innere Ereignishorizont durchbrechen
+**NCP Event**: Entering the Black Chapter. LFI-Mandala shatters.
+**Leitfrage**: The Gödel-Gambit.
+
+### Scene 33.1: The Event Horizon
+**Location**: The Core
+**POV**: Kael / Nox
+**Goal**: Prove AEGIS wrong.
+**Beats**:
+1.  They enter the Core. The LFI-Mandala spins.
+2.  **ACTION**: Kael drops his shields.
+3.  He feels *everything*. Love for Juna. Hate for AEGIS. Fear. Hope.
+4.  **PARADOX**: He is A and Not-A.
+5.  AEGIS: "Contradiction detected. Delete."
+6.  Kael: "I am stable."
+7.  **PROOF**: His energy state is lower than the repression mechanism.
+8.  AEGIS cannot compute stable contradiction.
+9.  **SHATTER**: The Mandala cracks.
+
+---
