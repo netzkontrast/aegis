@@ -16,7 +16,7 @@ Every session must follow this recursive loop. Do not skip steps.
 2.  **Check Quests:** Read `quests/README.md` to identify Active Missions.
 3.  **Locate Task:**
     *   Find the specific Todo in `todos/`.
-    *   If no matching Quest exists, **STOP**. Check `quests/TEMPLATE.md` and create a new Quest (or merge into an existing one). **Never work without a Quest.**
+    *   If no matching Quest exists, **STOP**. Check `quests/template.md` and create a new Quest (or merge into an existing one). **Never work without a Quest.**
 4.  **Load Skills:** Identify which Specific Skills (see Section 3) are needed for this task.
 
 ### Phase II: Execution (The Work)
@@ -45,7 +45,7 @@ Every session must follow this recursive loop. Do not skip steps.
 
 ### Phase V: Reflection (The Learning)
 1.  **Store Learnings:** Append key insights to `kohaerenz-roman-entwicklung/references/SESSION_LEARNINGS.md`.
-2.  **Self-Correction:** If you found a friction point, create a Todo in `Quest-Skill-Gap-Analysis.md` to fix it.
+2.  **Self-Correction:** If you found a friction point, create a Todo in `gap-analysis.md` to fix it.
 
 ### Phase VI: Consolidation (The Sync)
 1.  **Sync:** Ensure you are working on the latest state.
@@ -62,23 +62,23 @@ Every session must follow this recursive loop. Do not skip steps.
 
 *Load these into your context to understand the current mission landscape.*
 
-### 🟢 System Architecture (`Quest-System-AEGIS.md`)
+### 🟢 System Architecture (`aegis.md`)
 *   **Goal:** Define the AEGIS/ARCHON/Novel relationship.
 *   **Status:** Active. Focus on integrating the "Meta-Recursive" design where the repo performs the novel's themes.
 
-### 🟢 Narrative Architecture (`Quest-Narrative-Architecture.md`)
+### 🟢 Narrative Architecture (`narrative.md`)
 *   **Goal:** Structure Act I (Fragmentation) -> Act II (Pattern Recognition) -> Act III (Integration).
 *   **Current Focus:** Refining Act I pacing and Act II transition.
 
-### 🟢 Novel Implementation (`Quest-Roman-Entwicklung-Implementation.md`)
+### 🟢 Novel Implementation (`engine.md`)
 *   **Goal:** Build the "Novel Engine" skill.
 *   **Status:** Active. Needs validation of the `kohaerenz-roman-entwicklung` skill.
 
-### 🟢 Workflow Optimization (`Quest-Skill-Gap-Analysis.md`)
+### 🟢 Workflow Optimization (`gap-analysis.md`)
 *   **Goal:** Make agents smarter and faster.
 *   **Current Focus:** This very file (`aegis/SKILL.md`) is a deliverable of this quest.
 
-### 🟢 World Physics (`Quest-World-Physics.md`)
+### 🟢 World Physics (`physics.md`)
 *   **Goal:** Define the "Hard Magic" system (Landauer Limit, Processing Cost).
 *   **Rule:** Every act of creation in the simulation generates heat/entropy.
 

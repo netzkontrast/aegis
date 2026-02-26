@@ -55,7 +55,7 @@ The repository is organized into four primary pillars:
 
 ### The Golden Cycle
 All agents must follow the "Golden Cycle" defined in `SKILL.md` (if available) or implicit in `../AGENTS.md`:
-1.  **Initialize**: Read `README.md`, `../quests/README.md`, and `../AGENTS.md`.
+1.  **Initialize**: Read `../README.md`, `../quests/README.md`, and `../AGENTS.md`.
 2.  **Execute**: Perform tasks linked to an active Quest.
 3.  **Verify**: Test changes and validate against the NCP (for narrative) or tests (for code).
 4.  **Update**: Update Quest status and documentation.

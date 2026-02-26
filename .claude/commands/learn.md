@@ -6,6 +6,20 @@ allowed-tools:
   - Read
   - Write
   - Edit
+ui:
+  component: "CommandForm"
+  title: "Learn New Skill"
+  description: "Extract knowledge from a URL or file."
+  inputs:
+    - name: "url"
+      type: "text"
+      label: "Source URL"
+      placeholder: "https://example.com/article"
+      required: true
+    - name: "save"
+      type: "boolean"
+      label: "Save to Zettelkasten"
+      default: false
 ---
 
 # Learn Command - Unified Learning Workflow
