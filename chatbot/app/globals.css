@@ -48,6 +48,28 @@
   /* border radius unit */
   --radius: 0.5rem;
   --sidebar: hsl(0 0% 98%);
+
+  /* Coherence Console: Psychological Colors (CMYK Derivatives) */
+  /* Trauma Yellow: Resignation, decay. #9C963B */
+  --trauma-yellow: #9C963B;
+  /* Hope Yellow: Delicate hope, new beginning. #FFF2A6 */
+  --hope-yellow: #FFF2A6;
+  /* Signal Yellow: Acute danger, alarm. #FFD900 */
+  --signal-yellow: #FFD900;
+  /* Nostalgia Yellow: Bittersweet memories. #D9A922 */
+  --nostalgia-yellow: #D9A922;
+  /* Insight Yellow: Clarity, revelation. #FFF21A */
+  --insight-yellow: #FFF21A;
+  /* Crystal Sky: Clarity, protection (Selene). #A0D2DE */
+  --crystal-sky: #A0D2DE;
+  /* Alex Rust: Controlled anger. #8B3A3A */
+  --alex-rust: #8B3A3A;
+  /* Steel Blue: Strategic defense. #4682B4 */
+  --steel-blue: #4682B4;
+  /* Shadow Fire: Destruction (Nyx). #FF4500 */
+  --shadow-fire: #FF4500;
+  /* Soot Black: Collapse. #1A1A1A */
+  --soot-black: #1A1A1A;
 }
 
 /* define design tokens (dark mode) */
@@ -85,6 +107,8 @@
   --sidebar-border: hsl(240 3.7% 15.9%);
   --sidebar-ring: hsl(217.2 91.2% 59.8%);
   --sidebar: hsl(240 5.9% 10%);
+
+  /* Keep colors vivid in dark mode or adjust slightly if needed */
 }
 
 /* define theme */
@@ -140,6 +164,18 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Coherence Console Colors */
+  --color-trauma-yellow: var(--trauma-yellow);
+  --color-hope-yellow: var(--hope-yellow);
+  --color-signal-yellow: var(--signal-yellow);
+  --color-nostalgia-yellow: var(--nostalgia-yellow);
+  --color-insight-yellow: var(--insight-yellow);
+  --color-crystal-sky: var(--crystal-sky);
+  --color-alex-rust: var(--alex-rust);
+  --color-steel-blue: var(--steel-blue);
+  --color-shadow-fire: var(--shadow-fire);
+  --color-soot-black: var(--soot-black);
 }
 
 /*
@@ -189,6 +225,22 @@
       --background-start-rgb: 0, 0, 0;
       --background-end-rgb: 0, 0, 0;
     }
+  }
+
+  /* Rough Paper Background */
+  .bg-rough-paper {
+    background-color: var(--background);
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.15'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+  }
+
+  /* Shaky Borders (Ballpoint Pen Style) */
+  .border-shaky {
+    border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+    border-width: 2px;
+    border-style: solid;
+    /* Optional: Slight rotation to enhance the effect */
+    /* transform: rotate(-0.5deg); */
   }
 }
 
