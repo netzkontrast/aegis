@@ -30,6 +30,15 @@ This is not merely a thematic lens but the **primary causal architecture** of th
 
 **Authority**: This principle supersedes convenience, traditional plot structures, or genre expectations. When in conflict, the Call to Wholeness takes precedence.
 
+### 1.0.2 Hard Narrative Laws (Physics of the Simulation)
+
+These laws, defined in the **NCP Master Constitution** (`skills/narrative_design/ncp/NCP_DEFINITION.json`), are immutable physical constraints of the simulation.
+
+1.  **Landauer's Principle**: Erasing information requires energy (kT·ln2). *Narrative Expression*: Every act of suppression or memory deletion by AEGIS or an Alter produces measurable **heat**.
+2.  **Gödel's Incompleteness**: No formal system can prove all truths within itself. *Narrative Expression*: AEGIS cannot perceive or model Juna; she is a syntax error it cannot query.
+3.  **Quantum Unitarity (Holographic Trauma)**: Information is never destroyed. *Narrative Expression*: Deleted memories resurface as static, phantom temperatures, or glitches at the boundary.
+4.  **Bekenstein Bound**: Maximum entropy is proportional to surface area. *Narrative Expression*: The simulation has a rendering limit. Deep structure pixelates; Alters are "lazy-loaded" to save cache.
+
 ### 1.1 The Central Philosophical War: Coherence vs. Correspondence
 
 The engine of the entire narrative is a physical and philosophical war between two competing definitions of truth, embodied by the story's central entities.
