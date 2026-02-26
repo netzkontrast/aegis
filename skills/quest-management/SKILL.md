@@ -5,6 +5,11 @@ description: Manages high-level narrative and development quests. Use when creat
 
 # Quest Management Skill
 
+## 🚨 ACTIVATION TRIGGER
+**Use ONLY when explicitly instructed to create, update, or manage Quest/Todo files.**
+*   Do not use for general task execution.
+*   This skill is a utility for maintaining the `quests/` and `todos/` directories.
+
 **Version:** 1.0.0
 **Type:** Technique Skill
 **Testing Rigor:** Moderate (3-5 scenarios)
