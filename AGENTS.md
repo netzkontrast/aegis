@@ -140,6 +140,29 @@ graph TD
   - `ANTHROPIC_API_KEY`: Required for AI enhancement features.
   - `LOG_LEVEL`: Set to `DEBUG` for verbose tool output.
 
+## Act 1 Analysis & Narrative Instructions
+
+For a comprehensive breakdown, see `docs/ACT_1_ANALYSIS.md`.
+
+### Key Findings
+1.  **Structure**: Act 1 successfully moves from unconscious fragmentation (Ch 1) to conscious, functional multiplicity (Ch 13). The transition is rapid but justified by the optimization threat.
+2.  **Voice**: The polyphonic style is effective and should be maintained.
+3.  **Metaphysics**: The "Moonshine-Link" and "Psycho-Architecture" rules are well-implemented and must be strictly adhered to in future acts.
+
+### Improvement Instructions
+*   **Sensory Consistency**: Ensure each Kernwelt (KW1-KW4) maintains its distinct sensory signature in all future scenes.
+    *   KW1: Sterile, Ozone, Geometry
+    *   KW2: Salt, Decay, Fluidity
+    *   KW3: Metal, Blood, Fortification
+    *   KW4: Earth, Growth, Potential
+*   **Alter Consistency**: When writing specific alters, ensure their voices align with their profiles (e.g., Lex is analytical, Nyx is aggressive, Rhys is nurturing).
+*   **Stakes**: The threat of "Optimization" (deletion of complexity) must remain the primary driver of cooperation.
+
+### Act 2 Guidelines
+*   **Narrative Voice**: Must reflect the "We" perspective, even when subtly.
+*   **Driving Force**: The search for Juna/V is the central spine of Act 2.
+*   **Antagonist Evolution**: AEGIS should adapt to the system's new capabilities, moving from brute force deletion to more sophisticated containment or co-option strategies.
+
 ## Further Reading
 
 - [ARCHON Framework](ARCHON/README.md) – Deep dive into the narrative protocol.
