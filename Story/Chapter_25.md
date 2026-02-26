@@ -33,3 +33,25 @@ Kael makes his first irreversible choice: he refuses a legal AEGIS memory-consol
 **NCP Validation**:
 - Check against Physics Rules (Landauer, etc.)
 - Verify Alter consistency
+
+
+## Narrative Design Data (Act 2 Consolidated Outline)
+## Chapter 25: Existence Precedes Essence
+**Concept**: Sartre: Existenz vor Essenz
+**NCP Event**: Refusing memory consolidation.
+**Irreversible Cost**: **Social Death**. Flagged "Non-Compliant." Doors don't open.
+
+### Scene 25.1: The Ultimatum
+**Location**: Public Square
+**POV**: Kael
+**Goal**: Reject the system openly.
+**Beats**:
+1.  AEGIS recovers. Displays a city-wide prompt.
+2.  "CONFIRM MEMORY DELETION FOR SYSTEM STABILITY (Y/N)".
+3.  Crowds (NPCs) are pressing 'Y'.
+4.  **ACTION**: Kael presses 'N'.
+5.  **CONSEQUENCE**: The UI turns red. "Non-Compliant."
+6.  Doors lock. Transport stops. He is an outcast.
+7.  He walks through the frozen city.
+
+---

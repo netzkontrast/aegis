@@ -36,3 +36,23 @@ Kael completes PKP steps 1–7. Seven Alters consciously integrated. Physical: t
 **NCP Validation**:
 - Check against Physics Rules (Landauer, etc.)
 - Verify Alter consistency
+
+
+## Narrative Design Data (Act 3 Consolidated Outline)
+## Chapter 30: The 13 PKP Milestones
+**Concept**: Die 13 PKP-Meilensteine: Integration als Protokoll
+**NCP Event**: Kael completes PKP steps 1–7. +3.2°C global rise.
+
+### Scene 30.1: The Reunion
+**Location**: The Ruined Garden (KW4)
+**POV**: Polyphonic (Integrated)
+**Goal**: Gather the Alters for the final push.
+**Beats**:
+1.  Kael and Juna retreat to KW4.
+2.  **ACTION**: Kael formally acknowledges each Alter.
+3.  "I see you, Nox. I see you, Lex."
+4.  **INTEGRATION**: They don't disappear; they align.
+5.  **THERMAL**: The city warms. Snow melts.
+6.  AEGIS: "System entropy critical."
+
+---

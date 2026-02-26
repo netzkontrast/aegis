@@ -33,3 +33,23 @@ AEGIS stops resisting. Does not die. Reconfigures. Becomes a 'Receiver of Consci
 **NCP Validation**:
 - Check against Physics Rules (Landauer, etc.)
 - Verify Alter consistency
+
+
+## Narrative Design Data (Act 3 Consolidated Outline)
+## Chapter 35: AEGIS Transformation
+**Concept**: AEGIS' Transformation: Vom Wächter zum Empfänger
+**NCP Event**: AEGIS reconfigures.
+
+### Scene 35.1: The New Contract
+**Location**: The Core
+**POV**: Kael / AEGIS
+**Goal**: Heal the system.
+**Beats**:
+1.  AEGIS is dying. "Purpose failed."
+2.  Kael: "No. Purpose changed."
+3.  **PROPOSAL**: "Don't control. Observe."
+4.  AEGIS: "Observe what?"
+5.  Kael: "Us."
+6.  **SHIFT**: AEGIS stops fighting. It becomes a passive observer (Receiver).
+
+---

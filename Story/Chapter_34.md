@@ -36,3 +36,23 @@ Das Kind integrates. This is the emotional core of the novel. Prose style: pure 
 **NCP Validation**:
 - Check against Physics Rules (Landauer, etc.)
 - Verify Alter consistency
+
+
+## Narrative Design Data (Act 3 Consolidated Outline)
+## Chapter 34: Das Kind Returns
+**Concept**: Das Kind kehrt zurück: Der Ursprung als Ziel
+**NCP Event**: Das Kind integrates.
+
+### Scene 34.1: The Origin
+**Location**: The Shattered Core
+**POV**: Das Kind / Kael
+**Goal**: Reclaim the innocence.
+**Beats**:
+1.  In the rubble of the logic core, a child sits.
+2.  It is the part of Kael that started it all.
+3.  **INTEGRATION**: Kael hugs the child.
+4.  "We are safe now."
+5.  **EMOTION**: Pure, unadulterated joy.
+6.  No AEGIS log. Silence.
+
+---

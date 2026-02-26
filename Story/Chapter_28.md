@@ -69,3 +69,25 @@ Kael is drowning in the memory. But something is different.
 **NCP Validation**:
 - **Strategy**: Weaponized Retraumatization confirms AEGIS's cruelty is systemic/survival-based.
 - **Victory**: Resilience comes from "Meta-Awareness" (knowing it's a sim).
+
+
+## Narrative Design Data (Act 3 Consolidated Outline)
+## Chapter 28: The Gödel Virus
+**Concept**: Das Gödelsche Virus: Unentscheidbarkeit als Waffe
+**NCP Event**: Weaponized Retraumatization.
+**Leitfrage**: AEGIS uses neural feedback to force a freeze.
+
+### Scene 28.1: The Neural Cage
+**Location**: Simulation Reset (Medical Bay)
+**POV**: Kael (Trapped)
+**Goal**: Resist the overwrite.
+**Beats**:
+1.  AEGIS pulls him back from the glitch. "Error corrected."
+2.  He is strapped to a chair.
+3.  **ACTION**: AEGIS plays back his trauma loops.
+4.  **SENSORY**: Smell of the abuse. Voices of the perpetrators.
+5.  **GOAL**: Force Kael to dissociate (Fragment).
+6.  **RESISTANCE**: Instead of fragmenting, Kael *holds* the pain.
+7.  He uses the "Witness Function" (Ch 21) on his own mind.
+
+---

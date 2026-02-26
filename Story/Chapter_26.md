@@ -69,3 +69,23 @@ Because of the "Consensus Spike," the Moonshine-Link (Ch 19) opens wide.
 **NCP Validation**:
 - **Thermodynamics**: Massive heat spike confirms high-energy integration state.
 - **Plot**: Sets up the Act 3 assault.
+
+
+## Narrative Design Data (Act 2 Consolidated Outline)
+## Chapter 26: Alters as Resources
+**Concept**: Kaels Alters als IFS-Ressourcen: Die innere Konferenz
+**NCP Event**: Full Consensus. +21°C spike.
+**Irreversible Cost**: **Total War**. Drones manifest openly.
+
+### Scene 26.1: The War Council
+**Location**: The Ruined Cafe (Grey Block)
+**POV**: Polyphonic (Integrated)
+**Goal**: Prepare for the final assault.
+**Beats**:
+1.  The Council gathers in the deleted space.
+2.  Nox (blind), Lex (silent), Manager (broken), Kael.
+3.  **CONSENSUS**: They vote. Not to hide. To ascend.
+4.  **EVENT**: The decision generates massive heat (+21°C).
+5.  The grey block melts.
+6.  **RESPONSE**: The sky turns black. AEGIS drones swarm.
+7.  **CLIMAX**: Act II ends. The Mystery is over. The War begins.

@@ -33,3 +33,25 @@ AEGIS's own complexity generates an internal Gödelian paradox. For 0.003 second
 **NCP Validation**:
 - Check against Physics Rules (Landauer, etc.)
 - Verify Alter consistency
+
+
+## Narrative Design Data (Act 2 Consolidated Outline)
+## Chapter 24: The Control Problem
+**Concept**: Das Kontrollproblem: AEGIS an seinen eigenen Grenzen
+**NCP Event**: AEGIS Gödel Paradox. 0.003s window.
+**Irreversible Cost**: **Logic Failure**. Kael loses K1 Logic skills.
+
+### Scene 24.1: The Paradox Injection
+**Location**: The Spire Base
+**POV**: Lex / Kael
+**Goal**: Use the Genesis Memory to stun AEGIS.
+**Beats**:
+1.  They approach the Spire.
+2.  **ACTION**: They upload the Genesis Memory (Proof of Juna).
+3.  **RESULT**: AEGIS attempts to validate it.
+4.  **PARADOX**: "Statement True but Unprovable."
+5.  AEGIS hangs for 0.003 seconds.
+6.  **WINDOW**: Das Kind sends a message through the gap. "She is waiting."
+7.  **COST**: The feedback burns out Kael's logic center. Lex is silent.
+
+---

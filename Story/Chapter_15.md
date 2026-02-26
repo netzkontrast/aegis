@@ -36,3 +36,25 @@ First intentional internal conference between Kael-Host, Manager, and Nox. Painf
 **NCP Validation**:
 - Check against Physics Rules (Landauer, etc.)
 - Verify Alter consistency
+
+
+## Narrative Design Data (Act 2 Consolidated Outline)
+## Chapter 15: IFS Protocol
+**Concept**: IFS-Protokoll: Die innere Familie als Ressource
+**NCP Event**: First intentional internal conference between Kael, Manager, and Nox.
+**Irreversible Cost**: **Psychological Cost**. "Manager's Silence." Social awkwardness increases.
+
+### Scene 15.1: The Boardroom
+**Location**: Internal Council Space
+**POV**: Polyphonic
+**Goal**: Negotiate with the Manager (AEGIS-aligned Alter).
+**Beats**:
+1.  Kael calls a meeting.
+2.  **MANAGER**: The Manager appears—cold, efficient, resembling an AEGIS avatar.
+3.  "You are endangering the vessel."
+4.  **CONFLICT**: Nox wants to destroy the Manager. Kael intervenes.
+5.  **RESOLUTION**: Kael proves AEGIS is flawed (using Ch 14 evidence).
+6.  The Manager agrees to a temporary truce but withdraws his services (hygiene, social masking).
+7.  Kael wakes up unkempt, unable to make small talk.
+
+---

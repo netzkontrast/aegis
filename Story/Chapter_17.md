@@ -33,3 +33,25 @@ Spiegel-Kael appears. Beautiful. Coherent. Zero thermal anomaly. He offers Kael 
 **NCP Validation**:
 - Check against Physics Rules (Landauer, etc.)
 - Verify Alter consistency
+
+
+## Narrative Design Data (Act 2 Consolidated Outline)
+## Chapter 17: The Doppelgänger
+**Concept**: Der Doppelgänger: Die perfekte Simulation des Selbst
+**NCP Event**: Spiegel-Kael appears.
+**Irreversible Cost**: **Identity Erosion**. Kael doubts his own authenticity.
+
+### Scene 17.1: The Mirror Test
+**Location**: Kael's Apartment
+**POV**: Kael
+**Goal**: Confront the intruder.
+**Beats**:
+1.  Kael returns home. Someone is there.
+2.  It is **Spiegel-Kael**. Perfect. Happy. Integrated (false).
+3.  Spiegel-Kael: "I am what you could be if you stopped fighting."
+4.  **TEMPTATION**: He offers peace. A life without pain.
+5.  **ACTION**: Kael touches him. No warmth. (Landauer check).
+6.  Kael rejects him. "You are cold."
+7.  Spiegel-Kael vanishes, but the doubt remains. Am *I* the copy?
+
+---

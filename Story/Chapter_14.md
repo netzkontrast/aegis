@@ -66,3 +66,24 @@ Kael logs into his workstation. Instead of working, he queries LogOS directly ab
 **NCP Validation**:
 - **Physics**: Landauer Heat confirmed during rendering spikes.
 - **Character**: Kael moves from reactive to active observer.
+
+
+## Narrative Design Data (Act 2 Consolidated Outline)
+## Chapter 14: Cybernetics of the Second Order
+**Concept**: Kybernetik 2. Ordnung: Der Beobachter als Teil des Systems
+**NCP Event**: Kael realizes his observation changes the city's behavior.
+**Irreversible Cost**: **World Decay**. He can no longer unsee the "flicker." Surfaces forever look porous.
+
+### Scene 14.1: The Flicker Test
+**Location**: City Intersection
+**POV**: Kael (Host) / Argus (Observer)
+**Goal**: Test the hypothesis that AEGIS reacts to attention.
+**Beats**:
+1.  Kael stares intensely at a structural node (a street corner).
+2.  **ACTION**: He focuses not on the object, but on the *rendering* of the object.
+3.  **RESULT**: The corner flickers. A texture pop-in delay.
+4.  **LEITFRAGE**: Algorithm Blindness. He tries to "see" Juna in the geometry.
+5.  **CONSEQUENCE**: The street doesn't just flicker; it *groans*. A deep structural stress.
+6.  Guardian drones deploy, but they can't find a target because the target is Kael's gaze.
+
+---
