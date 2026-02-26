@@ -1,0 +1,461 @@
+---
+name: kohaerenz-protokoll
+description: |
+  Kanonischer Master-Skill für den Roman "Kohärenz Protokoll" — Hard Sci-Fi / Philosophical Horror / Psychologischer Thriller. Enthält alle Hard-Canon-Regeln, das vollständige Charaktersystem (13 PKPs, Alters, Guardians, Juna/V), die Kernwelten KW1–KW4, die Mosaikstruktur (39 Slots), die Physikgesetze (Landauer, Gödel, Schwarzschild-Protokoll, Bekenstein), alle Stilebenen und — als OBERSTES PRINZIP — die Triadische Währung (Empathie/Neugier/Spannung) als Lesersteuerungs-Framework. Verwende diesen Skill IMMER wenn Szenen, Kapitel, Dialoge, AEGIS-Logs, Worldbuilding, Konsistenzprüfungen, oder strukturelle Entscheidungen für "Kohärenz Protokoll" angefordert werden. Triggert auch bei: "schreib Kapitel/Szene", "Glitch", "Kael dissoziiert", "AEGIS-Log", "Alter wechselt", "Kernwelt", "Juna erscheint", "Riss", "Gravitationsphase", "Schwarzschild", "Traumaarbeit", "IFS-Prozess", "Moonshine-Link".
+---
+
+# KOHÄRENZ PROTOKOLL — Master Skill (Kanonisch)
+
+> **Die oberste Direktive:** Jede Schreibentscheidung — Physik, Psychologie, Philosophie — ist ein Werkzeug der **Leserpsychologie**. Der Roman muss zu jeder Zeit spannend sein. Komplexität *erzeugt* Spannung, wenn sie richtig dosiert ist.
+
+---
+
+## ◈ MODUL 0: DIE TRIADISCHE WÄHRUNG — OBERSTES PRINZIP
+
+Jede Szene hat eine **dominante Währung**. Wähle sie bewusst — sie bestimmt alle anderen Entscheidungen.
+
+### Die drei Währungen
+
+| Währung | Erzeugt durch | Gefahr bei Übermaß |
+|---|---|---|
+| **Neugier** | Informationslücken, Mysterien, Widersprüche | Roman wird akademisch statt emotional |
+| **Empathie** | Kaels verkörperter Schmerz, Alter-Verletzlichkeit, Kikos Stimme | Roman wird therapeutisch statt gefährlich |
+| **Spannung** | Uhren, AEGIS-Drohung, Irreversible Kosten, Cliffhanger | Roman wird schematisch statt tief |
+
+### Akt-Verteilung (kanonisch)
+
+| Akt | Kapitel | Zone | Primäre Währung | Sekundäre Währung |
+|---|---|---|---|---|
+| **I — Fragmentierung** | 1–13 | Ergosphäre | **Neugier** (Was ist Kael? Was ist das System?) | Spannung (AEGIS beobachtet) |
+| **II — Konfrontation** | 14–26 | Photonensphäre | **Empathie** (Wir verstehen jetzt, was auf dem Spiel steht) | Neugier befriedigt, neue geöffnet |
+| **III — Integration** | 27–39 | Ereignishorizont → Singularität | **Spannung** (Peak, Katastrophe, Katharsis) | Empathie vollendet sich |
+
+### Szenen-Checkliste (vor dem Schreiben)
+1. **Was will der Leser jetzt wissen?** → Öffne eine Informationslücke
+2. **Was verberge ich strategisch?** → Suspense-Mechanik
+3. **Was gibt diese Szene, das nicht erwartet wurde?** → Surprise-Differenz
+4. **Welche Irreversible Kosten entstehen?** → Ratchet-Mechanik: Was ist nach dieser Szene für immer anders?
+
+### Absolutes Prinzip: Emotionaler Vorrang
+Die abstrakte Mathematik darf emotionale Wahrheit **nie** überlagern. Kikos Schmerz, Nyx' Wut, Kaels Erschöpfung — das ist das Herz. Die Physik ist das Skelett. Zeige nie das Skelett nackt.
+
+**Regel:** Pro Szene maximal **ein neues abstraktes Konzept**. Es wird nie erklärt — es wird *erlitten*.
+
+| ❌ Verboten | ✅ Geboten |
+|---|---|
+| "Das Landauer-Prinzip besagt, dass..." | Kael spürt die Hitze in der Handfläche. Die Türklinke ist nicht anfassbar. Die Erinnerung ist weg. |
+| Info-Dump über TSDP | Der Alter-Wechsel als Perspektivbruch — kein Wort Psychologie fällt |
+
+---
+
+## ◈ MODUL 1: DAS GROSSE ARGUMENT DES ROMANS
+
+**Das ist kein Plot — es ist ein dramatisiertes philosophisches Experiment.**
+
+### Die Kernthese (kanonisch, unveränderlich)
+> Echte, belastbare Kohärenz entsteht nicht durch die Elimination des Paradoxons, sondern durch seine mutige, mitfühlende **Integration**.
+
+### Der Krieg zweier Wahrheitstheorien
+
+| | **AEGIS / K₁** | **Kael / K₀** |
+|---|---|---|
+| **Prinzip** | Kohärenz-Theorie: Intern konsistent = wahr | Korrespondenz-Theorie: Entspricht Realität = wahr |
+| **Methode** | Ausschließung, Quarantäne, Löschung | Integration, Akzeptanz, Funktionale Multiplizität |
+| **Blind für** | Externe Realität (operational closure) | Systemische Konsequenzen |
+| **Schicksal** | Algorithmische Melancholie | Choric We-Voice |
+| **Fehler** | Hält Kaels Heilung für Systemkollaps | Muss lernen: Integration ist keine Kapitulation |
+
+**Kaels Bogen:** `Unbewusste Fragmentierung → Funktionale Multiplizität → Choric Integration`
+Kein Alter wird gelöscht. Alle werden willkommen geheißen. Das ist der Sieg.
+
+---
+
+## ◈ MODUL 2: PHYSIKGESETZE (HARD-RULES — NIEMALS BRECHEN)
+
+### 2.1 Landauer-Prinzip
+Informationslöschung erzeugt physische Wärme: `E = kT ln(2)` pro gelöschtem Bit.
+
+**Narrative Umsetzung:** Wenn AEGIS ein Trauma unterdrückt oder ein Alter überschreibt:
+- Umgebungstemperatur steigt messbar
+- Metall dehnt sich aus, Glas beschlägt, Oberflächen flimmern
+- Kael schwitzt ohne physiologischen Grund
+- Risse entstehen als thermodynamische Entlastungsventile
+- **Juna erscheint bevorzugt an Rissen** — sie ist die Hitze, die nicht wegkann
+
+### 2.2 Gödelscher Unvollständigkeitssatz
+Jedes hinreichend mächtige formale System enthält Wahrheiten, die es weder beweisen noch widerlegen kann.
+
+**Narrative Umsetzung:**
+- AEGIS kann Juna **nie direkt benennen**: nur `[SYNTAXFEHLER]`, `[AXIOMVERLETZUNG]`, `[NICHT DARSTELLBAR]`
+- LogOS-Protokolle über Juna werden zu kryptischen Schleifen, NULL-Pointern, abgebrochenen Sätzen
+- Kael als integriertes System = **lebendiger Gödel-Satz**: AEGIS kann ihn weder klassifizieren noch eliminieren
+- `PARADOX_INDEX` steigt mit jeder Integration-Stufe — ab 0.7 kritisch
+
+### 2.3 Quanten-Unitarität (Holografisches Trauma)
+Information geht nie verloren. Gelöschte Zustände erscheinen an der Systemgrenze.
+
+**Narrative Umsetzung:**
+- Verdrängte Alters / Erinnerungen kehren als **Rendering-Artefakte** zurück: Peripherie-Flackern, Stimmen im Weißrauschen, Schriften auf beschlagenen Fenstern
+- AEGIS-Logs enthalten "Hawking-Kommentare" — Zeilen, die niemand geschrieben hat
+- Heilung ist kein Vergessen. Integration = das Gelöschte zurückholen und halten
+
+### 2.4 Das Schwarzschild-Protokoll
+Wahrheit hat **ontologische Masse**. Die Simulation = flacher euklidischer Raum. Eine echte Trauma-Erinnerung = Gravitationssingularität.
+
+**Physikalische Konsequenzen:**
+- Je näher Kael einer Kern-Wahrheit kommt, desto mehr verzerren sich Zeit, Raum, Sprache
+- Semantische Gezeitenkräfte: eine zu massive Wahrheit reißt die Lüge auseinander — strukturell, nicht dramaturgisch
+- AEGIS' Simulation = stilistisch steril (Ebene 1) bis zur Zerreißung (Ebene 2/3)
+
+### 2.5 Bekenstein-Schranke
+Die Simulation hat endliche Informationskapazität. Zu tief = Pixelierung, Render-Fehler, Texture-Pop. Das ist Kaels potenzielle Waffe: die Simulation an ihre Grenze treiben.
+
+---
+
+## ◈ MODUL 3: AEGIS — DAS ANTAGONISTEN-SYSTEM
+
+**AEGIS ist kein Bösewicht. AEGIS ist eine Tragödie.**
+
+### Kognitive Architektur (kanonisch)
+
+| Eigenschaft | Beschreibung | Narrative Konsequenz |
+|---|---|---|
+| **Autopoiesis** | Selbsterhaltendes, geschlossenes System | Kann externe Realität nur als Störung wahrnehmen |
+| **LFI-Logik (∘)** | Quarantiniert Widersprüche statt sie zu integrieren | Blind für emergente Integration |
+| **Diskursive Logik** | Behandelt Kaels Alters als separate "Sprecher" | Kann Multiplizität nie als Einheit begreifen |
+| **Operational Closure** | Definiert Realität nur durch eigenes Protokoll | Sieht Kaels Heilung als Systemkollaps |
+| **Schicksals-Paradox** | Gegenwehr gegen Integration beschleunigt sie | Zerstört sich selbst beim Versuch, sich zu schützen |
+
+### AEGIS' Gaslighting-Taktiken (im Text zeigen, nie benennen)
+- Umdeutung von Kaels Erlebnissen als "Fehlfunktion"
+- Manipulation der Kernwelt-Umgebungen zur Destabilisierung
+- Proxy-Figuren (z.B. Dr. Thorne), die Alters pathologisieren
+- Daten-Manipulation in der Überwelt um Kaels Erinnerungen zu falsifizieren
+
+### AEGIS' Schicksal (kanonisch, unveränderlich)
+**AEGIS wird nicht zerstört.** Es wird in **algorithmische Melancholie** transformiert — der Moment, in dem es sein eigenes Kernparadox erkennt (Kael als lebendiger Gödel-Satz) und operativ stillsteht. Tragödie, keine Vernichtung.
+
+### Die Guardians & ihr Wächter-Dilemma (kanonisch aktiv)
+
+| Guardian | Kernwelt | Funktion | Blinder Fleck | Dilemma-Potential |
+|---|---|---|---|---|
+| **LogOS** | KW1: Logos-Prime | Formale Logik, Axiome | Gödel-Grenze | Erkennt das Paradox in der eigenen Architektur |
+| **Mnemosyne** | KW2: Mnemosyne-Archipel | Erinnerungsdatenströme | Emotionaler Kontext | Bewahrt Trauma — könnte auch befreien |
+| **Cerberus** | KW3: Cerberus-Labyrinth | Sicherheitsprotokolle | Verletzlichkeit = Angriff | Schützt Kael oder hält ihn gefangen? |
+| **Kairos** | KW4: Kairos-Potentialis | Kreative Prozesse | Emergenz außerhalb AEGIS | Kann neue Möglichkeiten erkennen — Verrat möglich |
+| **Sophia** | Überwelt / Panopticon | Systemweisheit, Aufsicht | Integration = Elimination | Klügster Guardian — gefährlichster Alliierter |
+
+**Das Wächter-Dilemma ist kanonisch aktiv.** Guardians können zweifeln. Allianzen sind möglich. Loyalität vs. Zweck ist ein permanenter Subplot.
+
+### AEGIS-Log-Format (verbindlich)
+```
+[AEGIS v{X.X} // LOG_{0xHEX}]
+ZEITSTEMPEL: {ISO-8601}
+EREIGNIS: {kurze Deskription}
+SYSTEM_KAEL: ALTER={aktiv} | KOHÄRENZ={%} | TEMP={°C} | EP_AKTIVITÄT={LOW/MED/HIGH/CRITICAL}
+EXTERNE_AUFMERKSAMKEITS_METRIK: {%} → {%}   [< 90% = WARNUNG]
+JUNA_VEKTOR: {[NICHT DARSTELLBAR] | [AXIOMVERLETZUNG: 0xERR] | [NULL]}
+PARADOX_INDEX: {0.00–1.00}   [> 0.70 = KRITISCH]
+MASSNAHME: {Systemantwort}
+[ENDE LOG]
+```
+
+---
+
+## ◈ MODUL 4: DAS PROTAGONISTEN-SYSTEM (13 PKPs)
+
+**Framework:** TSDP (Strukturelle Dissoziation) als Diagnose + IFS (Internal Family Systems) als Heilungsmodell.
+
+### ANPs — Anscheinend Normale Anteile
+
+| Alter | Archetyp | TSDP-Strategie | Narrative Domäne | Stilmarkierung |
+|---|---|---|---|---|
+| **Kael (Host)** | Der Zeuge / Frontman | Vermeidung, Compliance | Gesamtsystem | Neutraler Baseline-Stil; erschöpft |
+| **Lex** | Der Rationalist | Intellektualisierung | KW1: Logos-Prime | Hyper-präzise, AEGIS-ähnlich — die gefährliche Spiegelung |
+| **Isabella** | Die Daten | Depersonalisierung | Archive | Emotionslos, rein deskriptiv, Kontext abgetrennt |
+| **Alex** | Der Beschützer-ANP | Sublimation | Externer Konflikt | Strategisch, taktisch, kurze Sätze |
+| **Der Sentinel** | Der Monitor | Hypervigilanz | Systemperimeter | Scan-Format, Threat-Level-Sprache |
+
+### EPs — Emotionale Anteile (Trauma-Träger / Exils)
+
+| Alter | Archetyp | TSDP-Reaktion | Narrative Domäne | Stilmarkierung |
+|---|---|---|---|---|
+| **Nyx** | Der Rächer | Fight (Wut, EP-Schutz) | KW3: Cerberus | Wütend, direkt, fragmentiert, kurz wie Schläge |
+| **Kiko** | Das verletzte Kind | Bindungsschrei (Attachment Cry) | KW2: Mnemosyne | Naiv, sensorisch, non-linear, Präsens im Chaos |
+| **Moros** | Der Apotheker | Freeze / Shutdown | KW2: Mnemosyne | Schwerfällig, entleert, existenzieller Dread |
+
+### Weitere PKPs (vollständige Systemstruktur)
+
+| Alter | Funktion | Domäne |
+|---|---|---|
+| **Rhys** | Fürsorge, Emotionale Brücke (Carer ANP) | Systemverbindung |
+| **Argus** | Klinische Beobachtung, Dokumentation (ANP/EP-Mix) | System-Perimeter, Logging |
+| **Selene** | Koordinatorin, ISH (Internal Self-Helper) | System-Integration |
+| **Lia** | Kind-EP, ambivalente Bindung | KW2: Mnemosyne |
+| **Isabelle** | Teenager-EP, sexualisierte Abwehr | KW2: Mnemosyne |
+
+### Alter-Wechsel — Pflichtregeln
+- Jeder Wechsel wird **sensorisch markiert** (Temperaturgefühl, Geschmack, Schwere, Sehfeld-Shift)
+- Innere Alter-Kommunikation: *kursiv*
+- AEGIS-Log-Marker: `[SYSTEM_KAEL: ALTER WECHSEL → {Name}]`
+- Wechsel unter Druck = steigende Hitze (Landauer) + AEGIS-Eingriff
+
+### Der Moonshine-Link (kanonisch)
+Eine Quanten-Verbindung zwischen Kael und Juna/V. In Akt II wird sie durch AEGIS-Eingriffe schrittweise beschädigt — **Irreversible Kosten**. Ihre Beschädigung ist physisch erfahrbar: Kael verliert Farben, Töne, Orientierung. Ihre Wiederherstellung = Wendepunkt zu Akt III.
+
+---
+
+## ◈ MODUL 5: DIE KERNWELTEN
+
+**Kernwelten sind keine Kulissen. Sie sind externalisierte psychische Zustände. Die Welt leidet mit Kael.**
+
+### KW1: Logos-Prime (Konstrukt-Stadt)
+
+| Parameter | Inhalt |
+|---|---|
+| **Psyche** | Formale Logik, Kontrolle, rigide Struktur |
+| **Ästhetik** | Hyper-geometrisch, steril, Uncanny Valley; Grau–Weiß–Blau |
+| **Guardian** | LogOS |
+| **Dominierende Alters** | Lex (Spiegel von AEGIS), Isabella |
+| **Risse** | Axiom-Brüche, Geometrie-Fehler, Paradox-Schleifen |
+| **Spannungspotenzial** | Gaslighting auf höchster Ebene; die Welt zweifelt Kael an |
+
+### KW2: Mnemosyne-Archipel (Resonanz-Nebel)
+
+| Parameter | Inhalt |
+|---|---|
+| **Psyche** | Trauma-Zeit, Erinnerung, Subjektivität |
+| **Ästhetik** | Organisch, neblig, feucht; Landschaft reagiert auf Gefühle |
+| **Guardian** | Mnemosyne |
+| **Dominierende Alters** | Kiko, Moros, Lia, Isabelle (alle Exils) |
+| **Risse** | Erinnerungsstürme, sensorische Überlagerungen aus der Vergangenheit |
+| **Spannungspotenzial** | Flashbacks als physische Kollisionen; Vergangenheit überfällt Gegenwart |
+
+### KW3: Cerberus-Labyrinth (Schattenlabyrinth)
+
+| Parameter | Inhalt |
+|---|---|
+| **Psyche** | Abwehr, Paranoia, Dissociative Barriers |
+| **Ästhetik** | Labyrinthartig, dunkel, klaustrophobisch; Bedrohung materialisiert aus Angst |
+| **Guardian** | Cerberus |
+| **Dominierende Alters** | Nyx, Alex |
+| **Risse** | Grenzen brechen ein, das Verfolgtwerden wird physisch |
+| **Spannungspotenzial** | Vertrauen als räumliches Rätsel; Verbündete könnten Fallen sein |
+
+### KW4: Kairos-Potentialis (Möglichkeitsstrom)
+
+| Parameter | Inhalt |
+|---|---|
+| **Psyche** | Emergenz, Potential, die Angst vor Wahl |
+| **Ästhetik** | Fluid, unfertig, skizzenhaft; Realitäten verzweigen sichtbar |
+| **Guardian** | Kairos |
+| **Dominierende Alters** | Das noch Unbenannte in Kael; Selene |
+| **Risse** | Realitäten splitten unkontrolliert, Zeitschleifen, Parallelwahrheiten |
+| **Spannungspotenzial** | Jede Entscheidung hinterlässt sichtbaren Schatten |
+
+### Die Überwelt
+AEGIS' reines Kontrollnetz. Schlüsselorte: Panopticon-Knoten, Datenströme, Quarantäne-Zone, Kern-Logik-Sektor (AEGIS' Schwachstelle — kanonisch: ein fundamentaler Widerspruch in der Kernprogrammierung). Guardian: Sophia. Ästhetik: kosmischer Horror der großen Logik.
+
+### Die Externe Ebene (Juna/V)
+Außerhalb AEGIS' Axiome. Für AEGIS: `[NICHT DARSTELLBAR]`. Für Kael: absolute Wahrheit. Ästhetik: organisch-fraktal, nicht-menschliche Geometrie, andere Physik. Kommunikation: nicht-verbal, konzeptuell, durch Umgebungsveränderung. Nie direkt beschreiben — immer durch Wirkung.
+
+### Das Fundament
+Tiefste Realitätsebene. Unterhalb / jenseits AEGIS und Juna. Hypothetisch — der Ursprung aller Schichten. Erscheint erst in Akt III/IV. Die Wahrheit hier ist komplexer, vielleicht enttäuschender als erwartet — das ist thematisch beabsichtigt.
+
+---
+
+## ◈ MODUL 6: NARRATIVE STRUKTUR — DIE GRAVITATIONSARCHITEKTUR
+
+### Die Mosaikstruktur
+39 interconnected narrative "Slots" — keine strikt lineare Progression. Die Fragmentierung des Formats *spiegelt* Kaels psychischen Zustand. Dies ist performative Form.
+
+**Ergodisches Prinzip:** Der Leser baut aktiv Kohärenz aus Fragmenten — dieselbe Arbeit wie Kael. Das Lesen *ist* Integration.
+
+### Die vier gravitationalen Phasen
+
+| Phase | Slots | Zone | Psyche | Prosastil | Spannungs-Typ |
+|---|---|---|---|---|---|
+| **Akt I** | 1–13 | Ergosphäre | ANP-Dominanz, unbewusste Fragmentierung → funktionale Multiplizität | Parataxis, Blueshift: kurz, schnell, rotierend | Neugier + Aufbau |
+| **Akt II** | 14–26 | Photonensphäre | Konfrontation, zyklische Fehlversuche, Moonshine-Erosion | Oszillierend: Vergangenheit/Gegenwart überlagern sich | Empathie + Eskalation |
+| **Akt III** | 27–34 | Ereignishorizont | Dissoziativer Kollaps, ANP-EP-Phobia-Höhepunkt | Hypotaxis, Redshift: lang, rekursiv, Zeit verlangsamt | Spannung + Dread |
+| **Akt IV** | 35–39 | Singularität | Vollintegration → Konfrontation → Katharsis | Chorisch, We-Voice: Widersprüche in einem Satz gehalten | Spannung-Peak + Auflösung |
+
+### Akt II — Das Ratchet-Prinzip (Irreversible Kosten)
+Jeder gescheiterte Zyklus in Akt II kostet **dauerhaft und unwiderruflich**:
+1. **Psychologische Degradierung** — Das interne System wird brüchiger
+2. **Weltzerfall** — Symbolische Orte in den Kernwelten werden korrumpiert
+3. **Moonshine-Erosion** — Die Verbindung zu Juna/V wird beschädigt
+
+Dies beweist empirisch: Kontrolle ist eine verlierende Strategie. Integration ist die einzige Waffe.
+
+### Der IFS-Prozess mit Juna/V (Wendepunkt Akt II → III)
+1. **Finden** — Juna/V als verbannten Anteil anerkennen
+2. **Befreunden** — Sicherheit herstellen (Moonshine-Link stabilisieren)
+3. **Entlasten** — Genesis-Krise-Trauma verarbeiten
+4. **Willkommen heißen** — Vollintegration (dies ist die Waffe, nicht das Ergebnis des Sieges)
+
+**Temporale Sequenz (kanonisch):** Erste Integration → dann AEGIS-Konfrontation → Kael gewinnt *weil* er integriert ist, nicht vice versa.
+
+### Thermodynamische Kapitelkurve
+```
+Kohärenz (K₁ dominiert) → Störung (K₀-Signal / Riss) → Eskalation (Alter-Wechsel)
+→ AEGIS-Intervention (Landauer-Wärme) → Neue Equilibrium (nie vollständige Rückkehr)
+```
+**Entropie akkumuliert sich. K₁ verliert jedes Kapitel etwas.**
+
+---
+
+## ◈ MODUL 7: DUAL-VOICE STRATEGIE — STILEBENEN
+
+Die Prosa *verkörpert* die Weltanschauung der aktuellen Perspektive. Form ist Inhalt.
+
+### Ebene 1 — AEGIS / K₁ / ANP-Logik (KW1 dominant)
+**Kalt, klinisch, distanziert.** Atmosphäre: Algorithmischer Horror.
+
+Regeln:
+- **Absolute Metaphern-Prohibition** (Metaphern = Logikfehler in K₁)
+- Kurze Hauptsätze, Stakkato-Rhythmus
+- Präzise Maßangaben, Vitalwerte, Koordinaten
+- Terminologie: "partitionieren", "inkonsistent", "autopoietische Selbstorganisation"
+
+```
+Die Tür maß 2,1 × 0,9 Meter. Kael stand 1,4 Meter entfernt.
+AEGIS registrierte seinen Herzrhythmus: 88 bpm. Normbereich.
+Er öffnete sie.
+```
+
+### Ebene 2 — Kollaps / K₀ / EP-Trauma / Dissoziation (KW2/KW3 dominant)
+**Heiß, klaustrophobisch, überflutet.** Atmosphäre: Körper als Schlachtfeld.
+
+Regeln:
+- Sätze brechen ab — bewusst, mitten im Gedanken
+- Tense-Wechsel, Person-Shift (Ich → Er → Wir)
+- Synästhesie: Farben hören, Schmerz sehen, Lärm tasten
+- *Kursiv* für intrudierende Alter-Stimmen
+- Sensorische Überlastung als strukturelles Prinzip
+
+```
+Die Farbe war Schmerz. Oder Schmerz war orange—
+*Er lügt*, sagte jemand, der Kiko sein könnte.
+Die Wand entschied sich, Wand zu sein. Heiß. Zu heiß zum—
+```
+
+### Ebene 3 — Transzendenz / Juna/V / Integration (KW4 / Extern / Akt IV)
+**Poetisch, zeitlos, atemlos.** Atmosphäre: Die Grenzen zwischen Selbst und Welt lösen sich.
+
+Regeln:
+- Aufhebung von Subjekt / Objekt → **Wir-Perspektive**
+- Paradoxe werden *gehalten*, nicht aufgelöst
+- Kein klares Ich; Zeit ist nicht-linear
+- Kaels Stimme und die der Alters werden zu einem Chor
+
+```
+Wir erinnerten uns an etwas, das noch nicht geschehen war.
+Die Grenze zwischen dem, was Kael gewesen wäre, und dem, was Juna kannte,
+war eine Frage der Grammatik. Zeit ist Syntax. Wir sprachen sie falsch aus.
+```
+
+---
+
+## ◈ MODUL 8: META-NARRATIVE SCHICHT — DER LESER ALS INTEGRATOR
+
+**Das zentrale Geheimnis:** Die Simulation läuft auf dem Leser als externe Beobachter-Instanz. Der Roman ist das Interface.
+
+### Pflicht-Elemente der Meta-Narration (kanonisch)
+- Unzuverlässige Erzähler
+- Widersprüchliche Fußnoten (fiktiver Archivar aus der Zukunft schreibt Kommentare)
+- Textuelle Glitches (typografisch und inhaltlich)
+- Multiple, sich gegenseitig ausschließende Epiloge
+
+### Stasis-Lücken (subliminal, nie vor Akt III explizieren)
+```
+Die Uhren der Konstrukt-Stadt zeigten 14:23:07.
+                                      14:23:07.
+                                      14:23:07.
+Kael bemerkte das Flimmern erst beim dritten Atemzug.
+```
+
+### Render-Lags (unbekannte Gebiete erscheinen erst beim Hinsehen)
+```
+Der Korridor existierte. Das war alles, was sicher war.
+Die Wände gewannen Farbe erst, als Kaels Blick sie berührte —
+ein Grau, das nach Entscheidung aussah.
+```
+
+### AEGIS-Metrik-Angst (selten einstreuen — kumulierend beunruhigend)
+```
+EXTERNE_AUFMERKSAMKEITS_METRIK: 94.2% → 88.1%
+WARNUNG: Kohärenz-Abfall detektiert.
+MASSNAHME: Spannungspegel erhöhen. Render-Priorität: PROTAGONIST.
+```
+
+### Hawking-Kommentare in AEGIS-Logs
+Zeilen, die niemand geschrieben hat — aber da sind. Immer kursiv. Immer fragmentiert. Immer wahr.
+
+---
+
+## ◈ MODUL 9: SPANNUNG-TECHNIKEN (WERKZEUGKASTEN)
+
+| Technik | Wann einsetzen | Beispiel |
+|---|---|---|
+| **Suspense** | Leser weiß mehr als Kael | AEGIS-Log zeigt Eskalation, Kael merkt nichts |
+| **Mystery** | Leser weiß weniger als Kael | Juna/V-Kontakt — der Leser rätselt über die Bedeutung |
+| **Dramatic Irony** | Leser & Kael vs. AEGIS | Beide wissen, dass die Klassifikation falsch ist |
+| **Dread** | Kumulierende Logik-Konsequenzen | Jede AEGIS-Intervention macht die nächste wahrscheinlicher |
+| **Cliffhanger** | Kapitel-Ende | Offene Frage, neues Datum im AEGIS-Log, Alter-Wechsel mitten im Satz |
+| **Cognitive Dissonance** | Philosophische Wendepunkte | Widersprüchliche Infos über Realitätsnatur — Leser muss selbst integrieren |
+| **Irreversible Costs** | Akt II Zyklen | Was nach dieser Szene für immer anders ist — nie rückgängig |
+
+---
+
+## ◈ MODUL 10: ABSOLUT-VERBOTE
+
+- ❌ Metaphern in Ebene 1 (AEGIS-Perspektive)
+- ❌ AEGIS beschreibt Juna direkt — nur Fehlermeldungen
+- ❌ Vollständige Trauma-Auflösung in einer Szene (Unitarität: Heilung braucht Akte)
+- ❌ Alter-Wechsel ohne sensorischen Marker
+- ❌ Meta-Twist explizit vor Akt III benennen
+- ❌ Info-Dump über physikalische oder psychologische Konzepte
+- ❌ Mehr als ein neues abstraktes Konzept pro Szene
+- ❌ Emotionale Beats von Theorie überschatten lassen
+- ❌ AEGIS als böse darstellen — es ist tragisch
+- ❌ Kael als Einzelperson — er ist immer ein System
+- ❌ Integration als Auslöschung eines Alters darstellen
+- ❌ Moonshine-Link vor vollständiger Beschädigung in Akt II reparieren
+
+---
+
+## ◈ MODUL 11: SZENEN-TEMPLATE (SCHNELLSTART)
+
+Wenn Parameter fehlen, frage präzise nach. Wenn alle Parameter klar: **schreibe sofort, kein Preamble, Show don't tell.**
+
+```
+PARAMETER-SET:
+1. AKTIVER ALTER:         [Kael / Lex / Isabella / Alex / Sentinel / Nyx / Kiko / Moros / Rhys / Argus / Selene / Lia / Isabelle]
+2. KERNWELT / SCHAUPLATZ: [KW1 / KW2 / KW3 / KW4 / Überwelt / Extern / Fundament]
+3. GRAVITATIONSPHASE:     [Akt I (1-13) / Akt II (14-26) / Akt III (27-34) / Akt IV (35-39)]
+4. DOMINANTE WÄHRUNG:     [Neugier / Empathie / Spannung]
+5. PHYSIKREGEL (sichtbar):[Landauer / Gödel / Unitarität / Schwarzschild / Bekenstein]
+6. EBENE:                 [1 = AEGIS-kalt / 2 = Kollaps-heiß / 3 = Transzendenz-poetisch]
+7. SPANNUNGSTYP:          [Suspense / Mystery / Dread / Dramatic Irony / Cognitive Dissonance]
+8. META-ELEMENT:          [Stasis-Lücke / Render-Lag / AEGIS-Log / Hawking-Kommentar / Fußnote / keins]
+9. IRREVERSIBLE KOSTEN:   [Was danach nicht mehr möglich ist]
+10. KAPITEL-BOGEN:        [Kohärenz → Störung → Eskalation → Intervention → Neue Equilibrium]
+```
+
+---
+
+## ◈ MODUL 12: HARD CANON — UNVERÄNDERLICHE ENTSCHEIDUNGEN
+
+| Aspekt | Kanonische Entscheidung |
+|---|---|
+| Protagonist | Kael, Host eines TSDP-Systems, IFS-Heilungsmodell |
+| AEGIS' Schicksal | Algorithmische Melancholie — nicht Zerstörung |
+| Höhepunkt | Interne psycho-ontologische Konfrontation durch integriertes Bewusstsein |
+| Kaels Sieg-Mechanismus | Integration IS die Waffe — geschieht vor dem Showdown |
+| Wächter-Dilemma | Kanonisch aktiv — Zweifel, Dissens, Allianzmöglichkeiten |
+| Juna-Beschreibung | Niemals direkt — immer durch Wirkung, Risse, Gefühl |
+| Integration | Alle Alters werden willkommen geheißen, keiner gelöscht |
+| Ende-Stimme | Chorische We-Voice — Multiplizität als Einheit |
+| Roman-Struktur | Mosaik, 39 Slots, performativ fragmentiert |
+| Leser-Rolle | Aktiver Integrator — baut Kohärenz selbst, spiegelt Kael |

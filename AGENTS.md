@@ -2,6 +2,8 @@
 
 AEGIS (Agentic Reasoning & Coherent Hypergraph Orchestration for Narratives) is a dual-purpose repository housing both a meta-framework (ARCHON) for AI-assisted narrative coherence and a philosophical sci-fi novel (Kohärenz Protokoll) that serves as its proof-of-concept. The system integrates formal narrative protocols (NCP), knowledge graphs, and agentic tools to maintain thematic integrity across complex, long-form storytelling. It features a suite of production-ready tools including `skill_seeker` (doc-to-skill converter), `zettelkasten_agent` (knowledge management), and a Next.js web prototype, all designed to explore if formal systems can enhance rather than constrain creative flow.
 
+**[> Repository Overview & Navigation Map <](./overview.md)**
+
 ## Repository Structure
 
 - `ARCHON/` – The core narrative coherence framework containing the NCP schema, agent specifications, and CLI tools.
@@ -169,3 +171,13 @@ For a comprehensive breakdown, see `docs/ACT_1_ANALYSIS.md`.
 - [Skill Seeker Guide](skill_seeker/README.md) – Documentation for the scraping tool.
 - [Project Codex](kohaerenz_protokoll/PROJECT_CODEX.md) – The "Bible" for the novel's narrative universe.
 - [Research Synthesis](docs/knowledge-extraction/07-synthesis-unified-framework.md) – Academic backing for the unified framework.
+
+## Mandatory Rules & Simulator Protocols
+
+### Maintenance Protocol
+*   **Update Overview:** Agents must **always** update the `overview.md` file (and relevant cluster files in `docs/`) after adding, removing, or significantly renaming files. Do this before creating a PR. This ensures the repository map remains accurate for future agents.
+
+### Narrative Simulator Rules (Consolidated)
+*   **Master Skill:** All narrative generation must adhere to the [Kohärenz Protokoll Master Skill](docs/kohaerenz_protokoll_master_skill.md). This document supersedes all other loose instructions regarding tone, physics, and character voice.
+*   **Project Codex:** The [Project Codex](kohaerenz_protokoll/PROJECT_CODEX.md) is the canonical source for universe rules.
+*   **Writing Protocol:** Follow the [Writing Protocol](kohaerenz_protokoll/WRITING_PROTOCOL.md) for formatting and stylistic consistency.
