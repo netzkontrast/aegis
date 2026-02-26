@@ -3,6 +3,9 @@
 This file serves as the central navigation hub for the AEGIS repository.
 
 ## 🧭 PRIMARY NAVIGATION (START HERE)
+**[> Kohärenz Protokoll Encyclopedia & Quests <](docs/kohaerenz_protokoll_encyclopedia.md)**
+The central hub for all narrative knowledge, linking to deep-dive "Quest" files for AEGIS, Protagonist, Physics, and more.
+
 **[> Kohärenz Protokoll Navigation Map <](docs/kohaerenz_protokoll_navigation.md)**
 Use this map to find concepts, philosophical foundations, and narrative rules. It maps all project documents (including `.docx` references) to thematic clusters.
 
