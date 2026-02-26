@@ -46,7 +46,7 @@ The easiest way to deploy this app is to use the [Vercel Platform](https://verce
 ## Project Structure
 
 ```
-vercel-prototype/
+.
 ├── src/
 │   ├── app/              # Next.js app router pages
 │   ├── components/       # Reusable React components
@@ -63,4 +63,4 @@ This prototype is part of the AEGIS ecosystem:
 - **Skill Seeker**: Documentation-to-skills converter
 - **Zettelkasten Agent**: Knowledge management system
 
-See the [main README](../README.md) for complete project documentation.
+See the [main README](./README.md) for complete project documentation.

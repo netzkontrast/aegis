@@ -37,6 +37,7 @@ aegis/
 ├── SESSION_SKILL.md           # The "OS" for Agents (Read this first)
 ├── REPO_STATE.md              # The "Map" of the Architecture
 ├── AGENTS.md                  # The "Constitution" for Agents
+├── src/                       # The Next.js Application
 ├── ARCHON/                    # The narrative coherence framework
 ├── kohaerenz_protokoll/       # The novel (Manuscript & World)
 ├── skill_seeker/              # Doc-to-Skill conversion tool
