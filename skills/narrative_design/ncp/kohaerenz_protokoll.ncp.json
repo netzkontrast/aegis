@@ -783,14 +783,12 @@
           "Kael (overwhelmed)",
           "Lex (processing)",
           "Kiko (terrified)",
-          "Moros (emerging)",
-          "Alex (background)",
-          "Argus (beginning to observe)"
+          "Moros (emerging)"
         ],
-        "goal": "",
-        "conflict": "",
-        "outcome": "",
-        "prose_style": "",
+        "goal": "Return to normalcy despite growing internal chaos.",
+        "conflict": "Internal 'Cache-Incoherence' causes physical reality failures (Risse).",
+        "outcome": "Kael abandons his routine, realizing he cannot suppress the system.",
+        "prose_style": "Fragmented, high-viscosity, glitch-heavy",
         "branches": [],
         "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_07_scene_01.md"
       },
@@ -802,13 +800,14 @@
         "pov_character": "Argus (first featured POV) - metacognitive observer",
         "active_alters": [
           "Argus (fronting/documenting)",
-          "All others (triggering shifts)",
-          "Kael (co-conscious)"
+          "Kiko (triggering shift)",
+          "Nyx (triggering shift)",
+          "Rhys (triggering shift)"
         ],
-        "goal": "",
-        "conflict": "",
-        "outcome": "",
-        "prose_style": "",
+        "goal": "Map the system chaos and uncontrolled Kernwelt-shifts.",
+        "conflict": "Emotional flooding triggers rapid ontological transitions.",
+        "outcome": "Argus creates the first 'System Map' and proposes an Internal Council.",
+        "prose_style": "Clinical, observational, detached but curious",
         "branches": [],
         "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_08_scene_01.md"
       },
@@ -820,16 +819,13 @@
         "pov_character": "Rhys (carer ANP) - leading the search",
         "active_alters": [
           "Rhys (fronting/guiding)",
-          "Kael (co-conscious)",
-          "Lex (backup/analysis)",
-          "Argus (mapping)",
-          "Kiko (guiding)",
-          "Alex (protective presence)"
+          "Lia (retrieved)",
+          "Isabelle (retrieved)"
         ],
-        "goal": "",
-        "conflict": "",
-        "outcome": "",
-        "prose_style": "",
+        "goal": "Find and retrieve the exiled trauma holders.",
+        "conflict": "Mnemosyne (Guardian) blocks access; fear of emotional bleed-through.",
+        "outcome": "Lia and Isabelle are retrieved; System load increases but wholeness advances.",
+        "prose_style": "Fluid, empathetic, heavy with underwater sensory details",
         "branches": [],
         "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_09_scene_01.md"
       },
@@ -842,14 +838,12 @@
         "active_alters": [
           "Alex (leading)",
           "Nyx (supporting)",
-          "Kael (observing)",
-          "Lex (advisory)",
-          "Argus (mapping)"
+          "Cerberus (Guardian)"
         ],
-        "goal": "",
-        "conflict": "",
-        "outcome": "",
-        "prose_style": "",
+        "goal": "Access the Genesis Crisis memory core.",
+        "conflict": "Cerberus (Logic/Aggression/Fear) blocks the path; Nyx wants to fight.",
+        "outcome": "Negotiation succeeds; Access granted to core memory; Integration over force proven.",
+        "prose_style": "Metallic, strategic, high-tension military sci-fi",
         "branches": [],
         "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_10_scene_01.md"
       },
