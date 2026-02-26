@@ -1,32 +1,37 @@
 ---
 name: kohaerenz-protokoll-navigation
 description: |
-  Navigations-Skill für das Romanprojekt "Kohärenz Protokoll". Enthält eine vollständige Karte aller Projektdokumente, geordnet nach Themen-Clustern. Verwende diesen Skill IMMER wenn der Nutzer fragt: welche Dokumente existieren, wo etwas dokumentiert ist, nach einem bestimmten Konzept sucht (AEGIS, Kael, Juna, DIT, Simulation, Trauma, Entropie etc.), eine Szene oder ein Kapitel schreiben will und Kontext braucht, oder wenn du dir unsicher bist welche Dokumente für eine Aufgabe relevant sind. Dieser Skill ist der Einstiegspunkt für JEDE Arbeit am Projekt.
+  Navigations-Skill für das Romanprojekt "Kohärenz Protokoll". Enthält eine vollständige Karte aller Projektdokumente. Verwende diesen Skill IMMER für narrativen Kontext, Worldbuilding und Charakter-Referenzen.
 ---
 
-# 🗺️ Navigationskarte: „Kohärenz Protokoll"
+# 🗺️ Narrative Navigation: Kohärenz Protokoll
 
-> **Zweck:** Vollständige Übersicht aller 34 Projektdokumente, kategorisiert nach Themen-Clustern. Lies diesen Skill zuerst — er zeigt dir, welche Referenzdateien für deine aktuelle Aufgabe relevant sind.
+> [← Zurück zum Dokumentations-Hub](./README.md)
 
----
-
-## Schnell-Navigation (nach Aufgabe)
-
-| Du willst... | Gehe zu Cluster |
-|---|---|
-| AEGIS verstehen / schreiben | [Cluster A] |
-| Kael / DID / Alters schreiben | [Cluster C] |
-| Juna schreiben | [Cluster C + D] |
-| Worldbuilding / Schauplätze | [Cluster E] |
-| Philosophische Tiefe hinzufügen | [Cluster B + F] |
-| Roman-Struktur & Outline | [Cluster G] |
-| Schreibtechnik (Hard Sci-Fi) | [Cluster H] |
-| Trauma & Psychologie | [Cluster D] |
-| Simulation / DKT-Theorie | [Cluster B] |
+Dieses Dokument ist der primäre Einstiegspunkt für die Arbeit am Roman. Es verbindet die **aktiven Manuskript-Dateien** im Repository mit den ursprünglichen **Konzept-Referenzen (.docx)**.
 
 ---
 
-## CLUSTER A — AEGIS: Das System
+## ✍️ Aktives Manuskript & Design
+
+Diese Dateien sind die **Single Source of Truth** für den aktuellen Stand des Romans.
+
+| Bereich | Pfad | Beschreibung |
+|---|---|---|
+| **Manuskript** | [`kohaerenz_protokoll/manuscript/`](../kohaerenz_protokoll/manuscript/) | Die aktuellen Romankapitel (Akt 1 & 2). |
+| **Narrative Design** | [`kohaerenz_protokoll/narrative_design/`](../kohaerenz_protokoll/narrative_design/) | Strukturelle Planung, Outlines und Act-Recaps. |
+| **World Encyclopedia** | [`kohaerenz_protokoll/world/`](../kohaerenz_protokoll/world/) | Details zu Kernwelten (KWs) und Charakteren. |
+| **Project Codex** | [`kohaerenz_protokoll/PROJECT_CODEX.md`](../kohaerenz_protokoll/PROJECT_CODEX.md) | Die "Bibel" des Universums. Metaphysische Regeln. |
+| **Writing Protocol** | [`kohaerenz_protokoll/WRITING_PROTOCOL.md`](../kohaerenz_protokoll/WRITING_PROTOCOL.md) | Stil-Richtlinien und Formatierung. |
+| **Master Skill** | [`kohaerenz_protokoll_master_skill.md`](./kohaerenz_protokoll_master_skill.md) | Kanonische Regeln für KI-Generierung. |
+
+---
+
+## 📚 Konzept-Cluster (Quellenmaterial)
+
+> **Hinweis:** Die folgenden .docx-Dateien sind **externe Referenz-Quellen**. Sie enthalten die ursprünglichen philosophischen und theoretischen Ausarbeitungen. Bei Widersprüchen gilt der `PROJECT_CODEX.md` oder das aktuelle Manuskript.
+
+### CLUSTER A — AEGIS: Das System
 *Das antagonistische KI-System. Ordnung, reversible Logik, K₁-Kernel.*
 
 | Datei | Inhalt | Priorität |
@@ -41,9 +46,7 @@ description: |
 | `Spannungsfelder_und_AEGIS-Meta-Framework_Analyse_0A.docx` | 13 Spannungsfelder + Meta-Framework für narrative Verwendung | ⭐⭐ Plot |
 | `AEGIS-Subplots__Kapitelweise_System-Exploration_0A.docx` | Subplot-Konzepte für alle 39 Kapitel mit AEGIS-Fokus | ⭐⭐⭐ Plot |
 
----
-
-## CLUSTER B — Simulation, Realität & Theoretisches Fundament
+### CLUSTER B — Simulation, Realität & Theoretisches Fundament
 *Die Dual-Kernel-Theorie (DKT), K₀/K₁, Entropie, das Fundament der Romanwelt.*
 
 | Datei | Inhalt | Priorität |
@@ -55,9 +58,7 @@ description: |
 | `Digitale_Überwelt.docx` | Struktur & Protokolle der digitalen Überwelt (Setting-Fundament) | ⭐⭐ Setting |
 | `Einleitung__Genesis_der_Existenz.docx` | Vorwort / Genesis-Text — poetischer Einstieg in die Romanwelt | ⭐⭐ Atmosphäre |
 
----
-
-## CLUSTER C — Charaktere: Kael, Juna & Alters
+### CLUSTER C — Charaktere: Kael, Juna & Alters
 *Der Protagonist, seine DID-Alters und die Anomalie Juna.*
 
 | Datei | Inhalt | Priorität |
@@ -68,9 +69,7 @@ description: |
 | `Roman__Nebencharaktere_und_Schlüsselszenen.docx` | Nebencharaktere + dramaturgische Schlüsselszenen | ⭐⭐ Plot |
 | `Prinzipien.docx` | Prinzipien/Wünsche der 11 transformierten Alters (Album 13-Kontext) | ⭐⭐ Charakter |
 
----
-
-## CLUSTER D — Trauma, Psychologie & Dissoziation
+### CLUSTER D — Trauma, Psychologie & Dissoziation
 *DID als narrative Struktur, Trauma-Archäologie, psychologische Forschung.*
 
 | Datei | Inhalt | Priorität |
@@ -79,9 +78,7 @@ description: |
 | `Kernwelten_und_fragmentierte_Wahrnehmung_0A.docx` | Charakterinformierte Weltgestaltung + fragmentierte Wahrnehmung | ⭐⭐⭐ Kern |
 | `Erkenntnistheorie_für_narrative_Projektgestaltung_0A.docx` | Epistemologie als Fundament für Narrative (Wissen, Zweifel, Wahrnehmung) | ⭐⭐ Theorie |
 
----
-
-## CLUSTER E — Schauplätze, Lokalitäten & Worldbuilding
+### CLUSTER E — Schauplätze, Lokalitäten & Worldbuilding
 *Die physischen und simulierten Räume des Romans.*
 
 | Datei | Inhalt | Priorität |
@@ -90,9 +87,7 @@ description: |
 | `Roman-Schauplätze__Detaillierte_Outline-Ausarbeitung_.docx` | Detaillierte Ausarbeitung: narrative Funktion jedes Schauplatzes | ⭐⭐⭐ Kern |
 | `Roman-Worldbuilding__Fragmentierte_Identität___Meta-Realität_0A.docx` | Worldbuilding-Framework: Fragmentierte Identität + Meta-Realität | ⭐⭐⭐ Kern |
 
----
-
-## CLUSTER F — Philosophie, Kosmologie & Transzendenz
+### CLUSTER F — Philosophie, Kosmologie & Transzendenz
 *Die metaphysischen Schichten des Romans.*
 
 | Datei | Inhalt | Priorität |
@@ -102,9 +97,7 @@ description: |
 | `Philosophische_Subplots_für_Roman-Konzept_0A.docx` | Philosophische Subplot-Architektur für den Roman | ⭐⭐⭐ Plot |
 | `Symmetrie__Paradoxie__Existenz_jenseits_Simulation.docx` | (auch Cluster B) Symmetrien & Existenz-Grenzen | ⭐⭐ Theorie |
 
----
-
-## CLUSTER G — Roman-Struktur, Outline & Narrative Konzepte
+### CLUSTER G — Roman-Struktur, Outline & Narrative Konzepte
 *Struktur, Plot-Architektur und die 39 Kernkonzepte.*
 
 | Datei | Inhalt | Priorität |
@@ -114,9 +107,7 @@ description: |
 | `Roman-Konzept__Tiefe_Recherche_und_Inspiration__.docx` | Inspirations-Repository: System Kael, AEGIS, fragmentierte Realität | ⭐⭐ Inspiration |
 | `Narrative_Tiefenrecherche__Subjektivität_und_Resonanz_.docx` | Thematische Resonanz & narrative Wirkung (interdisziplinär) | ⭐⭐ Technik |
 
----
-
-## CLUSTER H — Schreibtechnik & Stil-Referenzen
+### CLUSTER H — Schreibtechnik & Stil-Referenzen
 *Hard Sci-Fi, Cosmic Horror, narrative Lektionen.*
 
 | Datei | Inhalt | Priorität |
@@ -126,13 +117,7 @@ description: |
 
 ---
 
-## Versionierungs-Konvention
-
-> Dateien mit `_0A` am Ende sind **überarbeitete Versionen**. Bei inhaltlichen Konflikten zwischen einer Datei und ihrer `_0A`-Variante gilt: **`_0A` hat Vorrang**.
-
----
-
-## Themen-Index (Stichwort → Dokument)
+## 🔎 Themen-Index (Stichwort → Dokument)
 
 | Stichwort | Primäres Dokument |
 |---|---|
@@ -154,11 +139,3 @@ description: |
 | Transzendenz | `Transzendenz_und_Paradoxien__Verbindungslinien.docx` |
 | Trauma / DID | `Trauma-Archäologie__Interdisziplinäre_Konzeptentwicklung_0A.docx` |
 | Urvertrauen / Bindung | `Roman__Urvertrauen__Liebe__Transzendenz_0A.docx` |
-
----
-
-## Referenzdateien dieses Skills
-
-*Hinweis: Die Cluster-Referenzdateien werden derzeit überarbeitet. Bitte nutze den [Dokumentations-Hub](./README.md) für die aktuelle Struktur.*
-
-Für Details zu bestimmten Themenbereichen, konsultiere die primären Dokumente in der Themen-Index-Tabelle oben oder navigiere über den [Dokumentations-Hub](./README.md).

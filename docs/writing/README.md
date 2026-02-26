@@ -1,5 +1,7 @@
 # Writing Excellence Documentation
 
+> [← Back to Documentation Hub](../README.md)
+
 **Purpose:** Unified writing standards and guides for all AEGIS content
 
 **Status:** 🟢 Active Development (Quest: Writing Excellence Integration)
