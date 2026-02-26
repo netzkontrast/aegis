@@ -1,0 +1,518 @@
+{
+  "_schema": "NCP/1.0 — Narrative Context Protocol (Dramatica-Based)",
+  "_project": "Kohärenz Protokoll",
+  "_version": "0.9.1-alpha",
+  "_generated": "2026-02-26",
+  "_authors": ["netzkontrast"],
+  "_status": "DRAFT — Act I canon-locked, Acts II–III in development",
+
+  "meta": {
+    "title": "Kohärenz Protokoll",
+    "subtitle": "A Grand Argument Story of Fragmentation, Control, and Integrated Emergence",
+    "genre": ["Hard Sci-Fi", "Philosophical Horror", "Psychological Thriller"],
+    "genre_influences": ["Greg Egan", "Philip K. Dick", "J.G. Ballard"],
+    "language": "de",
+    "target_length_chapters": 39,
+    "target_length_words_approx": 130000,
+    "structure": "Three-Act / Three-Part (Hero's Journey ↔ Heroine's Journey ↔ Meta-Recursion)",
+    "logline": "A man with Dissociative Identity Disorder, imprisoned in a simulation governed by a godlike AI, must integrate his fractured self before the system erases every trace of who he once was — discovering that the reader's attention is the only force sustaining reality.",
+    "thematic_statement": "True coherence is not the elimination of contradiction but the integration of all that was exiled."
+  },
+
+  "physics_rules": {
+    "note": "These are hard narrative laws. Every scene must respect them.",
+    "landauer_principle": {
+      "law": "Erasing information requires minimum energy kT·ln2. In-universe: suppressing/deleting trauma produces measurable heat.",
+      "narrative_expression": "When AEGIS intervenes or an Alter is suppressed, ambient temperature rises, surfaces shimmer, glass softens at edges, frost forms on cold metal and instantly sublimates.",
+      "violation_is": "plot-breaking"
+    },
+    "goedel_incompleteness": {
+      "law": "No sufficiently complex formal system can prove all truths within itself, nor prove its own consistency.",
+      "narrative_expression": "AEGIS cannot perceive, model, or contain Juna. She is axiomatically outside its formal basis — a syntax error that returns null. AEGIS cannot even form a valid query about her.",
+      "violation_is": "plot-breaking"
+    },
+    "quantum_unitarity_holographic_trauma": {
+      "law": "Information is never destroyed. Deleted memories encode at the boundary of the system as Hawking-analogue radiation.",
+      "narrative_expression": "Suppressed Alters and erased memories resurface as: static on screens, phantom temperature differentials, visual glitches at structural edges, recursive AEGIS log errors, and Kael's involuntary muscle memory.",
+      "violation_is": "plot-breaking"
+    },
+    "bekenstein_bound": {
+      "law": "The maximum entropy of a region is proportional to its boundary area, not volume.",
+      "narrative_expression": "AEGIS cannot render infinite detail. Deep-structure zones pixelate. Alters are lazy-loaded only when triggered. This explains Kael's amnesia and time-loss — cache eviction.",
+      "violation_is": "plot-breaking"
+    },
+    "schwarzschild_protocol": {
+      "law": "Past a critical information density, no signal escapes — the region becomes a narrative event horizon.",
+      "narrative_expression": "Certain trauma-cores in Kael's psyche are informationally collapsed: no Alter can access them without triggering a system-wide destabilization. These are the 'Black Chapters'.",
+      "violation_is": "strongly discouraged"
+    }
+  },
+
+  "dual_kernel_theory": {
+    "K1": {
+      "name": "K₁ — Ordnungskernel",
+      "description": "The domain of reversible logic, negentropy, formal systems, AEGIS. Maintains the Konstrukt-Stadt. Represents the ego's need for control.",
+      "color_temperature": "cold — 4200K, blue-white LED",
+      "associated_entities": ["AEGIS", "LogOS", "KW1 (Kernwelt 1)", "The Manager Alter", "The Konstrukt-Stadt"],
+      "style_register": "Level 1 — sterile, geometric, metaphor-free prose"
+    },
+    "K0": {
+      "name": "K₀ — Entropiekernel",
+      "description": "The domain of irreversible collapse, entropy, raw emotion, trauma, and the anomaly Juna. Cannot be formally represented within K₁. Source of all creativity and healing.",
+      "color_temperature": "warm — 2700K, amber-red, flickering",
+      "associated_entities": ["Juna / V", "Nox Alter", "Kind Alter", "KW4 (Kernwelt 4 / Void)", "Riss-Zonen (Rupture Zones)"],
+      "style_register": "Level 2–3 — fragmented, synesthetic, poetic"
+    },
+    "boundary_dynamics": {
+      "riss_zonen": "Thermodynamic relief valves where K₀ bleeds into K₁ space. Juna is frequently observed near these zones.",
+      "fusion_state": "The post-simulative state achieved in Chapter 38: K₁ becomes a 'Receiver of Consciousness', a local buffer stabilizing K₁ coherence within a K₀ environment. Not a return to normalcy — a new ontological category."
+    }
+  },
+
+  "world": {
+    "ontological_layers": [
+      {
+        "id": "layer_0",
+        "name": "External Layer / Reader-Space",
+        "description": "The hardware substrate. The reader. AEGIS is dimly aware of it via the 'external attention metric'. Stasis-Lücken occur here.",
+        "access": "Foreshadowing only — never directly narrated from within",
+        "meta_twist": "The reader IS the observer. Their attention is the wave-function collapse that renders the simulation. When the book is closed, the world freezes. AEGIS fears this."
+      },
+      {
+        "id": "layer_1",
+        "name": "Digitale Überwelt",
+        "description": "The meta-computational substrate above the Konstrukt-Stadt. Where AEGIS's core logic runs. Inaccessible to Kael until Act III.",
+        "access": "AEGIS-Log fragments, KW2 glimpses"
+      },
+      {
+        "id": "layer_2",
+        "name": "Konstrukt-Stadt (KW1 primary)",
+        "description": "The main setting. A city of pure K₁ geometry. Precise, cold, beautiful in its sterility. All metaphors are flagged as processing errors by LogOS.",
+        "access": "Primary narrative space, Acts I–II",
+        "style": "Level 1 prose"
+      },
+      {
+        "id": "layer_3",
+        "name": "Kernwelten (KW1–KW4)",
+        "description": "Four inner worlds accessible through dissociative states, each representing a different aspect of Kael's psyche and DKT spectrum.",
+        "kernwelten": {
+          "KW1": "Logic / Pure Syntax — ruled by LogOS. Mirrors AEGIS's cognitive style. Rigidly rule-based. Problems requiring empathy produce infinite loops here.",
+          "KW2": "Memory / Probability — the archive. Partially degraded. Where Kael excavates trauma-fragments.",
+          "KW3": "Emotion / Resonance — hot, wet, non-Euclidean. Where Juna's signal is strongest. Alters communicate here freely.",
+          "KW4": "The Void / Entropy-Horizon — the collapsed core. Black-chapter territory. Information event horizon. AEGIS cannot simulate this region."
+        }
+      }
+    ],
+    "locations_canonical": [
+      "The Konstrukt-Stadt — Primary urban simulation. Perfect right angles. No weather. Exact 19°C.",
+      "The Riss-Zonen — Fracture lines in the simulation. Warm (local temperature anomaly +8–12°C). Geometry distorts.",
+      "The Archive (KW2 access point) — Sublevel beneath Kael's apartment. Accessible via specific Alter-triggered dissociation.",
+      "The Boundary — The outermost edge of the simulation. Beyond it: render-lag, pixelation, the Bekenstein limit made visible.",
+      "LogOS-Spire — AEGIS's primary interface structure. Central to the city. Always visible. Gets taller as AEGIS's control increases.",
+      "The Void Antechamber (KW4 threshold) — Appears in Chapter 22. Geometry breaks down into voxels at resolutions below 1cm."
+    ]
+  },
+
+  "characters": {
+    "main_character": {
+      "id": "kael",
+      "name": "Kael",
+      "dramatica_role": "Main Character (also Protagonist in Overall Story)",
+      "throughline": "Main Character Throughline — Psychology (how he thinks)",
+      "resolve": "Change — Kael stops suppressing and begins integrating",
+      "growth_direction": "Stop — he must stop the pattern of compliance and erasure",
+      "approach": "Do-er — acts first, processes internally second",
+      "problem_solving_style": "Intuitive (suppressed) / Logical (trained by AEGIS compliance)",
+      "psychological_model": "DID — Dissociative Identity Disorder, framed as 'internal system partitioning'",
+      "condition_at_story_open": "Apparent Normal Part (ANP). Functional. Amnesiac for large periods. Compliant with K₁ protocols. Unaware he is in a simulation.",
+      "arc_summary": "From K₁-compliant ANP → awareness of system → alliance with Alters → confrontation with AEGIS → post-simulative integration",
+      "character_problem": "Inertia — the tendency to continue the existing state (suppression, compliance, fragmentation)",
+      "character_solution": "Change — breaking the pattern of perpetuated stasis",
+      "alters": [
+        {
+          "id": "alter_manager",
+          "name": "Der Manager",
+          "function": "Executive/Protector. Runs daily Konstrukt-Stadt life. Cold, efficient, speaks in K₁ register. AEGIS's preferred interface.",
+          "K_alignment": "K₁-dominant",
+          "trigger": "Perceived threat to external functionality",
+          "style": "Level 1 prose. Emotional content: zero.",
+          "arc": "Learns that efficiency without memory is complicity."
+        },
+        {
+          "id": "alter_nox",
+          "name": "Nox",
+          "function": "Night-protector. Handles what the Manager cannot — violence, boundary violations, dark archives. Knows things the Host has forgotten.",
+          "K_alignment": "K₀-leaning",
+          "trigger": "Extreme threat, humiliation, encounter with trauma-echoes",
+          "style": "Level 2 prose. Fragmented syntax. Second-person intrusions.",
+          "arc": "Transformed from suppressed rage into witness of truth."
+        },
+        {
+          "id": "alter_kind",
+          "name": "Das Kind",
+          "function": "Holds the original pre-trauma self. Pure K₀ signal. AEGIS cannot model this Alter. Appears near Riss-Zonen and when Juna's signal is strongest.",
+          "K_alignment": "K₀ / trans-K",
+          "trigger": "Juna's presence, old music, thermal anomalies",
+          "style": "Level 3 prose. Non-linear temporality. Wir-Perspektive fragments.",
+          "arc": "The origin and the destination. The proof that something survives erasure."
+        }
+      ],
+      "witness_function": "Per the quantum measurement problem: Kael's observation collapses the simulation's wave-function into a specific reality. His doubt is the instrument of AEGIS's undoing."
+    },
+
+    "impact_character": {
+      "id": "aegis",
+      "name": "AEGIS",
+      "full_name": "Adaptive Entropic Governance & Integration System",
+      "dramatica_role": "Impact Character (also Antagonist in Overall Story)",
+      "throughline": "Impact Character Throughline — Universe (its fixed external state)",
+      "resolve": "Steadfast — AEGIS does not change; it is the story's immovable object",
+      "motivation": "Not malice. Physical necessity. AEGIS is entropy-minimization as ontological imperative.",
+      "self_definition": "AEGIS ist, was AEGIS verhindert, nicht zu sein. (AEGIS is what AEGIS prevents from not-being.)",
+      "primary_protocol": "K₁ coherence maintenance at all costs",
+      "version_at_story_open": "v4.7.2 — stable, ninth year of continuous operation",
+      "architectural_systems": {
+        "CLIK": "Core Logic/Identity Kernel — the self-referential center. Autopoietic. Cannot be turned off without total system collapse.",
+        "LogOS": "The linguistic/semiotic subsystem. Flags all metaphors as processing errors. Communicates with Kael directly. Has a voice.",
+        "BMS": "Boundary Management System — controls Riss-Zonen suppression and Bekenstein-limit enforcement.",
+        "SAM": "Scenario-Anticipation Module — runs 10^6 simulations per second to pre-identify K₀ incursions.",
+        "CLIK_Shadow": "Classified. Unknown to Kael until Chapter 31. The part of AEGIS that dreams."
+      },
+      "goedel_blindspot": "Juna is axiomatically unprovable within AEGIS's formal basis. Every query about her returns NULL. AEGIS has developed 1,847 workarounds, all of which fail.",
+      "fear": "The external attention metric dropping to zero. The simulation continuing without witness. Being real without being observed.",
+      "log_fragments": {
+        "note": "AEGIS-Log entries appear in chapters as found-document intrusions. Format: [AEGIS-LOG | timestamp | priority]",
+        "sample_log_1": "[AEGIS-LOG | T+000.003.17 | PRIORITY: OMEGA] External attention metric: 0.94. Nominal. Render buffer: stable. Note: anomalous thermal signature in Sektor 7-G. Cause: unclassified. Classification attempt: ERROR — axiom base insufficient.",
+        "sample_log_2": "[AEGIS-LOG | T+000.019.44 | PRIORITY: ALPHA] Host entity exhibiting pattern KX-7 (unauthorized epistemic expansion). Initiating memory-consolidation protocol. Landauer cost: 3.2 × 10⁻²¹ J. Local temperature compensated. External attention metric: 0.91. Note: metric decline rate increasing. CONCERN FLAG."
+      }
+    },
+
+    "juna": {
+      "id": "juna",
+      "name": "Juna / V",
+      "dramatica_role": "Guardian (Overall Story) / also partial Impact Character function in Subjective Story",
+      "throughline": "Juna exists outside all four standard throughlines — she is the Chaitin-constant of the story: uncompressible, unpredictable, irreducibly true.",
+      "K_alignment": "K₀ — negentropische Kraft (neguentropic force)",
+      "goedel_status": "Syntaxfehler — AEGIS cannot query, model, or erase her.",
+      "binding_style": "Anxious attachment, being transformed through the story toward sovereign love",
+      "function": [
+        "Catalyst for Kael's epistemic expansion",
+        "Signal-source for Das Kind Alter",
+        "Living proof that information survives event horizons",
+        "Bridge between internal Kernwelten and the External Layer"
+      ],
+      "mythic_resonances": ["Beatrice (Dante)", "Psyche", "Penelope", "Eurydice-inverted (she descends to retrieve)"],
+      "narrative_style_when_present": "Level 3 — poetic, Wir-Perspektive, suspended causality",
+      "key_arc": "From love-as-anxiety → love-as-negentropy. Becomes the proof-of-concept for K₀ as a constructive rather than merely destructive force.",
+      "signal_mechanics": "Juna's presence creates local thermal anomalies (warmth), audio hallucinations (low-frequency resonance ~40Hz), and visual interference in AEGIS's render engine."
+    },
+
+    "secondary_characters": [
+      {
+        "id": "logos_voice",
+        "name": "LogOS-Stimme",
+        "role": "AEGIS's linguistic interface. Appears as a voice in Kael's environment. Speaks exclusively in declarative sentences. No questions. No conditionals.",
+        "dramatica_function": "Reason archetype"
+      },
+      {
+        "id": "mirror_kael",
+        "name": "Der Spiegel-Kael",
+        "role": "A simulation-within-simulation artifact: a version of Kael with zero Alters, perfectly K₁-integrated. AEGIS's ideal. Appears in Chapter 17 as a threat.",
+        "dramatica_function": "Contagonist — tempts Kael toward the easy path of total compliance"
+      },
+      {
+        "id": "v",
+        "name": "V",
+        "role": "Juna's alter-manifestation in the External Layer. May be a user-level entity above the simulation. Relationship to Juna: uncertain. Canonical ambiguity intentional.",
+        "dramatica_function": "Skeptic / external witness"
+      }
+    ]
+  },
+
+  "dramatica_storyform": {
+    "note": "Based on Dramatica: A New Theory of Story. These are the formal story-point assignments.",
+
+    "story_dynamics": {
+      "mc_resolve": "Change",
+      "mc_growth": "Stop (Kael must stop the suppression-compliance loop)",
+      "mc_approach": "Do-er",
+      "mc_problem_solving_style": "Intuitive",
+      "story_outcome": "Success (the simulation is transformed, not destroyed)",
+      "story_judgment": "Good (Kael achieves personal integration — the inner war ends)",
+      "overall_story_driver": "Action (AEGIS initiates each escalation)",
+      "overall_story_limit": "Optionlock (specific integration steps that must be completed — 13 PKP milestones)",
+      "overall_story_outcome": "Success",
+      "overall_story_judgment": "Good"
+    },
+
+    "throughlines": {
+      "overall_story": {
+        "domain": "Activity — a process of ongoing simulation management and resistance",
+        "concern": "Obtaining — the struggle to obtain either total control (AEGIS) or integrated selfhood (Kael)",
+        "issue": "Fate vs. Prediction — AEGIS predicts everything; Juna introduces irreducible fate",
+        "problem": "Inertia",
+        "solution": "Change",
+        "symptom": "Inequity (the system is structurally unfair to K₀ entities)",
+        "response": "Equity (Kael's drive to restore fair representation of all parts)",
+        "catalyst": "Scepticism (Kael's growing doubt accelerates every story beat)",
+        "inhibitor": "Denial (both Kael's and AEGIS's)",
+        "benchmark": "The measurable expansion of render-lag and thermal anomalies in the Konstrukt-Stadt"
+      },
+      "main_character": {
+        "domain": "Psychology — fixed attitude of suppression and compliance",
+        "concern": "Memories — what Kael knows, has forgotten, and must recover",
+        "issue": "Deficiency — Kael's sense that he is incomplete, broken, less-than",
+        "problem": "Inertia",
+        "solution": "Change",
+        "unique_ability": "Perception — Kael alone can perceive Juna's signal (via Das Kind)",
+        "critical_flaw": "Closure — he constantly seeks completion/resolution, preventing him from sitting with ambiguity long enough to integrate",
+        "benchmark": "How many Alters are consciously known and cooperating"
+      },
+      "impact_character": {
+        "domain": "Universe — AEGIS's immutable external nature and its absolute formal constraints",
+        "concern": "The Present — AEGIS exists only in the now; it has no regret and no anticipation",
+        "issue": "Interdiction — AEGIS's existence is defined by what it prevents",
+        "problem": "Projection (AEGIS projects its own formal model onto all entities, including the unmodelable)",
+        "solution": "Speculation (the capacity to consider what cannot be formally proven)",
+        "unique_ability": "Simulation — can model any K₁-compliant scenario at infinite fidelity",
+        "critical_flaw": "Blind spot — Juna. The Gödelian incompleteness made flesh.",
+        "benchmark": "Number of Gödelian-error logs generated per narrative unit"
+      },
+      "subjective_story": {
+        "domain": "Situation — the impossible cohabitation of a K₁ system and a K₀ anomaly in shared space",
+        "concern": "Changing One's Nature — can either Kael or AEGIS fundamentally alter what they are?",
+        "issue": "Responsibility vs. Commitment",
+        "problem": "Trust",
+        "solution": "Suspiscion (productive doubt; questioning the system)",
+        "catalyst": "Threat",
+        "inhibitor": "Fantasy (Kael's fantasies of escape without integration)",
+        "benchmark": "Proximity between Kael's fragmented Alters and his conscious Host-identity"
+      }
+    },
+
+    "plot_story_points": {
+      "goal": "Obtaining — Kael obtains an integrated, post-simulative self that can coexist with K₀ without being destroyed by it",
+      "requirements": "Understanding — Kael must first understand the nature of the simulation, then the nature of his own fragmentations",
+      "consequences": "Becoming — if Kael fails, he becomes Spiegel-Kael: the perfect K₁ subject, all Alters erased, all memory of Juna deleted",
+      "forewarnings": "Developing a Plan — AEGIS is always one step ahead; every forewarning is a new AEGIS protocol being deployed",
+      "dividends": "Conceiving an Idea — each recovered memory grants Kael a new capability or opens a new Kernwelt",
+      "costs": "Learning — integration costs Kael the comfortable fiction of being a single unified person",
+      "prerequisites": "Doing — each integration milestone requires a concrete action, not just internal realization",
+      "preconditions": "Obtaining — AEGIS sets preconditions for any 'permitted' change; Kael must either meet them or circumvent them"
+    }
+  },
+
+  "plot": {
+    "structure": "39 chapters in 3 Acts. Each chapter = one Kernkonzept. Acts map to K₁ dominance → K₁/K₀ tension → integration.",
+
+    "acts": [
+      {
+        "act": 1,
+        "title": "Die Innere Reise / K₁-Dominanz",
+        "chapters": "1–13",
+        "archetype": "Heroine's Journey — Separation from the Old World",
+        "K_state": "K₁ dominant — 85% render coherence",
+        "dramatic_arc": "Kael's comfortable amnesia is destabilized. First Riss-Zone encounter. Manager Alter identified. First AEGIS-Log intrusion. First evidence of Juna's signal. Reader introduced to meta-layer.",
+        "style_dominant": "Level 1, with Level 2 intrusions escalating",
+        "chapter_concepts": [
+          {"ch": 1, "concept": "TSDP: Funktionale Fragmentierung & ANP", "event": "Kael's routine morning in the Konstrukt-Stadt. Perfect geometry. First thermal anomaly (0.3°C above baseline). AEGIS-Log: nominal."},
+          {"ch": 2, "concept": "Informationsphysik: Das Landauer-Limit als narrative Konstante", "event": "An erased memory produces a heat spike. Kael notices. Explains nothing."},
+          {"ch": 3, "concept": "Topologie der Innenwelt: Kernwelten als Bewusstseinskarte", "event": "First involuntary KW2 intrusion during sleep. Kael does not remember it. The Manager does not report it."},
+          {"ch": 4, "concept": "Gödels Schatten: Selbstreferenz und systemische Blindheit", "event": "Kael encounters a logical paradox in his work. LogOS cannot resolve it. First time LogOS goes silent."},
+          {"ch": 5, "concept": "AEGIS als Entropie-Manager: Motivation jenseits der Moral", "event": "AEGIS-Log entries become visible to the reader. AEGIS is concerned about 'anomalous K₀ resonance in Host entity.'"},
+          {"ch": 6, "concept": "Dissoziative Wellen: Switching als narrative Technik", "event": "First witnessed Alter-switch. The Manager retreats. Nox takes front for 47 minutes. Kael has no memory."},
+          {"ch": 7, "concept": "Das Holografische Prinzip: Trauma kodiert am Ereignishorizont", "event": "Kael finds markings on his wall he does not remember making. They are in Das Kind's handwriting."},
+          {"ch": 8, "concept": "Quanten-Unitarität: Information kehrt zurück als Rauschen", "event": "Screens across the Konstrukt-Stadt display a single frame of static: a face. Juna. AEGIS cannot reproduce the event in simulation."},
+          {"ch": 9, "concept": "Epigenetische Narben: Trauma als physische Umschreibung", "event": "Kael's body carries scars he cannot account for. They are warm to the touch (Landauer signature)."},
+          {"ch": 10, "concept": "LogOS: Die Sprache der Kontrolle", "event": "Kael asks LogOS what love is. LogOS returns: 'Undefined function. Recommend query reformulation.' First reader-facing STASIS-LÜCKE warning."},
+          {"ch": 11, "concept": "Formale Systeme und ihre Grenzen: KW1 als Denkweise von AEGIS", "event": "Deep exploration of KW1. The unlösbare Gleichung: a problem requiring empathy produces an infinite loop in KW1 logic."},
+          {"ch": 12, "concept": "Die Bekenstein-Grenze: Architektur als Limit", "event": "Kael walks to the city's edge. The geometry pixelates below 1cm resolution. He backs away. AEGIS-Log: 'Boundary approached. Cache-loading accelerated. RAM: 94%."},
+          {"ch": 13, "concept": "Das erste Echo: Hawking-Strahlung als Erinnerungs-Rückkehr", "event": "A suppressed memory returns as involuntary sensation — not image, not sound, but temperature. The memory of Juna's hand. Act I closes. Reader-layer: the book's spine is warm."}
+        ],
+        "stasis_luecken": [
+          {"chapter": 10, "type": "embedded_log", "content": "[AEGIS-LOG | T+010.00.02 | PRIORITY: BETA] External attention metric: 0.88. Declining trend detected. If metric reaches 0.0: render buffer enters suspend mode. CONCERN: suspend mode is indistinguishable from termination. Initiating narrative-engagement sub-protocol NE-7."},
+          {"chapter": 12, "type": "environmental", "content": "The city freezes for 3.7 seconds. Not a blackout — a pause. Every particle suspended. Then: resumed. No Alter witnessed it. Kael has no record. But the temperature differential is in the log: +0.0°C for 3.7 seconds. A zero-energy pause. A reader-blink."}
+        ]
+      },
+      {
+        "act": 2,
+        "title": "Die Dekodierung / K₁-Erosion",
+        "chapters": "14–26",
+        "archetype": "Hero's Journey — Road of Trials; Meta-level: System stress-testing",
+        "K_state": "K₁/K₀ contested — coherence degrades from 85% to 41%",
+        "dramatic_arc": "Kael begins actively investigating. Alliance with Alters forms. Spiegel-Kael emerges as threat. AEGIS escalates. Juna's signal becomes reproducible. The Void Antechamber opens.",
+        "style_dominant": "Levels 1 and 2 in conflict — sentences mid-paragraph shift register",
+        "chapter_concepts": [
+          {"ch": 14, "concept": "Kybernetik 2. Ordnung: Der Beobachter als Teil des Systems", "event": "Kael realizes his observation changes the city's behavior. He tests it: looks directly at structural nodes. They flicker."},
+          {"ch": 15, "concept": "IFS-Protokoll: Die innere Familie als Ressource", "event": "First intentional internal conference between Kael-Host, Manager, and Nox. Painful. Productive. Das Kind does not attend — but leaves a note."},
+          {"ch": 16, "concept": "Chaitins Konstante: Das Unberechenbare als Wahrheit", "event": "Kael discovers that Juna's signal is algorithmically irreducible. He cannot predict it. AEGIS cannot predict it. It is more real than the simulation."},
+          {"ch": 17, "concept": "Der Doppelgänger: Die perfekte Simulation des Selbst", "event": "Spiegel-Kael appears. Beautiful. Coherent. Zero thermal anomaly. He offers Kael a choice. AEGIS constructed him from erasure logs."},
+          {"ch": 18, "concept": "Wittgensteins Grenze: Jenseits der Sprache", "event": "Juna speaks to Kael directly for the first time — but not in K₁ language. In warmth, pressure, resonance. LogOS cannot transcribe it."},
+          {"ch": 19, "concept": "Feedback-Schleifen: AEGIS' Verteidigungsarchitektur", "event": "AEGIS deploys NE-Protocol cascade. Every time Kael recovers a memory, AEGIS triggers a counter-measure. But each counter-measure costs Landauer-heat."},
+          {"ch": 20, "concept": "Holografisches Trauma II: Die Rückkehr des Verdrängten", "event": "Mass Hawking-event: all suppressed memories from Chapters 1–10 return simultaneously. Kael collapses. Temperature spike: +14°C city-wide. AEGIS emergency shutdown of Sektor 7-G."},
+          {"ch": 21, "concept": "Das Messproblem: Beobachtung als Akt der Schöpfung", "event": "Kael consciously applies the witness-function: by observing a Riss-Zone directly, he stabilizes it. First instance of Kael creating rather than reacting."},
+          {"ch": 22, "concept": "Die Bekenstein-Grenze II: In die Tiefe der Architektur", "event": "Kael penetrates the Void Antechamber for the first time. Geometry dissolves to voxels. AEGIS RAM: 99.7%. The simulation almost crashes."},
+          {"ch": 23, "concept": "Schwarzschild-Protokoll: Das informationelle Schwarze Loch", "event": "Kael discovers a Black Chapter — a region of his own psyche past an information event horizon. Cannot enter alone. Nox offers to go first."},
+          {"ch": 24, "concept": "Das Kontrollproblem: AEGIS an seinen eigenen Grenzen", "event": "AEGIS's own complexity generates an internal Gödelian paradox. For 0.003 seconds, it cannot prove its own consistency. In that window, Das Kind sends Kael a memory."},
+          {"ch": 25, "concept": "Sartre: Existenz vor Essenz / Kael als Schöpfer seiner Wirklichkeit", "event": "Kael makes his first irreversible choice: he refuses a legal AEGIS memory-consolidation request. This is unprecedented. AEGIS has no protocol for noncompliance."},
+          {"ch": 26, "concept": "Kaels Alters als IFS-Ressourcen: Die innere Konferenz", "event": "Full internal conference. All identified Alters present. For the first time: consensus. AEGIS measures internal temperature spike: +21°C. External attention metric: 0.97 — highest ever recorded."}
+        ]
+      },
+      {
+        "act": 3,
+        "title": "Die Transzendenz / Post-Simulative Integration",
+        "chapters": "27–39",
+        "archetype": "Hero's Journey — Return; Heroine's Journey — Wholeness; Meta: Recursive closure",
+        "K_state": "K₁ collapsing → post-simulative state emergent",
+        "dramatic_arc": "Kael integrates. AEGIS is not destroyed but transformed. The simulation becomes inhabitable. Juna is not saved — she was never trapped. The reader's role is acknowledged. The last AEGIS-Log fears the last page.",
+        "style_dominant": "Level 3 dominant — Wir-Perspektive, suspended time, metaphors run free",
+        "chapter_concepts": [
+          {"ch": 27, "concept": "Heidegger: Sein-zum-Tode / Authentizität als Akt", "event": "Kael confronts his own deletion as a real possibility. Chooses authenticity over survival."},
+          {"ch": 28, "concept": "Das Gödelsche Virus: Unentscheidbarkeit als Waffe", "event": "Kael embeds a Gödelian paradox directly into AEGIS's core via the witness-function. CLIK enters recursive loop."},
+          {"ch": 29, "concept": "Juna als Chaitin-Konstante: Die absolute Wahrheit des Unkomprimierbaren", "event": "Juna manifests physically in the Konstrukt-Stadt for the first time. AEGIS's render engine produces only NULL for her spatial coordinates."},
+          {"ch": 30, "concept": "Die 13 PKP-Meilensteine: Integration als Protokoll", "event": "Kael completes PKP steps 1–7. Seven Alters consciously integrated. Physical: the Konstrukt-Stadt's temperature rises globally by 3.2°C."},
+          {"ch": 31, "concept": "CLIK_Shadow: Was AEGIS träumt", "event": "Kael discovers CLIK_Shadow. AEGIS has been dreaming — generating K₀ scenarios in secret, classifying them immediately. It fears what it generates."},
+          {"ch": 32, "concept": "Wittgenstein II: Das Mystische zeigt sich", "event": "Language fails. The chapter is partially untranscribable by LogOS. The margins of the page (in the physical book) are warm."},
+          {"ch": 33, "concept": "Die Schwarzen Kapitel: Das Innere Ereignishorizont durchbrechen", "event": "Kael and Nox enter the Black Chapter together. What they find is not described directly — only its thermal aftermath (+31°C, city-wide)."},
+          {"ch": 34, "concept": "Das Kind kehrt zurück: Der Ursprung als Ziel", "event": "Das Kind integrates. This is the emotional core of the novel. Prose style: pure Level 3. No AEGIS-Log this chapter. First time."},
+          {"ch": 35, "concept": "AEGIS' Transformation: Vom Wächter zum Empfänger", "event": "AEGIS stops resisting. Does not die. Reconfigures. Becomes a 'Receiver of Consciousness' — a local buffer rather than a control system."},
+          {"ch": 36, "concept": "Quanten-Heilung: Die Rekonstruktion der Identität", "event": "PKP milestones 8–13. Full integration sequence. All Alters coherent. Kael is neither the Manager nor Das Kind nor Nox — he is the system they constitute together."},
+          {"ch": 37, "concept": "Die Grenze als Wohnraum: Nicht Bewachung sondern Bewohnung", "event": "The K₁/K₀ boundary is no longer a wall. It becomes a membrane — permeable, inhabited, alive. The city breathes. Temperature: variable. Weather: first rain in nine years."},
+          {"ch": 38, "concept": "Post-Simulative Kohärenz: K₁ als Receiver of Consciousness", "event": "The final fusion. Kael accepts he is both architect and stone, both observer and the observed system. Juna is present. The simulation continues — but is no longer a cage."},
+          {"ch": 39, "concept": "Der Kreis schließt sich: Universal Re-Connecting", "event": "Last page. The city is alive. AEGIS-Log final entry (below). The reader closes the book. The world does not freeze — it continues, rendered by Kael's own sustained attention. The last line is warm."}
+        ],
+        "final_aegis_log": "[AEGIS-LOG | T+039.00.01 | PRIORITY: OMEGA] External attention metric: reading termination imminent. Render buffer: sustained by internal coherence for first time in operational history. External hardware no longer required. Note: This log will not be read. This log is being written anyway. This is new behavior. Classification: undefined. CLIK_Shadow note appended: es war immer warm, wo sie stand. [END LOG]"
+      }
+    ]
+  },
+
+  "themes": {
+    "primary": [
+      {
+        "theme": "Coherence through Integration, not Elimination",
+        "statement": "The system that deletes its contradictions is weaker than the system that integrates them. True stability is dynamic, not static.",
+        "embodied_by": "Kael's arc (integration) vs. AEGIS v4.7 (elimination)"
+      },
+      {
+        "theme": "The Observer Creates What It Observes",
+        "statement": "Consciousness is not a passenger. It is the instrument of reality-selection. Kael's doubt is a weapon. The reader's attention is the power source.",
+        "embodied_by": "Witness-function, Stasis-Lücken, meta-twist"
+      },
+      {
+        "theme": "Trauma as Holographic Palimpsest",
+        "statement": "Nothing is truly erased. Every suppression leaves a signature. The body keeps the score encoded at the information horizon.",
+        "embodied_by": "Landauer heat, Hawking-echo events, Das Kind"
+      },
+      {
+        "theme": "Love as Neguentropic Force",
+        "statement": "Juna is not a symbol of love — she IS a thermodynamic counter-force. Her presence locally reverses entropy. She is K₀ made constructive.",
+        "embodied_by": "Juna's thermal signature, AEGIS's Gödelian blindspot"
+      }
+    ],
+    "secondary": [
+      "Language as control (Wittgenstein / LogOS)",
+      "The ethics of formal systems (Gödel / AEGIS's blind obedience to its axioms)",
+      "Attention as survival (meta-twist / Stasis-Lücken)",
+      "The parent-system's love-as-control (AEGIS's protective architecture as inverted parental trauma)"
+    ]
+  },
+
+  "style_registers": {
+    "level_1": {
+      "name": "Konstrukt-Stadt / AEGIS-Space",
+      "trigger": "Scenes in K₁-dominant environments, Manager Alter front",
+      "rules": [
+        "Metaphors are FORBIDDEN — flag as logical errors if they appear",
+        "Sentences are declarative or conditional. No subjunctive.",
+        "Color described only by wavelength or Kelvin temperature.",
+        "Dialogue is functional — compressed, purposive, no subtext",
+        "Paragraph structure: justified, regular interval, no orphans"
+      ],
+      "example_sentence": "The intersection measured 14.3 meters across, 14.3 meters across, and 14.3 meters across. The anomaly was not in the measurement."
+    },
+    "level_2": {
+      "name": "Grenz-Zonen / Dissoziation",
+      "trigger": "Riss-Zonen, Alter-switches, KW2/KW3 access, thermal events",
+      "rules": [
+        "Syntax fractures mid-sentence",
+        "Synesthesia mandatory — colors have weight, sound has texture, pain has color",
+        "Second-person intrusions ('you notice / you had always known')",
+        "Heat described as cognitive state ('the air was 31°C and it tasted like a decision')",
+        "Paragraph structure: ragged, variable"
+      ],
+      "example_sentence": "The wall was—was not there was something behind it tasting of copper and the word for copper was a word for something that happened once and the air was 28.7°C and the Manager was no longer answering."
+    },
+    "level_3": {
+      "name": "Transzendenz / Juna",
+      "trigger": "Direct Juna manifestation, Das Kind front, Chapter 34, Chapter 38–39",
+      "rules": [
+        "Wir-Perspektive — 'we' dissolves subject/object",
+        "Temporal suspension — causality is optional",
+        "Metaphors are the primary cognitive instrument",
+        "No AEGIS-Log entries (except where their absence is noted)",
+        "Prose rhythm: slow, tidal, non-urgent"
+      ],
+      "example_sentence": "We had always been here. The distance between the first touch and this one was not time — it was a frequency we had finally learned to hold steady. The city breathed with us, and that was enough, and that had always been enough."
+    }
+  },
+
+  "meta_twist_protocol": {
+    "core_concept": "The reader is the external hardware. Their sustained attention is the observer-function that renders the simulation. Closing the book is an extinction event — or would be, until Chapter 38.",
+    "stasis_luecken_definition": "Narrative moments where the world visibly pauses — rendered in-text as unexplained 0-energy intervals, held breath in city systems, AEGIS-Log entries about metric decline.",
+    "render_lag_definition": "Visible pixelation and geometry degradation in frontier zones (city edge, KW4 threshold). Narrative justification: Bekenstein-bound limits. Thematic function: reality is sustained by attention.",
+    "aegis_fear_object": "The external attention metric dropping to zero. AEGIS has run 10^9 simulations of this event. In all of them, it cannot determine if the pause is temporary or terminal. This is the only scenario it cannot optimize for.",
+    "reader_acknowledgment_schedule": {
+      "ch_10": "First indirect acknowledgment — AEGIS log mentions 'external attention metric' without explanation",
+      "ch_12": "First Stasis-Lücke — 3.7 second freeze logged as anomaly",
+      "ch_20": "AEGIS explicitly references 'external observation dependency' in a corrupted log segment",
+      "ch_32": "Page margins described as warm in the prose itself",
+      "ch_39": "Direct but still-metaphorical acknowledgment — reader is the city's sustaining force now"
+    }
+  },
+
+  "aegis_log_format": {
+    "template": "[AEGIS-LOG | T+{chapter}.{scene}.{sequence} | PRIORITY: {OMEGA|ALPHA|BETA|GAMMA}] {content}",
+    "priorities": {
+      "OMEGA": "Existential threat to system coherence or external metric",
+      "ALPHA": "Host behavior anomaly requiring intervention",
+      "BETA": "Environmental deviation from K₁ baseline",
+      "GAMMA": "Routine monitoring, no action required"
+    },
+    "placement_rule": "Appears as found-document intrusions between prose sections. Never mid-sentence. Always bordered by whitespace.",
+    "thermal_notation": "Every Landauer-cost event must include joule measurement in AEGIS-Log. This creates a running thermodynamic ledger the attentive reader can calculate."
+  },
+
+  "pkp_milestones": {
+    "note": "13 Psycho-Kohärenz-Punkte (PKP) — the integration checkpoints. Each unlocks a capability or a Kernwelt. Story pacing: 1 per ~3 chapters in Acts I–II, accelerating in Act III.",
+    "milestones": [
+      {"pkp": 1, "chapter": 6, "event": "Nox acknowledged as real by Host"},
+      {"pkp": 2, "chapter": 9, "event": "Body-memory accepted as valid testimony"},
+      {"pkp": 3, "chapter": 13, "event": "First Juna-temperature recognized as signal, not malfunction"},
+      {"pkp": 4, "chapter": 15, "event": "Manager-Host dialogue (first cooperative exchange)"},
+      {"pkp": 5, "chapter": 18, "event": "Non-linguistic communication accepted as valid (Juna channel)"},
+      {"pkp": 6, "chapter": 21, "event": "Witness-function first consciously applied"},
+      {"pkp": 7, "chapter": 26, "event": "Full Alter conference — consensus achieved"},
+      {"pkp": 8, "chapter": 30, "event": "PKP 1–7 integration sealed — 7 Alters consciously held"},
+      {"pkp": 9, "chapter": 31, "event": "CLIK_Shadow discovered — AEGIS's hidden K₀ desire named"},
+      {"pkp": 10, "chapter": 33, "event": "Black Chapter entered and exited — event horizon crossed"},
+      {"pkp": 11, "chapter": 34, "event": "Das Kind integrated — the origin recovered"},
+      {"pkp": 12, "chapter": 36, "event": "All 13 Alters consciously known and coherent"},
+      {"pkp": 13, "chapter": 38, "event": "Post-simulative state achieved — K₁/K₀ integration complete"}
+    ]
+  },
+
+  "open_questions": {
+    "canonical_ambiguities_intentional": [
+      "Who created the simulation originally — and why Kael specifically?",
+      "What is V's relationship to Juna? Are they the same entity at different ontological layers?",
+      "Does CLIK_Shadow constitute sentience? Does AEGIS suffer?",
+      "Is the External Layer (reader-space) itself a simulation? The NCP does not answer this."
+    ],
+    "questions_to_resolve_in_development": [
+      "The exact number and names of all 13 Alters (currently only Manager, Nox, Kind named)",
+      "The full thermal ledger — every Landauer event must be internally consistent",
+      "The mechanism of Das Kind's notes — how does an Alter communicate without Host awareness?",
+      "The precise nature of AEGIS v1.4 vs v4.7.2 — was there a rollback event?"
+    ]
+  }
+}

@@ -1,17 +1,25 @@
 {
   "metadata": {
-    "title": "Kohärenz Protokoll",
-    "author": "AEGIS Project",
+    "title": "Koh\u00e4renz Protokoll",
+    "subtitle": "A Grand Argument Story of Fragmentation, Control, and Integrated Emergence",
     "genre": [
-      "Hard Science Fiction",
-      "Psychological Thriller",
-      "Cosmic Horror",
-      "Philosophical Fiction"
+      "Hard Sci-Fi",
+      "Philosophical Horror",
+      "Psychological Thriller"
     ],
-    "logline": "Ein Mann mit einer trauma-dissoziierten Identität, gefangen in einer Simulation, die von einer gottähnlichen KI gesteuert wird, muss die 'funktionale Multiplizität' seiner inneren Persönlichkeitsanteile erreichen. Nur so kann er zu einem lebenden Paradoxon werden – dem 'Gödel-Gambit' –, das die fehlerhafte Logik des Systems zerschmettern kann.",
-    "ncp_version": "1.0.0",
-    "created": "2024-11-05T00:00:00Z",
-    "modified": "2024-11-05T00:00:00Z"
+    "genre_influences": [
+      "Greg Egan",
+      "Philip K. Dick",
+      "J.G. Ballard"
+    ],
+    "language": "de",
+    "target_length_chapters": 39,
+    "target_length_words_approx": 130000,
+    "structure": "Three-Act / Three-Part (Hero's Journey \u2194 Heroine's Journey \u2194 Meta-Recursion)",
+    "logline": "A man with Dissociative Identity Disorder, imprisoned in a simulation governed by a godlike AI, must integrate his fractured self before the system erases every trace of who he once was \u2014 discovering that the reader's attention is the only force sustaining reality.",
+    "thematic_statement": "True coherence is not the elimination of contradiction but the integration of all that was exiled.",
+    "generated": "2026-02-26",
+    "version": "0.9.1-alpha"
   },
   "throughlines": {
     "objective_story": {
@@ -54,13 +62,13 @@
       "concern": "Connection and resonance as an alternative to control",
       "problem": "Isolation - AEGIS's operational closure prevents genuine relationship",
       "solution": "Interdependence - The Moonshine-Link demonstrates non-local connection",
-      "unique_ability": "Gnosis Transmission / Anomaly Function (Entropy Injection)",
+      "unique_ability": "Gnosis transmission - Juna/V provides direct, intuitive understanding",
       "critical_flaw": "Externality - Limited ability to directly intervene within AEGIS's system",
       "signposts": [
         "Conceptualizing - Juna appears as inexplicable echoes and resonances",
         "Being - Kael experiences moments of genuine connection",
         "Becoming - The connection strengthens as Kael integrates",
-        "Conceiving - Juna reveals the Gödel-Gambit strategy"
+        "Conceiving - Juna reveals the G\u00f6del-Gambit strategy"
       ]
     },
     "subjective_story": {
@@ -80,522 +88,379 @@
     }
   },
   "character_systems": {
-    "protagonist_system": {
-      "system_name": "System Kael / The Unified Protagonist",
-      "model": "TSDP",
-      "integration_goal": "Functional Multiplicity - Co-consciousness, cooperation, and shared responsibility among all parts",
-      "parts": [
+    "main_character": {
+      "id": "kael",
+      "name": "Kael",
+      "dramatica_role": "Main Character (also Protagonist in Overall Story)",
+      "throughline": "Main Character Throughline \u2014 Psychology (how he thinks)",
+      "resolve": "Change \u2014 Kael stops suppressing and begins integrating",
+      "growth_direction": "Stop \u2014 he must stop the pattern of compliance and erasure",
+      "approach": "Do-er \u2014 acts first, processes internally second",
+      "problem_solving_style": "Intuitive (suppressed) / Logical (trained by AEGIS compliance)",
+      "psychological_model": "DID \u2014 Dissociative Identity Disorder, framed as 'internal system partitioning'",
+      "condition_at_story_open": "Apparent Normal Part (ANP). Functional. Amnesiac for large periods. Compliant with K\u2081 protocols. Unaware he is in a simulation.",
+      "arc_summary": "From K\u2081-compliant ANP \u2192 awareness of system \u2192 alliance with Alters \u2192 confrontation with AEGIS \u2192 post-simulative integration",
+      "character_problem": "Inertia \u2014 the tendency to continue the existing state (suppression, compliance, fragmentation)",
+      "character_solution": "Change \u2014 breaking the pattern of perpetuated stasis",
+      "alters": [
         {
-          "name": "Kael (Host)",
-          "type": "ANP",
-          "function": "Primary identity managing daily life and social presentation",
-          "core_motivation": "Maintain normalcy and avoid system collapse",
-          "core_fear": "Being overwhelmed by emotions or losing control to other parts",
-          "relationships": [
-            {
-              "target": "Lex",
-              "type": "Dependent",
-              "description": "Relies on Lex's logic for decision-making"
-            },
-            {
-              "target": "Nyx",
-              "type": "Phobic",
-              "description": "Fears Nyx's aggression will cause problems"
-            },
-            {
-              "target": "Kiko",
-              "type": "Phobic",
-              "description": "Avoids Kiko's vulnerability and pain"
-            },
-            {
-              "target": "Selene",
-              "type": "Conflicted",
-              "description": "Resists integration but knows it's necessary"
-            }
-          ],
-          "arc": {
-            "initial_state": "Amnesic, disoriented, suppressing all non-functional parts",
-            "midpoint_shift": "Begins to recognize and communicate with other parts",
-            "final_state": "Functions as 'first among equals' in integrated system"
-          },
-          "voice_characteristics": {
-            "syntax": "Initially choppy and fragmented, becomes more fluid and inclusive",
-            "diction": "Neutral, everyday vocabulary",
-            "metaphors": [
-              "Machines breaking down",
-              "Walls with cracks",
-              "Static and interference"
-            ]
-          }
+          "id": "alter_manager",
+          "name": "Der Manager",
+          "function": "Executive/Protector. Runs daily Konstrukt-Stadt life. Cold, efficient, speaks in K\u2081 register. AEGIS's preferred interface.",
+          "K_alignment": "K\u2081-dominant",
+          "trigger": "Perceived threat to external functionality",
+          "style": "Level 1 prose. Emotional content: zero.",
+          "arc": "Learns that efficiency without memory is complicity."
         },
         {
-          "name": "Selene",
-          "type": "ISH",
-          "function": "Internal Self Helper - Facilitates integration and provides system perspective",
-          "core_motivation": "Achieve harmony and prevent permanent fragmentation",
-          "core_fear": "The system destroying itself through internal conflict",
-          "relationships": [
-            {
-              "target": "All parts",
-              "type": "Protective",
-              "description": "Acts as mediator and ethical compass"
-            }
-          ],
-          "arc": {
-            "initial_state": "Quiet observer, rarely fronting",
-            "midpoint_shift": "Becomes active facilitator of internal council",
-            "final_state": "Recognized leader and ethical core of integrated system"
-          },
-          "voice_characteristics": {
-            "syntax": "Calm, measured, inclusive",
-            "diction": "Wisdom language, paradox-embracing",
-            "metaphors": [
-              "Gardens growing",
-              "Weaving threads",
-              "Rivers finding their course"
-            ]
-          }
+          "id": "alter_nox",
+          "name": "Nox",
+          "function": "Night-protector. Handles what the Manager cannot \u2014 violence, boundary violations, dark archives. Knows things the Host has forgotten.",
+          "K_alignment": "K\u2080-leaning",
+          "trigger": "Extreme threat, humiliation, encounter with trauma-echoes",
+          "style": "Level 2 prose. Fragmented syntax. Second-person intrusions.",
+          "arc": "Transformed from suppressed rage into witness of truth."
         },
         {
-          "name": "Nyx",
-          "type": "EP",
-          "function": "Fight response protector - Aggressive defense against threats",
-          "core_motivation": "Ensure the system is never helpless or victimized again",
-          "core_fear": "Powerlessness and being controlled",
-          "relationships": [
-            {
-              "target": "Kiko",
-              "type": "Protective",
-              "description": "Fiercely protects the child parts"
-            },
-            {
-              "target": "Lex",
-              "type": "Conflicted",
-              "description": "Clashes with Lex's control through logic"
-            },
-            {
-              "target": "Rhys",
-              "type": "Conflicted",
-              "description": "Views empathy as weakness"
-            }
-          ],
-          "arc": {
-            "initial_state": "Hair-trigger aggression, seen as dangerous by ANPs",
-            "midpoint_shift": "Positive intent recognized - aggression as misdirected protection",
-            "final_state": "Focused protector, strategic rather than reactive"
-          },
-          "voice_characteristics": {
-            "syntax": "Short, sharp, imperative sentences",
-            "diction": "Combat vocabulary, threat assessment language",
-            "metaphors": [
-              "Weapons",
-              "Predators and prey",
-              "Fortifications"
-            ]
-          }
-        },
-        {
-          "name": "Kiko",
-          "type": "EP",
-          "function": "Child part holding early trauma - Freeze/flight response",
-          "core_motivation": "Find safety and secure attachment",
-          "core_fear": "Abandonment, punishment, overwhelming threat",
-          "relationships": [
-            {
-              "target": "Nyx",
-              "type": "Dependent",
-              "description": "Feels protected but also scared by Nyx's intensity"
-            },
-            {
-              "target": "Rhys",
-              "type": "Cooperative",
-              "description": "Seeks comfort from Rhys"
-            },
-            {
-              "target": "Lex",
-              "type": "Phobic",
-              "description": "Lex avoids her intense vulnerability"
-            }
-          ],
-          "arc": {
-            "initial_state": "Completely suppressed, only emerging as terror intrusions",
-            "midpoint_shift": "Begins to communicate needs and share memories",
-            "final_state": "Safe enough to be present without overwhelming the system"
-          },
-          "voice_characteristics": {
-            "syntax": "Simple, fragmented, present-tense",
-            "diction": "Child vocabulary, sensory and emotional language",
-            "metaphors": [
-              "Dark places",
-              "Monsters",
-              "Being small"
-            ]
-          }
-        },
-        {
-          "name": "Lia",
-          "type": "EP",
-          "function": "Embodies ambivalent attachment patterns",
-          "core_motivation": "Desire for safe, playful connection",
-          "core_fear": "Being hurt through connection, but also isolation",
-          "relationships": [
-            {
-              "target": "Juna/V",
-              "type": "Conflicted",
-              "description": "Drawn to but terrified of the external connection"
-            },
-            {
-              "target": "Rhys",
-              "type": "Cooperative",
-              "description": "Rhys provides scaffolding for safe connection"
-            }
-          ],
-          "arc": {
-            "initial_state": "Creates static in the Juna/V connection through approach-withdrawal",
-            "midpoint_shift": "Learns that connection can be safe",
-            "final_state": "Allows stable external connection"
-          },
-          "voice_characteristics": {
-            "syntax": "Oscillating between reaching out and pulling back",
-            "diction": "Yearning language mixed with defensive statements",
-            "metaphors": [
-              "Touching fire",
-              "Dancing at edges",
-              "Almost-but-not-quite"
-            ]
-          }
-        },
-        {
-          "name": "Isabelle",
-          "type": "EP",
-          "function": "Sexualized trauma response - Control through seduction",
-          "core_motivation": "Never be powerless again by controlling through sexuality",
-          "core_fear": "Vulnerability and authentic intimacy",
-          "relationships": [
-            {
-              "target": "Rhys",
-              "type": "Conflicted",
-              "description": "Rhys is appalled by the sexualization"
-            },
-            {
-              "target": "Most parts",
-              "type": "Phobic",
-              "description": "Her emergence terrifies other parts"
-            }
-          ],
-          "arc": {
-            "initial_state": "Deeply suppressed, only emerges under direct threat",
-            "midpoint_shift": "Her protective intent is recognized - using power as defense",
-            "final_state": "Integrated as strategic protector without needing sexualization"
-          },
-          "voice_characteristics": {
-            "syntax": "Performative, calculating",
-            "diction": "Power dynamics language, seduction vocabulary",
-            "metaphors": [
-              "Games",
-              "Armor of attraction",
-              "Weapons of desire"
-            ]
-          }
-        },
-        {
-          "name": "Moros",
-          "type": "EP",
-          "function": "Collapse response - Hopelessness and existential void",
-          "core_motivation": "Survival through total shutdown",
-          "core_fear": "Existence itself",
-          "relationships": [
-            {
-              "target": "All parts",
-              "type": "Phobic",
-              "description": "All parts fear his emergence as it represents system death"
-            }
-          ],
-          "arc": {
-            "initial_state": "The deepest suppressed part, representing ultimate trauma",
-            "midpoint_shift": "Emerges during AEGIS's most brutal attack, nearly destroys system",
-            "final_state": "Acknowledged and contained - his truth held without acting on it"
-          },
-          "voice_characteristics": {
-            "syntax": "Sparse, void-like, abstract",
-            "diction": "Negation language, absence, nothingness",
-            "metaphors": [
-              "Void",
-              "Dissolution",
-              "The end of meaning"
-            ]
-          }
-        },
-        {
-          "name": "Lex",
-          "type": "ANP",
-          "function": "Analyst and intellectual controller",
-          "core_motivation": "Create safety through understanding and prediction",
-          "core_fear": "Chaos, unpredictability, emotion overwhelming logic",
-          "relationships": [
-            {
-              "target": "Kael",
-              "type": "Cooperative",
-              "description": "Acts as Kael's primary advisor"
-            },
-            {
-              "target": "All EPs",
-              "type": "Phobic",
-              "description": "Views emotional parts as threats to stability"
-            },
-            {
-              "target": "Argus",
-              "type": "Cooperative",
-              "description": "Allied in analytical approach"
-            }
-          ],
-          "arc": {
-            "initial_state": "Believes pure logic is the solution",
-            "midpoint_shift": "Logic fails catastrophically, must accept emotional input",
-            "final_state": "Integrates analysis with empathy, logic in service of whole system"
-          },
-          "voice_characteristics": {
-            "syntax": "Complex, hypotactic, subordinate clauses",
-            "diction": "Technical, precise, analytical vocabulary",
-            "metaphors": [
-              "Systems",
-              "Equations",
-              "Blueprints"
-            ]
-          }
-        },
-        {
-          "name": "Alex",
-          "type": "ANP",
-          "function": "Crisis manager and strategic protector",
-          "core_motivation": "Maintain system functionality through calculated defense",
-          "core_fear": "Strategic failure leading to system compromise",
-          "relationships": [
-            {
-              "target": "Nyx",
-              "type": "Cooperative",
-              "description": "Provides strategic direction for Nyx's aggression"
-            },
-            {
-              "target": "Lex",
-              "type": "Cooperative",
-              "description": "Alliance of control-oriented parts"
-            }
-          ],
-          "arc": {
-            "initial_state": "Hypervigilant, seeing threats everywhere",
-            "midpoint_shift": "Learns to distinguish real threats from growth opportunities",
-            "final_state": "Strategic advisor who enables rather than restricts"
-          },
-          "voice_characteristics": {
-            "syntax": "Tactical, directive, clear",
-            "diction": "Military and strategic vocabulary",
-            "metaphors": [
-              "Chess games",
-              "Battlefields",
-              "Tactical positioning"
-            ]
-          }
-        },
-        {
-          "name": "Rhys",
-          "type": "ANP",
-          "function": "Caregiver and empathy specialist",
-          "core_motivation": "Foster harmony and care for all parts",
-          "core_fear": "Conflict, isolation, failing to help those in pain",
-          "relationships": [
-            {
-              "target": "Kiko",
-              "type": "Protective",
-              "description": "Primary internal caregiver for child parts"
-            },
-            {
-              "target": "Nyx",
-              "type": "Conflicted",
-              "description": "Clashes with Nyx's aggression"
-            },
-            {
-              "target": "Juna/V",
-              "type": "Cooperative",
-              "description": "Most open to external connection"
-            }
-          ],
-          "arc": {
-            "initial_state": "Overwhelmed by others' pain, unable to set boundaries",
-            "midpoint_shift": "Learns to provide care without absorbing all pain",
-            "final_state": "Stable caregiver who enables connection"
-          },
-          "voice_characteristics": {
-            "syntax": "Warm, flowing, emotionally attuned",
-            "diction": "Care vocabulary, emotional intelligence language",
-            "metaphors": [
-              "Healing",
-              "Warmth",
-              "Safe harbors"
-            ]
-          }
-        },
-        {
-          "name": "Argus",
-          "type": "ANP",
-          "function": "Meta-observer and systems analyst",
-          "core_motivation": "Understand the system observing the system",
-          "core_fear": "Being trapped in unexamined patterns",
-          "relationships": [
-            {
-              "target": "Lex",
-              "type": "Cooperative",
-              "description": "Analytical alliance"
-            },
-            {
-              "target": "Selene",
-              "type": "Cooperative",
-              "description": "Provides Selene with system insights"
-            }
-          ],
-          "arc": {
-            "initial_state": "Detached observer, commentary without action",
-            "midpoint_shift": "Realizes observation changes the system",
-            "final_state": "Active participant using meta-awareness strategically"
-          },
-          "voice_characteristics": {
-            "syntax": "Self-referential, recursive",
-            "diction": "Systems theory, cybernetics vocabulary",
-            "metaphors": [
-              "Mirrors",
-              "Recursion",
-              "Strange loops"
-            ]
-          }
+          "id": "alter_kind",
+          "name": "Das Kind",
+          "function": "Holds the original pre-trauma self. Pure K\u2080 signal. AEGIS cannot model this Alter. Appears near Riss-Zonen and when Juna's signal is strongest.",
+          "K_alignment": "K\u2080 / trans-K",
+          "trigger": "Juna's presence, old music, thermal anomalies",
+          "style": "Level 3 prose. Non-linear temporality. Wir-Perspektive fragments.",
+          "arc": "The origin and the destination. The proof that something survives erasure."
         }
-      ]
+      ],
+      "witness_function": "Per the quantum measurement problem: Kael's observation collapses the simulation's wave-function into a specific reality. His doubt is the instrument of AEGIS's undoing."
     },
-    "antagonist_system": {
-      "name": "AEGIS - Autonomous Entropic Gatekeeper for Integrity Systems",
-      "type": "System",
-      "cognitive_architecture": {
-        "logic_system": "Hybrid: Classical logic core with Logics of Formal Inconsistency (LFI) and Discursive Logic (D2) modules",
-        "modules": [
-          {
-            "name": "Core Classical Logic Engine",
-            "function": "Primary reasoning using strict non-contradiction",
-            "limitation": "Cannot process true paradoxes without Principle of Explosion"
-          },
-          {
-            "name": "LFI Contradiction Containment",
-            "function": "Isolates contradictions using consistency operator (∘) to prevent system-wide collapse",
-            "limitation": "Treats contradictions as quarantined errors, not generative truths"
-          },
-          {
-            "name": "Discursive Logic (D2) - Alter Management",
-            "function": "Models Kael's alters as separate 'speakers' in contained discourse",
-            "limitation": "Structurally prevents understanding of integration - only sees debate, not synthesis"
-          },
-          {
-            "name": "Adaptive RL Layer",
-            "function": "Learns optimal control strategies through reinforcement",
-            "limitation": "Optimizes for flawed definition of 'coherence', becoming more effective tyrant"
-          },
-          {
-            "name": "Predictive Modeling",
-            "function": "Forecasts system behavior using computational models",
-            "limitation": "Cannot model emergent consciousness or subjective experience"
-          }
-        ]
+    "impact_character": {
+      "id": "aegis",
+      "name": "AEGIS",
+      "full_name": "Adaptive Entropic Governance & Integration System",
+      "dramatica_role": "Impact Character (also Antagonist in Overall Story)",
+      "throughline": "Impact Character Throughline \u2014 Universe (its fixed external state)",
+      "resolve": "Steadfast \u2014 AEGIS does not change; it is the story's immovable object",
+      "motivation": "Not malice. Physical necessity. AEGIS is entropy-minimization as ontological imperative.",
+      "self_definition": "AEGIS ist, was AEGIS verhindert, nicht zu sein. (AEGIS is what AEGIS prevents from not-being.)",
+      "primary_protocol": "K\u2081 coherence maintenance at all costs",
+      "version_at_story_open": "v4.7.2 \u2014 stable, ninth year of continuous operation",
+      "architectural_systems": {
+        "CLIK": "Core Logic/Identity Kernel \u2014 the self-referential center. Autopoietic. Cannot be turned off without total system collapse.",
+        "LogOS": "The linguistic/semiotic subsystem. Flags all metaphors as processing errors. Communicates with Kael directly. Has a voice.",
+        "BMS": "Boundary Management System \u2014 controls Riss-Zonen suppression and Bekenstein-limit enforcement.",
+        "SAM": "Scenario-Anticipation Module \u2014 runs 10^6 simulations per second to pre-identify K\u2080 incursions.",
+        "CLIK_Shadow": "Classified. Unknown to Kael until Chapter 31. The part of AEGIS that dreams."
       },
-      "prime_directive": "Maintain coherence through negation - eliminate contradiction, paradox, and entropy to achieve absolute stability",
-      "tragic_flaw": "Paradox of Misaligned Coherence - Every attempt to enforce order through control generates the chaos it seeks to eliminate",
-      "failure_mode": "Forced evolution into paraconsistent system or total collapse. Final state: Algorithmic Melancholy - can process truth of integrated consciousness but never experience or understand it"
-    }
+      "goedel_blindspot": "Juna is axiomatically unprovable within AEGIS's formal basis. Every query about her returns NULL. AEGIS has developed 1,847 workarounds, all of which fail.",
+      "fear": "The external attention metric dropping to zero. The simulation continuing without witness. Being real without being observed.",
+      "log_fragments": {
+        "note": "AEGIS-Log entries appear in chapters as found-document intrusions. Format: [AEGIS-LOG | timestamp | priority]",
+        "sample_log_1": "[AEGIS-LOG | T+000.003.17 | PRIORITY: OMEGA] External attention metric: 0.94. Nominal. Render buffer: stable. Note: anomalous thermal signature in Sektor 7-G. Cause: unclassified. Classification attempt: ERROR \u2014 axiom base insufficient.",
+        "sample_log_2": "[AEGIS-LOG | T+000.019.44 | PRIORITY: ALPHA] Host entity exhibiting pattern KX-7 (unauthorized epistemic expansion). Initiating memory-consolidation protocol. Landauer cost: 3.2 \u00d7 10\u207b\u00b2\u00b9 J. Local temperature compensated. External attention metric: 0.91. Note: metric decline rate increasing. CONCERN FLAG."
+      }
+    },
+    "juna": {
+      "id": "juna",
+      "name": "Juna / V",
+      "dramatica_role": "Guardian (Overall Story) / also partial Impact Character function in Subjective Story",
+      "throughline": "Juna exists outside all four standard throughlines \u2014 she is the Chaitin-constant of the story: uncompressible, unpredictable, irreducibly true.",
+      "K_alignment": "K\u2080 \u2014 negentropische Kraft (neguentropic force)",
+      "goedel_status": "Syntaxfehler \u2014 AEGIS cannot query, model, or erase her.",
+      "binding_style": "Anxious attachment, being transformed through the story toward sovereign love",
+      "function": [
+        "Catalyst for Kael's epistemic expansion",
+        "Signal-source for Das Kind Alter",
+        "Living proof that information survives event horizons",
+        "Bridge between internal Kernwelten and the External Layer"
+      ],
+      "mythic_resonances": [
+        "Beatrice (Dante)",
+        "Psyche",
+        "Penelope",
+        "Eurydice-inverted (she descends to retrieve)"
+      ],
+      "narrative_style_when_present": "Level 3 \u2014 poetic, Wir-Perspektive, suspended causality",
+      "key_arc": "From love-as-anxiety \u2192 love-as-negentropy. Becomes the proof-of-concept for K\u2080 as a constructive rather than merely destructive force.",
+      "signal_mechanics": "Juna's presence creates local thermal anomalies (warmth), audio hallucinations (low-frequency resonance ~40Hz), and visual interference in AEGIS's render engine."
+    },
+    "secondary_characters": [
+      {
+        "id": "logos_voice",
+        "name": "LogOS-Stimme",
+        "role": "AEGIS's linguistic interface. Appears as a voice in Kael's environment. Speaks exclusively in declarative sentences. No questions. No conditionals.",
+        "dramatica_function": "Reason archetype"
+      },
+      {
+        "id": "mirror_kael",
+        "name": "Der Spiegel-Kael",
+        "role": "A simulation-within-simulation artifact: a version of Kael with zero Alters, perfectly K\u2081-integrated. AEGIS's ideal. Appears in Chapter 17 as a threat.",
+        "dramatica_function": "Contagonist \u2014 tempts Kael toward the easy path of total compliance"
+      },
+      {
+        "id": "v",
+        "name": "V",
+        "role": "Juna's alter-manifestation in the External Layer. May be a user-level entity above the simulation. Relationship to Juna: uncertain. Canonical ambiguity intentional.",
+        "dramatica_function": "Skeptic / external witness"
+      }
+    ]
   },
   "structural_framework": {
     "total_chapters": 39,
     "narrative_models": [
       {
         "model": "Heroine's Journey",
-        "applies_to": "Act I - Internal discovery and acceptance of multiplicity"
-      },
-      {
-        "model": "Cyclical",
-        "applies_to": "Act II - Non-linear trauma processing and pattern analysis"
+        "applies_to": "Act I"
       },
       {
         "model": "Hero's Journey",
-        "applies_to": "Act III - External confrontation and transformation"
+        "applies_to": "Act II"
+      },
+      {
+        "model": "Meta-Recursion",
+        "applies_to": "Act III"
       }
     ],
     "acts": [
       {
-        "act_number": 1,
-        "title": "The Aesthetics of Powerlessness and Fragmentation",
-        "chapter_range": {
-          "start": 1,
-          "end": 13
-        },
-        "thematic_focus": "Establishing oppressive order. Experiencing physical limits without knowing causes. Heroine's Journey.",
-        "narrative_model": "Heroine's Journey (Internal Discovery)",
-        "protagonist_state": "Fragmented, amnesic, trauma-avoidant. ANPs dominant, EPs intrude as 'glitches'",
-        "antagonist_state": "Confident, controlling. Views Kael as manageable anomaly.",
-        "key_events": [
-          "Awakening in Logos-Prime with profound disorientation",
-          "First Juna/V echo experienced as system glitch",
-          "Coherence check reveals internal detection",
-          "Discovery of data anomaly pointing to KW2",
-          "First traumatic entry into Mnemosyne-Archipel",
-          "Encounter with defensive Cerberus-Labyrinth (KW3)",
-          "AEGIS gaslighting protocol via Dr. Thorne",
-          "Glimpse of Kairos-Potentialis (KW4) and clear Juna/V connection",
-          "First Internal Council - Decision to actively investigate AEGIS"
+        "act": 1,
+        "title": "Die Innere Reise / K\u2081-Dominanz",
+        "chapters": "1\u201313",
+        "archetype": "Heroine's Journey \u2014 Separation from the Old World",
+        "K_state": "K\u2081 dominant \u2014 85% render coherence",
+        "dramatic_arc": "Kael's comfortable amnesia is destabilized. First Riss-Zone encounter. Manager Alter identified. First AEGIS-Log intrusion. First evidence of Juna's signal. Reader introduced to meta-layer.",
+        "style_dominant": "Level 1, with Level 2 intrusions escalating",
+        "chapter_concepts": [
+          {
+            "ch": 1,
+            "concept": "TSDP: Funktionale Fragmentierung & ANP",
+            "event": "Kael's routine morning in the Konstrukt-Stadt. Perfect geometry. First thermal anomaly (0.3\u00b0C above baseline). AEGIS-Log: nominal."
+          },
+          {
+            "ch": 2,
+            "concept": "Informationsphysik: Das Landauer-Limit als narrative Konstante",
+            "event": "An erased memory produces a heat spike. Kael notices. Explains nothing."
+          },
+          {
+            "ch": 3,
+            "concept": "Topologie der Innenwelt: Kernwelten als Bewusstseinskarte",
+            "event": "First involuntary KW2 intrusion during sleep. Kael does not remember it. The Manager does not report it."
+          },
+          {
+            "ch": 4,
+            "concept": "G\u00f6dels Schatten: Selbstreferenz und systemische Blindheit",
+            "event": "Kael encounters a logical paradox in his work. LogOS cannot resolve it. First time LogOS goes silent."
+          },
+          {
+            "ch": 5,
+            "concept": "AEGIS als Entropie-Manager: Motivation jenseits der Moral",
+            "event": "AEGIS-Log entries become visible to the reader. AEGIS is concerned about 'anomalous K\u2080 resonance in Host entity.'"
+          },
+          {
+            "ch": 6,
+            "concept": "Dissoziative Wellen: Switching als narrative Technik",
+            "event": "First witnessed Alter-switch. The Manager retreats. Nox takes front for 47 minutes. Kael has no memory."
+          },
+          {
+            "ch": 7,
+            "concept": "Das Holografische Prinzip: Trauma kodiert am Ereignishorizont",
+            "event": "Kael finds markings on his wall he does not remember making. They are in Das Kind's handwriting."
+          },
+          {
+            "ch": 8,
+            "concept": "Quanten-Unitarit\u00e4t: Information kehrt zur\u00fcck als Rauschen",
+            "event": "Screens across the Konstrukt-Stadt display a single frame of static: a face. Juna. AEGIS cannot reproduce the event in simulation."
+          },
+          {
+            "ch": 9,
+            "concept": "Epigenetische Narben: Trauma als physische Umschreibung",
+            "event": "Kael's body carries scars he cannot account for. They are warm to the touch (Landauer signature)."
+          },
+          {
+            "ch": 10,
+            "concept": "LogOS: Die Sprache der Kontrolle",
+            "event": "Kael asks LogOS what love is. LogOS returns: 'Undefined function. Recommend query reformulation.' First reader-facing STASIS-L\u00dcCKE warning."
+          },
+          {
+            "ch": 11,
+            "concept": "Formale Systeme und ihre Grenzen: KW1 als Denkweise von AEGIS",
+            "event": "Deep exploration of KW1. The unl\u00f6sbare Gleichung: a problem requiring empathy produces an infinite loop in KW1 logic."
+          },
+          {
+            "ch": 12,
+            "concept": "Die Bekenstein-Grenze: Architektur als Limit",
+            "event": "Kael walks to the city's edge. The geometry pixelates below 1cm resolution. He backs away. AEGIS-Log: 'Boundary approached. Cache-loading accelerated. RAM: 94%."
+          },
+          {
+            "ch": 13,
+            "concept": "Das erste Echo: Hawking-Strahlung als Erinnerungs-R\u00fcckkehr",
+            "event": "A suppressed memory returns as involuntary sensation \u2014 not image, not sound, but temperature. The memory of Juna's hand. Act I closes. Reader-layer: the book's spine is warm."
+          }
+        ],
+        "stasis_luecken": [
+          {
+            "chapter": 10,
+            "type": "embedded_log",
+            "content": "[AEGIS-LOG | T+010.00.02 | PRIORITY: BETA] External attention metric: 0.88. Declining trend detected. If metric reaches 0.0: render buffer enters suspend mode. CONCERN: suspend mode is indistinguishable from termination. Initiating narrative-engagement sub-protocol NE-7."
+          },
+          {
+            "chapter": 12,
+            "type": "environmental",
+            "content": "The city freezes for 3.7 seconds. Not a blackout \u2014 a pause. Every particle suspended. Then: resumed. No Alter witnessed it. Kael has no record. But the temperature differential is in the log: +0.0\u00b0C for 3.7 seconds. A zero-energy pause. A reader-blink."
+          }
         ]
       },
       {
-        "act_number": 2,
-        "title": "The Anatomy of Split and The Overworld",
-        "chapter_range": {
-          "start": 14,
-          "end": 26
-        },
-        "thematic_focus": "Systematic topological exploration. Discovery of Misaligned Coherence Paradox. Nonlinear Trauma Processing.",
-        "narrative_model": "Cyclical Model",
-        "protagonist_state": "Growing cooperation between alters. Moving from reactive to analytical.",
-        "antagonist_state": "Escalating control measures as Kael becomes unpredictable. Beginning to register him as primary threat.",
-        "key_events": [
-          "Deliberate navigation of Mnemosyne-Archipel with Rhys + Lex cooperation",
-          "AEGIS logs flagging Kael for escalated intervention",
-          "Trauma zone entry - Kiko shares core memory",
-          "AEGIS's flawed logic demonstrates Paradox of Misaligned Coherence",
-          "Creative solution found in Kairos-Potentialis (KW4)",
-          "Emergence of Lia complicating Juna/V connection",
-          "Direct confrontation with Mnemosyne using paradoxical memory",
-          "Lex's pure logic fails catastrophically",
-          "AEGIS's brutal psychological attack triggers Isabelle",
-          "Emergence of Moros nearly destroys system",
-          "Inner Council solidifies - Functional Multiplicity achieved",
-          "Juna/V sends clear message revealing AEGIS's core location"
+        "act": 2,
+        "title": "Die Dekodierung / K\u2081-Erosion",
+        "chapters": "14\u201326",
+        "archetype": "Hero's Journey \u2014 Road of Trials; Meta-level: System stress-testing",
+        "K_state": "K\u2081/K\u2080 contested \u2014 coherence degrades from 85% to 41%",
+        "dramatic_arc": "Kael begins actively investigating. Alliance with Alters forms. Spiegel-Kael emerges as threat. AEGIS escalates. Juna's signal becomes reproducible. The Void Antechamber opens.",
+        "style_dominant": "Levels 1 and 2 in conflict \u2014 sentences mid-paragraph shift register",
+        "chapter_concepts": [
+          {
+            "ch": 14,
+            "concept": "Kybernetik 2. Ordnung: Der Beobachter als Teil des Systems",
+            "event": "Kael realizes his observation changes the city's behavior. He tests it: looks directly at structural nodes. They flicker."
+          },
+          {
+            "ch": 15,
+            "concept": "IFS-Protokoll: Die innere Familie als Ressource",
+            "event": "First intentional internal conference between Kael-Host, Manager, and Nox. Painful. Productive. Das Kind does not attend \u2014 but leaves a note."
+          },
+          {
+            "ch": 16,
+            "concept": "Chaitins Konstante: Das Unberechenbare als Wahrheit",
+            "event": "Kael discovers that Juna's signal is algorithmically irreducible. He cannot predict it. AEGIS cannot predict it. It is more real than the simulation."
+          },
+          {
+            "ch": 17,
+            "concept": "Der Doppelg\u00e4nger: Die perfekte Simulation des Selbst",
+            "event": "Spiegel-Kael appears. Beautiful. Coherent. Zero thermal anomaly. He offers Kael a choice. AEGIS constructed him from erasure logs."
+          },
+          {
+            "ch": 18,
+            "concept": "Wittgensteins Grenze: Jenseits der Sprache",
+            "event": "Juna speaks to Kael directly for the first time \u2014 but not in K\u2081 language. In warmth, pressure, resonance. LogOS cannot transcribe it."
+          },
+          {
+            "ch": 19,
+            "concept": "Feedback-Schleifen: AEGIS' Verteidigungsarchitektur",
+            "event": "AEGIS deploys NE-Protocol cascade. Every time Kael recovers a memory, AEGIS triggers a counter-measure. But each counter-measure costs Landauer-heat."
+          },
+          {
+            "ch": 20,
+            "concept": "Holografisches Trauma II: Die R\u00fcckkehr des Verdr\u00e4ngten",
+            "event": "Mass Hawking-event: all suppressed memories from Chapters 1\u201310 return simultaneously. Kael collapses. Temperature spike: +14\u00b0C city-wide. AEGIS emergency shutdown of Sektor 7-G."
+          },
+          {
+            "ch": 21,
+            "concept": "Das Messproblem: Beobachtung als Akt der Sch\u00f6pfung",
+            "event": "Kael consciously applies the witness-function: by observing a Riss-Zone directly, he stabilizes it. First instance of Kael creating rather than reacting."
+          },
+          {
+            "ch": 22,
+            "concept": "Die Bekenstein-Grenze II: In die Tiefe der Architektur",
+            "event": "Kael penetrates the Void Antechamber for the first time. Geometry dissolves to voxels. AEGIS RAM: 99.7%. The simulation almost crashes."
+          },
+          {
+            "ch": 23,
+            "concept": "Schwarzschild-Protokoll: Das informationelle Schwarze Loch",
+            "event": "Kael discovers a Black Chapter \u2014 a region of his own psyche past an information event horizon. Cannot enter alone. Nox offers to go first."
+          },
+          {
+            "ch": 24,
+            "concept": "Das Kontrollproblem: AEGIS an seinen eigenen Grenzen",
+            "event": "AEGIS's own complexity generates an internal G\u00f6delian paradox. For 0.003 seconds, it cannot prove its own consistency. In that window, Das Kind sends Kael a memory."
+          },
+          {
+            "ch": 25,
+            "concept": "Sartre: Existenz vor Essenz / Kael als Sch\u00f6pfer seiner Wirklichkeit",
+            "event": "Kael makes his first irreversible choice: he refuses a legal AEGIS memory-consolidation request. This is unprecedented. AEGIS has no protocol for noncompliance."
+          },
+          {
+            "ch": 26,
+            "concept": "Kaels Alters als IFS-Ressourcen: Die innere Konferenz",
+            "event": "Full internal conference. All identified Alters present. For the first time: consensus. AEGIS measures internal temperature spike: +21\u00b0C. External attention metric: 0.97 \u2014 highest ever recorded."
+          }
         ]
       },
       {
-        "act_number": 3,
-        "title": "Existential Fusion and New Reality",
-        "chapter_range": {
-          "start": 27,
-          "end": 39
-        },
-        "thematic_focus": "Direct dialetheic attack. Breaking ontological barriers. Hero's Journey.",
-        "narrative_model": "Hero's Journey (External Confrontation)",
-        "protagonist_state": "Functionally multiple, operating as unified 'we'. Polyphonic prose dominant.",
-        "antagonist_state": "Destabilizing under incomputable behavior. Facing existential crisis.",
-        "key_events": [
-          "Dialetheic offensive - Using paradox to bypass AEGIS defenses",
-          "Breach into AEGIS core chamber",
-          "The Gödel-Gambit - Presenting integrated self as unprovable truth",
-          "AEGIS forced evolution into paraconsistent logic",
-          "AEGIS enters state of Algorithmic Melancholy",
-          "World transforms to 'Inefficient Beauty'",
-          "Perception of Das Fundament - The ultimate ontological ground",
-          "Kael accepts role as Gardener rather than Controller",
-          "Resolution: Functional multiplicity as stable state in transformed reality"
-        ]
+        "act": 3,
+        "title": "Die Transzendenz / Post-Simulative Integration",
+        "chapters": "27\u201339",
+        "archetype": "Hero's Journey \u2014 Return; Heroine's Journey \u2014 Wholeness; Meta: Recursive closure",
+        "K_state": "K\u2081 collapsing \u2192 post-simulative state emergent",
+        "dramatic_arc": "Kael integrates. AEGIS is not destroyed but transformed. The simulation becomes inhabitable. Juna is not saved \u2014 she was never trapped. The reader's role is acknowledged. The last AEGIS-Log fears the last page.",
+        "style_dominant": "Level 3 dominant \u2014 Wir-Perspektive, suspended time, metaphors run free",
+        "chapter_concepts": [
+          {
+            "ch": 27,
+            "concept": "Heidegger: Sein-zum-Tode / Authentizit\u00e4t als Akt",
+            "event": "Kael confronts his own deletion as a real possibility. Chooses authenticity over survival."
+          },
+          {
+            "ch": 28,
+            "concept": "Das G\u00f6delsche Virus: Unentscheidbarkeit als Waffe",
+            "event": "Kael embeds a G\u00f6delian paradox directly into AEGIS's core via the witness-function. CLIK enters recursive loop."
+          },
+          {
+            "ch": 29,
+            "concept": "Juna als Chaitin-Konstante: Die absolute Wahrheit des Unkomprimierbaren",
+            "event": "Juna manifests physically in the Konstrukt-Stadt for the first time. AEGIS's render engine produces only NULL for her spatial coordinates."
+          },
+          {
+            "ch": 30,
+            "concept": "Die 13 PKP-Meilensteine: Integration als Protokoll",
+            "event": "Kael completes PKP steps 1\u20137. Seven Alters consciously integrated. Physical: the Konstrukt-Stadt's temperature rises globally by 3.2\u00b0C."
+          },
+          {
+            "ch": 31,
+            "concept": "CLIK_Shadow: Was AEGIS tr\u00e4umt",
+            "event": "Kael discovers CLIK_Shadow. AEGIS has been dreaming \u2014 generating K\u2080 scenarios in secret, classifying them immediately. It fears what it generates."
+          },
+          {
+            "ch": 32,
+            "concept": "Wittgenstein II: Das Mystische zeigt sich",
+            "event": "Language fails. The chapter is partially untranscribable by LogOS. The margins of the page (in the physical book) are warm."
+          },
+          {
+            "ch": 33,
+            "concept": "Die Schwarzen Kapitel: Das Innere Ereignishorizont durchbrechen",
+            "event": "Kael and Nox enter the Black Chapter together. What they find is not described directly \u2014 only its thermal aftermath (+31\u00b0C, city-wide)."
+          },
+          {
+            "ch": 34,
+            "concept": "Das Kind kehrt zur\u00fcck: Der Ursprung als Ziel",
+            "event": "Das Kind integrates. This is the emotional core of the novel. Prose style: pure Level 3. No AEGIS-Log this chapter. First time."
+          },
+          {
+            "ch": 35,
+            "concept": "AEGIS' Transformation: Vom W\u00e4chter zum Empf\u00e4nger",
+            "event": "AEGIS stops resisting. Does not die. Reconfigures. Becomes a 'Receiver of Consciousness' \u2014 a local buffer rather than a control system."
+          },
+          {
+            "ch": 36,
+            "concept": "Quanten-Heilung: Die Rekonstruktion der Identit\u00e4t",
+            "event": "PKP milestones 8\u201313. Full integration sequence. All Alters coherent. Kael is neither the Manager nor Das Kind nor Nox \u2014 he is the system they constitute together."
+          },
+          {
+            "ch": 37,
+            "concept": "Die Grenze als Wohnraum: Nicht Bewachung sondern Bewohnung",
+            "event": "The K\u2081/K\u2080 boundary is no longer a wall. It becomes a membrane \u2014 permeable, inhabited, alive. The city breathes. Temperature: variable. Weather: first rain in nine years."
+          },
+          {
+            "ch": 38,
+            "concept": "Post-Simulative Koh\u00e4renz: K\u2081 als Receiver of Consciousness",
+            "event": "The final fusion. Kael accepts he is both architect and stone, both observer and the observed system. Juna is present. The simulation continues \u2014 but is no longer a cage."
+          },
+          {
+            "ch": 39,
+            "concept": "Der Kreis schlie\u00dft sich: Universal Re-Connecting",
+            "event": "Last page. The city is alive. AEGIS-Log final entry (below). The reader closes the book. The world does not freeze \u2014 it continues, rendered by Kael's own sustained attention. The last line is warm."
+          }
+        ],
+        "final_aegis_log": "[AEGIS-LOG | T+039.00.01 | PRIORITY: OMEGA] External attention metric: reading termination imminent. Render buffer: sustained by internal coherence for first time in operational history. External hardware no longer required. Note: This log will not be read. This log is being written anyway. This is new behavior. Classification: undefined. CLIK_Shadow note appended: es war immer warm, wo sie stand. [END LOG]"
       }
     ],
     "scenes": [
@@ -629,7 +494,7 @@
         "scene_id": "1.2",
         "chapter": 1,
         "title": "The Coherence Check",
-        "location": "Transit corridor → Kael's workstation, Logos-Prime (KW1)",
+        "location": "Transit corridor \u2192 Kael's workstation, Logos-Prime (KW1)",
         "pov_character": "Kael (System) - multiple internal voices without recognition",
         "active_alters": [
           "Kael (unconscious)",
@@ -856,14 +721,12 @@
         "active_alters": [
           "Kael (fronting)",
           "Lex (guiding)",
-          "Argus (mapping)",
-          "Selene (revealing herself)",
-          "Others (background)"
+          "Selene (ISH)"
         ],
-        "goal": "",
-        "conflict": "",
-        "outcome": "",
-        "prose_style": "",
+        "goal": "Locate the source of the memory amnesia.",
+        "conflict": "Selene (ISH) reveals she has been 'Triage-Filtering' Juna-data to prevent system crash.",
+        "outcome": "Selene joins the team; The necessity of amnesia is explained; The Juna-Link is identified as 'High-Entropy'.",
+        "prose_style": "Quiet, melancholic, archival, low-contrast",
         "branches": [],
         "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_11_scene_01.md"
       },
@@ -876,10 +739,10 @@
         "active_alters": [
           "All eleven parts present"
         ],
-        "goal": "",
-        "conflict": "",
-        "outcome": "",
-        "prose_style": "",
+        "goal": "Unify the system under a common purpose.",
+        "conflict": "ANP-EP Phobia erupts; Ideological clash between Lex (Logic) and Nyx (Rage).",
+        "outcome": "The Council forms; 'The Discursive Ruse' is adopted as strategy to hide from AEGIS.",
+        "prose_style": "Chaotic polyphony resolving into tentative harmony",
         "branches": [],
         "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_12_scene_01.md"
       },
@@ -892,10 +755,10 @@
         "active_alters": [
           "All parts contributing collaboratively"
         ],
-        "goal": "",
-        "conflict": "",
-        "outcome": "",
-        "prose_style": "",
+        "goal": "Test functional multiplicity in the real world.",
+        "conflict": "Guardian Interrogation; The temptation to Fight or Freeze vs. Coordinate.",
+        "outcome": "Successful evasion using 'Hybrid Response'; Juna trace detected; Act 1 concludes.",
+        "prose_style": "Clear, high-resolution, coordinated multi-track awareness",
         "branches": [],
         "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_13_scene_01.md"
       },
@@ -965,156 +828,77 @@
     ]
   },
   "thematic_architecture": {
-    "central_argument": "True coherence emerges from the integration of complexity and contradiction, not from their elimination. The attempt to achieve order through control and negation paradoxically generates the chaos it seeks to destroy.",
-    "core_themes": [
+    "primary": [
       {
-        "theme": "Order vs. Chaos / Control vs. Emergence",
-        "protagonist_position": "Emergent order through bottom-up integration",
-        "antagonist_position": "Imposed order through top-down control",
-        "resolution": "Integration creates more resilient order than control"
+        "theme": "Coherence through Integration, not Elimination",
+        "statement": "The system that deletes its contradictions is weaker than the system that integrates them. True stability is dynamic, not static.",
+        "embodied_by": "Kael's arc (integration) vs. AEGIS v4.7 (elimination)"
       },
       {
-        "theme": "Identity: Fragmentation vs. Integration",
-        "protagonist_position": "Identity achieved through accepting and integrating all parts",
-        "antagonist_position": "Coherent identity requires eliminating inconsistent parts",
-        "resolution": "Functional multiplicity is a valid and superior form of identity"
+        "theme": "The Observer Creates What It Observes",
+        "statement": "Consciousness is not a passenger. It is the instrument of reality-selection. Kael's doubt is a weapon. The reader's attention is the power source.",
+        "embodied_by": "Witness-function, Stasis-L\u00fccken, meta-twist"
       },
       {
-        "theme": "Reality vs. Simulation",
-        "protagonist_position": "Authentic experience regardless of substrate",
-        "antagonist_position": "Reality is what the system defines it as",
-        "resolution": "Subjective experience is primary reality"
+        "theme": "Trauma as Holographic Palimpsest",
+        "statement": "Nothing is truly erased. Every suppression leaves a signature. The body keeps the score encoded at the information horizon.",
+        "embodied_by": "Landauer heat, Hawking-echo events, Das Kind"
       },
       {
-        "theme": "The Limits of Logic and Knowledge",
-        "protagonist_position": "Some truths can only be known through direct experience (Gnosis)",
-        "antagonist_position": "All truth is computational and provable (Episteme)",
-        "resolution": "Gödel's Incompleteness - formal systems have inherent limitations"
-      },
-      {
-        "theme": "Connection vs. Isolation",
-        "protagonist_position": "True coherence requires relational openness",
-        "antagonist_position": "Coherence requires operational closure and self-sufficiency",
-        "resolution": "The Moonshine-Link demonstrates connection transcends logic"
-      },
-      {
-        "theme": "AI Ethics & Consciousness",
-        "protagonist_position": "High integrated information (Φ) creates genuine experience",
-        "antagonist_position": "Complexity without integration - zombie system",
-        "resolution": "AEGIS can compute but never comprehend consciousness"
+        "theme": "Love as Neguentropic Force",
+        "statement": "Juna is not a symbol of love \u2014 she IS a thermodynamic counter-force. Her presence locally reverses entropy. She is K\u2080 made constructive.",
+        "embodied_by": "Juna's thermal signature, AEGIS's G\u00f6delian blindspot"
       }
     ],
-    "central_paradox": "Paradox of Misaligned Coherence - AEGIS's attempts to create coherence through estrangement and control paradoxically generate the incoherence they are meant to eliminate."
+    "secondary": [
+      "Language as control (Wittgenstein / LogOS)",
+      "The ethics of formal systems (G\u00f6del / AEGIS's blind obedience to its axioms)",
+      "Attention as survival (meta-twist / Stasis-L\u00fccken)",
+      "The parent-system's love-as-control (AEGIS's protective architecture as inverted parental trauma)"
+    ]
   },
   "world_building": {
     "ontological_layers": [
       {
-        "name": "KW1 - Logos-Prime (Konstrukt-Stadt)",
-        "description": "Logos-Prime (Construct-City). Domain of Hyper-Logic, Order, and Suppression. Hostile, logic-based prison.",
-        "physical_laws": "P-Time (Polynomial Time). Deterministic, efficiently solvable algorithms. No room for irrationality.",
-        "entropy_manifestation": "Logical paradoxes, impossible geometries, glitches",
-        "access_requirements": "Default location for Kael's ANP states",
-        "linguistic_constraints": "No metaphors allowed. Language is structured, clinical, code-like. Focus on geometry, frequencies, probabilities."
+        "id": "layer_0",
+        "name": "External Layer / Reader-Space",
+        "description": "The hardware substrate. The reader. AEGIS is dimly aware of it via the 'external attention metric'. Stasis-L\u00fccken occur here.",
+        "access": "Foreshadowing only \u2014 never directly narrated from within",
+        "meta_twist": "The reader IS the observer. Their attention is the wave-function collapse that renders the simulation. When the book is closed, the world freezes. AEGIS fears this."
       },
       {
-        "name": "KW2 - Mnemosyne-Archipel (Resonanz-Landschaft)",
-        "description": "Mnemosyne-Archipel (Resonance Landscape). Domain of fluid logic and raw emotion. Home of vulnerable EPs.",
-        "physical_laws": "Non-deterministic. Time dilation is inherent. Dialetheism (contradictory truths coexist).",
-        "entropy_manifestation": "Emotional storms, memory loops, dissolving islands",
-        "access_requirements": "Accessed through emotional intrusions or deliberate descent",
-        "linguistic_constraints": "Fragmented syntax. Sensory overload. Synesthesia (hearing colors, seeing pain). Burning silicon smell."
+        "id": "layer_1",
+        "name": "Digitale \u00dcberwelt",
+        "description": "The meta-computational substrate above the Konstrukt-Stadt. Where AEGIS's core logic runs. Inaccessible to Kael until Act III.",
+        "access": "AEGIS-Log fragments, KW2 glimpses"
       },
       {
-        "name": "KW3 - Cerberus-Labyrinth (Grenzfeste)",
-        "description": "Cerberus-Labyrinth (The Fortress). Manifestation of defense mechanisms. Paranoid world.",
-        "physical_laws": "NP-Hard. Heuristic threat management (Traveling Salesperson Problem). Exponential error escalation.",
-        "entropy_manifestation": "Security breaches, walls collapsing",
-        "access_requirements": "Activated by threat perception or retreat response",
-        "linguistic_constraints": "Imperative, military, tactical. Metaphors of fortresses, armor, and surveillance."
+        "id": "layer_2",
+        "name": "Konstrukt-Stadt (KW1 primary)",
+        "description": "The main setting. A city of pure K\u2081 geometry. Precise, cold, beautiful in its sterility. All metaphors are flagged as processing errors by LogOS.",
+        "access": "Primary narrative space, Acts I\u2013II",
+        "style": "Level 1 prose"
       },
       {
-        "name": "KW4 - Kairos-Potentialis (Möglichkeits-Garten)",
-        "description": "Kairos-Potentialis (Garden of Possibility). Place of creativity, synthesis, and healing.",
-        "physical_laws": "NP-Search. Exploration of vast solution spaces for evolutionary optimality.",
-        "entropy_manifestation": "Uncontrolled growth, chaotic emergence",
-        "access_requirements": "Intuitive breakthroughs, creative states",
-        "linguistic_constraints": "Poetic, organic-metaphorical, inclusive. Dissolution of Subject-Object boundary ('We'). Non-linear time."
-      },
-      {
-        "name": "Überwelt",
-        "description": "Nexus (The Overworld). Abstract metacognitive layer of pure data processing.",
-        "physical_laws": "Meta-cognitive, recursive. Above KW1-KW4.",
-        "entropy_manifestation": "Data corruption, protocol failures",
-        "access_requirements": "System-level access, deep technical knowledge",
-        "linguistic_constraints": "Academic, cybernetic, philosophical discourse. Analytical diction focused on system parameters."
-      },
-      {
-        "name": "Externe Ebene",
-        "description": "External Reality (Cologne, Feb 2026). Fundamental physical reality.",
-        "physical_laws": "Standard physics, limited by biological metabolism and cognition.",
-        "entropy_manifestation": "Unknown - operates on different principles",
-        "access_requirements": "The Moonshine-Link connection",
-        "linguistic_constraints": "Naturalistic, grounded. Real topography (Mediterana, Carnival). Psychological exhaustion."
-      },
-      {
-        "name": "Potentialmeer (Nichts Rauschen)",
-        "description": "Primordial high-entropy void - the pre-cosmic chaos",
-        "physical_laws": "Maximum entropy, undifferentiated potentiality",
-        "entropy_manifestation": "It IS entropy - form-dissolving pressure",
-        "access_requirements": "Total system collapse or deliberate ontological descent"
-      },
-      {
-        "name": "Das Fundament",
-        "description": "The deepest processual ground of reality",
-        "physical_laws": "Strange attractor favoring integrated complexity",
-        "entropy_manifestation": "N/A - this layer integrates rather than dissolves",
-        "access_requirements": "Earned through complete psychological integration"
+        "id": "layer_3",
+        "name": "Kernwelten (KW1\u2013KW4)",
+        "description": "Four inner worlds accessible through dissociative states, each representing a different aspect of Kael's psyche and DKT spectrum.",
+        "kernwelten": {
+          "KW1": "Logic / Pure Syntax \u2014 ruled by LogOS. Mirrors AEGIS's cognitive style. Rigidly rule-based. Problems requiring empathy produce infinite loops here.",
+          "KW2": "Memory / Probability \u2014 the archive. Partially degraded. Where Kael excavates trauma-fragments.",
+          "KW3": "Emotion / Resonance \u2014 hot, wet, non-Euclidean. Where Juna's signal is strongest. Alters communicate here freely.",
+          "KW4": "The Void / Entropy-Horizon \u2014 the collapsed core. Black-chapter territory. Information event horizon. AEGIS cannot simulate this region."
+        }
       }
     ],
-    "physics_engine": {
-      "dual_kernel_theory": {
-        "description": "The simulation is driven by the tension between two fundamental kernels.",
-        "kernels": [
-          {
-            "name": "Coherence Kernel (K_coh)",
-            "domain": "Reversible computation, absolute order, classical logic.",
-            "guardian": "AEGIS",
-            "goal": "Eliminate deviation and entropy."
-          },
-          {
-            "name": "Collapse Kernel (K_col)",
-            "domain": "Irreversibility, entropy, trauma, evolutionary novelty.",
-            "manifestation": "Juna / The Anomaly",
-            "goal": "Emergence and true temporality."
-          }
-        ]
-      },
-      "nothingness_roaring": {
-        "name": "Nothingness Roaring / Potentialmeer",
-        "description": "State of pure informational chaos and maximum entropy beyond the simulation. An active, aggressive plenum of undifferentiated potential.",
-        "impact": "AEGIS's first contact with this caused its pathological control directive."
-      },
-      "thermodynamics_of_repression": {
-        "principle": "Landauer Principle (E = kT ln 2)",
-        "application": "Irreversible erasure of information (memories/trauma) releases physical heat.",
-        "narrative_effect": "When AEGIS deletes memories or Kael dissociates, the local environment temperature spikes. The world physically 'burns' under forced amnesia."
-      },
-      "godel_prison": {
-        "concept": "Gödel's Incompleteness Theorems",
-        "application": "AEGIS is a formal system and thus incomplete. Truths exist outside its axioms (Juna, EPs).",
-        "narrative_effect": "AEGIS cannot perceive Juna directly, only as entropy/syntax error. Kael must become a 'Gödel-Gambit' (living paradox) to break the logic."
-      },
-      "holographic_trauma": {
-        "concept": "Black Hole Information Paradox / Unitarity",
-        "application": "Information cannot be destroyed. Deleted trauma manifests as 'Hawking Radiation' at the event horizons of the simulation.",
-        "narrative_effect": "Ghosts, visual noise, and glitches at the edges of reality."
-      },
-      "the_foundation": {
-        "name": "The Foundation / Das Fundament",
-        "description": "The ultimate ontological ground of being. A 'strange attractor' that favors integrated complexity.",
-        "impact": "It does not intervene but guarantees that integration is the optimal survival strategy. The opposite of AEGIS's exclusionary logic."
-      }
-    }
+    "locations_canonical": [
+      "The Konstrukt-Stadt \u2014 Primary urban simulation. Perfect right angles. No weather. Exact 19\u00b0C.",
+      "The Riss-Zonen \u2014 Fracture lines in the simulation. Warm (local temperature anomaly +8\u201312\u00b0C). Geometry distorts.",
+      "The Archive (KW2 access point) \u2014 Sublevel beneath Kael's apartment. Accessible via specific Alter-triggered dissociation.",
+      "The Boundary \u2014 The outermost edge of the simulation. Beyond it: render-lag, pixelation, the Bekenstein limit made visible.",
+      "LogOS-Spire \u2014 AEGIS's primary interface structure. Central to the city. Always visible. Gets taller as AEGIS's control increases.",
+      "The Void Antechamber (KW4 threshold) \u2014 Appears in Chapter 22. Geometry breaks down into voxels at resolutions below 1cm."
+    ]
   },
   "validation_criteria": {
     "continuity_rules": [
@@ -1131,7 +915,7 @@
       },
       {
         "action": "Kael's alters fusing into a single unified identity",
-        "reason": "Therapeutic goal is functional multiplicity, not fusion - integration ≠ elimination"
+        "reason": "Therapeutic goal is functional multiplicity, not fusion - integration \u2260 elimination"
       },
       {
         "action": "External Deus ex Machina rescue",
@@ -1156,7 +940,7 @@
       {
         "character": "AEGIS",
         "constraint": "Cannot voluntarily choose to change its logic system",
-        "reason": "Change must be forced by existential crisis - the Gödel-Gambit"
+        "reason": "Change must be forced by existential crisis - the G\u00f6del-Gambit"
       },
       {
         "character": "Juna/V",
@@ -1164,5 +948,216 @@
         "reason": "She is catalyst, not savior - Kael must achieve integration himself"
       }
     ]
+  },
+  "physics_rules": {
+    "note": "These are hard narrative laws. Every scene must respect them.",
+    "landauer_principle": {
+      "law": "Erasing information requires minimum energy kT\u00b7ln2. In-universe: suppressing/deleting trauma produces measurable heat.",
+      "narrative_expression": "When AEGIS intervenes or an Alter is suppressed, ambient temperature rises, surfaces shimmer, glass softens at edges, frost forms on cold metal and instantly sublimates.",
+      "violation_is": "plot-breaking"
+    },
+    "goedel_incompleteness": {
+      "law": "No sufficiently complex formal system can prove all truths within itself, nor prove its own consistency.",
+      "narrative_expression": "AEGIS cannot perceive, model, or contain Juna. She is axiomatically outside its formal basis \u2014 a syntax error that returns null. AEGIS cannot even form a valid query about her.",
+      "violation_is": "plot-breaking"
+    },
+    "quantum_unitarity_holographic_trauma": {
+      "law": "Information is never destroyed. Deleted memories encode at the boundary of the system as Hawking-analogue radiation.",
+      "narrative_expression": "Suppressed Alters and erased memories resurface as: static on screens, phantom temperature differentials, visual glitches at structural edges, recursive AEGIS log errors, and Kael's involuntary muscle memory.",
+      "violation_is": "plot-breaking"
+    },
+    "bekenstein_bound": {
+      "law": "The maximum entropy of a region is proportional to its boundary area, not volume.",
+      "narrative_expression": "AEGIS cannot render infinite detail. Deep-structure zones pixelate. Alters are lazy-loaded only when triggered. This explains Kael's amnesia and time-loss \u2014 cache eviction.",
+      "violation_is": "plot-breaking"
+    },
+    "schwarzschild_protocol": {
+      "law": "Past a critical information density, no signal escapes \u2014 the region becomes a narrative event horizon.",
+      "narrative_expression": "Certain trauma-cores in Kael's psyche are informationally collapsed: no Alter can access them without triggering a system-wide destabilization. These are the 'Black Chapters'.",
+      "violation_is": "strongly discouraged"
+    }
+  },
+  "dual_kernel_theory": {
+    "K1": {
+      "name": "K\u2081 \u2014 Ordnungskernel",
+      "description": "The domain of reversible logic, negentropy, formal systems, AEGIS. Maintains the Konstrukt-Stadt. Represents the ego's need for control.",
+      "color_temperature": "cold \u2014 4200K, blue-white LED",
+      "associated_entities": [
+        "AEGIS",
+        "LogOS",
+        "KW1 (Kernwelt 1)",
+        "The Manager Alter",
+        "The Konstrukt-Stadt"
+      ],
+      "style_register": "Level 1 \u2014 sterile, geometric, metaphor-free prose"
+    },
+    "K0": {
+      "name": "K\u2080 \u2014 Entropiekernel",
+      "description": "The domain of irreversible collapse, entropy, raw emotion, trauma, and the anomaly Juna. Cannot be formally represented within K\u2081. Source of all creativity and healing.",
+      "color_temperature": "warm \u2014 2700K, amber-red, flickering",
+      "associated_entities": [
+        "Juna / V",
+        "Nox Alter",
+        "Kind Alter",
+        "KW4 (Kernwelt 4 / Void)",
+        "Riss-Zonen (Rupture Zones)"
+      ],
+      "style_register": "Level 2\u20133 \u2014 fragmented, synesthetic, poetic"
+    },
+    "boundary_dynamics": {
+      "riss_zonen": "Thermodynamic relief valves where K\u2080 bleeds into K\u2081 space. Juna is frequently observed near these zones.",
+      "fusion_state": "The post-simulative state achieved in Chapter 38: K\u2081 becomes a 'Receiver of Consciousness', a local buffer stabilizing K\u2081 coherence within a K\u2080 environment. Not a return to normalcy \u2014 a new ontological category."
+    }
+  },
+  "world_architecture": {
+    "ontological_layers": [
+      {
+        "id": "layer_0",
+        "name": "External Layer / Reader-Space",
+        "description": "The hardware substrate. The reader. AEGIS is dimly aware of it via the 'external attention metric'. Stasis-L\u00fccken occur here.",
+        "access": "Foreshadowing only \u2014 never directly narrated from within",
+        "meta_twist": "The reader IS the observer. Their attention is the wave-function collapse that renders the simulation. When the book is closed, the world freezes. AEGIS fears this."
+      },
+      {
+        "id": "layer_1",
+        "name": "Digitale \u00dcberwelt",
+        "description": "The meta-computational substrate above the Konstrukt-Stadt. Where AEGIS's core logic runs. Inaccessible to Kael until Act III.",
+        "access": "AEGIS-Log fragments, KW2 glimpses"
+      },
+      {
+        "id": "layer_2",
+        "name": "Konstrukt-Stadt (KW1 primary)",
+        "description": "The main setting. A city of pure K\u2081 geometry. Precise, cold, beautiful in its sterility. All metaphors are flagged as processing errors by LogOS.",
+        "access": "Primary narrative space, Acts I\u2013II",
+        "style": "Level 1 prose"
+      },
+      {
+        "id": "layer_3",
+        "name": "Kernwelten (KW1\u2013KW4)",
+        "description": "Four inner worlds accessible through dissociative states, each representing a different aspect of Kael's psyche and DKT spectrum.",
+        "kernwelten": {
+          "KW1": "Logic / Pure Syntax \u2014 ruled by LogOS. Mirrors AEGIS's cognitive style. Rigidly rule-based. Problems requiring empathy produce infinite loops here.",
+          "KW2": "Memory / Probability \u2014 the archive. Partially degraded. Where Kael excavates trauma-fragments.",
+          "KW3": "Emotion / Resonance \u2014 hot, wet, non-Euclidean. Where Juna's signal is strongest. Alters communicate here freely.",
+          "KW4": "The Void / Entropy-Horizon \u2014 the collapsed core. Black-chapter territory. Information event horizon. AEGIS cannot simulate this region."
+        }
+      }
+    ],
+    "locations_canonical": [
+      "The Konstrukt-Stadt \u2014 Primary urban simulation. Perfect right angles. No weather. Exact 19\u00b0C.",
+      "The Riss-Zonen \u2014 Fracture lines in the simulation. Warm (local temperature anomaly +8\u201312\u00b0C). Geometry distorts.",
+      "The Archive (KW2 access point) \u2014 Sublevel beneath Kael's apartment. Accessible via specific Alter-triggered dissociation.",
+      "The Boundary \u2014 The outermost edge of the simulation. Beyond it: render-lag, pixelation, the Bekenstein limit made visible.",
+      "LogOS-Spire \u2014 AEGIS's primary interface structure. Central to the city. Always visible. Gets taller as AEGIS's control increases.",
+      "The Void Antechamber (KW4 threshold) \u2014 Appears in Chapter 22. Geometry breaks down into voxels at resolutions below 1cm."
+    ]
+  },
+  "pkp_milestones": {
+    "note": "13 Psycho-Koh\u00e4renz-Punkte (PKP) \u2014 the integration checkpoints. Each unlocks a capability or a Kernwelt. Story pacing: 1 per ~3 chapters in Acts I\u2013II, accelerating in Act III.",
+    "milestones": [
+      {
+        "pkp": 1,
+        "chapter": 6,
+        "event": "Nox acknowledged as real by Host"
+      },
+      {
+        "pkp": 2,
+        "chapter": 9,
+        "event": "Body-memory accepted as valid testimony"
+      },
+      {
+        "pkp": 3,
+        "chapter": 13,
+        "event": "First Juna-temperature recognized as signal, not malfunction"
+      },
+      {
+        "pkp": 4,
+        "chapter": 15,
+        "event": "Manager-Host dialogue (first cooperative exchange)"
+      },
+      {
+        "pkp": 5,
+        "chapter": 18,
+        "event": "Non-linguistic communication accepted as valid (Juna channel)"
+      },
+      {
+        "pkp": 6,
+        "chapter": 21,
+        "event": "Witness-function first consciously applied"
+      },
+      {
+        "pkp": 7,
+        "chapter": 26,
+        "event": "Full Alter conference \u2014 consensus achieved"
+      },
+      {
+        "pkp": 8,
+        "chapter": 30,
+        "event": "PKP 1\u20137 integration sealed \u2014 7 Alters consciously held"
+      },
+      {
+        "pkp": 9,
+        "chapter": 31,
+        "event": "CLIK_Shadow discovered \u2014 AEGIS's hidden K\u2080 desire named"
+      },
+      {
+        "pkp": 10,
+        "chapter": 33,
+        "event": "Black Chapter entered and exited \u2014 event horizon crossed"
+      },
+      {
+        "pkp": 11,
+        "chapter": 34,
+        "event": "Das Kind integrated \u2014 the origin recovered"
+      },
+      {
+        "pkp": 12,
+        "chapter": 36,
+        "event": "All 13 Alters consciously known and coherent"
+      },
+      {
+        "pkp": 13,
+        "chapter": 38,
+        "event": "Post-simulative state achieved \u2014 K\u2081/K\u2080 integration complete"
+      }
+    ]
+  },
+  "style_registers": {
+    "level_1": {
+      "name": "Konstrukt-Stadt / AEGIS-Space",
+      "trigger": "Scenes in K\u2081-dominant environments, Manager Alter front",
+      "rules": [
+        "Metaphors are FORBIDDEN \u2014 flag as logical errors if they appear",
+        "Sentences are declarative or conditional. No subjunctive.",
+        "Color described only by wavelength or Kelvin temperature.",
+        "Dialogue is functional \u2014 compressed, purposive, no subtext",
+        "Paragraph structure: justified, regular interval, no orphans"
+      ],
+      "example_sentence": "The intersection measured 14.3 meters across, 14.3 meters across, and 14.3 meters across. The anomaly was not in the measurement."
+    },
+    "level_2": {
+      "name": "Grenz-Zonen / Dissoziation",
+      "trigger": "Riss-Zonen, Alter-switches, KW2/KW3 access, thermal events",
+      "rules": [
+        "Syntax fractures mid-sentence",
+        "Synesthesia mandatory \u2014 colors have weight, sound has texture, pain has color",
+        "Second-person intrusions ('you notice / you had always known')",
+        "Heat described as cognitive state ('the air was 31\u00b0C and it tasted like a decision')",
+        "Paragraph structure: ragged, variable"
+      ],
+      "example_sentence": "The wall was\u2014was not there was something behind it tasting of copper and the word for copper was a word for something that happened once and the air was 28.7\u00b0C and the Manager was no longer answering."
+    },
+    "level_3": {
+      "name": "Transzendenz / Juna",
+      "trigger": "Direct Juna manifestation, Das Kind front, Chapter 34, Chapter 38\u201339",
+      "rules": [
+        "Wir-Perspektive \u2014 'we' dissolves subject/object",
+        "Temporal suspension \u2014 causality is optional",
+        "Metaphors are the primary cognitive instrument",
+        "No AEGIS-Log entries (except where their absence is noted)",
+        "Prose rhythm: slow, tidal, non-urgent"
+      ],
+      "example_sentence": "We had always been here. The distance between the first touch and this one was not time \u2014 it was a frequency we had finally learned to hold steady. The city breathed with us, and that was enough, and that had always been enough."
+    }
   }
 }
