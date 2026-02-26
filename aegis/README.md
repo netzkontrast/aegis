@@ -18,7 +18,7 @@ AEGIS is a recursive, self-performing repository that houses two intertwined ent
 The repository is organized into four primary pillars:
 
 ### A. ARCHON (The Meta-Framework)
-*   **Location**: `ARCHON/`
+*   **Location**: `aegis/`
 *   **Purpose**: To enforce narrative consistency via formal protocols.
 *   **Key Files**:
     *   `ncp/schema.json`: The Narrative Context Protocol (NCP) definition.
@@ -54,16 +54,16 @@ The repository is organized into four primary pillars:
 ## 3. Operational Strategy
 
 ### The Golden Cycle
-All agents must follow the "Golden Cycle" defined in `SESSION_SKILL.md` (if available) or implicit in `AGENTS.md`:
-1.  **Initialize**: Read `aegis.md`, `quests/README.md`, and `AGENTS.md`.
+All agents must follow the "Golden Cycle" defined in `SKILL.md` (if available) or implicit in `../AGENTS.md`:
+1.  **Initialize**: Read `../README.md`, `../quests/README.md`, and `../AGENTS.md`.
 2.  **Execute**: Perform tasks linked to an active Quest.
 3.  **Verify**: Test changes and validate against the NCP (for narrative) or tests (for code).
 4.  **Update**: Update Quest status and documentation.
-5.  **Reflect**: Log insights in `docs/writers_log.md` (if applicable).
+5.  **Reflect**: Log insights in `../docs/writers_log.md` (if applicable).
 
 ### Quest-Driven Development
 *   **Everything is a Quest**: Work is only performed if it advances an active Quest in `quests/`.
-*   **No Loose TODOs**: `TODO` comments in code are forbidden. They must be migrated to a Quest or `todos/` file.
+*   **No Loose TODOs**: `TODO` comments in code are forbidden. They must be migrated to a Quest or `../todos/` file.
 
 ---
 
@@ -97,12 +97,12 @@ All agents must follow the "Golden Cycle" defined in `SESSION_SKILL.md` (if avai
 If you are a new AI instance starting in this repo:
 
 1.  **Read This File**: You are currently doing it. Good.
-2.  **Check Quests**: Go to `quests/README.md`. Identify the active Quest you are supporting.
+2.  **Check Quests**: Go to `../quests/README.md`. Identify the active Quest you are supporting.
 3.  **Respect the Boundaries**:
-    *   Do NOT edit `ARCHON/ncp/schema.json` without explicit authorization.
+    *   Do NOT edit `ncp/schema.json` without explicit authorization.
     *   Do NOT write prose unless you are the Narrative Director or using `codex` skill.
     *   Do NOT create loose TODOs.
-4.  **Validate Narrative**: If touching `kohaerenz_protokoll/`, use `codex` skill or `ARCHON/tools/ncp_validate.py`.
+4.  **Validate Narrative**: If touching `kohaerenz_protokoll/`, use `codex` skill or `tools/ncp_validate.py`.
 5.  **Consolidate**: When you see duplication, flag it or refactor it (if within your scope).
 
 **Your Mission**: Maintain coherence. In code, in story, in logic.

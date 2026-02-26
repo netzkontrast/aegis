@@ -269,12 +269,12 @@ L3 (Global)
 **API Specification** (Python)
 
 ```python
-from archon import NarrativeDirector
+from aegis import NarrativeDirector
 
 # Initialize with NCP
 director = NarrativeDirector(
-    ncp_file="ARCHON/ncp/kohaerenz_protokoll.ncp.json",
-    knowledge_graph="ARCHON/knowledge_graph/"
+    ncp_file="aegis/ncp/kohaerenz_protokoll.ncp.json",
+    knowledge_graph="aegis/knowledge_graph/"
 )
 
 # Query for scene requirements

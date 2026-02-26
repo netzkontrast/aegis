@@ -17,7 +17,7 @@ from pathlib import Path
 # Ensure the project root is in sys.path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from ARCHON.knowledge_graph.kg_core import (
+from aegis.knowledge_graph.kg_core import (
     KnowledgeGraph, NodeLevel, NodeType
 )
 

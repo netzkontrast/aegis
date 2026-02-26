@@ -25,7 +25,7 @@ Bevor du irgendetwas tust, navigiere durch diese Karte:
 AEGIS/
 ├── README.md                                    ← STARTE HIER — zentraler Navigationsknoten
 ├── docs/kohaerenz_protokoll_encyclopedia.md     ← Narratives Wissens-Hub
-├── ARCHON/ncp/kohaerenz_protokoll.ncp.json      ← Kanonische Wahrheit (NCP)
+├── aegis/ncp/kohaerenz_protokoll.ncp.json      ← Kanonische Wahrheit (NCP)
 ├── kohaerenz_protokoll/PROJECT_CODEX.md         ← Universumsregeln (unveränderlich)
 ├── kohaerenz_protokoll/WRITING_PROTOCOL.md      ← Stilregeln für Prosa
 ├── docs/kohaerenz_protokoll_master_skill.md     ← Master-Skill (Ton, Physik, Stimmen)
@@ -39,7 +39,7 @@ AEGIS/
 ## 2. Drei fundamentale Gesetze
 
 ### Gesetz I — Keine willkürliche Änderung kanonischer Quellen
-- `ARCHON/ncp/schema.json` — **Nur mit expliziter menschlicher Anweisung ändern**
+- `aegis/ncp/schema.json` — **Nur mit expliziter menschlicher Anweisung ändern**
 - `kohaerenz_protokoll/PROJECT_CODEX.md` — **Menschliches Sign-Off erforderlich**
 - `docs/kohaerenz_protokoll_master_skill.md` — **Supersedes alle anderen Stilanweisungen**
 
@@ -61,10 +61,10 @@ Erzeuge niemals Inhalt und validiere ihn im selben Denkschritt. Verwende separat
 
 ```
 1. ORIENTIEREN    → README.md + Encyclopedia lesen
-2. NCP ABFRAGEN   → python ARCHON/tools/ncp_query.py --scene <ID>
+2. NCP ABFRAGEN   → python aegis/tools/ncp_query.py --scene <ID>
 3. QUEST LESEN    → Relevante Quest-Datei (z.B. quests/Quest-System-AEGIS.md)
 4. GENERIEREN     → Prosa nach Master-Skill & Writing Protocol
-5. VALIDIEREN     → python ARCHON/tools/ncp_validate.py --scene <ID> --text <file>
+5. VALIDIEREN     → python aegis/tools/ncp_validate.py --scene <ID> --text <file>
 6. INTEGRIEREN    → Zettelkasten-Notiz + Log-Eintrag erstellen
 ```
 
@@ -233,7 +233,7 @@ Das System ist bewusst modular aufgebaut:
 | Ressource | Beschreibung |
 |-----------|-------------|
 | [README.md](./README.md) | Zentraler Navigationsknoten |
-| [ARCHON/README.md](ARCHON/README.md) | Narrative-Framework-Details |
+| [aegis/README.md](aegis/README.md) | Narrative-Framework-Details |
 | [PROJECT_CODEX.md](kohaerenz_protokoll/PROJECT_CODEX.md) | Universums-Bibel (kanonisch) |
 | [WRITING_PROTOCOL.md](kohaerenz_protokoll/WRITING_PROTOCOL.md) | Stilanweisungen |
 | [Encyclopedia](docs/kohaerenz_protokoll_encyclopedia.md) | Narratives Wissens-Hub |

@@ -603,11 +603,11 @@ archon generate-act --act 1 --output-dir manuscript/act_1/
 ### As a Python Library
 
 ```python
-from archon import NarrativeDirector
+from aegis import NarrativeDirector
 
 director = NarrativeDirector(
-    ncp_path="ARCHON/ncp/kohaerenz_protokoll.ncp.json",
-    kg_path="ARCHON/knowledge_graph/",
+    ncp_path="aegis/ncp/kohaerenz_protokoll.ncp.json",
+    kg_path="aegis/knowledge_graph/",
     llm_client=anthropic.Anthropic()
 )
 

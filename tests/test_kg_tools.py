@@ -16,7 +16,7 @@ def test_kg_add_creates_node(tmp_path):
 
     result = subprocess.run(
         [
-            "python", "ARCHON/tools/kg_add.py",
+            "python", "aegis/tools/kg_add.py",
             "--level", "L1",
             "--type", "fact",
             "--content", "Kael entered KW2",
@@ -40,7 +40,7 @@ def test_kg_query_retrieves_nodes(tmp_path):
     # First add a node
     subprocess.run(
         [
-            "python", "ARCHON/tools/kg_add.py",
+            "python", "aegis/tools/kg_add.py",
             "--level", "L1",
             "--type", "fact",
             "--content", "Test fact",
@@ -53,7 +53,7 @@ def test_kg_query_retrieves_nodes(tmp_path):
     # Now query it
     result = subprocess.run(
         [
-            "python", "ARCHON/tools/kg_query.py",
+            "python", "aegis/tools/kg_query.py",
             "--level", "L1",
             "--graph", str(graph_path)
         ],
