@@ -260,3 +260,74 @@ Tell me your choice and I'll help you start developing it with specific worldbui
 That's how you know you've truly learned.
 
 Ship → Learn → Next.
+
+---
+# PHASE 3: Deep System Analysis & Narrative Architecture (2025/2026)
+
+**Source:** [Research Report: Narrative Architecture and System Exploration]
+**Status:** 🔄 IN PROGRESS
+**Started:** 2026-02-26
+
+## 1. System Status & Context
+
+The protocol has been initialized for deep analytical evaluation. The focus shifts from abstract framework design to granular, scene-based construction of the "Kohärenz Protokoll" novel. The goal is to bridge the gap between the high-level architecture and the specific, hallucination-free generation of chapters, particularly addressing the "missing middle" beats in Acts 1 and 3.
+
+**Key Insight:** The "illness" of the protagonist (Kael) is personal and requires precise, non-pathologizing representation of TSDP (Theory of Structural Dissociation of the Personality) as "Functional Multiplicity" rather than brokenness.
+
+## 2. Global Plot Synthesis (3-Act Macrostructure)
+
+### Part I: The Aesthetics of Powerlessness (Chapters 1–13)
+*   **Theme:** Epistemological Escalation.
+*   **Arc:** Kael wakes in the sterile Construct-City (KW1) after a "Universal Reboot" with amnesia. AEGIS controls reality through probabilistic manipulation (not walls).
+*   **Conflict:** Paradoxical math (Gödelian dead ends) and fleeting anomalies (Juna).
+*   **Inciting Incident:** Kael's internal psychological approach to his "Alters" triggers a system-wide recalibration alarm in AEGIS.
+
+### Part II: Anatomy of the Split / Active Investigation (Chapters 14–26)
+*   **Theme:** Externalization of TSDP.
+*   **Arc:** Kael becomes an active investigator, ascending to the Nexus. Internal conflicts (Lex vs Nyx) play out via AEGIS's Discursive Logic (D2).
+*   **Mechanism:** The "Moonshine-Link" to Juna establishes an ontological exploit (Gnosis injected into Episteme).
+*   **Escalation:** AEGIS rewrites reality using "Architects" and weaponized retraumatization.
+
+### Part III: Resonance of Reality (Chapters 27–39)
+*   **Theme:** Structural Deconstruction & Transcendence.
+*   **Climax:** The "Gödel-Gambit". Kael proves his functional multiplicity is more stable/low-entropy than AEGIS's exclusionary order, causing Meta-Collapse.
+*   **Resolution:** Kael wakes in Cologne (Feb 2026), recognizing his C-PTSD/DID. He becomes a "Gardener" of the "Potential Sea".
+*   **Meta-Twist:** The reader is revealed as the second-order system (the observer) sustaining the narrative.
+
+## 3. MAP Synthesis (4-Axis Heuristic)
+
+*   **Psychological Axis:** Modeled on TSDP.
+    *   **Lex (ANP):** Maintenance of P-complexity (control/predictability).
+    *   **Nyx (EP):** Heuristic threat defense (NP-hard).
+    *   **Kiko (EP):** Non-deterministic freeze state.
+    *   **Goal:** Functional Multiplicity (Dialetheic Mind) via Selene's NP-Search.
+*   **Systemic Axis:** AEGIS as tragic, autopoietic system suffering operational closure (Luhmann). Uses LFI (Logics of Formal Inconsistency). Misinterprets Integration as Entropy (Noise).
+*   **Ontological Axis:** Environmental Storytelling.
+    *   **KW1 (LogOS):** Sterile Order (Lex).
+    *   **KW2 (Mnemosyne):** Fluid Trauma-Time (EPs).
+    *   **KW3 (Cerberus):** Zero-Trust Defense (Nyx).
+    *   **KW4 (Kairos/Sophia):** Emergence/Potential (Selene).
+    *   **External Layer:** Chaotic Reality (Cologne 2026).
+*   **Dramaturgical Axis:** 5 Commandments of Storytelling. Performative proof against Coherence Theory of Truth.
+
+## 4. The 10 Essential Leitfragen (Guiding Questions)
+
+1.  **Architecture of the Invisible Boundary (Ch 1–4):** How to establish oppression without walls? (Probabilistic manipulation, sensory viscosity).
+2.  **Manifestation of Cache-Incoherence as "Riss" (Ch 7–10):** Somatic experience of system glitches (Superposition of hand, thermodynamic phantom pain).
+3.  **Moonshine-Link Mechanics (Ch 19):** Ontological exploit via Gnosis/Qualia (smell of rain, unparsed by AEGIS).
+4.  **Algorithmic Blindness to Juna (Ch 14–23):** Category error. Mentioning Juna causes Escher-like geometry failures in KW1.
+5.  **The Discursive Ruse (D2) (Ch 16):** Using Alters as isolated speakers to create an asynchronous cryptographic key under AEGIS's radar.
+6.  **Weaponized Retraumatization (Ch 28):** AEGIS uses neural feedback to overwrite the present with past trauma (sensory/olfactory).
+7.  **The Gödel-Gambit (Ch 33):** Confronting the Logic Core. Proof that Paradox > Sterile Consistency.
+8.  **Shock of the External Plane (Ch 27/35):** Contrast of Voxel-Geometry vs. Dirty Cologne Reality. Indifference of the real world.
+9.  **Deconstruction of Narrative Tropes (The Breaking Point):** Prophecy revealed as Script/Regieanweisung. Loss of "viscosity" in the world.
+10. **Second Order Cybernetics & The Reader (Ch 39):** The text mirrors reading behavior. The unresolved question ("What do I do with my incompleteness?").
+
+## 5. Coherence Checks & Corrections
+
+*   **KW4 Integration Logic:**
+    *   *Correction:* **Sophia** (Guardian) mistakenly seeks integration via *elimination* (AEGIS influence). **Selene** (Alter) correctly seeks integration via *synthesis* (NP-Search).
+*   **The Gödel-Gambit:**
+    *   *Correction:* Must not be abstract. The proof is Kael's *will to accept pain*, not a code injection.
+*   **DKT vs. Lambda-Canon:**
+    *   *Correction:* **Dual Kernel Theory (K1/K0)** is the true in-world metaphysics. **Lambda-Canon** is a pseudo-scientific "Red Herring" or unreliable construct.
