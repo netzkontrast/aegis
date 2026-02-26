@@ -55,13 +55,14 @@ In Act II, every failed cycle must have a permanent cost:
 
 ## Quest Steps: Verification & Application
 
-1. **[ ] Currency Check:** Verify that Act 1 scenes balance Curiosity (Who am I?) with Tension (AEGIS is watching).
-2. **[ ] Call to Wholeness:** Ensure that every external threat in Act 1 is triggered by an internal psychological conflict.
-3. **[ ] Mosaik Validation:** Confirm that the 39-slot structure allows for non-linear assembly by the reader.
-4. **[ ] Irreversible Costs:** Plan the permanent consequences for Act 2 failures.
+1. **[x] Currency Check:** Verified against NCP v2. See `../kohaerenz_protokoll/narrative_design/NCP_V2_ACT_1_AUDIT.md`.
+2. **[x] Call to Wholeness:** Audited. Identified weak causality in Chapters 1, 4, 10, 12. Fixes proposed.
+3. **[x] Mosaik Validation:** Confirmed Act 1 chapters are mostly modular.
+4. **[x] Irreversible Costs:** Planned specific costs for Act 2 (Chapters 14-26) in audit report.
 
 ---
 
 ## Next Steps
+- **Implement Causality Fixes:** Update Act 1 Chapter Outlines (1, 4, 10, 12) to ensure external events are triggered by internal suppression.
 - Use this file to outline chapters and verify pacing.
 - Ensure transitions between Acts follow the stylistic shifts (Parataxis -> Hypotaxis).
