@@ -1,12 +1,25 @@
 # Quest: Master Philosophically Coherent Narrative Architecture
 
-**Source:** [Metaphysics-of-Wholeness-Analysis.md](../kohaerenz_protokoll/narrative_design/Metaphysics-of-Wholeness-Analysis.md)
+**Source:**
+- [Metaphysics-of-Wholeness-Analysis.md](../kohaerenz_protokoll/narrative_design/Metaphysics-of-Wholeness-Analysis.md)
+- [Master-Skill-Definition](../docs/kohaerenz_protokoll_master_skill.md)
+- [Encyclopedia](../docs/kohaerenz_protokoll_encyclopedia.md)
+- [Navigation](../docs/kohaerenz_protokoll_navigation.md)
+
 **Duration:** 5 weeks (expandable)
-**Status:** ✅ QUEST COMPLETE ✅
+**Status:** 🟡 IN PROGRESS (Phase 3 Active)
 **Created:** 2025-11-06
-**Completed:** 2025-11-06
+**Updated:** 2026-02-26
 
 ## Progress Tracker
+
+**Phase 3: Deep System Analysis & Narrative Architecture** 🟡
+- [ ] **System Status & Context:** Initialize deep analytical evaluation.
+- [ ] **Global Plot Synthesis:** Bridge high-level architecture with granular scene construction.
+- [ ] **MAP Synthesis:** Define 4-Axis Heuristic (Psychological, Systemic, Ontological, Dramaturgical).
+- [ ] **Leitfragen:** Address 10 Essential Guiding Questions.
+- [ ] **Coherence Checks:** Validate Logic/Physics consistency.
+
 
 **Phase 1: Deepen the Framework** ✅
 - [x] **Rep 1:** [The Foundation Deep Dive](../kohaerenz_protokoll/narrative_design/Rep1-Foundation-Deep-Dive.md) - COMPLETE (4,500 words)
