@@ -307,7 +307,20 @@ python agent.py
 
 The **skills/** directory contains reusable Claude AI skills for domain-specific tasks:
 
-#### 1. Skill Authoring Framework
+#### 1. AEGIS (Unified Project Skill)
+**Location**: `skills/aegis/`
+
+The central intelligence for the Kohärenz Protokoll project. Merges narrative development, quest management, todo tracking, and knowledge synthesis into a single unified interface.
+
+**Key Components:**
+- **Modules 0-13**: Narrative engine, physics, character systems, and style guides.
+- **Module 14**: Project control (Quests & Todos).
+- **Module 15**: Knowledge management (Zettelkasten integration).
+- **Module 16**: System maintenance.
+
+**Documentation**: See [skills/aegis/SKILL.md](skills/aegis/SKILL.md)
+
+#### 2. Skill Authoring Framework
 **Location**: `skills/skill-authoring/`
 
 A unified framework combining TDD methodology, Anthropic best practices, visual DSL patterns, and persuasion principles for creating high-quality Claude skills.
@@ -325,20 +338,6 @@ A unified framework combining TDD methodology, Anthropic best practices, visual 
 - Ready-to-use templates and checklists
 
 **Documentation**: See [skills/skill-authoring/SKILL.md](skills/skill-authoring/SKILL.md)
-
-#### 2. Zettelkasten-Tapestry Integration
-**Location**: `skills/zettelkasten-tapestry/`
-
-A progressive learning system combining the `/tapestry` slash command (content extraction and action planning) with the Zettelkasten agent (knowledge management).
-
-**Workflow:**
-1. Extract content from URL using Tapestry
-2. Create action plan with concrete steps
-3. Save notes to Zettelkasten vault
-4. Synthesize knowledge over time
-5. Build knowledge graph
-
-**Documentation**: See [skills/zettelkasten-tapestry/SKILL.md](skills/zettelkasten-tapestry/SKILL.md)
 
 ## Research & Analysis
 

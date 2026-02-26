@@ -41,8 +41,8 @@ This directory contains all active and completed Quests for the AEGIS project.
 
 1.  **Check Before You Start:** Always consult this dashboard before picking up a task.
 2.  **Update Frequently:** Update the status of the quest you are working on.
-3.  **Create New Quests:** Use `quests/TEMPLATE.md` for new initiatives.
-4.  **Check Existing:** Before creating a new quest, check if an existing one covers the scope. Merge if possible.
+3.  **Create New Quests:** Use the **AEGIS Skill (Modul 14)** to create new quests. It will handle the template and linking.
+4.  **Check Existing:** The AEGIS skill requires checking existing quests first.
 5.  **Link Everything:** Ensure all work items are linked to a specific Quest.
 6.  **Drill Down:** Open the specific Quest file for details and Todos.
 

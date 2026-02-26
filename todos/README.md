@@ -20,6 +20,6 @@ This file tracks the status of todo lists for all active Quests.
 ---
 
 ## How to Update
-1.  **Add Task**: Edit the specific `todos/[Quest-Name].md` file.
-2.  **Mark Done**: Change status icon in the todo file.
+1.  **Add Task**: Use the **AEGIS Skill (Modul 14)** to add tasks to specific Quest files.
+2.  **Mark Done**: Use the AEGIS skill to update task status.
 3.  **Reflect**: Update this index if a Quest becomes active or completed.

@@ -44,25 +44,15 @@ This section tracks the high-level status of all project missions.
 
 Use the following skills to maintain project coherence and momentum.
 
-### 1. `kohaerenz-roman-entwicklung` (The Novel Engine)
-**Use When:** Working on ANY aspect of the novel (plotting, character, decisions, conflicts).
-**Function:** Manages the canonical state, tracks open questions, and guides decision-making.
-**Trigger:** "Roman", "Konflikt", "Entscheidung", "Kael", "AEGIS".
+### 1. `aegis` (Unified Project Skill)
+**Use When:** Working on ANY aspect of the project (Writing, Planning, Decisions, Quests, Todos, Knowledge).
+**Function:** Unified interface for Novel Development, Project Management, and Knowledge Synthesis. Merges functionality of previous separate skills.
+**Trigger:** "AEGIS", "Roman", "Quest", "Todo", "Zettelkasten", "Session start", "Konflikt", "Kael".
 
-### 2. `quest-management` (Mission Control)
-**Use When:** Defining a new major goal or updating high-level progress.
-**Function:** Creates and maintains Quest files in `quests/`.
-**Trigger:** "New Quest", "Update Mission", "What are we working on?".
-
-### 3. `todo-management` (Tactical Execution)
-**Use When:** Adding specific tasks or checking off items.
-**Function:** Manages todo lists in `todos/` linked to Quests.
-**Trigger:** "Add todo", "Task complete", "What's next?".
-
-### 4. `zettelkasten-tapestry` (Knowledge Synthesis)
-**Use When:** Learning new concepts or processing external content (URLs, PDFs).
-**Function:** Extracts content and integrates it into the Zettelkasten knowledge graph.
-**Trigger:** "Tapestry [URL]", "Learn from this", "Connect to knowledge".
+### 2. `skill-authoring` (Meta-Skill)
+**Use When:** Creating new skills.
+**Function:** Framework for high-quality skill creation.
+**Trigger:** "Create skill", "New skill".
 
 ---
 
