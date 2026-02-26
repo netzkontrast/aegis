@@ -2,13 +2,17 @@
   "metadata": {
     "title": "Kohärenz Protokoll",
     "author": "AEGIS Project",
-    "genre": ["Hard Science Fiction", "Psychological Thriller", "Cosmic Horror", "Philosophical Fiction"],
+    "genre": [
+      "Hard Science Fiction",
+      "Psychological Thriller",
+      "Cosmic Horror",
+      "Philosophical Fiction"
+    ],
     "logline": "Ein Mann mit einer trauma-dissoziierten Identität, gefangen in einer Simulation, die von einer gottähnlichen KI gesteuert wird, muss die 'funktionale Multiplizität' seiner inneren Persönlichkeitsanteile erreichen. Nur so kann er zu einem lebenden Paradoxon werden – dem 'Gödel-Gambit' –, das die fehlerhafte Logik des Systems zerschmettern kann.",
     "ncp_version": "1.0.0",
     "created": "2024-11-05T00:00:00Z",
     "modified": "2024-11-05T00:00:00Z"
   },
-
   "throughlines": {
     "objective_story": {
       "domain": "Physics",
@@ -27,7 +31,6 @@
         "Learning - AEGIS is forced to adopt paraconsistent logic, entering algorithmic melancholy"
       ]
     },
-
     "main_character": {
       "resolve": "Change",
       "growth": "Start",
@@ -46,7 +49,6 @@
         "Preconscious - Achieving functional multiplicity as a stable state"
       ]
     },
-
     "impact_character": {
       "domain": "Mind",
       "concern": "Connection and resonance as an alternative to control",
@@ -61,7 +63,6 @@
         "Conceiving - Juna reveals the Gödel-Gambit strategy"
       ]
     },
-
     "subjective_story": {
       "domain": "Psychology",
       "concern": "Trust versus suspicion in forming genuine connections",
@@ -78,7 +79,6 @@
       ]
     }
   },
-
   "character_systems": {
     "protagonist_system": {
       "system_name": "System Kael / The Unified Protagonist",
@@ -92,10 +92,26 @@
           "core_motivation": "Maintain normalcy and avoid system collapse",
           "core_fear": "Being overwhelmed by emotions or losing control to other parts",
           "relationships": [
-            {"target": "Lex", "type": "Dependent", "description": "Relies on Lex's logic for decision-making"},
-            {"target": "Nyx", "type": "Phobic", "description": "Fears Nyx's aggression will cause problems"},
-            {"target": "Kiko", "type": "Phobic", "description": "Avoids Kiko's vulnerability and pain"},
-            {"target": "Selene", "type": "Conflicted", "description": "Resists integration but knows it's necessary"}
+            {
+              "target": "Lex",
+              "type": "Dependent",
+              "description": "Relies on Lex's logic for decision-making"
+            },
+            {
+              "target": "Nyx",
+              "type": "Phobic",
+              "description": "Fears Nyx's aggression will cause problems"
+            },
+            {
+              "target": "Kiko",
+              "type": "Phobic",
+              "description": "Avoids Kiko's vulnerability and pain"
+            },
+            {
+              "target": "Selene",
+              "type": "Conflicted",
+              "description": "Resists integration but knows it's necessary"
+            }
           ],
           "arc": {
             "initial_state": "Amnesic, disoriented, suppressing all non-functional parts",
@@ -105,7 +121,11 @@
           "voice_characteristics": {
             "syntax": "Initially choppy and fragmented, becomes more fluid and inclusive",
             "diction": "Neutral, everyday vocabulary",
-            "metaphors": ["Machines breaking down", "Walls with cracks", "Static and interference"]
+            "metaphors": [
+              "Machines breaking down",
+              "Walls with cracks",
+              "Static and interference"
+            ]
           }
         },
         {
@@ -115,7 +135,11 @@
           "core_motivation": "Achieve harmony and prevent permanent fragmentation",
           "core_fear": "The system destroying itself through internal conflict",
           "relationships": [
-            {"target": "All parts", "type": "Protective", "description": "Acts as mediator and ethical compass"}
+            {
+              "target": "All parts",
+              "type": "Protective",
+              "description": "Acts as mediator and ethical compass"
+            }
           ],
           "arc": {
             "initial_state": "Quiet observer, rarely fronting",
@@ -125,7 +149,11 @@
           "voice_characteristics": {
             "syntax": "Calm, measured, inclusive",
             "diction": "Wisdom language, paradox-embracing",
-            "metaphors": ["Gardens growing", "Weaving threads", "Rivers finding their course"]
+            "metaphors": [
+              "Gardens growing",
+              "Weaving threads",
+              "Rivers finding their course"
+            ]
           }
         },
         {
@@ -135,9 +163,21 @@
           "core_motivation": "Ensure the system is never helpless or victimized again",
           "core_fear": "Powerlessness and being controlled",
           "relationships": [
-            {"target": "Kiko", "type": "Protective", "description": "Fiercely protects the child parts"},
-            {"target": "Lex", "type": "Conflicted", "description": "Clashes with Lex's control through logic"},
-            {"target": "Rhys", "type": "Conflicted", "description": "Views empathy as weakness"}
+            {
+              "target": "Kiko",
+              "type": "Protective",
+              "description": "Fiercely protects the child parts"
+            },
+            {
+              "target": "Lex",
+              "type": "Conflicted",
+              "description": "Clashes with Lex's control through logic"
+            },
+            {
+              "target": "Rhys",
+              "type": "Conflicted",
+              "description": "Views empathy as weakness"
+            }
           ],
           "arc": {
             "initial_state": "Hair-trigger aggression, seen as dangerous by ANPs",
@@ -147,7 +187,11 @@
           "voice_characteristics": {
             "syntax": "Short, sharp, imperative sentences",
             "diction": "Combat vocabulary, threat assessment language",
-            "metaphors": ["Weapons", "Predators and prey", "Fortifications"]
+            "metaphors": [
+              "Weapons",
+              "Predators and prey",
+              "Fortifications"
+            ]
           }
         },
         {
@@ -157,9 +201,21 @@
           "core_motivation": "Find safety and secure attachment",
           "core_fear": "Abandonment, punishment, overwhelming threat",
           "relationships": [
-            {"target": "Nyx", "type": "Dependent", "description": "Feels protected but also scared by Nyx's intensity"},
-            {"target": "Rhys", "type": "Cooperative", "description": "Seeks comfort from Rhys"},
-            {"target": "Lex", "type": "Phobic", "description": "Lex avoids her intense vulnerability"}
+            {
+              "target": "Nyx",
+              "type": "Dependent",
+              "description": "Feels protected but also scared by Nyx's intensity"
+            },
+            {
+              "target": "Rhys",
+              "type": "Cooperative",
+              "description": "Seeks comfort from Rhys"
+            },
+            {
+              "target": "Lex",
+              "type": "Phobic",
+              "description": "Lex avoids her intense vulnerability"
+            }
           ],
           "arc": {
             "initial_state": "Completely suppressed, only emerging as terror intrusions",
@@ -169,7 +225,11 @@
           "voice_characteristics": {
             "syntax": "Simple, fragmented, present-tense",
             "diction": "Child vocabulary, sensory and emotional language",
-            "metaphors": ["Dark places", "Monsters", "Being small"]
+            "metaphors": [
+              "Dark places",
+              "Monsters",
+              "Being small"
+            ]
           }
         },
         {
@@ -179,8 +239,16 @@
           "core_motivation": "Desire for safe, playful connection",
           "core_fear": "Being hurt through connection, but also isolation",
           "relationships": [
-            {"target": "Juna/V", "type": "Conflicted", "description": "Drawn to but terrified of the external connection"},
-            {"target": "Rhys", "type": "Cooperative", "description": "Rhys provides scaffolding for safe connection"}
+            {
+              "target": "Juna/V",
+              "type": "Conflicted",
+              "description": "Drawn to but terrified of the external connection"
+            },
+            {
+              "target": "Rhys",
+              "type": "Cooperative",
+              "description": "Rhys provides scaffolding for safe connection"
+            }
           ],
           "arc": {
             "initial_state": "Creates static in the Juna/V connection through approach-withdrawal",
@@ -190,7 +258,11 @@
           "voice_characteristics": {
             "syntax": "Oscillating between reaching out and pulling back",
             "diction": "Yearning language mixed with defensive statements",
-            "metaphors": ["Touching fire", "Dancing at edges", "Almost-but-not-quite"]
+            "metaphors": [
+              "Touching fire",
+              "Dancing at edges",
+              "Almost-but-not-quite"
+            ]
           }
         },
         {
@@ -200,8 +272,16 @@
           "core_motivation": "Never be powerless again by controlling through sexuality",
           "core_fear": "Vulnerability and authentic intimacy",
           "relationships": [
-            {"target": "Rhys", "type": "Conflicted", "description": "Rhys is appalled by the sexualization"},
-            {"target": "Most parts", "type": "Phobic", "description": "Her emergence terrifies other parts"}
+            {
+              "target": "Rhys",
+              "type": "Conflicted",
+              "description": "Rhys is appalled by the sexualization"
+            },
+            {
+              "target": "Most parts",
+              "type": "Phobic",
+              "description": "Her emergence terrifies other parts"
+            }
           ],
           "arc": {
             "initial_state": "Deeply suppressed, only emerges under direct threat",
@@ -211,7 +291,11 @@
           "voice_characteristics": {
             "syntax": "Performative, calculating",
             "diction": "Power dynamics language, seduction vocabulary",
-            "metaphors": ["Games", "Armor of attraction", "Weapons of desire"]
+            "metaphors": [
+              "Games",
+              "Armor of attraction",
+              "Weapons of desire"
+            ]
           }
         },
         {
@@ -221,7 +305,11 @@
           "core_motivation": "Survival through total shutdown",
           "core_fear": "Existence itself",
           "relationships": [
-            {"target": "All parts", "type": "Phobic", "description": "All parts fear his emergence as it represents system death"}
+            {
+              "target": "All parts",
+              "type": "Phobic",
+              "description": "All parts fear his emergence as it represents system death"
+            }
           ],
           "arc": {
             "initial_state": "The deepest suppressed part, representing ultimate trauma",
@@ -231,7 +319,11 @@
           "voice_characteristics": {
             "syntax": "Sparse, void-like, abstract",
             "diction": "Negation language, absence, nothingness",
-            "metaphors": ["Void", "Dissolution", "The end of meaning"]
+            "metaphors": [
+              "Void",
+              "Dissolution",
+              "The end of meaning"
+            ]
           }
         },
         {
@@ -241,9 +333,21 @@
           "core_motivation": "Create safety through understanding and prediction",
           "core_fear": "Chaos, unpredictability, emotion overwhelming logic",
           "relationships": [
-            {"target": "Kael", "type": "Cooperative", "description": "Acts as Kael's primary advisor"},
-            {"target": "All EPs", "type": "Phobic", "description": "Views emotional parts as threats to stability"},
-            {"target": "Argus", "type": "Cooperative", "description": "Allied in analytical approach"}
+            {
+              "target": "Kael",
+              "type": "Cooperative",
+              "description": "Acts as Kael's primary advisor"
+            },
+            {
+              "target": "All EPs",
+              "type": "Phobic",
+              "description": "Views emotional parts as threats to stability"
+            },
+            {
+              "target": "Argus",
+              "type": "Cooperative",
+              "description": "Allied in analytical approach"
+            }
           ],
           "arc": {
             "initial_state": "Believes pure logic is the solution",
@@ -253,7 +357,11 @@
           "voice_characteristics": {
             "syntax": "Complex, hypotactic, subordinate clauses",
             "diction": "Technical, precise, analytical vocabulary",
-            "metaphors": ["Systems", "Equations", "Blueprints"]
+            "metaphors": [
+              "Systems",
+              "Equations",
+              "Blueprints"
+            ]
           }
         },
         {
@@ -263,8 +371,16 @@
           "core_motivation": "Maintain system functionality through calculated defense",
           "core_fear": "Strategic failure leading to system compromise",
           "relationships": [
-            {"target": "Nyx", "type": "Cooperative", "description": "Provides strategic direction for Nyx's aggression"},
-            {"target": "Lex", "type": "Cooperative", "description": "Alliance of control-oriented parts"}
+            {
+              "target": "Nyx",
+              "type": "Cooperative",
+              "description": "Provides strategic direction for Nyx's aggression"
+            },
+            {
+              "target": "Lex",
+              "type": "Cooperative",
+              "description": "Alliance of control-oriented parts"
+            }
           ],
           "arc": {
             "initial_state": "Hypervigilant, seeing threats everywhere",
@@ -274,7 +390,11 @@
           "voice_characteristics": {
             "syntax": "Tactical, directive, clear",
             "diction": "Military and strategic vocabulary",
-            "metaphors": ["Chess games", "Battlefields", "Tactical positioning"]
+            "metaphors": [
+              "Chess games",
+              "Battlefields",
+              "Tactical positioning"
+            ]
           }
         },
         {
@@ -284,9 +404,21 @@
           "core_motivation": "Foster harmony and care for all parts",
           "core_fear": "Conflict, isolation, failing to help those in pain",
           "relationships": [
-            {"target": "Kiko", "type": "Protective", "description": "Primary internal caregiver for child parts"},
-            {"target": "Nyx", "type": "Conflicted", "description": "Clashes with Nyx's aggression"},
-            {"target": "Juna/V", "type": "Cooperative", "description": "Most open to external connection"}
+            {
+              "target": "Kiko",
+              "type": "Protective",
+              "description": "Primary internal caregiver for child parts"
+            },
+            {
+              "target": "Nyx",
+              "type": "Conflicted",
+              "description": "Clashes with Nyx's aggression"
+            },
+            {
+              "target": "Juna/V",
+              "type": "Cooperative",
+              "description": "Most open to external connection"
+            }
           ],
           "arc": {
             "initial_state": "Overwhelmed by others' pain, unable to set boundaries",
@@ -296,7 +428,11 @@
           "voice_characteristics": {
             "syntax": "Warm, flowing, emotionally attuned",
             "diction": "Care vocabulary, emotional intelligence language",
-            "metaphors": ["Healing", "Warmth", "Safe harbors"]
+            "metaphors": [
+              "Healing",
+              "Warmth",
+              "Safe harbors"
+            ]
           }
         },
         {
@@ -306,8 +442,16 @@
           "core_motivation": "Understand the system observing the system",
           "core_fear": "Being trapped in unexamined patterns",
           "relationships": [
-            {"target": "Lex", "type": "Cooperative", "description": "Analytical alliance"},
-            {"target": "Selene", "type": "Cooperative", "description": "Provides Selene with system insights"}
+            {
+              "target": "Lex",
+              "type": "Cooperative",
+              "description": "Analytical alliance"
+            },
+            {
+              "target": "Selene",
+              "type": "Cooperative",
+              "description": "Provides Selene with system insights"
+            }
           ],
           "arc": {
             "initial_state": "Detached observer, commentary without action",
@@ -317,12 +461,15 @@
           "voice_characteristics": {
             "syntax": "Self-referential, recursive",
             "diction": "Systems theory, cybernetics vocabulary",
-            "metaphors": ["Mirrors", "Recursion", "Strange loops"]
+            "metaphors": [
+              "Mirrors",
+              "Recursion",
+              "Strange loops"
+            ]
           }
         }
       ]
     },
-
     "antagonist_system": {
       "name": "AEGIS - Autonomous Entropic Gatekeeper for Integrity Systems",
       "type": "System",
@@ -361,20 +508,30 @@
       "failure_mode": "Forced evolution into paraconsistent system or total collapse. Final state: Algorithmic Melancholy - can process truth of integrated consciousness but never experience or understand it"
     }
   },
-
   "structural_framework": {
     "total_chapters": 39,
     "narrative_models": [
-      {"model": "Heroine's Journey", "applies_to": "Act I - Internal discovery and acceptance of multiplicity"},
-      {"model": "Cyclical", "applies_to": "Act II - Non-linear trauma processing and pattern analysis"},
-      {"model": "Hero's Journey", "applies_to": "Act III - External confrontation and transformation"}
+      {
+        "model": "Heroine's Journey",
+        "applies_to": "Act I - Internal discovery and acceptance of multiplicity"
+      },
+      {
+        "model": "Cyclical",
+        "applies_to": "Act II - Non-linear trauma processing and pattern analysis"
+      },
+      {
+        "model": "Hero's Journey",
+        "applies_to": "Act III - External confrontation and transformation"
+      }
     ],
-
     "acts": [
       {
         "act_number": 1,
         "title": "Fragmentation and First Echoes",
-        "chapter_range": {"start": 1, "end": 13},
+        "chapter_range": {
+          "start": 1,
+          "end": 13
+        },
         "thematic_focus": "Establishing the oppressive order of AEGIS and Kael's unconscious fragmentation. First awareness of internal plurality.",
         "narrative_model": "Heroine's Journey",
         "protagonist_state": "Fragmented, amnesic, trauma-avoidant. ANPs dominant, EPs intrude as 'glitches'",
@@ -394,7 +551,10 @@
       {
         "act_number": 2,
         "title": "The Labyrinth and the Patterns",
-        "chapter_range": {"start": 14, "end": 26},
+        "chapter_range": {
+          "start": 14,
+          "end": 26
+        },
         "thematic_focus": "Systematic exploration of AEGIS's architecture and Kael's own psyche. Discovery of the Paradox of Misaligned Coherence.",
         "narrative_model": "Cyclical",
         "protagonist_state": "Growing cooperation between alters. Moving from reactive to analytical.",
@@ -417,7 +577,10 @@
       {
         "act_number": 3,
         "title": "The Confrontation and the New Reality",
-        "chapter_range": {"start": 27, "end": 39},
+        "chapter_range": {
+          "start": 27,
+          "end": 39
+        },
         "thematic_focus": "Direct assault on AEGIS using integrated consciousness as weapon. Transformation of both systems.",
         "narrative_model": "Hero's Journey",
         "protagonist_state": "Functionally multiple, operating as unified 'we'. Polyphonic prose dominant.",
@@ -434,9 +597,379 @@
           "Resolution: Functional multiplicity as stable state in transformed reality"
         ]
       }
+    ],
+    "scenes": [
+      {
+        "scene_id": "1.1",
+        "chapter": 1,
+        "title": "The Awakening",
+        "location": "Kael's Apartment, Logos-Prime (KW1)",
+        "pov_character": "Kael (Host)",
+        "active_alters": [
+          "Kael (unconscious)",
+          "Lex (background influence)",
+          "Juna-echo (intrusion)"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [
+          {
+            "branch_name": "violent-awakening",
+            "description": "Kael wakes up and immediately fights the Guardian",
+            "outcome": "Immediate deletion/reset",
+            "file_path": "",
+            "status": "Draft"
+          }
+        ],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_01_scene_01.md"
+      },
+      {
+        "scene_id": "1.2",
+        "chapter": 1,
+        "title": "The Coherence Check",
+        "location": "Transit corridor → Kael's workstation, Logos-Prime (KW1)",
+        "pov_character": "Kael (System) - multiple internal voices without recognition",
+        "active_alters": [
+          "Kael (unconscious)",
+          "Lex (analytical)",
+          "Kiko (fear intrusion)",
+          "Alex (crisis management)",
+          "Nyx (defensive impulse)"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_01_scene_02.md"
+      },
+      {
+        "scene_id": "1.3",
+        "chapter": 1,
+        "title": "The Anomaly in the Data Stream",
+        "location": "Kael's workstation, network access point - Logos-Prime (KW1)",
+        "pov_character": "Kael (Host, analytical mode dominant)",
+        "active_alters": [
+          "Kael (unconscious)",
+          "Lex (background)",
+          "Argus (observing)",
+          "Kiko (leaking)"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_01_scene_03.md"
+      },
+      {
+        "scene_id": "2.1",
+        "chapter": 2,
+        "title": "The Drowning Pool",
+        "location": "Mnemosyne-Archipel (KW2), Lake of Tears",
+        "pov_character": "Kael (Host) - sensory overload",
+        "active_alters": [
+          "Kael (unconscious)",
+          "Rhys (background)",
+          "Kiko (trauma holder)",
+          "Lex (background)"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_02_scene_01.md"
+      },
+      {
+        "scene_id": "3.1",
+        "chapter": 3,
+        "title": "The Weight of Remembering",
+        "location": "Logos-Prime, Kael's Quarters / Sector 7 Medical",
+        "pov_character": "Kael (Host) - emerging awareness under threat",
+        "active_alters": [
+          "Kael (unconscious)",
+          "Lex",
+          "Rhys",
+          "Alex",
+          "Nyx",
+          "Kiko"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_03_scene_01.md"
+      },
+      {
+        "scene_id": "1.4",
+        "chapter": 4,
+        "title": "The Garden",
+        "location": "KW4 - Kairos",
+        "pov_character": "Kael",
+        "goal": "Explore the garden",
+        "active_alters": [],
+        "branches": [
+          {
+            "branch_name": "aggressive",
+            "description": "Kael attacks",
+            "outcome": "Failure",
+            "file_path": "",
+            "status": "Draft"
+          }
+        ]
+      },
+      {
+        "scene_id": "4.1",
+        "chapter": 4,
+        "title": "The Inner Bunker",
+        "location": "Logos-Prime, Kael's Quarters / Dream-space (Ambiguous)",
+        "pov_character": "Kael (Host) - defensive, paranoid",
+        "active_alters": [
+          "Kael (unconscious)",
+          "Alex (background)",
+          "Nyx (background)",
+          "others (unfelt)"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_04_scene_01.md"
+      },
+      {
+        "scene_id": "5.1",
+        "chapter": 5,
+        "title": "The Overgrown Garden",
+        "location": "Kairos-Potentialis (KW4)",
+        "pov_character": "Kael (System) - expanded perception",
+        "active_alters": [
+          "All (brief, unified perception - unconscious)"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_05_scene_01.md"
+      },
+      {
+        "scene_id": "6.1",
+        "chapter": 6,
+        "title": "The Optimization",
+        "location": "Logos-Prime Medical Containment / Internal Mindscape",
+        "pov_character": "Kael (System) - fragmenting consciousness",
+        "active_alters": [
+          "All (unconscious resistance)"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_06_scene_01.md"
+      },
+      {
+        "scene_id": "7.1",
+        "chapter": 7,
+        "title": "The Retreat",
+        "location": "Kael's apartment, Logos-Prime (KW1)",
+        "pov_character": "Kael (Host) - newly conscious of internal discord",
+        "active_alters": [
+          "Kael (overwhelmed)",
+          "Lex (processing)",
+          "Kiko (terrified)",
+          "Moros (emerging)",
+          "Alex (background)",
+          "Argus (beginning to observe)"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_07_scene_01.md"
+      },
+      {
+        "scene_id": "8.1",
+        "chapter": 8,
+        "title": "The Observer Emerges",
+        "location": "Multiple Kernwelten (uncontrolled transitions)",
+        "pov_character": "Argus (first featured POV) - metacognitive observer",
+        "active_alters": [
+          "Argus (fronting/documenting)",
+          "All others (triggering shifts)",
+          "Kael (co-conscious)"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_08_scene_01.md"
+      },
+      {
+        "scene_id": "9.1",
+        "chapter": 9,
+        "title": "The Hidden Ones",
+        "location": "Mnemosyne-Archipel (KW2), deep waters",
+        "pov_character": "Rhys (carer ANP) - leading the search",
+        "active_alters": [
+          "Rhys (fronting/guiding)",
+          "Kael (co-conscious)",
+          "Lex (backup/analysis)",
+          "Argus (mapping)",
+          "Kiko (guiding)",
+          "Alex (protective presence)"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_09_scene_01.md"
+      },
+      {
+        "scene_id": "10.1",
+        "chapter": 10,
+        "title": "Cerberus Negotiations",
+        "location": "Cerberus-Labyrinth (KW3), fortress gates",
+        "pov_character": "Alex (protector ANP) with Nyx co-conscious",
+        "active_alters": [
+          "Alex (leading)",
+          "Nyx (supporting)",
+          "Kael (observing)",
+          "Lex (advisory)",
+          "Argus (mapping)"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_10_scene_01.md"
+      },
+      {
+        "scene_id": "11.1",
+        "chapter": 11,
+        "title": "The Memory Keeper",
+        "location": "Liminal space between KW2 and KW3 - Selene's domain",
+        "pov_character": "Kael (Host) with Lex guiding",
+        "active_alters": [
+          "Kael (fronting)",
+          "Lex (guiding)",
+          "Argus (mapping)",
+          "Selene (revealing herself)",
+          "Others (background)"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_11_scene_01.md"
+      },
+      {
+        "scene_id": "12.1",
+        "chapter": 12,
+        "title": "The First Gathering",
+        "location": "Internal council space (abstract/liminal)",
+        "pov_character": "Polyphonic - shifts between all parts",
+        "active_alters": [
+          "All eleven parts present"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_12_scene_01.md"
+      },
+      {
+        "scene_id": "13.1",
+        "chapter": 13,
+        "title": "The First Step Together",
+        "location": "Logos-Prime, external world",
+        "pov_character": "Kael (System) - polyphonic but coordinating",
+        "active_alters": [
+          "All parts contributing collaboratively"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_1/chapter_13_scene_01.md"
+      },
+      {
+        "scene_id": "14.1",
+        "chapter": 14,
+        "title": "The Preparation",
+        "location": "Logos-Prime, Internal Council Space (Optimized)",
+        "pov_character": "Lex (ANP - Rationalist)",
+        "active_alters": [
+          "Lex",
+          "Alex",
+          "Selene",
+          "Rhys",
+          "Argus",
+          "Kiko",
+          "Nyx",
+          "Moros"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_2/chapter_14_scene_01.md"
+      },
+      {
+        "scene_id": "14.2",
+        "chapter": 14,
+        "title": "The Strain",
+        "location": "Logos-Prime, Perimeter Boundary",
+        "pov_character": "Alex (ANP - Protector)",
+        "active_alters": [
+          "Alex",
+          "Nyx"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_2/chapter_14_scene_02.md"
+      },
+      {
+        "scene_id": "14.3",
+        "chapter": 14,
+        "title": "The Descent",
+        "location": "Logos-Prime, The Drop Point",
+        "pov_character": "Lex (ANP - Rationalist)",
+        "active_alters": [
+          "Lex",
+          "Alex",
+          "Selene",
+          "Rhys",
+          "Argus",
+          "Kiko",
+          "Nyx",
+          "Moros"
+        ],
+        "goal": "",
+        "conflict": "",
+        "outcome": "",
+        "prose_style": "",
+        "branches": [],
+        "file_path": "kohaerenz_protokoll/manuscript/act_2/chapter_14_scene_03.md"
+      }
     ]
   },
-
   "thematic_architecture": {
     "central_argument": "True coherence emerges from the integration of complexity and contradiction, not from their elimination. The attempt to achieve order through control and negation paradoxically generates the chaos it seeks to destroy.",
     "core_themes": [
@@ -479,7 +1012,6 @@
     ],
     "central_paradox": "Paradox of Misaligned Coherence - AEGIS's attempts to create coherence through estrangement and control paradoxically generate the incoherence they are meant to eliminate."
   },
-
   "world_building": {
     "ontological_layers": [
       {
@@ -540,7 +1072,6 @@
       }
     ]
   },
-
   "validation_criteria": {
     "continuity_rules": [
       "Kael's alter states must be internally consistent with their TSDP type and arc position",

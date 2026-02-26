@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-02-26T09:01:11Z",
+  "commands": [
+    {
+      "id": "learn",
+      "path": ".claude/commands/learn.md",
+      "ui": {
+        "component": "CommandForm",
+        "title": "Learn New Skill",
+        "description": "Extract knowledge from a URL or file.",
+        "inputs": [
+          {
+            "name": "url",
+            "type": "text",
+            "label": "Source URL",
+            "placeholder": "https://example.com/article",
+            "required": true
+          },
+          {
+            "name": "save",
+            "type": "boolean",
+            "label": "Save to Zettelkasten",
+            "default": false
+          }
+        ]
+      }
+    }
+  ]
+}
