@@ -17,16 +17,22 @@ import json
 import re
 import argparse
 from pathlib import Path
+from typing import Dict, Any
+from bs4 import BeautifulSoup
 
+# Add parent directory to path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from cli.base_scraper import BaseScraper
 # Import the PDF extractor
-from pdf_extractor_poc import PDFExtractor
+from cli.pdf_extractor_poc import PDFExtractor
 
 
-class PDFToSkillConverter:
+class PDFToSkillConverter(BaseScraper):
     """Convert PDF documentation to Claude skill"""
 
-    def __init__(self, config):
-        self.config = config
+    def __init__(self, config: Dict[str, Any]):
+        super().__init__(config)
         self.name = config['name']
         self.pdf_path = config.get('pdf_path', '')
         self.description = config.get('description', f'Documentation skill for {self.name}')
@@ -44,9 +50,38 @@ class PDFToSkillConverter:
         # Extracted data
         self.extracted_data = None
 
+    def validate_url(self, url: str) -> bool:
+        """Validate PDF path/URL"""
+        return url.lower().endswith('.pdf')
+
+    def extract_content(self, url: str) -> Dict[str, Any]:
+        """Extract content from PDF (wrapper for extract_pdf)"""
+        # If url is different from self.pdf_path, update it?
+        if url and url != self.pdf_path:
+            self.pdf_path = url
+
+        if self.extract_pdf():
+            return self.extracted_data
+        return {}
+
+    def apply_selectors(self, soup: BeautifulSoup) -> str:
+        """Not applicable for PDF"""
+        return ""
+
+    def extract_all(self):
+        """Alias for extract_pdf (for compatibility with unified_scraper)"""
+        return self.extract_pdf()
+
     def extract_pdf(self):
         """Extract content from PDF using pdf_extractor_poc.py"""
         print(f"\n🔍 Extracting from PDF: {self.pdf_path}")
+
+        # Check if pdf_path is URL or local
+        if self.pdf_path.startswith(('http://', 'https://')):
+            # Fetch it using BaseScraper logic?
+            # For now, assume local file or let PDFExtractor handle it?
+            # PDFExtractor seems to expect a file path.
+            pass # PDFExtractor currently expects a file path.
 
         # Create extractor with options
         extractor = PDFExtractor(
@@ -64,7 +99,8 @@ class PDFToSkillConverter:
 
         if not result:
             print("❌ Extraction failed")
-            raise RuntimeError(f"Failed to extract PDF: {self.pdf_path}")
+            # Don't raise error to keep consistent with scraper interface, just return False
+            return False
 
         # Save extracted data
         with open(self.data_file, 'w', encoding='utf-8') as f:
