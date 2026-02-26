@@ -18,11 +18,13 @@ A philosophical science fiction work about a man with dissociative identity diso
 
 ### 🤖 For AI Agents & Developers
 *   **[`aegis/SKILL.md`](./aegis/SKILL.md)**: **MANDATORY START**. The Operating System and Workflow.
+*   **[`docs/README.md`](./docs/README.md)**: **Full Documentation Hub**. The central index for all project docs.
 *   **[`REPO_STATE.md`](./REPO_STATE.md)**: The Architectural Map and Component Status.
 *   **[`AGENTS.md`](./AGENTS.md)**: The Agent Protocol and Rules.
 *   **[`quests/README.md`](./quests/README.md)**: Active Missions.
 
 ### 👤 For Humans
+*   **[Full Documentation Hub](./docs/README.md)**: Start here to explore the entire project structure.
 *   **[Kohärenz Protokoll](./kohaerenz_protokoll/)**: Read the Novel (Act I Outline, Chapter 1).
 *   **[AEGIS](./aegis/)**: Explore the Narrative Framework.
 *   **[Skill Seeker](./skill_seeker/)**: Use the Documentation-to-Skill Converter.
