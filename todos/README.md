@@ -6,6 +6,7 @@ This file tracks the status of todo lists for all active Quests.
 
 | List | High Priority Tasks (Count) | Status |
 |---|---|---|
+| [[Quest-Console.md]] | 3 (Visual System) | 🟢 Active |
 | [[Quest-Roman-Entwicklung-Implementation.md]] | 1 (Verify Skill) | 🟢 Active |
 | [[Quest-Skill-Gap-Analysis.md]] | 1 (Analyze Gaps) | 🟢 Active |
 | [[Quest-Narrative-Architecture.md]] | 4 (Currency, Wholeness, Mosaik, Costs) | 🟢 Active |

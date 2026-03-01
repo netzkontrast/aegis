@@ -27,8 +27,8 @@ It must:
 
 ### Phase 1: Architecture & Data (Current Focus)
 - [x] **Consolidate Scope**: Merge `/chatbot` development with Console requirements.
-- [ ] **Data Pipeline**: Create `chatbot/src/data/story/` and a sync script (`sync_ncp_to_app.py`) to mirror `kohaerenz_protokoll.ncp.json` and chapter snippets.
-- [ ] **Skill Definition**: Author `skills/coherence-console-architect/SKILL.md` to instruct agents on the A2UI pattern and visual rules.
+- [x] **Data Pipeline**: Create `chatbot/src/data/story/` and a sync script (`sync_ncp_to_app.py`) to mirror `kohaerenz_protokoll.ncp.json` and chapter snippets.
+- [x] **Skill Definition**: Author `skills/coherence-console-architect/SKILL.md` to instruct agents on the A2UI pattern and visual rules.
 
 ### Phase 2: Visual System (The "Ballpoint Pen")
 - [ ] **Tailwind Config**: Define custom colors (Trauma Yellow `#9C963B`, Hope Yellow `#FFF2A6`, etc.).
@@ -45,7 +45,7 @@ It must:
 - [ ] **Command Execution**: Enable the console to trigger safe repository scripts (e.g., `/learn`, `/validate`).
 
 ## ✅ Validation & Success Criteria
-- [ ] **Data Sync**: `chatbot/src/data/story/ncp_full.json` exists and is valid.
+- [x] **Data Sync**: `chatbot/src/data/story/ncp_full.json` exists and is valid.
 - [ ] **Visuals**: The app background looks like rough paper; borders are shaky/hand-drawn.
 - [ ] **GenUI**: Typing "Analyze Act 1" triggers a streamed `CoreWorldView` component, not just text.
 - [ ] **Aesthetic**: The specific yellow hues (Trauma vs. Hope) are used correctly in the UI.
