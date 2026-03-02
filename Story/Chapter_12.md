@@ -6,7 +6,7 @@
 **Style Dominant**: Level 1, with Level 2 intrusions escalating
 
 ## Core Event
-Kael walks to the city's edge. The geometry pixelates below 1cm resolution. He backs away. AEGIS-Log: 'Boundary approached. Cache-loading accelerated. RAM: 94%.
+Driven by an internal pull that contradicts his map, Kael walks to the city's edge. The geometry pixelates below 1cm resolution. He backs away. AEGIS-Log: 'Boundary approached. Cache-loading accelerated. RAM: 94%.
 
 ## Stasis-Lücke (Meta-Twist)
 **Type**: environmental
@@ -28,7 +28,7 @@ Kael walks to the city's edge. The geometry pixelates below 1cm resolution. He b
 **Active Alters**: [TBD]
 
 **Synopsis**:
-Kael walks to the city's edge. The geometry pixelates below 1cm resolution. He backs away. AEGIS-Log: 'Boundary approached. Cache-loading accelerated. RAM: 94%.
+Driven by an internal pull that contradicts his map, Kael walks to the city's edge. The geometry pixelates below 1cm resolution. He backs away. AEGIS-Log: 'Boundary approached. Cache-loading accelerated. RAM: 94%.
 
 **Thematic Resonance**:
 - [ ] Connect to Heroine's Journey — Separation from the Old World

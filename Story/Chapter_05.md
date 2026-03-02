@@ -6,7 +6,7 @@
 **Style Dominant**: Level 1, with Level 2 intrusions escalating
 
 ## Core Event
-AEGIS-Log entries become visible to the reader. AEGIS is concerned about 'anomalous K₀ resonance in Host entity.'
+AEGIS-Log entries become visible to the reader (as a direct response to Kael's "unconscious input" from Ch 4). AEGIS is concerned about 'anomalous K₀ resonance in Host entity.'
 
 ## Detailed Outline
 # Chapter 5 Outline: AEGIS als Entropie-Manager: Motivation jenseits der Moral
@@ -24,7 +24,7 @@ AEGIS-Log entries become visible to the reader. AEGIS is concerned about 'anomal
 **Active Alters**: [TBD]
 
 **Synopsis**:
-AEGIS-Log entries become visible to the reader. AEGIS is concerned about 'anomalous K₀ resonance in Host entity.'
+AEGIS-Log entries become visible to the reader (as a direct response to Kael's "unconscious input" from Ch 4). AEGIS is concerned about 'anomalous K₀ resonance in Host entity.'
 
 **Thematic Resonance**:
 - [ ] Connect to Heroine's Journey — Separation from the Old World
