@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sqlite-explorer": {
+      "command": "python",
+      "args": ["skills/sqlite-explorer-fastmcp-mcp-server/src/sqlite_explorer_fastmcp_mcp_server/server.py"]
+    },
+    "context-mode": {
+      "command": "node",
+      "args": ["skills/claude-context-mode/start.mjs"]
+    }
+  }
+}

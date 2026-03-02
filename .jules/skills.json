@@ -1,0 +1,8 @@
+{
+  "skills": [
+    {
+      "name": "claude-code-skills",
+      "path": "skills/claude-code-skills"
+    }
+  ]
+}

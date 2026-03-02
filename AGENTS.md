@@ -213,6 +213,9 @@ Dieser Repo nutzt Claude Code mit folgenden aktiven Skills:
 | Zettelkasten-Tapestry | Wissensextraktion und -vernetzung | `.claude/commands/zettelkasten-tapestry.md` |
 | Tapestry | URL/Datei/Repo → strukturiertes Wissen | `.claude/commands/tapestry.md` |
 | Ship-Learn-Next | Lernpläne in 5-Rep-Strukturen | `.claude/commands/ship-learn-next.md` |
+| Claude Code Skills | Production-ready skills covering full delivery workflow | `skills/claude-code-skills/` |
+| Context Mode MCP | Prevents context window explosion using smart filters | `skills/claude-context-mode/start.mjs` |
+| SQLite Explorer MCP | Interact with SQLite databases directly | `skills/sqlite-explorer-fastmcp-mcp-server/` |
 
 **Reihenfolge bei Konflikt:** Master-Skill > NCP > PROJECT_CODEX > lokale READMEs
 

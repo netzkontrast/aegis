@@ -1,0 +1,9 @@
+[submodule "skills/claude-context-mode"]
+	path = skills/claude-context-mode
+	url = https://github.com/mksglu/claude-context-mode.git
+[submodule "skills/sqlite-explorer-fastmcp-mcp-server"]
+	path = skills/sqlite-explorer-fastmcp-mcp-server
+	url = https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server.git
+[submodule "skills/claude-code-skills"]
+	path = skills/claude-code-skills
+	url = https://github.com/netzkontrast/claude-code-skills.git
