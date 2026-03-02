@@ -95,6 +95,8 @@ Every session must follow this recursive loop. Do not skip steps.
 | **`zettelkasten`** | "Store Knowledge", "Update Concept", "Link Idea" | Manages the Zettelkasten vault. Use for *permanent* memory. |
 | **`roman-entwicklung`** | "Plotting", "Decision", "Conflict Resolution" | The "Dungeon Master" for the novel's development. |
 | **`quest-management`** | "New Mission", "Update Status", "Check Todo" | Manages `quests/` and `todos/` directories. |
+| **`director`** | "Directing Scene", "Review Structure", "Feedback" | Narrative system director for scene pacing and tone checks. |
+| **`dual-voice`** | "Character Split", "Internal Monologue", "Dialogue Tone" | Manages Kael's multiple alters (Lex/Nyx) and their specific linguistic styles. |
 
 ---
 

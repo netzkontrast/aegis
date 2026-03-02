@@ -14,3 +14,8 @@
 **Updates:**
 - `Story/` data integrated (39 Chapters).
 - `kohaerenz_protokoll_v2.ncp.json` updated.
+
+## Current Session Insights
+- **Initialization:** Analyzed learnings from the 2025-11-06 session.
+- **Skill Gap Analysis Completed:** Found the need for explicit director and dual-voice skills in the `aegis/SKILL.md` (Operating System) triggers list.
+- **Updates Applied:** Added `director` and `dual-voice` to `aegis/SKILL.md` and created explicit todos in `Quest-Skill-Gap-Analysis.md` to formalize them.
