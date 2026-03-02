@@ -6,7 +6,7 @@
 **Style Dominant**: Level 1, with Level 2 intrusions escalating
 
 ## Core Event
-Kael's routine morning in the Konstrukt-Stadt. Perfect geometry. First thermal anomaly (0.3°C above baseline). AEGIS-Log: nominal.
+Kael's routine morning in the Konstrukt-Stadt. Perfect geometry. First thermal anomaly (0.3°C above baseline) triggered when Kael suppresses a micro-emotion of loneliness. AEGIS-Log: nominal.
 
 ## Detailed Outline
 # Chapter 1 Outline: TSDP: Funktionale Fragmentierung & ANP
@@ -24,7 +24,7 @@ Kael's routine morning in the Konstrukt-Stadt. Perfect geometry. First thermal a
 **Active Alters**: [TBD]
 
 **Synopsis**:
-Kael's routine morning in the Konstrukt-Stadt. Perfect geometry. First thermal anomaly (0.3°C above baseline). AEGIS-Log: nominal.
+Kael's routine morning in the Konstrukt-Stadt. Perfect geometry. First thermal anomaly (0.3°C above baseline) triggered when Kael suppresses a micro-emotion of loneliness. AEGIS-Log: nominal.
 
 **Thematic Resonance**:
 - [ ] Connect to Heroine's Journey — Separation from the Old World

@@ -6,7 +6,7 @@
 **Style Dominant**: Level 1, with Level 2 intrusions escalating
 
 ## Core Event
-Kael encounters a logical paradox in his work. LogOS cannot resolve it. First time LogOS goes silent.
+Kael encounters a logical paradox in his work after unconsciously inputting a variable related to Juna (her name's hash). LogOS cannot resolve it. First time LogOS goes silent.
 
 ## Detailed Outline
 # Chapter 4 Outline: Gödels Schatten: Selbstreferenz und systemische Blindheit
@@ -24,7 +24,7 @@ Kael encounters a logical paradox in his work. LogOS cannot resolve it. First ti
 **Active Alters**: [TBD]
 
 **Synopsis**:
-Kael encounters a logical paradox in his work. LogOS cannot resolve it. First time LogOS goes silent.
+Kael encounters a logical paradox in his work after unconsciously inputting a variable related to Juna (her name's hash). LogOS cannot resolve it. First time LogOS goes silent.
 
 **Thematic Resonance**:
 - [ ] Connect to Heroine's Journey — Separation from the Old World

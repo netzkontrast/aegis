@@ -6,7 +6,7 @@
 **Style Dominant**: Level 1, with Level 2 intrusions escalating
 
 ## Core Event
-Deep exploration of KW1. The unlösbare Gleichung: a problem requiring empathy produces an infinite loop in KW1 logic.
+Deep exploration of KW1. The unlösbare Gleichung: Kael introduces an empathy-based axiom into a logic puzzle, producing an infinite loop in KW1 logic.
 
 ## Detailed Outline
 # Chapter 11 Outline: Formale Systeme und ihre Grenzen: KW1 als Denkweise von AEGIS
@@ -24,7 +24,7 @@ Deep exploration of KW1. The unlösbare Gleichung: a problem requiring empathy p
 **Active Alters**: [TBD]
 
 **Synopsis**:
-Deep exploration of KW1. The unlösbare Gleichung: a problem requiring empathy produces an infinite loop in KW1 logic.
+Deep exploration of KW1. The unlösbare Gleichung: Kael introduces an empathy-based axiom into a logic puzzle, producing an infinite loop in KW1 logic.
 
 **Thematic Resonance**:
 - [ ] Connect to Heroine's Journey — Separation from the Old World

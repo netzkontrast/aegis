@@ -6,7 +6,7 @@
 **Style Dominant**: Level 1, with Level 2 intrusions escalating
 
 ## Core Event
-Kael asks LogOS what love is. LogOS returns: 'Undefined function. Recommend query reformulation.' First reader-facing STASIS-LÜCKE warning.
+Driven involuntarily by Das Kind, Kael slips and asks LogOS what love is. LogOS returns: 'Undefined function. Recommend query reformulation.' First reader-facing STASIS-LÜCKE warning.
 
 ## Stasis-Lücke (Meta-Twist)
 **Type**: embedded_log
@@ -28,7 +28,7 @@ Kael asks LogOS what love is. LogOS returns: 'Undefined function. Recommend quer
 **Active Alters**: [TBD]
 
 **Synopsis**:
-Kael asks LogOS what love is. LogOS returns: 'Undefined function. Recommend query reformulation.' First reader-facing STASIS-LÜCKE warning.
+Driven involuntarily by Das Kind, Kael slips and asks LogOS what love is. LogOS returns: 'Undefined function. Recommend query reformulation.' First reader-facing STASIS-LÜCKE warning.
 
 **Thematic Resonance**:
 - [ ] Connect to Heroine's Journey — Separation from the Old World

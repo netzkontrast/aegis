@@ -6,7 +6,7 @@
 **Style Dominant**: Level 1, with Level 2 intrusions escalating
 
 ## Core Event
-First involuntary KW2 intrusion during sleep. Kael does not remember it. The Manager does not report it.
+First involuntary KW2 intrusion during sleep, linked to a specific waking frustration from Chapter 2. Kael does not remember it. The Manager does not report it.
 
 ## Detailed Outline
 # Chapter 3 Outline: Topologie der Innenwelt: Kernwelten als Bewusstseinskarte
@@ -24,7 +24,7 @@ First involuntary KW2 intrusion during sleep. Kael does not remember it. The Man
 **Active Alters**: [TBD]
 
 **Synopsis**:
-First involuntary KW2 intrusion during sleep. Kael does not remember it. The Manager does not report it.
+First involuntary KW2 intrusion during sleep, linked to a specific waking frustration from Chapter 2. Kael does not remember it. The Manager does not report it.
 
 **Thematic Resonance**:
 - [ ] Connect to Heroine's Journey — Separation from the Old World
