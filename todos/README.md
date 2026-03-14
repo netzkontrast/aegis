@@ -6,9 +6,9 @@ This file tracks the status of todo lists for all active Quests.
 
 | List | High Priority Tasks (Count) | Status |
 |---|---|---|
-| [[Quest-Roman-Entwicklung-Implementation.md]] | 1 (Verify Skill) | 🟢 Active |
-| [[Quest-Skill-Gap-Analysis.md]] | 0 (Analyze Gaps) | 🟢 Active |
-| [[Quest-Narrative-Architecture.md]] | 4 (Currency, Wholeness, Mosaik, Costs) | 🟢 Active |
+| [[Quest-Roman-Entwicklung-Implementation.md]] | 0 | ✅ Completed |
+| [[Quest-Skill-Gap-Analysis.md]] | 0 | ✅ Completed |
+| [[Quest-Narrative-Architecture.md]] | 0 | ✅ Completed |
 
 ## ⚪ Backlog
 

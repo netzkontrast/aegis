@@ -10,11 +10,8 @@ This directory contains all active and completed Quests for the AEGIS project.
 |---|---|---|
 | [[aegis.md]] | AEGIS System Architecture | 🟢 Active |
 | [[protagonist.md]] | Kael's Internal Systems | 🟢 Active |
-| [[narrative.md]] | Structure & Pacing | 🟢 Active |
 | [[physics.md]] | Landauer & Metaphysics | 🟢 Active |
 | [[philosophy.md]] | Core Themes | 🟢 Active |
-| [[engine.md]] | Skill Implementation | 🟢 Active |
-| [[gap-analysis.md]] | Workflow Optimization | 🟢 Active |
 | [[writing.md]] | Writing Quality & Standards | 🟢 Active |
 | [[style.md]] | Prose Style | 🟢 Active |
 | [[narrative-system.md]] | Narrative System Features | 🟢 Active |
@@ -34,6 +31,9 @@ This directory contains all active and completed Quests for the AEGIS project.
 
 | Quest | Completion Date | Notes |
 |---|---|---|
+| [[narrative.md]] | 2026-05-25 | Narrative architecture Act 1 and 2 planned |
+| [[engine.md]] | 2026-05-25 | Skill implementation functioning |
+| [[gap-analysis.md]] | 2026-05-25 | Workflow gap analysis resolved |
 
 ---
 
