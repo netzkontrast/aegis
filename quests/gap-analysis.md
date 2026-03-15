@@ -27,16 +27,19 @@ The current skill set (zettelkasten, todo, quest, roman-entwicklung) is robust, 
 
 ## Quest Steps: Execution Plan
 
-1. **[ ] Review Workflow Needs**
+1. **[x] Review Workflow Needs**
    - Manuscript formatting?
    - Physics calculation helper?
    - Character voice simulator?
-2. **[ ] Propose New Skills**
+   - Scene pacing, structure checks, and Kael's multiple alters' linguistic styles need better handling.
+2. **[x] Propose New Skills**
    - Create a list of recommendations.
-3. **[ ] Implement Approved Skills**
+   - Propose `director`: for scene pacing and structure checks.
+   - Propose `dual-voice`: for managing multiple character alters' linguistic styles.
+3. **[x] Implement Approved Skills**
    - Create new Quests for each implementation.
 
 ---
 
 ## Next Steps
-- Brainstorm potential workflow bottlenecks.
+- Formalize and implement `director` and `dual-voice` skills.
