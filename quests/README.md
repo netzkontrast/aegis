@@ -8,7 +8,6 @@ This directory contains all active and completed Quests for the AEGIS project.
 
 | Quest | Focus | Status |
 |---|---|---|
-| [[aegis.md]] | AEGIS System Architecture | 🟢 Active |
 | [[protagonist.md]] | Kael's Internal Systems | 🟢 Active |
 | [[narrative.md]] | Structure & Pacing | 🟢 Active |
 | [[physics.md]] | Landauer & Metaphysics | 🟢 Active |
@@ -34,6 +33,7 @@ This directory contains all active and completed Quests for the AEGIS project.
 
 | Quest | Completion Date | Notes |
 |---|---|---|
+| [[aegis.md]] | 2026-05-24 | Verified Act 1 AEGIS Logs and Guardian Voices |
 
 ---
 
