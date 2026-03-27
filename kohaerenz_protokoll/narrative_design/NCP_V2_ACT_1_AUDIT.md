@@ -10,18 +10,18 @@
 
 | Chapter | Concept | Event | Dominant Currency | Call to Wholeness (Causality) | Recommendation |
 |---|---|---|---|---|---|
-| 1 | TSDP: Funktionale Fragmentierung & ANP | Kael's routine morning. First thermal anomaly (0.3°C). | **Tension** | External Only (Weak) | **Fix:** The thermal anomaly should trigger *when* Kael suppresses a specific micro-emotion (e.g., loneliness) during his routine. |
-| 2 | Landauer-Limit | Erased memory produces heat spike. | **Empathy** | Internal Only (Weak) | **Fix:** Make the heat spike cause a visible distortion in the room (External) that forces him to react. |
-| 3 | Topologie der Innenwelt | KW2 intrusion during sleep. | **Curiosity** | Unclear | **Fix:** Link the dream content to a specific waking frustration from Ch 2. |
-| 4 | Gödels Schatten | Logical paradox in work. LogOS silent. | **Curiosity** | External Only (Weak) | **Fix:** The paradox should arise because Kael unconsciously inputs a variable related to Juna (e.g., her name's hash). |
-| 5 | AEGIS Entropie-Manager | AEGIS-Log visible to reader. | **Tension** | External Only (Weak) | **Fix:** Ensure the Log entry is a direct response to the "unconscious input" from Ch 4. |
+| 1 | TSDP: Funktionale Fragmentierung & ANP | Kael's routine morning. First thermal anomaly (0.3°C). | **Tension** | External Only (Weak) | **Fix:** The thermal anomaly should trigger *when* Kael suppresses a specific micro-emotion (e.g., loneliness) during his routine. (Implemented) |
+| 2 | Landauer-Limit | Erased memory produces heat spike. | **Empathy** | Internal Only (Weak) | **Fix:** Make the heat spike cause a visible distortion in the room (External) that forces him to react. (Implemented) |
+| 3 | Topologie der Innenwelt | KW2 intrusion during sleep. | **Curiosity** | Unclear | **Fix:** Link the dream content to a specific waking frustration from Ch 2. (Implemented) |
+| 4 | Gödels Schatten | Logical paradox in work. LogOS silent. | **Curiosity** | External Only (Weak) | **Fix:** The paradox should arise because Kael unconsciously inputs a variable related to Juna (e.g., her name's hash). (Implemented) |
+| 5 | AEGIS Entropie-Manager | AEGIS-Log visible to reader. | **Tension** | External Only (Weak) | **Fix:** Ensure the Log entry is a direct response to the "unconscious input" from Ch 4. (Implemented) |
 | 6 | Dissoziative Wellen | First Switch (Nox). 47 mins lost. | **Empathy** | Internal -> External | Strong. The internal switch causes external time loss/confusion. |
 | 7 | Holografisches Prinzip | Markings on wall (Das Kind). | **Empathy** | Internal -> External | Strong. Internal action leaves physical evidence. |
 | 8 | Quanten-Unitarität | Juna's face on screens (Static). | **Empathy** | Internal -> External | Strong. Internal yearning manifests as system-wide glitch. |
 | 9 | Epigenetische Narben | Scars on body (Warm). | **Curiosity** | Internal -> External | Strong. Internal history rewritten on physical body. |
-| 10 | LogOS: Sprache der Kontrolle | Kael asks "What is love?". LogOS error. | **Empathy** | External Only (Weak) | **Fix:** The question must be involuntary—a slip of the tongue driven by Das Kind. |
-| 11 | Formale Systeme | Infinite loop in KW1 logic. | **Tension** | Unclear | **Fix:** Kael *causes* the loop by introducing an empathy-based axiom into a logic puzzle. |
-| 12 | Bekenstein-Grenze | City edge pixelates. | **Tension** | External Only (Weak) | **Fix:** He walks to the edge *because* he feels a "pull" (internal compass) that contradicts the map. |
+| 10 | LogOS: Sprache der Kontrolle | Kael asks "What is love?". LogOS error. | **Empathy** | External Only (Weak) | **Fix:** The question must be involuntary—a slip of the tongue driven by Das Kind. (Implemented) |
+| 11 | Formale Systeme | Infinite loop in KW1 logic. | **Tension** | Unclear | **Fix:** Kael *causes* the loop by introducing an empathy-based axiom into a logic puzzle. (Implemented) |
+| 12 | Bekenstein-Grenze | City edge pixelates. | **Tension** | External Only (Weak) | **Fix:** He walks to the edge *because* he feels a "pull" (internal compass) that contradicts the map. (Implemented) |
 | 13 | Das erste Echo | Memory of hand -> Warmth. | **Empathy** | Internal -> External | Strong. Perfect Act 1 climax trigger. |
 
 ---

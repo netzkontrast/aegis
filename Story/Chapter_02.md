@@ -6,7 +6,7 @@
 **Style Dominant**: Level 1, with Level 2 intrusions escalating
 
 ## Core Event
-An erased memory produces a heat spike. Kael notices. Explains nothing.
+An erased memory produces a heat spike, causing a visible distortion in the room that forces him to react. Kael notices. Explains nothing.
 
 ## Detailed Outline
 # Chapter 2 Outline: Informationsphysik: Das Landauer-Limit als narrative Konstante
@@ -24,7 +24,7 @@ An erased memory produces a heat spike. Kael notices. Explains nothing.
 **Active Alters**: [TBD]
 
 **Synopsis**:
-An erased memory produces a heat spike. Kael notices. Explains nothing.
+An erased memory produces a heat spike, causing a visible distortion in the room that forces him to react. Kael notices. Explains nothing.
 
 **Thematic Resonance**:
 - [ ] Connect to Heroine's Journey — Separation from the Old World
