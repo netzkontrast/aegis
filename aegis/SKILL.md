@@ -97,6 +97,9 @@ Every session must follow this recursive loop. Do not skip steps.
 | **`quest-management`** | "New Mission", "Update Status", "Check Todo" | Manages `quests/` and `todos/` directories. |
 | **`director`** | "Directing Scene", "Review Structure", "Feedback" | Narrative system director for scene pacing and tone checks. |
 | **`dual-voice`** | "Character Split", "Internal Monologue", "Dialogue Tone" | Manages Kael's multiple alters (Lex/Nyx) and their specific linguistic styles. |
+| **`claude-code-skills`** | "Bootstrap Project", "Audit Codebase", "Develop Scope" | Accesses the rich suite of production-ready workflows. |
+| **`context-mode`** | "Process Large Output", "Filter Logs" | Executes MCP tools natively to protect context window limit. |
+| **`sqlite-explorer`** | "Read Database", "Execute SQL" | Read, explore, and query local SQLite files. |
 
 ---
 
